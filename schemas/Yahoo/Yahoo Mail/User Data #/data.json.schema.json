@@ -1,0 +1,728 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "content_providers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "isConnected": {
+            "type": "boolean"
+          }
+        }
+      }
+    },
+    "user_activity_profile": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "subscriptions": {
+            "type": "object"
+          },
+          "unsubscribe": {
+            "type": "object",
+            "properties": {
+              "unsubscribeList": {
+                "type": "array"
+              }
+            }
+          },
+          "userProfile": {
+            "type": "object",
+            "properties": {
+              "attributesList": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "segment_inactivesince": {
+                      "type": "integer"
+                    },
+                    "datasource": {
+                      "type": "string"
+                    },
+                    "segment_activedays": {
+                      "type": "integer"
+                    },
+                    "segment_previousid": {
+                      "type": "integer"
+                    },
+                    "segment_id": {
+                      "type": "integer"
+                    },
+                    "platform": {
+                      "type": "string"
+                    },
+                    "country": {
+                      "type": "string"
+                    },
+                    "gender": {
+                      "type": "string"
+                    },
+                    "mcckobj": {
+                      "type": "object",
+                      "properties": {
+                        "last_seen": {
+                          "type": "integer"
+                        },
+                        "received": {
+                          "type": "array",
+                          "items": {
+                            "type": "string"
+                          }
+                        }
+                      }
+                    },
+                    "mccktype": {
+                      "type": "object",
+                      "properties": {
+                        "last_seen": {
+                          "type": "integer"
+                        },
+                        "received": {
+                          "type": "array",
+                          "items": {
+                            "type": "string"
+                          }
+                        },
+                        "opened": {
+                          "type": "array",
+                          "items": {
+                            "type": "string"
+                          }
+                        }
+                      }
+                    },
+                    "mcc": {
+                      "type": "object",
+                      "properties": {
+                        "last_seen": {
+                          "type": "integer"
+                        },
+                        "received": {
+                          "type": "array",
+                          "items": {
+                            "type": "string"
+                          }
+                        },
+                        "opened": {
+                          "type": "array"
+                        }
+                      }
+                    },
+                    "mccktopic": {
+                      "type": "object",
+                      "properties": {
+                        "last_seen": {
+                          "type": "integer"
+                        },
+                        "received": {
+                          "type": "array",
+                          "items": {
+                            "type": "string"
+                          }
+                        },
+                        "opened": {
+                          "type": "array",
+                          "items": {
+                            "type": "string"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "attributes": {
+                "type": "object",
+                "properties": {
+                  "searchNudgeCategories": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "segments": {
+            "type": "array"
+          }
+        }
+      }
+    },
+    "mail_settings": {
+      "type": "object",
+      "properties": {
+        "web.searchSortBy": {
+          "type": "integer"
+        },
+        "web.hulk.showTodayAtSignIn": {
+          "type": "boolean"
+        },
+        "web.autoSuggestHideFacebookFooter": {
+          "type": "boolean"
+        },
+        "web.hulk.displayFullHeader": {
+          "type": "boolean"
+        },
+        "web.hulk.composeColor": {
+          "type": "integer"
+        },
+        "web.actionAfterMsgMove": {
+          "type": "integer"
+        },
+        "web.lastObservedTimezone": {
+          "type": "string"
+        },
+        "web.hulk.showSenderDisplayName": {
+          "type": "boolean"
+        },
+        "web.hulk.displayLinkWarning": {
+          "type": "boolean"
+        },
+        "web.thor.autoOpenFirstMessage": {
+          "type": "boolean"
+        },
+        "web.systemTabs": {
+          "type": "array"
+        },
+        "web.openedTabs": {
+          "type": "array"
+        },
+        "web.sportSelectedTeam": {
+          "type": "integer"
+        },
+        "all.tasks": {
+          "type": "integer"
+        },
+        "deliveryBlockedSenders": {
+          "type": "object",
+          "properties": {
+            "senders": {
+              "type": "array"
+            }
+          }
+        },
+        "all.events": {
+          "type": "integer"
+        },
+        "web.blockImages": {
+          "type": "boolean"
+        },
+        "ymvMobile": {
+          "type": "integer"
+        },
+        "web.timezone": {
+          "type": "integer"
+        },
+        "web.showSmartViews": {
+          "type": "boolean"
+        },
+        "web.hulk.playSoundMode": {
+          "type": "integer"
+        },
+        "web.hulk.listSpacingType": {
+          "type": "integer"
+        },
+        "web.enableConversations": {
+          "type": "boolean"
+        },
+        "web.themeMode": {
+          "type": "string"
+        },
+        "web.keyTasksPanel": {
+          "type": "array"
+        },
+        "web.markAsReadInterval": {
+          "type": "integer"
+        },
+        "secureMode": {
+          "type": "boolean"
+        },
+        "web.thor.showTodayAtSignIn": {
+          "type": "boolean"
+        },
+        "web.hulk.navAppSelected": {
+          "type": "integer"
+        },
+        "yahoo.web.topOfInbox.gdpr": {
+          "type": "boolean"
+        },
+        "web.useRichText": {
+          "type": "boolean"
+        },
+        "web.hulk.spellCheckBeforeSend": {
+          "type": "boolean"
+        },
+        "web.previousClientVersion": {
+          "type": "integer"
+        },
+        "web.peopleNotification": {
+          "type": "boolean"
+        },
+        "mailboxSize": {
+          "type": "integer"
+        },
+        "web.showCustomFolders": {
+          "type": "boolean"
+        },
+        "web.isUdbMigrationComplete": {
+          "type": "boolean"
+        },
+        "web.emailSubscriptions": {
+          "type": "array"
+        },
+        "mailOnBoard": {
+          "type": "array"
+        },
+        "web.importantNotification": {
+          "type": "boolean"
+        },
+        "web.confirmBeforeDelete": {
+          "type": "boolean"
+        },
+        "web.magicTriageTimestamp": {
+          "type": "integer"
+        },
+        "web.showCloudFilePermissionsDialog": {
+          "type": "boolean"
+        },
+        "yaiOptin_TimeStamp": {
+          "type": "integer"
+        },
+        "web.experimentalFeatures": {
+          "type": "array"
+        },
+        "web.pinnedEmails": {
+          "type": "array"
+        },
+        "web.composeFontSize": {
+          "type": "integer"
+        },
+        "web.hulk.displayColumnHeaders": {
+          "type": "boolean"
+        },
+        "web.hulk.composeMode": {
+          "type": "integer"
+        },
+        "web.priorityInbox": {
+          "type": "integer"
+        },
+        "web.hideLinkedinReconnect": {
+          "type": "boolean"
+        },
+        "web.addUnknownContact": {
+          "type": "boolean"
+        },
+        "web.generalSnippet": {
+          "type": "boolean"
+        },
+        "web.hulk.toDoLastClearedCompletedTimestamp": {
+          "type": "integer"
+        },
+        "web.showEmailHistory": {
+          "type": "boolean"
+        },
+        "web.hulk.themeId": {
+          "type": "string"
+        },
+        "web.unsubscribeTimestamp": {
+          "type": "integer"
+        },
+        "web.hulk.messageList": {
+          "type": "integer"
+        },
+        "web.hulk.viewNewOld": {
+          "type": "boolean"
+        },
+        "web.preferredMailLaunchAccount": {
+          "type": "integer"
+        },
+        "web.hulk.autoAddOnSend": {
+          "type": "boolean"
+        },
+        "userActivity": {
+          "type": "object",
+          "properties": {
+            "lastAccess": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "ipAddress": {
+                    "type": "string"
+                  },
+                  "userAgent": {
+                    "type": "string"
+                  },
+                  "id": {
+                    "type": "integer"
+                  },
+                  "type": {
+                    "type": "string"
+                  },
+                  "timestamp": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "web.msgsListDensity": {
+          "type": "integer"
+        },
+        "web.hulk.readInPopup": {
+          "type": "boolean"
+        },
+        "web.collapsedSportRail": {
+          "type": "integer"
+        },
+        "web.mailTheme": {
+          "type": "string"
+        },
+        "web.desktopNotification": {
+          "type": "integer"
+        },
+        "vacationPreferences": {
+          "type": "object",
+          "properties": {
+            "messageBody": {
+              "type": "integer"
+            },
+            "endDate": {
+              "type": "integer"
+            },
+            "enabled": {
+              "type": "boolean"
+            },
+            "startDate": {
+              "type": "integer"
+            }
+          }
+        },
+        "web.hulk.messageListHoverState": {
+          "type": "integer"
+        },
+        "web.hulk.navAppPaneSize": {
+          "type": "integer"
+        },
+        "web.csat": {
+          "type": "integer"
+        },
+        "web.expandedLeftNav": {
+          "type": "integer"
+        },
+        "web.hulk.accessibilityRedirect": {
+          "type": "boolean"
+        },
+        "disposableAddressesPrefix": {
+          "type": "object",
+          "properties": {
+            "deaDomain": {
+              "type": "string"
+            },
+            "deaPrefix": {
+              "type": "integer"
+            }
+          }
+        },
+        "web.hulk.showSendConfigPage": {
+          "type": "boolean"
+        },
+        "web.ymv": {
+          "type": "integer"
+        },
+        "xmp.imapUserLoggedOut": {
+          "type": "integer"
+        },
+        "web.hulk.themeRandom": {
+          "type": "boolean"
+        },
+        "buds.backups": {
+          "type": "object"
+        },
+        "web.composeShowCc": {
+          "type": "boolean"
+        },
+        "web.hulk.previewPaneHeight": {
+          "type": "integer"
+        },
+        "web.emojiRecentlyUsed": {
+          "type": "array"
+        },
+        "web.postcardTheme": {
+          "type": "string"
+        },
+        "web.expandedFolders": {
+          "type": "array"
+        },
+        "mobile.quicksilver.currentPrompt": {
+          "type": "integer"
+        },
+        "web.interstitialFrequency": {
+          "type": "string"
+        },
+        "web.thor.listSpacingType": {
+          "type": "integer"
+        },
+        "web.autoSuggestHideLinkedinFooter": {
+          "type": "boolean"
+        },
+        "mobileweb.showImages": {
+          "type": "boolean"
+        },
+        "web.norrinOnboard": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "web.hideComposeToolbar.gdpr": {
+          "type": "integer"
+        },
+        "hasAds": {
+          "type": "boolean"
+        },
+        "web.hulk.enableUnsubscribing": {
+          "type": "boolean"
+        },
+        "web.clientBuckets": {
+          "type": "array"
+        },
+        "web.hulk.foldersVisible": {
+          "type": "boolean"
+        },
+        "web.mailTabs": {
+          "type": "boolean"
+        },
+        "web.hulk.showCcField": {
+          "type": "boolean"
+        },
+        "web.ccOnSend": {
+          "type": "boolean"
+        },
+        "web.thor.currentPrompt": {
+          "type": "integer"
+        },
+        "web.hulk.addressNameSortOrder": {
+          "type": "string"
+        },
+        "web.cancelClickOnHoverDeleteCount": {
+          "type": "integer"
+        },
+        "all.tlr": {
+          "type": "integer"
+        },
+        "web.showUnsubscribeNotification": {
+          "type": "boolean"
+        },
+        "web.stationeryTheme": {
+          "type": "integer"
+        },
+        "web.novationOnboard": {
+          "type": "array"
+        },
+        "web.magicTriageUserVisits": {
+          "type": "array",
+          "items": {
+            "type": "boolean"
+          }
+        },
+        "web.suppressEmptyFolderVideo": {
+          "type": "integer"
+        },
+        "mobile.quicksilver.listSpacingType": {
+          "type": "integer"
+        },
+        "web.defaultPriorityInboxCategory": {
+          "type": "string"
+        },
+        "mobileweb.notifications": {
+          "type": "boolean"
+        },
+        "ios.csat": {
+          "type": "integer"
+        },
+        "web.hulk.playSound": {
+          "type": "boolean"
+        },
+        "web.composeShowBcc": {
+          "type": "boolean"
+        },
+        "all.challenges": {
+          "type": "object"
+        },
+        "web.clientVersionHistory": {
+          "type": "string"
+        },
+        "web.numUnsubscribedItems": {
+          "type": "integer"
+        },
+        "web.hulk.readabilityMode": {
+          "type": "boolean"
+        },
+        "web.oasisTheme": {
+          "type": "string"
+        },
+        "web.composeFontFamily": {
+          "type": "string"
+        },
+        "web.enableTweet": {
+          "type": "boolean"
+        },
+        "web.bccOnSend": {
+          "type": "boolean"
+        },
+        "web.hulk.addressListSortInfo": {
+          "type": "integer"
+        },
+        "web.enableEnhancerLinkPreview": {
+          "type": "boolean"
+        },
+        "web.hulk.adFree": {
+          "type": "boolean"
+        },
+        "android.csat": {
+          "type": "integer"
+        },
+        "web.hulk.miniNavMode": {
+          "type": "boolean"
+        },
+        "web.enableTimeChunks.gdpr": {
+          "type": "integer"
+        },
+        "web.hulk.addressNameDisplayFormat": {
+          "type": "string"
+        },
+        "web.mailPreviewPane": {
+          "type": "integer"
+        },
+        "web.hulk.itemsPerPage": {
+          "type": "integer"
+        },
+        "web.hulk.toolbarButtonType": {
+          "type": "integer"
+        },
+        "web.hulk.composeFontSize": {
+          "type": "integer"
+        },
+        "web.msgPaneVisible": {
+          "type": "integer"
+        },
+        "web.breakingNews": {
+          "type": "boolean"
+        },
+        "web.showAllSystemFolders": {
+          "type": "boolean"
+        },
+        "web.hideAd": {
+          "type": "boolean"
+        }
+      }
+    },
+    "recent_searches": {
+      "type": "array"
+    },
+    "accounts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "sendingName": {
+            "type": "string"
+          },
+          "isSending": {
+            "type": "boolean"
+          },
+          "priority": {
+            "type": "integer"
+          },
+          "type": {
+            "type": "string"
+          },
+          "createTime": {
+            "type": "integer"
+          },
+          "isPrimary": {
+            "type": "boolean"
+          },
+          "isSelected": {
+            "type": "boolean"
+          },
+          "linkedAccounts": {
+            "type": "array"
+          },
+          "id": {
+            "type": "integer"
+          },
+          "authType": {
+            "type": "string"
+          },
+          "email": {
+            "type": "string"
+          },
+          "accountVerified": {
+            "type": "boolean"
+          },
+          "status": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "saved_searches": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "types": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "accountIds": {
+            "type": "array",
+            "items": {
+              "type": "integer"
+            }
+          },
+          "query": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "decorations": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "id": {
+            "type": "string"
+          },
+          "priority": {
+            "type": "integer"
+          }
+        }
+      }
+    }
+  }
+}

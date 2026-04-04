@@ -1,0 +1,42 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "client_id": {
+      "type": "integer"
+    },
+    "sync_id": {
+      "type": "integer"
+    },
+    "sync_list": {
+      "type": "string"
+    },
+    "ctime": {
+      "type": "string"
+    },
+    "imports": {
+      "type": "integer"
+    },
+    "updates": {
+      "type": "integer"
+    },
+    "exports": {
+      "type": "integer"
+    },
+    "errors": {
+      "type": "integer"
+    },
+    "json": {
+      "type": "string"
+    },
+    "": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

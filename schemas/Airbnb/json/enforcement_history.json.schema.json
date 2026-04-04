@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "capabilityRuleProperties": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "matcherType": {
+              "type": "integer"
+            },
+            "propertyType": {
+              "type": "integer"
+            },
+            "propertyValue": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "capabilityRules": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "createdAt": {
+              "type": "string"
+            },
+            "deleted": {
+              "type": "integer"
+            },
+            "entityType": {
+              "type": "integer"
+            },
+            "capabilityType": {
+              "type": "integer"
+            },
+            "effectiveEnd": {
+              "type": "string"
+            },
+            "updatedAt": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}

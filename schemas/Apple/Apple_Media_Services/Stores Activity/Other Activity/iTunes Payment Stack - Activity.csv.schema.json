@@ -1,0 +1,459 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Action Details": {
+      "type": "integer"
+    },
+    "Action Details Amount Selected": {
+      "type": "integer"
+    },
+    "Action Details Auto Reload Status": {
+      "type": "integer"
+    },
+    "Action Details Currency": {
+      "type": "integer"
+    },
+    "Action Details Key Value": {
+      "type": "integer"
+    },
+    "Action Details Min Balance": {
+      "type": "integer"
+    },
+    "Action Details Mobile Phone Verify": {
+      "type": "integer"
+    },
+    "Action Details Reload Amount": {
+      "type": "integer"
+    },
+    "Action Details Reloads": {
+      "type": "integer"
+    },
+    "Action Details Setup Method": {
+      "type": "integer"
+    },
+    "Action Details Start": {
+      "type": "integer"
+    },
+    "Action Type": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Action URL": {
+      "type": "integer"
+    },
+    "Analytics Client ID": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "App Name": {
+      "type": "string"
+    },
+    "App Version": {
+      "type": [
+        "number",
+        "string"
+      ]
+    },
+    "Apple ID Number": {
+      "type": "string"
+    },
+    "Application Reference": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Auto Reload Setting": {
+      "type": "integer"
+    },
+    "Auto Reload Status": {
+      "type": "integer"
+    },
+    "Card Count": {
+      "type": "integer"
+    },
+    "Click Target": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Click Target Type": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Content Price": {
+      "type": "integer"
+    },
+    "Cookies": {
+      "type": "integer"
+    },
+    "Currency": {
+      "type": "integer"
+    },
+    "Details": {
+      "type": "integer"
+    },
+    "Details Amount": {
+      "type": "integer"
+    },
+    "Details Entered Amount": {
+      "type": "integer"
+    },
+    "Device Correlation Key": {
+      "type": "integer"
+    },
+    "Device Data Capacity": {
+      "type": "integer"
+    },
+    "Device Data Capacity Available": {
+      "type": "integer"
+    },
+    "Device Disk Capacity": {
+      "type": "integer"
+    },
+    "Device Event ID": {
+      "type": "string"
+    },
+    "Device System Capacity": {
+      "type": "integer"
+    },
+    "Device System Capacity Available": {
+      "type": "integer"
+    },
+    "Dialog Buttons ID": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Dialog Message": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Dialog Options": {
+      "type": "integer"
+    },
+    "Dialog Result": {
+      "type": "integer"
+    },
+    "Dialog Title": {
+      "type": "integer"
+    },
+    "Dialog Type": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Display Criteria": {
+      "type": "integer"
+    },
+    "Europe Bank ID": {
+      "type": "integer"
+    },
+    "Event Date Time": {
+      "type": "string"
+    },
+    "Event Key": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Event Send Time": {
+      "type": "string"
+    },
+    "Event Type": {
+      "type": "string"
+    },
+    "Event Version": {
+      "type": "integer"
+    },
+    "Experiment ID": {
+      "type": "integer"
+    },
+    "External Referral URL": {
+      "type": "integer"
+    },
+    "External Service Provide Content Name": {
+      "type": "integer"
+    },
+    "External Service Provider Name": {
+      "type": "integer"
+    },
+    "Hardware Model": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Host App Name": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Host App Version": {
+      "type": "number"
+    },
+    "India Bank Issuer ID": {
+      "type": "integer"
+    },
+    "IP Bandwidth": {
+      "type": "integer"
+    },
+    "IP City": {
+      "type": "string"
+    },
+    "IP Company": {
+      "type": "string"
+    },
+    "IP Continent": {
+      "type": "string"
+    },
+    "IP Country Code": {
+      "type": "string"
+    },
+    "IP Latitude": {
+      "type": "number"
+    },
+    "IP Longitude": {
+      "type": "number"
+    },
+    "IP Network": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "IP Network Type": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "IP Region Code": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "IP Time Zone": {
+      "type": "string"
+    },
+    "Is Signed In": {
+      "type": "string"
+    },
+    "iTunes Payment Stack Activity Action Context": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Language": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Launch Time": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Masked IP Address": {
+      "type": "string"
+    },
+    "Message Code": {
+      "type": "integer"
+    },
+    "Message Verification": {
+      "type": "integer"
+    },
+    "Notification ID": {
+      "type": "integer"
+    },
+    "Notification Type": {
+      "type": "integer"
+    },
+    "Operating System": {
+      "type": "string"
+    },
+    "Operating System Version": {
+      "type": [
+        "number",
+        "string"
+      ]
+    },
+    "Page": {
+      "type": "string"
+    },
+    "Page Context": {
+      "type": "string"
+    },
+    "Page Detail Promo": {
+      "type": "integer"
+    },
+    "Page Detail URL": {
+      "type": "integer"
+    },
+    "Page Details": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Page Details Apple Pay Enabled": {
+      "type": "integer"
+    },
+    "Page Details Bank Transfer": {
+      "type": "integer"
+    },
+    "Page Details Carrier ID": {
+      "type": "integer"
+    },
+    "Page Details Denomination": {
+      "type": "integer"
+    },
+    "Page Details Message": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Page Details Reload Status": {
+      "type": "integer"
+    },
+    "Page History": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Page ID": {
+      "type": "string"
+    },
+    "Page Inputs": {
+      "type": "integer"
+    },
+    "Page Load Time": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Page Name": {
+      "type": "integer"
+    },
+    "Page Type": {
+      "type": "string"
+    },
+    "Page URL": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Payment Method": {
+      "type": "integer"
+    },
+    "Pixel Ratio": {
+      "type": "integer"
+    },
+    "PSD Context": {
+      "type": "integer"
+    },
+    "PSD Step Up Flow": {
+      "type": "integer"
+    },
+    "PSD Verification URL": {
+      "type": "integer"
+    },
+    "PSD Verification URL Code": {
+      "type": "integer"
+    },
+    "Purchase Frequency": {
+      "type": "integer"
+    },
+    "Reference": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Screen Height Pixel": {
+      "type": "integer"
+    },
+    "Screen Width Pixel": {
+      "type": "integer"
+    },
+    "Store Front": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Store Front Name": {
+      "type": "string"
+    },
+    "Timezone Offset": {
+      "type": "integer"
+    },
+    "Type": {
+      "type": "integer"
+    },
+    "User Actions": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "User Agent": {
+      "type": "string"
+    },
+    "User Type": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "User Visit ID": {
+      "type": "string"
+    },
+    "Visit Start Time": {
+      "type": "string"
+    },
+    "Window Inner Height": {
+      "type": "integer"
+    },
+    "Window Inner Width": {
+      "type": "integer"
+    },
+    "Window Outer Height": {
+      "type": "integer"
+    },
+    "Window Outer Width": {
+      "type": "integer"
+    },
+    "Browser Name": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Payment Method Priority": {
+      "type": "integer"
+    }
+  }
+}

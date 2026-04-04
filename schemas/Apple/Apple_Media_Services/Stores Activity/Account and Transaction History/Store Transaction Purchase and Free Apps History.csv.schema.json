@@ -1,0 +1,102 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Apple ID Number": {
+      "type": "string"
+    },
+    "Item Purchased Date": {
+      "type": "string"
+    },
+    "Content Type": {
+      "type": "string"
+    },
+    "Item Reference Number": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Item Description": {
+      "type": "string"
+    },
+    "Container Reference Number": {
+      "type": "integer"
+    },
+    "Container Description": {
+      "type": "integer"
+    },
+    "Invoice Item Total": {
+      "type": "integer"
+    },
+    "Invoice Subtotal Amount": {
+      "type": "integer"
+    },
+    "Device Identifier": {
+      "type": "string"
+    },
+    "Device Details": {
+      "type": "string"
+    },
+    "Device IP Address": {
+      "type": "string"
+    },
+    "Refund Amount": {
+      "type": "integer"
+    },
+    "Refund Quantity": {
+      "type": "integer"
+    },
+    "Document Number": {
+      "type": "integer"
+    },
+    "Invoice Date": {
+      "type": "integer"
+    },
+    "Invoice Tax Amount": {
+      "type": "integer"
+    },
+    "Invoice Total Amount": {
+      "type": "integer"
+    },
+    "Purchase Created Date": {
+      "type": "integer"
+    },
+    "Order Number": {
+      "type": "string"
+    },
+    "Billing Information ID": {
+      "type": "integer"
+    },
+    "Payment Type": {
+      "type": "integer"
+    },
+    "Currency": {
+      "type": "integer"
+    },
+    "Purchase Chargeback?": {
+      "type": "string"
+    },
+    "eGui Invoice Number": {
+      "type": "integer"
+    },
+    "eGui Period": {
+      "type": "integer"
+    },
+    "iCloud Family Purchase?": {
+      "type": "string"
+    },
+    "UUID": {
+      "type": "integer"
+    },
+    "Free product Code Redemption?": {
+      "type": "integer"
+    },
+    "Purchase Fee Type": {
+      "type": "integer"
+    },
+    "Subscription Period": {
+      "type": "integer"
+    }
+  }
+}

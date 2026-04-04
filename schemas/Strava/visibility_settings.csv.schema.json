@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Include your activities in Metro and Heatmap": {
+      "type": "string"
+    },
+    "Who can see that you were part of a group activity": {
+      "type": "string"
+    },
+    "Who can see your activity in Flybys": {
+      "type": "string"
+    },
+    "Who can view your training log": {
+      "type": "string"
+    },
+    "Profile Visibility": {
+      "type": "string"
+    },
+    "Default Activity Visibility": {
+      "type": "string"
+    }
+  }
+}

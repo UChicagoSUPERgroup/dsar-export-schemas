@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Devices Information": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "": {
+      "type": "array",
+      "items": {
+        "type": [
+          "number",
+          "string"
+        ]
+      }
+    }
+  }
+}

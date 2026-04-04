@@ -1,0 +1,368 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "preferences_and_recent_activity": {
+      "type": "object",
+      "properties": {
+        "interpreted_preferences_and_recent_activity": {
+          "type": "object",
+          "properties": {
+            "preferences_and_recent_activity_user_id": {
+              "type": "string"
+            },
+            "preferences_and_recent_activity_last_modified_timestamp": {
+              "type": "string"
+            },
+            "preferences": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "preference_timeWindow": {
+                    "type": "string"
+                  },
+                  "preference_languages": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "count": {
+                          "type": "integer"
+                        },
+                        "timestamp": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  },
+                  "preference_countries": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "count": {
+                          "type": "integer"
+                        },
+                        "timestamp": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  },
+                  "preference_genres": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "count": {
+                          "type": "integer"
+                        },
+                        "timestamp": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  },
+                  "preference_tags": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "count": {
+                          "type": "integer"
+                        },
+                        "timestamp": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  },
+                  "preference_content_types": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "count": {
+                          "type": "integer"
+                        },
+                        "timestamp": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  },
+                  "preference_actors": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "count": {
+                          "type": "integer"
+                        },
+                        "timestamp": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  },
+                  "preference_directors": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "count": {
+                          "type": "integer"
+                        },
+                        "timestamp": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  },
+                  "preference_brands": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "count": {
+                          "type": "integer"
+                        },
+                        "timestamp": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  },
+                  "preference_release_year_decades": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "integer"
+                        },
+                        "count": {
+                          "type": "integer"
+                        },
+                        "timestamp": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  },
+                  "preference_writers": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "count": {
+                          "type": "integer"
+                        },
+                        "timestamp": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "recentActivity": {
+              "type": "object",
+              "properties": {
+                "recent_activity_played_content": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "content_name": {
+                        "type": "string"
+                      },
+                      "content_timestamp": {
+                        "type": "string"
+                      },
+                      "content_type": {
+                        "type": "string"
+                      },
+                      "content_genres": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      },
+                      "content_tags": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      },
+                      "content_actors": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      },
+                      "content_directors": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      },
+                      "content_writers": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      },
+                      "content_brand": {
+                        "type": "string"
+                      },
+                      "content_release_year_decade": {
+                        "type": "integer"
+                      },
+                      "content_league": {
+                        "type": "integer"
+                      },
+                      "content_sport": {
+                        "type": "integer"
+                      }
+                    }
+                  }
+                },
+                "recent_activity_rented_content": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "content_name": {
+                        "type": "string"
+                      },
+                      "content_timestamp": {
+                        "type": "string"
+                      },
+                      "content_type": {
+                        "type": "string"
+                      },
+                      "content_genres": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      },
+                      "content_tags": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      },
+                      "content_actors": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      },
+                      "content_directors": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      },
+                      "content_writers": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      },
+                      "content_brand": {
+                        "type": "string"
+                      },
+                      "content_release_year_decade": {
+                        "type": "integer"
+                      },
+                      "content_league": {
+                        "type": "integer"
+                      },
+                      "content_sport": {
+                        "type": "integer"
+                      }
+                    }
+                  }
+                },
+                "recent_activity_collection_pool_viewed_collections": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "collection_name": {
+                        "type": "string"
+                      },
+                      "collection_timestamp": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "preferences_and_recent_activity_version": {
+              "type": "integer"
+            },
+            "preferences_and_recent_activity_isDisabled": {
+              "type": "boolean"
+            },
+            "preferences_and_recent_activity_last_visited_timestamp": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "entity_last_modified": {
+      "type": "object",
+      "properties": {
+        "interpreted_entity_last_modified": {
+          "type": "object",
+          "properties": {
+            "entity_name": {
+              "type": [
+                "integer",
+                "string"
+              ]
+            },
+            "entity_last_modified": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}

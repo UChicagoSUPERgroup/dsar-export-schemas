@@ -1,0 +1,419 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "transactionId": {
+        "type": "string"
+      },
+      "schema_identifier": {
+        "type": "string"
+      },
+      "data": {
+        "type": "object",
+        "properties": {
+          "act_chats": {
+            "type": "array"
+          },
+          "act_poll_votes": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "timestamp": {
+                  "type": "string"
+                },
+                "action": {
+                  "type": "string"
+                },
+                "geo": {
+                  "type": "string"
+                },
+                "lang": {
+                  "type": "string"
+                },
+                "post_url": {
+                  "type": "string"
+                },
+                "poll_id": {
+                  "type": "string"
+                },
+                "answer": {
+                  "type": [
+                    "number",
+                    "string"
+                  ]
+                },
+                "platform": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "ads_analytics": {
+            "type": "array"
+          },
+          "api_applications_created": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "app_id": {
+                  "type": "integer"
+                },
+                "admin_email": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "play_store_url": {
+                  "type": "integer"
+                },
+                "app_store_url": {
+                  "type": "integer"
+                },
+                "app_website": {
+                  "type": "string"
+                },
+                "callback_url": {
+                  "type": "string"
+                },
+                "app_icons": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "consumer_key": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "api_applications_used": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "session_created_time": {
+                  "type": "string"
+                },
+                "session_expiration_time": {
+                  "type": "string"
+                },
+                "app_name": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "app_feedback": {
+            "type": "array"
+          },
+          "bcookie_mapping": {
+            "type": "array"
+          },
+          "blog_backups": {
+            "type": "array"
+          },
+          "blog_names": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "current_blog_name": {
+                  "type": "string"
+                },
+                "prev_used_blog_name": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          },
+          "client_side_ad_analytics": {
+            "type": "array"
+          },
+          "communities": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                },
+                "is_public": {
+                  "type": "integer"
+                },
+                "is_admin": {
+                  "type": "integer"
+                },
+                "is_moderator": {
+                  "type": "integer"
+                }
+              }
+            }
+          },
+          "crushers": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "<custom_name>": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "blog_name": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "crushes": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "blog_name": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "dashboard": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "serve_time": {
+                  "type": "string"
+                },
+                "element_type": {
+                  "type": "string"
+                },
+                "content_url": {
+                  "type": "string"
+                },
+                "platform": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "domains": {
+            "type": "array"
+          },
+          "domains_actions": {
+            "type": "array"
+          },
+          "email_ads_surveys": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "group": {
+                  "type": "integer"
+                },
+                "email": {
+                  "type": "string"
+                },
+                "post_id": {
+                  "type": "string"
+                },
+                "survey_url": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "explore_takeover_analytics": {
+            "type": "array"
+          },
+          "gemini_analytics": {
+            "type": "array"
+          },
+          "geo_profiles": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "city": {
+                  "type": "string"
+                },
+                "state": {
+                  "type": "string"
+                },
+                "country": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "granular_settings_toggle": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "blog_name": {
+                  "type": [
+                    "integer",
+                    "string"
+                  ]
+                },
+                "meta_key": {
+                  "type": "string"
+                },
+                "value": {
+                  "type": "integer"
+                }
+              }
+            }
+          },
+          "highlighted_posts": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "blog_name": {
+                  "type": "string"
+                },
+                "post_urls": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          },
+          "last_active_times": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "mobile_device_oses": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "os_type": {
+                  "type": "string"
+                },
+                "os_version": {
+                  "type": "integer"
+                },
+                "os_language": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "most_important_tags": {
+            "type": "array"
+          },
+          "most_used_tags": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "blog_name": {
+                  "type": "string"
+                },
+                "tag": {
+                  "type": "string"
+                },
+                "tag_count": {
+                  "type": "integer"
+                }
+              }
+            }
+          },
+          "premium_perks": {
+            "type": "object",
+            "properties": {
+              "has_premium": {
+                "type": "string"
+              },
+              "tumblrmart_credits": {
+                "type": "array"
+              },
+              "blaze_credits": {
+                "type": "array"
+              }
+            }
+          },
+          "push_notification_opens": {
+            "type": "array"
+          },
+          "push_notification_settings": {
+            "type": "array"
+          },
+          "unfollows": {
+            "type": "array"
+          },
+          "user_interest_profiles": {
+            "type": "array"
+          },
+          "user_age": {
+            "type": "integer"
+          },
+          "email": {
+            "type": "string"
+          },
+          "user_language": {
+            "type": "string"
+          },
+          "registration_time": {
+            "type": "string"
+          },
+          "last_post_time": {
+            "type": "string"
+          },
+          "labs_experiments": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "experiment_name": {
+                  "type": "string"
+                },
+                "experiment_options": {
+                  "type": "array"
+                }
+              }
+            }
+          },
+          "user_stratum": {
+            "type": "string"
+          },
+          "ugcLinks": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "link": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

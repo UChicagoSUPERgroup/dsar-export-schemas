@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "model": {
+      "type": "string"
+    },
+    "first_linked_ip_address": {
+      "type": "string"
+    },
+    "device_first_linked_date": {
+      "type": "string"
+    },
+    "device_last_linked_date": {
+      "type": "string"
+    }
+  }
+}

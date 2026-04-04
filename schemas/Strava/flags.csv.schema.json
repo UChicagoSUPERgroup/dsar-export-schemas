@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Category": {
+      "type": "string"
+    },
+    "Flagged Type": {
+      "type": "string"
+    },
+    "Flagged ID": {
+      "type": "string"
+    },
+    "Comments": {
+      "type": "string"
+    },
+    "Created At": {
+      "type": "string"
+    }
+  }
+}

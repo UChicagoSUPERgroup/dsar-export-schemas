@@ -1,0 +1,129 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Visit Start Time UTC": {
+      "type": "string"
+    },
+    "Visit Start Hour Local Time": {
+      "type": "string"
+    },
+    "Destination": {
+      "type": "string"
+    },
+    "URL": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Origin Of Visit": {
+      "type": "string"
+    },
+    "Visitor Type": {
+      "type": "integer"
+    },
+    "Device Type": {
+      "type": "string"
+    },
+    "Operating System and Version": {
+      "type": "string"
+    },
+    "Web Browser and Version": {
+      "type": "string"
+    },
+    "Mobile Application Version": {
+      "type": "integer"
+    },
+    "Mobile Device Manufacturer": {
+      "type": "string"
+    },
+    "Mobile Device Model": {
+      "type": "integer"
+    },
+    "Device Screen Height": {
+      "type": "integer"
+    },
+    "Device Screen Width": {
+      "type": "integer"
+    },
+    "Browser Window Width": {
+      "type": "string"
+    },
+    "Browser Cookie Acceptance Status": {
+      "type": "string"
+    },
+    "Internet Connection Speed": {
+      "type": "string"
+    },
+    "Internet Service Provider": {
+      "type": "string"
+    },
+    "Organisation": {
+      "type": "string"
+    },
+    "Visitor City": {
+      "type": "string"
+    },
+    "Visitor Region": {
+      "type": "string"
+    },
+    "Visitor Country": {
+      "type": "string"
+    },
+    "Visitor Continent": {
+      "type": "string"
+    },
+    "Event Start Time UTC": {
+      "type": "string"
+    },
+    "Page Name": {
+      "type": "string"
+    },
+    "Page Title": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Referrer URL": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "App Type": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "App Name": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Clicks Made": {
+      "type": "integer"
+    },
+    "Click Section": {
+      "type": "integer"
+    },
+    "Keywords In Search": {
+      "type": "integer"
+    },
+    "Media Content": {
+      "type": "integer"
+    },
+    "Media Content Type": {
+      "type": "integer"
+    },
+    "Media Content Action": {
+      "type": "integer"
+    },
+    "Playback Time": {
+      "type": "integer"
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Event Time (UTC)": {
+      "type": "string"
+    },
+    "GPS Time (UTC)": {
+      "type": "string"
+    },
+    "Horizontal Accuracy": {
+      "type": "number"
+    },
+    "Latitude": {
+      "type": "number"
+    },
+    "Longitude": {
+      "type": "number"
+    },
+    "Speed (GPS)": {
+      "type": "number"
+    },
+    "City": {
+      "type": "string"
+    },
+    "Cellular Carrier": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Carrier MCC": {
+      "type": "integer"
+    },
+    "Carrier MNC": {
+      "type": "integer"
+    },
+    "Google Play Services Status": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Device ID": {
+      "type": "string"
+    },
+    "IP Address": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Device Language": {
+      "type": "string"
+    },
+    "Device Model": {
+      "type": "string"
+    },
+    "Device OS": {
+      "type": "string"
+    },
+    "Device OS Version": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Region": {
+      "type": "string"
+    },
+    "Session Start Time (UTC)": {
+      "type": "string"
+    },
+    "Analytics Event Type": {
+      "type": "string"
+    }
+  }
+}

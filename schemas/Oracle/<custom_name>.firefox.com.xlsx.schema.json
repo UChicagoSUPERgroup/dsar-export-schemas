@@ -1,0 +1,168 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "CXD Contact info": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "CONTACT_SOURCE": {
+            "type": "string"
+          },
+          "EMAIL_ID": {
+            "type": "string"
+          },
+          "FIRST_NAME": {
+            "type": "string"
+          },
+          "LAST_NAME": {
+            "type": "string"
+          },
+          "COUNTRY": {
+            "type": "string"
+          },
+          "COMPANY_GIVEN": {
+            "type": "string"
+          },
+          "COUNTRY_CODE": {
+            "type": "string"
+          },
+          "REGION_NAME": {
+            "type": "string"
+          },
+          "SUB_REGION": {
+            "type": "string"
+          },
+          "SIC": {
+            "type": "integer"
+          },
+          "ADDRESS_LINE#": {
+            "type": "string"
+          },
+          "NO_EMPLOYEES": {
+            "type": "integer"
+          },
+          "STATE": {
+            "type": "string"
+          },
+          "CITY": {
+            "type": "string"
+          },
+          "ZIPCODE": {
+            "type": "integer"
+          },
+          "RECENCY_DATE": {
+            "type": "string"
+          },
+          "ORG_NAME": {
+            "type": "string"
+          },
+          "RECENCY_DATE_REASON": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "Product Response History": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "Cxd Contact Id": {
+            "type": "integer"
+          },
+          "Email Id": {
+            "type": "string"
+          },
+          "Cxd Account Id": {
+            "type": "string"
+          },
+          "Response Source": {
+            "type": "string"
+          },
+          "Response Type": {
+            "type": "string"
+          },
+          "Response Date": {
+            "type": "string"
+          },
+          "Cxd Creation Date": {
+            "type": "integer"
+          },
+          "Campaign Code": {
+            "type": "string"
+          },
+          "Eloqua Campaign Id": {
+            "type": "integer"
+          },
+          "Product": {
+            "type": "string"
+          },
+          "Version": {
+            "type": "string"
+          },
+          "Os": {
+            "type": "string"
+          },
+          "Response Id": {
+            "type": "integer"
+          },
+          "Response Method": {
+            "type": "string"
+          },
+          "Response Url": {
+            "type": "string"
+          },
+          "Source Creation Date": {
+            "type": "integer"
+          },
+          "Cxd Updated Date": {
+            "type": "integer"
+          },
+          "Response Uid": {
+            "type": "integer"
+          },
+          "Std Response Date": {
+            "type": "string"
+          },
+          "Execution Id": {
+            "type": "integer"
+          }
+        }
+      }
+    },
+    "Email History": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "ACTIVITY_TYPE": {
+            "type": "string"
+          },
+          "ACTIVITY_DATE": {
+            "type": [
+              "integer",
+              "string"
+            ]
+          },
+          "EMAIL_ADDRESS": {
+            "type": "string"
+          },
+          "ASSET_TYPE": {
+            "type": "string"
+          },
+          "ASSET_NAME": {
+            "type": "string"
+          },
+          "SUBJECT_LINE": {
+            "type": "string"
+          },
+          "EMAIL_WEB_LINK": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

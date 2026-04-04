@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "time": {
+      "type": "string"
+    },
+    "ip": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "region": {
+      "type": "integer"
+    },
+    "asn_id": {
+      "type": "integer"
+    },
+    "preferred_language": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "query": {
+      "type": "string"
+    },
+    "received_language": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "device_id": {
+      "type": "string"
+    },
+    "login": {
+      "type": "string"
+    },
+    "user_id": {
+      "type": "integer"
+    },
+    "time_utc": {
+      "type": "string"
+    }
+  }
+}

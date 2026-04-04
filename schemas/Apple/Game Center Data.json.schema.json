@@ -1,0 +1,146 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "profile_privacy": {
+      "type": "string"
+    },
+    "arcade_subscription_expiration": {
+      "type": "integer"
+    },
+    "game_state": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "game_name": {
+            "type": "string"
+          },
+          "leaderboard": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "leaderboard_score": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "submitted_time_utc": {
+                        "type": "string"
+                      },
+                      "score": {
+                        "type": [
+                          "integer",
+                          "string"
+                        ]
+                      },
+                      "rank": {
+                        "type": "integer"
+                      },
+                      "time_scope": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                },
+                "leaderboard_title": {
+                  "type": [
+                    "integer",
+                    "string"
+                  ]
+                }
+              }
+            }
+          },
+          "achievements": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "last_update_utc": {
+                  "type": "string"
+                },
+                "percentage_complete": {
+                  "type": "integer"
+                },
+                "achievements_title": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "challenges": {
+            "type": "array"
+          },
+          "last_played_utc": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "games_privacy_notice_version": {
+      "type": "integer"
+    },
+    "turn_based_games": {
+      "type": "array"
+    },
+    "allow_contact_lookup": {
+      "type": "string"
+    },
+    "cross_use_linked_dsid": {
+      "type": "integer"
+    },
+    "activity_feed": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "event_type": {
+            "type": "string"
+          },
+          "contents": {
+            "type": "string"
+          },
+          "serial_number": {
+            "type": "string"
+          },
+          "timestamp": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "games_cross_use_notice_version": {
+      "type": "integer"
+    },
+    "privacy_notice_version": {
+      "type": "integer"
+    },
+    "auth_data": {
+      "type": "object",
+      "properties": {
+        "auth_modified_epoch": {
+          "type": "string"
+        },
+        "auth_status": {
+          "type": "integer"
+        },
+        "auth_password_serial_number": {
+          "type": "integer"
+        },
+        "auth_version": {
+          "type": "integer"
+        }
+      }
+    },
+    "friends_api": {
+      "type": "object",
+      "properties": {
+        "allow_friends_api": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

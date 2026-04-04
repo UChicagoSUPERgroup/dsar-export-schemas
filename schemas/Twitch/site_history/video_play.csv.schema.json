@@ -1,0 +1,630 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "time": {
+      "type": "string"
+    },
+    "ip": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "region": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "broadcaster_software": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "browser": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "channel": {
+      "type": "string"
+    },
+    "channel_id": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "cluster": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "current_bitrate": {
+      "type": [
+        "number",
+        "string"
+      ]
+    },
+    "current_fps": {
+      "type": "integer"
+    },
+    "current_fps_exact": {
+      "type": "integer"
+    },
+    "device_id": {
+      "type": "string"
+    },
+    "distinct_id": {
+      "type": "string"
+    },
+    "domain": {
+      "type": "string"
+    },
+    "first_video_load_time": {
+      "type": "integer"
+    },
+    "flash_version": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "game": {
+      "type": "string"
+    },
+    "live": {
+      "type": "string"
+    },
+    "os": {
+      "type": "integer"
+    },
+    "partner": {
+      "type": "string"
+    },
+    "player": {
+      "type": "string"
+    },
+    "referrer_domain": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "referrer_host": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "referrer_url": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "url": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "user_ip": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "video_load_attempt": {
+      "type": "integer"
+    },
+    "video_height": {
+      "type": "integer"
+    },
+    "video_width": {
+      "type": "integer"
+    },
+    "asn": {
+      "type": "string"
+    },
+    "host_channel": {
+      "type": "integer"
+    },
+    "login": {
+      "type": "string"
+    },
+    "chromecast_sender": {
+      "type": "integer"
+    },
+    "client_time": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "vod_format": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "vod_id": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "viewability_focus": {
+      "type": "integer"
+    },
+    "viewability_percent_viewable": {
+      "type": "integer"
+    },
+    "viewability_client_height": {
+      "type": "integer"
+    },
+    "viewability_client_width": {
+      "type": "integer"
+    },
+    "subscriber": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "ui_version": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "backend": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "platform": {
+      "type": "string"
+    },
+    "content_mode": {
+      "type": "string"
+    },
+    "app_fullscreen": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "app_window_width": {
+      "type": "integer"
+    },
+    "app_window_height": {
+      "type": "integer"
+    },
+    "volume": {
+      "type": "number"
+    },
+    "mobile_connection_type": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "time_since_load_start": {
+      "type": "integer"
+    },
+    "quality": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "app_version": {
+      "type": "string"
+    },
+    "user_id": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "time_utc": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "host_channel_id": {
+      "type": "integer"
+    },
+    "community_name": {
+      "type": "integer"
+    },
+    "collection_position": {
+      "type": "integer"
+    },
+    "medium": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "content": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "app_version_long": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "chat_visibility_status": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "vod_cdn_region": {
+      "type": "integer"
+    },
+    "vod_cdn_origin": {
+      "type": "integer"
+    },
+    "referrer": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "client_app": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "content_id": {
+      "type": "integer"
+    },
+    "customer_id": {
+      "type": "integer"
+    },
+    "backend_version": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "vod_timestamp": {
+      "type": "integer"
+    },
+    "device_model": {
+      "type": "integer"
+    },
+    "device_os_version": {
+      "type": "integer"
+    },
+    "device_manufacturer": {
+      "type": "integer"
+    },
+    "browser_family": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "browser_version": {
+      "type": "number"
+    },
+    "os_name": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "os_version": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "time_to_web_player_init": {
+      "type": "integer"
+    },
+    "time_to_web_backend_init": {
+      "type": "integer"
+    },
+    "time_to_web_playback_started": {
+      "type": "integer"
+    },
+    "time_to_mp_master_manifest_request": {
+      "type": "integer"
+    },
+    "time_to_mp_master_manifest_ready": {
+      "type": "integer"
+    },
+    "time_to_web_backend_loaded": {
+      "type": "integer"
+    },
+    "time_to_web_nauth_request_sent": {
+      "type": "integer"
+    },
+    "time_to_web_nauth_request_received": {
+      "type": "integer"
+    },
+    "time_to_web_player_init_raw": {
+      "type": "integer"
+    },
+    "time_to_mp_init": {
+      "type": "integer"
+    },
+    "time_to_mp_variant_request": {
+      "type": "integer"
+    },
+    "time_to_mp_variant_ready": {
+      "type": "integer"
+    },
+    "time_to_mp_first_segment_request": {
+      "type": "integer"
+    },
+    "time_to_mp_first_segment_ready": {
+      "type": "integer"
+    },
+    "time_spent_hidden": {
+      "type": "integer"
+    },
+    "low_latency": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "using_wasm_backend": {
+      "type": "integer"
+    },
+    "time_to_mp_player_loaded_in_worker": {
+      "type": "integer"
+    },
+    "impression_id": {
+      "type": "integer"
+    },
+    "is_fallback_player": {
+      "type": "integer"
+    },
+    "is_first_video_play": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "player_instance_plays": {
+      "type": "integer"
+    },
+    "playback_gated": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "client_build_id": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "time_to_web_adblock_check_started": {
+      "type": "integer"
+    },
+    "time_to_web_adblock_check_done": {
+      "type": "integer"
+    },
+    "time_to_web_ui_init_started": {
+      "type": "integer"
+    },
+    "time_to_web_ui_init_done": {
+      "type": "integer"
+    },
+    "time_to_web_video_api_init_started": {
+      "type": "integer"
+    },
+    "time_to_web_video_api_init_done": {
+      "type": "integer"
+    },
+    "squad_stream_id": {
+      "type": "integer"
+    },
+    "squad_stream_presentation_id": {
+      "type": "integer"
+    },
+    "tag_filter_set_long": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "tag_set_long": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "tag_set": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "tag_filter_set": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "encrypted": {
+      "type": "integer"
+    },
+    "autoplay_succeeded": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "time_to_mp_min_buffer_ready": {
+      "type": "integer"
+    },
+    "time_to_mp_video_element_play": {
+      "type": "integer"
+    },
+    "multistream_presentation_id": {
+      "type": "integer"
+    },
+    "multistream_id": {
+      "type": "integer"
+    },
+    "channel_restriction_status": {
+      "type": "integer"
+    },
+    "viewer_exemption_status": {
+      "type": "integer"
+    },
+    "channel_restriction_type": {
+      "type": "integer"
+    },
+    "viewer_exemption_reason": {
+      "type": "integer"
+    },
+    "previous_tracking_id": {
+      "type": "integer"
+    },
+    "v": {
+      "type": "integer"
+    },
+    "time_to_master_playlist_ready": {
+      "type": "integer"
+    },
+    "time_to_master_playlist_request": {
+      "type": "integer"
+    },
+    "time_to_min_buffer_ready": {
+      "type": "integer"
+    },
+    "time_to_play_attempt": {
+      "type": "integer"
+    },
+    "time_to_playback_start": {
+      "type": "integer"
+    },
+    "time_to_variant_ready": {
+      "type": "integer"
+    },
+    "time_to_variant_request": {
+      "type": "integer"
+    },
+    "transcoder_type": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "time_to_segment_request": {
+      "type": "integer"
+    },
+    "time_to_segment_ready": {
+      "type": "integer"
+    },
+    "time_for_player_core_load": {
+      "type": "integer"
+    },
+    "time_for_token_load": {
+      "type": "integer"
+    },
+    "client_time_utc": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "media_capabilities_supported": {
+      "type": "integer"
+    },
+    "media_capabilities_smooth": {
+      "type": "integer"
+    },
+    "media_capabilities_powerefficient": {
+      "type": "integer"
+    },
+    "from_app_foreground": {
+      "type": "integer"
+    },
+    "raid_id": {
+      "type": "integer"
+    },
+    "origin_dc": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "consent_comscore_ok": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "airplay_active": {
+      "type": "integer"
+    },
+    "is_following": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "email_id": {
+      "type": "integer"
+    },
+    "thermal_state": {
+      "type": "integer"
+    },
+    "protocol": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "time_to_play_intent": {
+      "type": "integer"
+    },
+    "vp#_supported": {
+      "type": "integer"
+    },
+    "player_framework": {
+      "type": "integer"
+    },
+    "player_framework_version": {
+      "type": "integer"
+    },
+    "bornuser": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "subscription_upsell_shown": {
+      "type": "integer"
+    },
+    "ad_impressions_in_channel_cached": {
+      "type": "integer"
+    }
+  }
+}

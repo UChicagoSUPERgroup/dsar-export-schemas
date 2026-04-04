@@ -1,0 +1,87 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "time": {
+      "type": "string"
+    },
+    "ip": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "region": {
+      "type": "integer"
+    },
+    "asn": {
+      "type": "string"
+    },
+    "device_id": {
+      "type": "string"
+    },
+    "host": {
+      "type": "string"
+    },
+    "domain": {
+      "type": "string"
+    },
+    "logged_in": {
+      "type": "string"
+    },
+    "login": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "referrer_host": {
+      "type": "string"
+    },
+    "referrer_domain": {
+      "type": "integer"
+    },
+    "referrer_url": {
+      "type": "integer"
+    },
+    "preferred_language": {
+      "type": "string"
+    },
+    "received_language": {
+      "type": "string"
+    },
+    "language": {
+      "type": "integer"
+    },
+    "game": {
+      "type": "integer"
+    },
+    "src": {
+      "type": "string"
+    },
+    "platform": {
+      "type": "string"
+    },
+    "client_time": {
+      "type": "string"
+    },
+    "user_id": {
+      "type": "integer"
+    },
+    "time_utc": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "client_app": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    }
+  }
+}

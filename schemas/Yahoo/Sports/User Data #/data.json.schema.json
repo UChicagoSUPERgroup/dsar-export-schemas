@@ -1,0 +1,62 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "user_service": {
+      "type": "object"
+    },
+    "fantasy_chat": {
+      "type": "object"
+    },
+    "imageuploader": {
+      "type": "object"
+    },
+    "daily_fantasy": {
+      "type": "object"
+    },
+    "sports_site": {
+      "type": "object",
+      "properties": {
+        "gamePicks": {
+          "type": "integer"
+        },
+        "gameCheckins": {
+          "type": "integer"
+        },
+        "watchlistPreferences": {
+          "type": "array"
+        },
+        "rivalsFavoriteProspects": {
+          "type": "array"
+        },
+        "rivalsFavoriteVideos": {
+          "type": "array"
+        },
+        "ufcPpvPreferences": {
+          "type": "integer"
+        },
+        "myTeams": {
+          "type": "array"
+        },
+        "favoriteTeams": {
+          "type": "array"
+        },
+        "backgroundTheme": {
+          "type": "integer"
+        }
+      }
+    },
+    "fantasy_slate": {
+      "type": "object"
+    },
+    "full_fantasy": {
+      "type": "object"
+    },
+    "sports_app": {
+      "type": "object"
+    },
+    "sports_wallet": {
+      "type": "object"
+    }
+  }
+}

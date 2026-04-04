@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Favorite Type": {
+      "type": "string"
+    },
+    "Item Reference": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Item Description": {
+      "type": "string"
+    },
+    "Last Modified": {
+      "type": "string"
+    },
+    "Preference": {
+      "type": "string"
+    }
+  }
+}

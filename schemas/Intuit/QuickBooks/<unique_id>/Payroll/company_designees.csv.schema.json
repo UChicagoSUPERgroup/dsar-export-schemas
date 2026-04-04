@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "CPA License": {
+      "type": "integer"
+    },
+    "Enrolled Agent License": {
+      "type": "integer"
+    },
+    "Name": {
+      "type": "integer"
+    },
+    "Phone": {
+      "type": "integer"
+    },
+    "Is Active?": {
+      "type": "string"
+    }
+  }
+}

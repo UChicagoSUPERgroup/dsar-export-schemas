@@ -1,0 +1,82 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "consumer": {
+      "type": "object",
+      "properties": {
+        "displayName": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string"
+        },
+        "signupDateTime": {
+          "type": "string"
+        },
+        "signupIp": {
+          "type": "string"
+        },
+        "country": {
+          "type": "string"
+        },
+        "locale": {
+          "type": "string"
+        },
+        "imageUrls": {
+          "type": "object",
+          "properties": {
+            "small": {
+              "type": "string"
+            },
+            "large": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "serviceReviews": {
+      "type": "array"
+    },
+    "productReviews": {
+      "type": "array"
+    },
+    "productQuestions": {
+      "type": "array"
+    },
+    "complianceActivity": {
+      "type": "object",
+      "properties": {
+        "emailsToCompliance": {
+          "type": "array"
+        },
+        "notifications": {
+          "type": "array"
+        },
+        "locationNotifications": {
+          "type": "array"
+        }
+      }
+    },
+    "invitations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "sentAt": {
+            "type": "string"
+          },
+          "businessUnit": {
+            "type": "object",
+            "properties": {
+              "identifyingName": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

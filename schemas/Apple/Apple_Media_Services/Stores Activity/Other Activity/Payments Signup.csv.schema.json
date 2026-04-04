@@ -1,0 +1,162 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Account Sequence Number": {
+      "type": "integer"
+    },
+    "Active Payment Method": {
+      "type": "string"
+    },
+    "Apple Card Account ID": {
+      "type": "string"
+    },
+    "Apple ID Number": {
+      "type": "string"
+    },
+    "Apple Pay Payment Method": {
+      "type": "string"
+    },
+    "Apple Pay Payment Method Enrolled": {
+      "type": "integer"
+    },
+    "Apple Pay Payment Method Exist": {
+      "type": "string"
+    },
+    "Apple Pay Payment Method ID": {
+      "type": "string"
+    },
+    "Apple Pay Payment Method Removed": {
+      "type": "string"
+    },
+    "Apple Pay Payment Re-Enrolled": {
+      "type": "string"
+    },
+    "Apple Pay Storefront Enrollment": {
+      "type": "integer"
+    },
+    "Apple Pay Used as Payment Method": {
+      "type": "string"
+    },
+    "Billing Information ID": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Card Issuing Bank Name": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Card Name": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Card Processor": {
+      "type": "string"
+    },
+    "First Time Apple Pay Enrollment": {
+      "type": "string"
+    },
+    "First Time Enrollment": {
+      "type": "string"
+    },
+    "First Time Payment Method Removal": {
+      "type": "string"
+    },
+    "Last Updated Payment Method ID": {
+      "type": "integer"
+    },
+    "Payment Credential Timestamp": {
+      "type": "string"
+    },
+    "Payment Enrollment": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Payment Execution Method": {
+      "type": "string"
+    },
+    "Payment Method Approval Timestamp": {
+      "type": "string"
+    },
+    "Payment Method Date": {
+      "type": "string"
+    },
+    "Payment Method Last Modified Timestamp": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Payment Method Removal Timestamp": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Payment Method Removed": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Payment Source": {
+      "type": "string"
+    },
+    "Primary Payment Method": {
+      "type": "string"
+    },
+    "Re-Enrolled Apple Pay": {
+      "type": "string"
+    },
+    "Service Date": {
+      "type": "string"
+    },
+    "Storefront Apple Pay Option": {
+      "type": "integer"
+    },
+    "Storefront Name": {
+      "type": "string"
+    },
+    "Storefront Sequence Number": {
+      "type": "integer"
+    },
+    "Storefront Wallet ID": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Sum of Apple Pay Payment Methods": {
+      "type": "integer"
+    },
+    "Sum of Total Payment Methods": {
+      "type": "integer"
+    },
+    "Transaction Payment Method": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Wallet App Payment Method": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Wallet Card ID": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    }
+  }
+}

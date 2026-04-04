@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "explanation": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "user": {
+        "type": "string"
+      },
+      "saw_edit_favorite_genres": {
+        "type": "string"
+      },
+      "num_favorite_genres_selected": {
+        "type": "integer"
+      },
+      "num_books_rated": {
+        "type": "integer"
+      },
+      "skipped_rating_books": {
+        "type": "string"
+      },
+      "saw_rate_books": {
+        "type": "string"
+      },
+      "did_finish_rating_books": {
+        "type": "string"
+      },
+      "saw_find_friends_choice": {
+        "type": "string"
+      },
+      "tapped_find_friends_from_fb": {
+        "type": "string"
+      },
+      "tapped_find_friends_from_phone": {
+        "type": "string"
+      },
+      "saw_fb_app_invites": {
+        "type": "string"
+      },
+      "tapped_fb_app_invites": {
+        "type": "string"
+      },
+      "tapped_skip_fb_app_invites": {
+        "type": "string"
+      },
+      "saw_add_all_fb_friends": {
+        "type": "string"
+      },
+      "added_all_fb_friends": {
+        "type": "string"
+      },
+      "saw_add_fb_friends_individually": {
+        "type": "string"
+      },
+      "finished_add_fb_friends_individually": {
+        "type": "string"
+      },
+      "saw_grant_fb_friends_permission": {
+        "type": "string"
+      },
+      "saw_newsfeed": {
+        "type": "string"
+      },
+      "saw_recommendations": {
+        "type": "string"
+      }
+    }
+  }
+}

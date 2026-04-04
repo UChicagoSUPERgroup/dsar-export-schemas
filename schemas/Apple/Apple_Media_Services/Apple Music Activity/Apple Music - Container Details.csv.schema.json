@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Container Description": {
+      "type": "string"
+    },
+    "Container Type": {
+      "type": "string"
+    },
+    "Origin": {
+      "type": "string"
+    },
+    "Date Created": {
+      "type": "integer"
+    },
+    "Play Duration Milliseconds": {
+      "type": "integer"
+    },
+    "Artist Name": {
+      "type": "string"
+    },
+    "Last Played": {
+      "type": "string"
+    },
+    "Play Count": {
+      "type": "integer"
+    },
+    "Genres": {
+      "type": "string"
+    },
+    "Artists": {
+      "type": "string"
+    }
+  }
+}

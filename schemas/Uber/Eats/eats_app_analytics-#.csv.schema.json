@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "City Name": {
+      "type": "string"
+    },
+    "Cellular Carrier": {
+      "type": "string"
+    },
+    "Carrier MCC": {
+      "type": "integer"
+    },
+    "Carrier MNC": {
+      "type": "integer"
+    },
+    "Device Language": {
+      "type": "string"
+    },
+    "Device Model": {
+      "type": "string"
+    },
+    "Device OS": {
+      "type": "string"
+    },
+    "Device OS Version": {
+      "type": "integer"
+    },
+    "Country / Region": {
+      "type": "string"
+    },
+    "App Version": {
+      "type": "string"
+    },
+    "Event Time (UTC)": {
+      "type": "string"
+    },
+    "GPS Time (UTC)": {
+      "type": "string"
+    },
+    "Latitude": {
+      "type": "number"
+    },
+    "Longitude": {
+      "type": "number"
+    },
+    "Analytics Event Type": {
+      "type": "string"
+    }
+  }
+}

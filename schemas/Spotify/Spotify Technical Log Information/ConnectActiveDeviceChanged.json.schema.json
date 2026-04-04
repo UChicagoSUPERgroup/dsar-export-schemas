@@ -1,0 +1,48 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "context_time": {
+        "type": "string"
+      },
+      "message_previous_active_device_id": {
+        "type": [
+          "integer",
+          "string"
+        ]
+      },
+      "message_new_active_device_id": {
+        "type": [
+          "integer",
+          "string"
+        ]
+      },
+      "message_no_playback_duration": {
+        "type": "integer"
+      },
+      "message_new_active_device_audio_output_device_type": {
+        "type": [
+          "integer",
+          "string"
+        ]
+      },
+      "message_previous_active_device_ip_hash": {
+        "type": [
+          "integer",
+          "string"
+        ]
+      },
+      "message_new_active_device_ip_hash": {
+        "type": [
+          "integer",
+          "string"
+        ]
+      },
+      "timestamp_utc": {
+        "type": "string"
+      }
+    }
+  }
+}

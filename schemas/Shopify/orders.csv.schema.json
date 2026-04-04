@@ -1,0 +1,105 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "order_number": {
+      "type": "integer"
+    },
+    "custom_name": {
+      "type": "integer"
+    },
+    "total_discount_price": {
+      "type": "number"
+    },
+    "subtotal": {
+      "type": "number"
+    },
+    "subtotal_price": {
+      "type": "number"
+    },
+    "total_price": {
+      "type": "number"
+    },
+    "total": {
+      "type": "number"
+    },
+    "total_shipping_price": {
+      "type": "number"
+    },
+    "total_tax": {
+      "type": "number"
+    },
+    "currency": {
+      "type": "string"
+    },
+    "payment_status": {
+      "type": "string"
+    },
+    "delivery_status": {
+      "type": "string"
+    },
+    "delivery_type": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "shopify_order_id": {
+      "type": "string"
+    },
+    "shipping_address_first_name": {
+      "type": "string"
+    },
+    "shipping_address_last_name": {
+      "type": "string"
+    },
+    "shipping_address_company": {
+      "type": "integer"
+    },
+    "shipping_address_address#": {
+      "type": "string"
+    },
+    "shipping_address_city": {
+      "type": "string"
+    },
+    "shipping_address_postal_code": {
+      "type": "integer"
+    },
+    "shipping_address_zone": {
+      "type": "string"
+    },
+    "shipping_address_country": {
+      "type": "string"
+    },
+    "shipping_address_phone": {
+      "type": "integer"
+    },
+    "gateway": {
+      "type": "string"
+    },
+    "wallet": {
+      "type": "string"
+    },
+    "last_#": {
+      "type": "integer"
+    },
+    "expiry_year": {
+      "type": "integer"
+    },
+    "expiry_month": {
+      "type": "integer"
+    },
+    "card_brand": {
+      "type": "string"
+    },
+    "cardholder_name": {
+      "type": "integer"
+    },
+    "shop_name": {
+      "type": "string"
+    },
+    "shop_url": {
+      "type": "string"
+    }
+  }
+}

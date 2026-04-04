@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Station Id": {
+      "type": "string"
+    },
+    "Subscription?": {
+      "type": "string"
+    },
+    "Shared?": {
+      "type": "string"
+    },
+    "Created": {
+      "type": "string"
+    },
+    "Last Modified": {
+      "type": "string"
+    },
+    "Deleted?": {
+      "type": "string"
+    },
+    "Station Description": {
+      "type": "string"
+    }
+  }
+}

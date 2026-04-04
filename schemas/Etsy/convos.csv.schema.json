@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Date": {
+      "type": "string"
+    },
+    "Sender": {
+      "type": "string"
+    },
+    "Recipient": {
+      "type": "string"
+    },
+    "Subject": {
+      "type": "string"
+    },
+    "Content": {
+      "type": "string"
+    },
+    "Images": {
+      "type": "integer"
+    }
+  }
+}

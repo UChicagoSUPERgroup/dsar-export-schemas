@@ -1,0 +1,81 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "account_history_imprecise_last_known_location": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "integer"
+          },
+          "media_map_data": {
+            "type": "object"
+          },
+          "string_map_data": {
+            "type": "object",
+            "properties": {
+              "Longitude imprecisa": {
+                "type": "object",
+                "properties": {
+                  "href": {
+                    "type": "integer"
+                  },
+                  "value": {
+                    "type": "number"
+                  },
+                  "timestamp": {
+                    "type": "integer"
+                  }
+                }
+              },
+              "Latitude precisa": {
+                "type": "object",
+                "properties": {
+                  "href": {
+                    "type": "integer"
+                  },
+                  "value": {
+                    "type": "number"
+                  },
+                  "timestamp": {
+                    "type": "integer"
+                  }
+                }
+              },
+              "Longitude precisa": {
+                "type": "object",
+                "properties": {
+                  "href": {
+                    "type": "integer"
+                  },
+                  "value": {
+                    "type": "number"
+                  },
+                  "timestamp": {
+                    "type": "integer"
+                  }
+                }
+              },
+              "Hora de carregamento do GPS": {
+                "type": "object",
+                "properties": {
+                  "href": {
+                    "type": "integer"
+                  },
+                  "value": {
+                    "type": "integer"
+                  },
+                  "timestamp": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

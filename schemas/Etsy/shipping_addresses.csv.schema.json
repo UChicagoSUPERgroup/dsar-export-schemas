@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "First line": {
+      "type": "string"
+    },
+    "Second line": {
+      "type": "integer"
+    },
+    "City": {
+      "type": "string"
+    },
+    "State": {
+      "type": "string"
+    },
+    "Zip code": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "integer"
+    },
+    "partner": {
+      "type": "integer"
+    },
+    "activity": {
+      "type": "string"
+    },
+    "actually_created_at": {
+      "type": "string"
+    },
+    "trail_date": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "rating": {
+      "type": "integer"
+    },
+    "length": {
+      "type": "integer"
+    },
+    "duration": {
+      "type": "integer"
+    },
+    "conditions": {
+      "type": "integer"
+    },
+    "weather": {
+      "type": "integer"
+    },
+    "difficulty": {
+      "type": "integer"
+    },
+    "visitor_usage": {
+      "type": "integer"
+    },
+    "comment": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "link": {
+      "type": "integer"
+    },
+    "spam": {
+      "type": "integer"
+    },
+    "status": {
+      "type": "string"
+    },
+    "created_at_timestamp": {
+      "type": "string"
+    },
+    "sync_timestamp": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "updated_at": {
+      "type": "string"
+    },
+    "source": {
+      "type": "integer"
+    },
+    "source_remote_slug": {
+      "type": "integer"
+    },
+    "content_privacy": {
+      "type": "string"
+    },
+    "review_month": {
+      "type": "integer"
+    },
+    "summary_exclusion": {
+      "type": "string"
+    }
+  }
+}

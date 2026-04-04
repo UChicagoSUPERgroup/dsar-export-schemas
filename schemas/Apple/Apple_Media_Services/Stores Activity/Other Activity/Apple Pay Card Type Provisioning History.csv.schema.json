@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Apple Account Number": {
+      "type": "string"
+    },
+    "Card Type Order": {
+      "type": "string"
+    },
+    "Date Card Type Added": {
+      "type": "string"
+    },
+    "Receipt Time": {
+      "type": "string"
+    },
+    "Wallet Card Type": {
+      "type": "string"
+    }
+  }
+}

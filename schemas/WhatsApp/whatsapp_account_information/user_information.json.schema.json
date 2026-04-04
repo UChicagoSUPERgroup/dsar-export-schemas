@@ -1,0 +1,80 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "media": {
+      "type": "array"
+    },
+    "label_values": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "label": {
+            "type": "string"
+          },
+          "value": {
+            "type": [
+              "integer",
+              "string"
+            ]
+          },
+          "timestamp_value": {
+            "type": [
+              "integer",
+              "string"
+            ]
+          },
+          "vec": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "dict": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "label": {
+                        "type": "string"
+                      },
+                      "value": {
+                        "type": [
+                          "integer",
+                          "string"
+                        ]
+                      },
+                      "timestamp_value": {
+                        "type": [
+                          "integer",
+                          "string"
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "media": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "uri": {
+                  "type": [
+                    "integer",
+                    "string"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "fbid": {
+      "type": "string"
+    }
+  }
+}

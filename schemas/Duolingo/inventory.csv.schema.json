@@ -1,0 +1,39 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "item_type": {
+      "type": "string"
+    },
+    "purchase_datetime": {
+      "type": "string"
+    },
+    "active": {
+      "type": "string"
+    },
+    "price_in_virtual_currency": {
+      "type": "integer"
+    },
+    "wager_day": {
+      "type": "integer"
+    },
+    "payment_processor": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "product": {
+      "type": "string"
+    },
+    "code_id": {
+      "type": "integer"
+    },
+    "expected_expiration": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    }
+  }
+}

@@ -1,0 +1,333 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Action Context": {
+      "type": "integer"
+    },
+    "Action Details": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Action Type": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Adjusted Event Time": {
+      "type": "string"
+    },
+    "Apple ID Number": {
+      "type": "string"
+    },
+    "Application Name": {
+      "type": "string"
+    },
+    "ASN State": {
+      "type": "integer"
+    },
+    "Authorization List": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Billing Information": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "BuyInfo Country": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "BuyInfo Price": {
+      "type": "number"
+    },
+    "BuyInfo Subscription Catalog Name": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Click Target": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Click Target Type": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Client ID": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Commerce Application Name": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Commerce Event-Ask To Buy?": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Commerce Event-Head of Household ID": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Commerce Event-Head of Household?": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Commerce Flow": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Commerce Flow Type": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Commerce Purchase List": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Data Location": {
+      "type": "integer"
+    },
+    "Dialog Application ID": {
+      "type": "integer"
+    },
+    "Dialog Application Name": {
+      "type": "integer"
+    },
+    "Dialog Code": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Dialog ID": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Dialog Price": {
+      "type": "number"
+    },
+    "Dialog Type": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Event Date Time": {
+      "type": "string"
+    },
+    "Event Type": {
+      "type": "string"
+    },
+    "Family Status": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Fraud Check Result": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Fraud Check Status": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Free Application Name": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Hardware Family": {
+      "type": "string"
+    },
+    "Hardware Model": {
+      "type": "string"
+    },
+    "Head of Household ID": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Host App Name": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Notification Type": {
+      "type": "integer"
+    },
+    "Operating System": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Operating System Version": {
+      "type": [
+        "number",
+        "string"
+      ]
+    },
+    "Page": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Page Details": {
+      "type": "integer"
+    },
+    "Page ID": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Page Type": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Page URL": {
+      "type": "integer"
+    },
+    "Paid Purchased Price": {
+      "type": "number"
+    },
+    "Payment Method Added": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Purchase List": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Purchased Price": {
+      "type": "number"
+    },
+    "Recovery Category": {
+      "type": "integer"
+    },
+    "Recovery Optimization": {
+      "type": "integer"
+    },
+    "Recovery Recommendation": {
+      "type": "integer"
+    },
+    "Recovery Sub Category": {
+      "type": "integer"
+    },
+    "Reference": {
+      "type": "integer"
+    },
+    "Result Error Key": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Result type": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Store Front": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Store Front Header": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Topic": {
+      "type": "string"
+    },
+    "User Actions": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Visit End Time": {
+      "type": "string"
+    },
+    "Visit ID": {
+      "type": "string"
+    },
+    "Visit Start Time": {
+      "type": "string"
+    },
+    "Correlation ID": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Free Subscription Trial": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Is Billing Error Resolved": {
+      "type": "integer"
+    },
+    "Is Visit Extended": {
+      "type": "string"
+    },
+    "Visit Start Date": {
+      "type": "string"
+    }
+  }
+}

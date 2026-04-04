@@ -1,0 +1,44 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "ig_profile_picture": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "uri": {
+            "type": "string"
+          },
+          "creation_timestamp": {
+            "type": "string"
+          },
+          "media_metadata": {
+            "type": "object",
+            "properties": {
+              "camera_metadata": {
+                "type": "object",
+                "properties": {
+                  "has_camera_metadata": {
+                    "type": "boolean"
+                  }
+                }
+              }
+            }
+          },
+          "title": {
+            "type": "integer"
+          },
+          "cross_post_source": {
+            "type": "object",
+            "properties": {
+              "source_app": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Apple ID List Type": {
+      "type": "integer"
+    },
+    "Apple ID Number": {
+      "type": "string"
+    },
+    "Apple ID Payment List Modification Date": {
+      "type": "string"
+    },
+    "Apple ID Payment List Creation Date": {
+      "type": "string"
+    },
+    "Apple ID Payment List Event Creation Date": {
+      "type": "string"
+    },
+    "Apple ID Payment List Event Entry Number": {
+      "type": "string"
+    },
+    "Apple ID Payment List Event Modification Date": {
+      "type": "string"
+    },
+    "Apple ID Payment List Event Number": {
+      "type": "string"
+    },
+    "Apple ID Payment List Event Type": {
+      "type": "string"
+    },
+    "Apple ID Payment List Identifier": {
+      "type": "string"
+    },
+    "Apple ID Payment List Inactivation Date": {
+      "type": "integer"
+    },
+    "Apple ID Payment Method Creation Date": {
+      "type": "string"
+    },
+    "Apple ID Payment Method Deletion Date": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Apple ID Payment Method Event Creation Date": {
+      "type": "string"
+    },
+    "Apple ID Payment Method Event Modification Date": {
+      "type": "string"
+    },
+    "Apple ID Payment Method Event Rank": {
+      "type": "integer"
+    },
+    "Apple ID Payment Method Modification Date": {
+      "type": "string"
+    },
+    "Apple ID Payment Method Number": {
+      "type": "string"
+    },
+    "Apple ID Payment Method Rank": {
+      "type": "integer"
+    },
+    "Apple ID Payment Method Signature": {
+      "type": "string"
+    },
+    "Apple Pay Number": {
+      "type": "integer"
+    },
+    "Billing Info Number": {
+      "type": "string"
+    },
+    "Country": {
+      "type": "integer"
+    },
+    "iCloud Family ID": {
+      "type": "integer"
+    },
+    "Organizer Apple ID": {
+      "type": "integer"
+    },
+    "Previous Apple ID Payment Method Event Rank": {
+      "type": "integer"
+    }
+  }
+}

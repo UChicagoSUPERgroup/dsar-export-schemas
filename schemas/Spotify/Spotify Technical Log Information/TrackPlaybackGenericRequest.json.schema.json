@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "context_time": {
+        "type": "string"
+      },
+      "message_timestamp": {
+        "type": "string"
+      },
+      "message_response_status": {
+        "type": "integer"
+      },
+      "message_user_country": {
+        "type": "string"
+      },
+      "message_brand": {
+        "type": "string"
+      },
+      "message_model": {
+        "type": "string"
+      },
+      "message_device_type": {
+        "type": "string"
+      },
+      "message_license": {
+        "type": "string"
+      },
+      "message_sdk_type": {
+        "type": "string"
+      },
+      "message_endpoint": {
+        "type": "string"
+      },
+      "message_seq_num": {
+        "type": "integer"
+      },
+      "message_error_reason": {
+        "type": "integer"
+      },
+      "message_connection_country": {
+        "type": "string"
+      },
+      "message_is_employee": {
+        "type": "boolean"
+      },
+      "<custom_name>": {
+        "type": "string"
+      },
+      "timestamp_utc": {
+        "type": "string"
+      }
+    }
+  }
+}

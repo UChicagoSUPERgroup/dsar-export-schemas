@@ -1,0 +1,45 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "explanation": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "subject": {
+        "type": "string"
+      },
+      "body": {
+        "type": "string"
+      },
+      "folder": {
+        "type": "string"
+      },
+      "created_at": {
+        "type": "string"
+      },
+      "updated_at": {
+        "type": "string"
+      },
+      "from_user": {
+        "type": "string"
+      },
+      "to_user": {
+        "type": "string"
+      },
+      "previous_message_subject": {
+        "type": "string"
+      },
+      "first_message_subject": {
+        "type": "string"
+      },
+      "read_at": {
+        "type": "string"
+      }
+    }
+  }
+}

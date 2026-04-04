@@ -1,0 +1,48 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Apple ID Number": {
+      "type": "string"
+    },
+    "Linked App": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Created Date": {
+      "type": "integer"
+    },
+    "Is Subscription Valid": {
+      "type": "integer"
+    },
+    "Subscription Name": {
+      "type": "string"
+    },
+    "Item Reference Number": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Last Modified Date": {
+      "type": "integer"
+    },
+    "Prior Subscription ID": {
+      "type": "integer"
+    },
+    "Replacement Subscription ID": {
+      "type": "integer"
+    },
+    "Resume Date": {
+      "type": "integer"
+    },
+    "Suspended Subscription ID": {
+      "type": "integer"
+    },
+    "Suspended Date": {
+      "type": "integer"
+    }
+  }
+}

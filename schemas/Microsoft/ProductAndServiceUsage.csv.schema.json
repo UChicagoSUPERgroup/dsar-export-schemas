@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "DateTime": {
+      "type": "string"
+    },
+    "EndDateTime": {
+      "type": "string"
+    },
+    "DeviceId": {
+      "type": "integer"
+    },
+    "Aggregation": {
+      "type": "string"
+    },
+    "AppName": {
+      "type": "string"
+    },
+    "AppPublisher": {
+      "type": "string"
+    }
+  }
+}

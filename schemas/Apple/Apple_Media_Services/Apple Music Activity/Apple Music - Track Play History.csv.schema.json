@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Track Name": {
+      "type": "string"
+    },
+    "Last Played Date": {
+      "type": "string"
+    },
+    "Is User Initiated": {
+      "type": "string"
+    }
+  }
+}

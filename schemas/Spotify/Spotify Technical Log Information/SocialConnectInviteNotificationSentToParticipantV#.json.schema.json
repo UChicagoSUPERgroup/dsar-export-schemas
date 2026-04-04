@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "context_time": {
+        "type": "string"
+      },
+      "message_token": {
+        "type": "string"
+      },
+      "message_jam_join_uri": {
+        "type": "string"
+      },
+      "message_status": {
+        "type": "string"
+      },
+      "timestamp_utc": {
+        "type": "string"
+      }
+    }
+  }
+}

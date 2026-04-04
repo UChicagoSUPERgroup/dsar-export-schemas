@@ -1,0 +1,33 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "explanation": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "created_at": {
+        "type": "string"
+      },
+      "updated_at": {
+        "type": "string"
+      },
+      "user": {
+        "type": "string"
+      },
+      "genres": {
+        "type": "string"
+      },
+      "additional_genres": {
+        "type": "string"
+      },
+      "genres_automatically_determined": {
+        "type": "string"
+      }
+    }
+  }
+}

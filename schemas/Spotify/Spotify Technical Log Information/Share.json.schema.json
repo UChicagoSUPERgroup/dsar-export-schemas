@@ -1,0 +1,123 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "context_time": {
+        "type": "string"
+      },
+      "context_receiver_service_timestamp": {
+        "type": "string"
+      },
+      "context_user_agent": {
+        "type": [
+          "integer",
+          "string"
+        ]
+      },
+      "context_application_version": {
+        "type": "string"
+      },
+      "context_conn_country": {
+        "type": "string"
+      },
+      "context_device_manufacturer": {
+        "type": [
+          "integer",
+          "string"
+        ]
+      },
+      "context_device_model": {
+        "type": [
+          "integer",
+          "string"
+        ]
+      },
+      "context_device_type": {
+        "type": [
+          "integer",
+          "string"
+        ]
+      },
+      "context_os_name": {
+        "type": [
+          "integer",
+          "string"
+        ]
+      },
+      "context_os_version": {
+        "type": [
+          "number",
+          "string"
+        ]
+      },
+      "message_entity_uri": {
+        "type": "string"
+      },
+      "message_destination_id": {
+        "type": "string"
+      },
+      "message_share_id": {
+        "type": "string"
+      },
+      "message_source_page_uri": {
+        "type": [
+          "integer",
+          "string"
+        ]
+      },
+      "message_source_page": {
+        "type": [
+          "integer",
+          "string"
+        ]
+      },
+      "message_creator_uri": {
+        "type": "integer"
+      },
+      "message_system_destination": {
+        "type": "integer"
+      },
+      "message_capability": {
+        "type": [
+          "integer",
+          "string"
+        ]
+      },
+      "message_integration": {
+        "type": [
+          "integer",
+          "string"
+        ]
+      },
+      "message_share_url": {
+        "type": [
+          "integer",
+          "string"
+        ]
+      },
+      "message_audio_preview": {
+        "type": "integer"
+      },
+      "message_shareformat_id": {
+        "type": [
+          "integer",
+          "string"
+        ]
+      },
+      "message_full_url": {
+        "type": [
+          "integer",
+          "string"
+        ]
+      },
+      "message_is_offline": {
+        "type": "integer"
+      },
+      "timestamp_utc": {
+        "type": "string"
+      }
+    }
+  }
+}

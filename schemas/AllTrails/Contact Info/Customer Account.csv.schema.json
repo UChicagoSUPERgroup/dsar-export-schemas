@@ -1,0 +1,111 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "address": {
+      "type": "integer"
+    },
+    "bill_to": {
+      "type": "string"
+    },
+    "billing_info": {
+      "type": "string"
+    },
+    "cc_emails": {
+      "type": "integer"
+    },
+    "code": {
+      "type": "integer"
+    },
+    "company": {
+      "type": "integer"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "custom_fields": {
+      "type": "string"
+    },
+    "deleted_at": {
+      "type": "integer"
+    },
+    "dunning_campaign_id": {
+      "type": "integer"
+    },
+    "email": {
+      "type": "string"
+    },
+    "exemption_certificate": {
+      "type": "integer"
+    },
+    "external_accounts": {
+      "type": "string"
+    },
+    "first_name": {
+      "type": "string"
+    },
+    "has_active_subscription": {
+      "type": "string"
+    },
+    "has_canceled_subscription": {
+      "type": "string"
+    },
+    "has_future_subscription": {
+      "type": "string"
+    },
+    "has_live_subscription": {
+      "type": "string"
+    },
+    "has_past_due_invoice": {
+      "type": "string"
+    },
+    "has_paused_subscription": {
+      "type": "string"
+    },
+    "hosted_login_token": {
+      "type": "string"
+    },
+    "id": {
+      "type": "string"
+    },
+    "last_name": {
+      "type": "string"
+    },
+    "object": {
+      "type": "string"
+    },
+    "parent_account_id": {
+      "type": "integer"
+    },
+    "preferred_locale": {
+      "type": "integer"
+    },
+    "preferred_time_zone": {
+      "type": "integer"
+    },
+    "shipping_addresses": {
+      "type": "string"
+    },
+    "state": {
+      "type": "string"
+    },
+    "tax_exempt": {
+      "type": "string"
+    },
+    "updated_at": {
+      "type": "string"
+    },
+    "username": {
+      "type": "integer"
+    },
+    "vat_number": {
+      "type": "integer"
+    },
+    "invoice_template_id": {
+      "type": "integer"
+    },
+    "override_business_entity_id": {
+      "type": "integer"
+    }
+  }
+}

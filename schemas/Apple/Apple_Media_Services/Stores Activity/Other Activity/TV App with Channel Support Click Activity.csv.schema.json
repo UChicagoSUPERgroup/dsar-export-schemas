@@ -1,0 +1,717 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Action Context": {
+      "type": "integer"
+    },
+    "Action Details": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Action Type": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Action URL": {
+      "type": "integer"
+    },
+    "Adjusted Event Time": {
+      "type": "string"
+    },
+    "Amount Paid": {
+      "type": "integer"
+    },
+    "Analytics App Version": {
+      "type": "number"
+    },
+    "Analytics Browser Name": {
+      "type": "integer"
+    },
+    "Analytics Hardware Brand": {
+      "type": "string"
+    },
+    "Analytics Hardware Category": {
+      "type": "string"
+    },
+    "Analytics Hardware Family": {
+      "type": "string"
+    },
+    "Analytics Hardware Model": {
+      "type": "string"
+    },
+    "Analytics Major OS Version": {
+      "type": "integer"
+    },
+    "Analytics Minor OS Version": {
+      "type": "number"
+    },
+    "Analytics Operating System": {
+      "type": "string"
+    },
+    "Analytics Operating System Version": {
+      "type": "string"
+    },
+    "Analytics OS Build Number": {
+      "type": "string"
+    },
+    "Analytics Product Name": {
+      "type": "string"
+    },
+    "Analytics TV Provider ID": {
+      "type": "integer"
+    },
+    "App Name": {
+      "type": "string"
+    },
+    "App Open Flag": {
+      "type": "integer"
+    },
+    "App Version": {
+      "type": "number"
+    },
+    "Apple ID Number": {
+      "type": "string"
+    },
+    "Authorization ID": {
+      "type": "integer"
+    },
+    "Badges": {
+      "type": "integer"
+    },
+    "Bundle Type": {
+      "type": "integer"
+    },
+    "Campaign Group": {
+      "type": "integer"
+    },
+    "Campaign Token": {
+      "type": "integer"
+    },
+    "Category ID": {
+      "type": "integer"
+    },
+    "Channel Partner": {
+      "type": "integer"
+    },
+    "Channel Partner ID": {
+      "type": "integer"
+    },
+    "Channel Partner Type": {
+      "type": "integer"
+    },
+    "Channel Product Code": {
+      "type": "integer"
+    },
+    "Channel Service": {
+      "type": "integer"
+    },
+    "Click Target": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Click Target Type": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Client Event ID": {
+      "type": "string"
+    },
+    "Client ID": {
+      "type": "string"
+    },
+    "Commerce Flow": {
+      "type": "integer"
+    },
+    "Commerce Flow Type": {
+      "type": "integer"
+    },
+    "Consent Type": {
+      "type": "integer"
+    },
+    "Consented TV Provider": {
+      "type": "string"
+    },
+    "Content Provider Brand ID": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Content Reference ID": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Content Type": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Correlation ID": {
+      "type": "integer"
+    },
+    "Country Code": {
+      "type": "integer"
+    },
+    "Currency": {
+      "type": "integer"
+    },
+    "Current Playing ID": {
+      "type": "integer"
+    },
+    "Delegate App Name": {
+      "type": "integer"
+    },
+    "Destination URL": {
+      "type": "integer"
+    },
+    "Device Keyboard Language": {
+      "type": "integer"
+    },
+    "Dialog ID": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Dialog Message": {
+      "type": "integer"
+    },
+    "Dialog Options": {
+      "type": "integer"
+    },
+    "Dialog Result": {
+      "type": "integer"
+    },
+    "Dialog Subject ID": {
+      "type": "integer"
+    },
+    "Dialog Title": {
+      "type": "integer"
+    },
+    "Dialog Type": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Display Type": {
+      "type": "integer"
+    },
+    "Dynamic Changes": {
+      "type": "integer"
+    },
+    "Event Date Time": {
+      "type": "string"
+    },
+    "Event Post Date time": {
+      "type": "string"
+    },
+    "Event Type": {
+      "type": "string"
+    },
+    "Event Version": {
+      "type": "integer"
+    },
+    "Exchange Rate": {
+      "type": "integer"
+    },
+    "Ext App ID": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "External Referral URL": {
+      "type": "integer"
+    },
+    "Feature Title": {
+      "type": "integer"
+    },
+    "Free Trial": {
+      "type": "integer"
+    },
+    "Hardware Brand": {
+      "type": "string"
+    },
+    "Hardware Category": {
+      "type": "string"
+    },
+    "Hardware Family": {
+      "type": "string"
+    },
+    "Hardware Model": {
+      "type": "string"
+    },
+    "Host App Name": {
+      "type": "integer"
+    },
+    "Host App Version": {
+      "type": "integer"
+    },
+    "ID Type": {
+      "type": "integer"
+    },
+    "Impressions": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "IP Network": {
+      "type": "string"
+    },
+    "IP Network Type": {
+      "type": "integer"
+    },
+    "Is Signed In": {
+      "type": "string"
+    },
+    "Local Date": {
+      "type": "string"
+    },
+    "Local Timestamp": {
+      "type": "string"
+    },
+    "Location Consent": {
+      "type": "string"
+    },
+    "Locations": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Marketing Agency": {
+      "type": "integer"
+    },
+    "Marketing Agency ID": {
+      "type": "integer"
+    },
+    "Masked IP": {
+      "type": "string"
+    },
+    "Media Content Name": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Media Play Duration MS": {
+      "type": "integer"
+    },
+    "Media Play Position": {
+      "type": "integer"
+    },
+    "Message Code": {
+      "type": "integer"
+    },
+    "MetricsKit Version": {
+      "type": "integer"
+    },
+    "MVPD Active Months": {
+      "type": "integer"
+    },
+    "MVPD Partner": {
+      "type": "integer"
+    },
+    "Network Connection Type": {
+      "type": "string"
+    },
+    "New Subscription State": {
+      "type": "integer"
+    },
+    "Non Consented TV Provider": {
+      "type": "string"
+    },
+    "Offer Placement": {
+      "type": "integer"
+    },
+    "Offer Placement Type": {
+      "type": "integer"
+    },
+    "Offer Scenario Type": {
+      "type": "integer"
+    },
+    "Offer Source": {
+      "type": "integer"
+    },
+    "Offer Type": {
+      "type": "integer"
+    },
+    "Offer Variant": {
+      "type": "integer"
+    },
+    "Operating System": {
+      "type": "string"
+    },
+    "Operating System Version": {
+      "type": "string"
+    },
+    "Opted-in for Personalization": {
+      "type": "integer"
+    },
+    "OS Build Number": {
+      "type": "string"
+    },
+    "OS Language": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Page": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Page Buttons": {
+      "type": "integer"
+    },
+    "Page Context": {
+      "type": "string"
+    },
+    "Page Details": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Page History": {
+      "type": "integer"
+    },
+    "Page ID": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Page Type": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Page URL": {
+      "type": "integer"
+    },
+    "Page Variant ID": {
+      "type": "integer"
+    },
+    "Previous Subscription Adam Name": {
+      "type": "integer"
+    },
+    "Previous Subscription App Adam ID": {
+      "type": "integer"
+    },
+    "Previous Subscription Bonus Period ID": {
+      "type": "integer"
+    },
+    "Previous Subscription Bonus Period in Hours": {
+      "type": "integer"
+    },
+    "Previous Subscription Currency Code": {
+      "type": "integer"
+    },
+    "Previous Subscription Expiration Date": {
+      "type": "integer"
+    },
+    "Previous Subscription Free Trial Period Hours": {
+      "type": "integer"
+    },
+    "Previous Subscription Free Trial Period ID": {
+      "type": "integer"
+    },
+    "Previous Subscription Grace Expiry Date": {
+      "type": "integer"
+    },
+    "Previous Subscription ID": {
+      "type": "integer"
+    },
+    "Previous Subscription Line Item ID": {
+      "type": "integer"
+    },
+    "Previous Subscription Offer ID": {
+      "type": "integer"
+    },
+    "Previous Subscription Offer Period ID": {
+      "type": "integer"
+    },
+    "Previous Subscription Offer Period in Hours": {
+      "type": "integer"
+    },
+    "Previous Subscription Period ID": {
+      "type": "integer"
+    },
+    "Previous Subscription Period in Hours": {
+      "type": "integer"
+    },
+    "Previous Subscription Price": {
+      "type": "integer"
+    },
+    "Previous Subscription Purchase ID": {
+      "type": "integer"
+    },
+    "Previous Subscription Purchase Status": {
+      "type": "integer"
+    },
+    "Previous Subscription Start Date": {
+      "type": "integer"
+    },
+    "Price Type": {
+      "type": "integer"
+    },
+    "Purchase Items": {
+      "type": "integer"
+    },
+    "Purchased Content Type ID": {
+      "type": "integer"
+    },
+    "Purchased Item Adam Name": {
+      "type": "integer"
+    },
+    "Purchased Item Amount": {
+      "type": "integer"
+    },
+    "Purchased Item App Adam ID": {
+      "type": "integer"
+    },
+    "Purchased Item Content Type": {
+      "type": "integer"
+    },
+    "Purchased Item Genre": {
+      "type": "integer"
+    },
+    "Purchased Item Price": {
+      "type": "integer"
+    },
+    "Purchased Item Trust Score": {
+      "type": "integer"
+    },
+    "Purchased Item Type ID": {
+      "type": "integer"
+    },
+    "Purchased Product Type ID": {
+      "type": "integer"
+    },
+    "Receipt Time": {
+      "type": "string"
+    },
+    "Recommended Content ID": {
+      "type": "integer"
+    },
+    "Referral App Name": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Response Context": {
+      "type": "integer"
+    },
+    "Result Error Key": {
+      "type": "integer"
+    },
+    "Result Type": {
+      "type": "integer"
+    },
+    "Revision Number": {
+      "type": "string"
+    },
+    "Root ID": {
+      "type": "integer"
+    },
+    "Screen Height Pixel": {
+      "type": "integer"
+    },
+    "Screen Pixel Ratio": {
+      "type": "number"
+    },
+    "Screen Width Pixel": {
+      "type": "integer"
+    },
+    "Search Term": {
+      "type": "integer"
+    },
+    "Search Term ID": {
+      "type": "integer"
+    },
+    "Sensitive Content Type": {
+      "type": "integer"
+    },
+    "Service ID": {
+      "type": "integer"
+    },
+    "Shared Activity": {
+      "type": "string"
+    },
+    "Shared Activity Devices": {
+      "type": "integer"
+    },
+    "Shared Activity Max Devices": {
+      "type": "integer"
+    },
+    "Shared Content": {
+      "type": "integer"
+    },
+    "Start Type": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Store Front Header": {
+      "type": "string"
+    },
+    "Store Front Name": {
+      "type": "string"
+    },
+    "Subscribed TV Provider": {
+      "type": "string"
+    },
+    "Subscription Adam Name": {
+      "type": "integer"
+    },
+    "Subscription App Name": {
+      "type": "integer"
+    },
+    "Subscription Bonus Period ID": {
+      "type": "integer"
+    },
+    "Subscription Bonus Period in Hours": {
+      "type": "integer"
+    },
+    "Subscription Currency Code": {
+      "type": "integer"
+    },
+    "Subscription Event Type": {
+      "type": "integer"
+    },
+    "Subscription Expiration Date": {
+      "type": "integer"
+    },
+    "Subscription Free Trial Period Hours": {
+      "type": "integer"
+    },
+    "Subscription Free Trial Period ID": {
+      "type": "integer"
+    },
+    "Subscription Grace Expiry Date": {
+      "type": "integer"
+    },
+    "Subscription ID": {
+      "type": "integer"
+    },
+    "Subscription Identifier": {
+      "type": "integer"
+    },
+    "Subscription Line Item ID": {
+      "type": "integer"
+    },
+    "Subscription Offer ID": {
+      "type": "integer"
+    },
+    "Subscription Offer Period ID": {
+      "type": "integer"
+    },
+    "Subscription Offer Period in Hours": {
+      "type": "integer"
+    },
+    "Subscription Period ID": {
+      "type": "integer"
+    },
+    "Subscription Period in Hours": {
+      "type": "integer"
+    },
+    "Subscription Price": {
+      "type": "integer"
+    },
+    "Subscription Price Paid": {
+      "type": "integer"
+    },
+    "Subscription Product ID": {
+      "type": "integer"
+    },
+    "Subscription Purchase ID": {
+      "type": "integer"
+    },
+    "Subscription Purchase Status": {
+      "type": "integer"
+    },
+    "Subscription Start Date": {
+      "type": "integer"
+    },
+    "Subscription State": {
+      "type": "integer"
+    },
+    "Test Eligibility": {
+      "type": "integer"
+    },
+    "Test Eligibility IDs": {
+      "type": "integer"
+    },
+    "Third Party Consent": {
+      "type": "integer"
+    },
+    "Timezone Offset": {
+      "type": "integer"
+    },
+    "Topic": {
+      "type": "string"
+    },
+    "Topic Event ID": {
+      "type": "string"
+    },
+    "TV Provider Apps": {
+      "type": "string"
+    },
+    "Type": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "User Actions": {
+      "type": "integer"
+    },
+    "User Agent": {
+      "type": "string"
+    },
+    "Vertical Shelf ID": {
+      "type": "integer"
+    },
+    "Visit End Time": {
+      "type": "string"
+    },
+    "Visit ID": {
+      "type": "string"
+    },
+    "Visit Start Time": {
+      "type": "string"
+    },
+    "Window Inner Height Pixel": {
+      "type": "integer"
+    },
+    "Window Inner Width Pixel": {
+      "type": "integer"
+    },
+    "Window Outer Height Pixel": {
+      "type": "integer"
+    },
+    "Window Outer Width Pixel": {
+      "type": "integer"
+    }
+  }
+}

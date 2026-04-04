@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "client_id": {
+      "type": "integer"
+    },
+    "tag_cloud_id": {
+      "type": "integer"
+    },
+    "active": {
+      "type": "integer"
+    },
+    "alias": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "name": {
+      "type": "string"
+    },
+    "rate": {
+      "type": "number"
+    },
+    "mdate": {
+      "type": "string"
+    },
+    "mtime": {
+      "type": "string"
+    }
+  }
+}

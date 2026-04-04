@@ -1,0 +1,42 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "broadcasterLanguage": {
+      "type": "string"
+    },
+    "broadcasterSoftware": {
+      "type": "string"
+    },
+    "game": {
+      "type": "string"
+    },
+    "gameId": {
+      "type": "integer"
+    },
+    "lastBroadcastId": {
+      "type": "integer"
+    },
+    "name": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "createdOn": {
+      "type": "string"
+    },
+    "lastBroadcastTime": {
+      "type": "string"
+    },
+    "updatedOn": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "tracking_code": {
+      "type": "string"
+    },
+    "tracking_url": {
+      "type": "string"
+    },
+    "custom_name": {
+      "type": "integer"
+    },
+    "carrier": {
+      "type": "string"
+    },
+    "destination_postal_code": {
+      "type": "integer"
+    },
+    "last_event_city": {
+      "type": "integer"
+    },
+    "last_event_state": {
+      "type": "integer"
+    },
+    "last_event_country": {
+      "type": "integer"
+    },
+    "last_event_message": {
+      "type": "string"
+    },
+    "last_event_postal_code": {
+      "type": "integer"
+    },
+    "last_event_status": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "archived": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "order_number": {
+      "type": "integer"
+    }
+  }
+}

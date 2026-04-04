@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "STATUS": {
+      "type": "string"
+    },
+    "ORIGIN": {
+      "type": "string"
+    },
+    "CLOSED_DATE": {
+      "type": "string"
+    },
+    "CREATED_DATE": {
+      "type": "string"
+    },
+    "CASE_OWNER_PROFILE_CUSTOMIZED": {
+      "type": "string"
+    },
+    "CUSTOMER_TYPE_CUSTOMIZED": {
+      "type": "string"
+    },
+    "PRODUCT_TYPE_CUSTOMIZED": {
+      "type": "string"
+    }
+  }
+}

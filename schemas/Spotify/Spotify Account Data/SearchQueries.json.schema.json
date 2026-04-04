@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "platform": {
+        "type": [
+          "integer",
+          "string"
+        ]
+      },
+      "searchTime": {
+        "type": "string"
+      },
+      "searchQuery": {
+        "type": [
+          "integer",
+          "string"
+        ]
+      },
+      "searchInteractionURIs": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "anyOf": [
+    {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    {
+      "type": "object",
+      "properties": {
+        "login_date": {
+          "type": "string"
+        },
+        "platform": {
+          "type": "string"
+        },
+        "first_activity_timestamp": {
+          "type": "string"
+        },
+        "last_activity_timestamp": {
+          "type": "string"
+        },
+        "user_name": {
+          "type": "string"
+        }
+      }
+    }
+  ]
+}

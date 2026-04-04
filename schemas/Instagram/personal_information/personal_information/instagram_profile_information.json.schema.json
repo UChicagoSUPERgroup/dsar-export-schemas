@@ -1,0 +1,123 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "profile_account_insights": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "integer"
+          },
+          "media_map_data": {
+            "type": "object"
+          },
+          "string_map_data": {
+            "type": "object",
+            "properties": {
+              "Sincroniza\u00c3\u00a7\u00c3\u00a3o de contactos": {
+                "type": "object",
+                "properties": {
+                  "href": {
+                    "type": "integer"
+                  },
+                  "value": {
+                    "type": "string"
+                  },
+                  "timestamp": {
+                    "type": "integer"
+                  }
+                }
+              },
+              "Partilhou v\u00c3\u00addeos em direto": {
+                "type": "object",
+                "properties": {
+                  "href": {
+                    "type": "integer"
+                  },
+                  "value": {
+                    "type": "string"
+                  },
+                  "timestamp": {
+                    "type": "integer"
+                  }
+                }
+              },
+              "\u00c3\u009altimo acesso": {
+                "type": "object",
+                "properties": {
+                  "href": {
+                    "type": "integer"
+                  },
+                  "value": {
+                    "type": "integer"
+                  },
+                  "timestamp": {
+                    "type": "string"
+                  }
+                }
+              },
+              "\u00c3\u009altimo fim de sess\u00c3\u00a3o": {
+                "type": "object",
+                "properties": {
+                  "href": {
+                    "type": "integer"
+                  },
+                  "value": {
+                    "type": "integer"
+                  },
+                  "timestamp": {
+                    "type": "string"
+                  }
+                }
+              },
+              "Hora da primeira hist\u00c3\u00b3ria": {
+                "type": "object",
+                "properties": {
+                  "href": {
+                    "type": "integer"
+                  },
+                  "value": {
+                    "type": "integer"
+                  },
+                  "timestamp": {
+                    "type": "string"
+                  }
+                }
+              },
+              "Hora da \u00c3\u00baltima hist\u00c3\u00b3ria": {
+                "type": "object",
+                "properties": {
+                  "href": {
+                    "type": "integer"
+                  },
+                  "value": {
+                    "type": "integer"
+                  },
+                  "timestamp": {
+                    "type": "string"
+                  }
+                }
+              },
+              "Hora da primeira hist\u00c3\u00b3ria para os Amigos Chegados": {
+                "type": "object",
+                "properties": {
+                  "href": {
+                    "type": "integer"
+                  },
+                  "value": {
+                    "type": "integer"
+                  },
+                  "timestamp": {
+                    "type": "integer"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

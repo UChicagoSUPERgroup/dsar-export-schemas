@@ -1,0 +1,72 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Case ID": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Case Title": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Interaction Type": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Apple ID Number": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "First Name": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Last Name": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Email": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Phone Number": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Serial Number": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Order Number": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Creation Date": {
+      "type": [
+        "null",
+        "string"
+      ]
+    }
+  }
+}

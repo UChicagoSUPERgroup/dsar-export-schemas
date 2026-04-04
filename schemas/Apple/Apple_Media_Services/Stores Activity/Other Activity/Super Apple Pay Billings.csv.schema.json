@@ -1,0 +1,132 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Account ID": {
+      "type": "string"
+    },
+    "Active User": {
+      "type": "string"
+    },
+    "Alternative Payments": {
+      "type": "string"
+    },
+    "Apple Account Number": {
+      "type": "string"
+    },
+    "Apple Pay Active": {
+      "type": "string"
+    },
+    "Apple Pay Enrollment Timestamp": {
+      "type": "integer"
+    },
+    "Apple Pay Integration Type": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Bank Name": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Billing Workflow": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Card ID": {
+      "type": "string"
+    },
+    "Card Network": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Content ID": {
+      "type": "string"
+    },
+    "Content Price": {
+      "type": "number"
+    },
+    "Content Purchased": {
+      "type": "string"
+    },
+    "Device Version": {
+      "type": "string"
+    },
+    "Exchange Rate": {
+      "type": "number"
+    },
+    "Is Enrolled": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Is Free": {
+      "type": "string"
+    },
+    "Local Currency Amount": {
+      "type": "number"
+    },
+    "Operating System Version": {
+      "type": [
+        "number",
+        "string"
+      ]
+    },
+    "Payment Type": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Platform Name": {
+      "type": "string"
+    },
+    "Product Purchase Type": {
+      "type": "string"
+    },
+    "Purchase Card ID": {
+      "type": "string"
+    },
+    "Purchase Date": {
+      "type": "string"
+    },
+    "Purchase ID": {
+      "type": "integer"
+    },
+    "Purchase Type": {
+      "type": "integer"
+    },
+    "Purchased Item ID": {
+      "type": "string"
+    },
+    "Signup Period per Card": {
+      "type": "integer"
+    },
+    "Signup Period per Wallet": {
+      "type": "integer"
+    },
+    "Store Front": {
+      "type": "string"
+    },
+    "Transaction Initiator": {
+      "type": "string"
+    },
+    "Transaction Timestamp": {
+      "type": "string"
+    },
+    "Type of Purchase": {
+      "type": "string"
+    },
+    "USD Amount": {
+      "type": "number"
+    }
+  }
+}

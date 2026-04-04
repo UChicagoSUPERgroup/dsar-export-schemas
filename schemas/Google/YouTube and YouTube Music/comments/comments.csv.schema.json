@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Comment ID": {
+      "type": "string"
+    },
+    "Channel ID": {
+      "type": "string"
+    },
+    "Comment Create Timestamp": {
+      "type": "string"
+    },
+    "Price": {
+      "type": "integer"
+    },
+    "Parent Comment ID": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Video ID": {
+      "type": "string"
+    },
+    "Comment Text": {
+      "type": "string"
+    },
+    "Top-Level Comment ID": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    }
+  }
+}

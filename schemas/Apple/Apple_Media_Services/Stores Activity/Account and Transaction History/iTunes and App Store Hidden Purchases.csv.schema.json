@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Creation date": {
+      "type": "string"
+    },
+    "Modification date": {
+      "type": "integer"
+    },
+    "Hidden?": {
+      "type": "string"
+    },
+    "Item Description": {
+      "type": "string"
+    },
+    "Item Reference Number": {
+      "type": "integer"
+    }
+  }
+}

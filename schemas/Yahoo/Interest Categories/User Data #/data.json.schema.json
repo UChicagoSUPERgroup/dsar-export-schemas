@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Yahoo Mail": {
+      "type": "array"
+    },
+    "Recent Reactions": {
+      "type": "array"
+    },
+    "Yahoo Finance": {
+      "type": "array"
+    },
+    "Global yahoo.com": {
+      "type": "array"
+    },
+    "Yahoo Sports": {
+      "type": "array"
+    },
+    "yahoo.com": {
+      "type": "array"
+    },
+    "Yahoo Search": {
+      "type": "array"
+    },
+    "Recent Activities": {
+      "type": "array"
+    }
+  }
+}

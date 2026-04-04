@@ -1,0 +1,9 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "profile_profile_set_up": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Title/item type": {
+      "type": "integer"
+    },
+    "Origin Of Visit": {
+      "type": "string"
+    },
+    "Campaign Name": {
+      "type": "integer"
+    },
+    "Date/Time": {
+      "type": "string"
+    },
+    "Media Vendor": {
+      "type": "integer"
+    },
+    "Activity": {
+      "type": "string"
+    },
+    "Application Name": {
+      "type": "string"
+    }
+  }
+}

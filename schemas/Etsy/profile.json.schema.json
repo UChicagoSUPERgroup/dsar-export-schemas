@@ -1,0 +1,39 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Login name": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "string"
+    },
+    "First Name": {
+      "type": "string"
+    },
+    "Last Name": {
+      "type": "integer"
+    },
+    "Date of Birth": {
+      "type": "string"
+    },
+    "City": {
+      "type": "integer"
+    },
+    "Gender": {
+      "type": "string"
+    },
+    "Materials": {
+      "type": "integer"
+    },
+    "Date Joined": {
+      "type": "string"
+    },
+    "About": {
+      "type": "integer"
+    },
+    "Avatar": {
+      "type": "string"
+    }
+  }
+}

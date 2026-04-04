@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Feed URL": {
+      "type": "string"
+    },
+    "Episode ID": {
+      "type": "string"
+    },
+    "Visible?": {
+      "type": "integer"
+    },
+    "Marked as played on": {
+      "type": "integer"
+    },
+    "Manually set": {
+      "type": "string"
+    },
+    "Is New?": {
+      "type": "string"
+    },
+    "Last played on": {
+      "type": "integer"
+    },
+    "Playback position": {
+      "type": "integer"
+    },
+    "Play count": {
+      "type": "integer"
+    },
+    "Has been played?": {
+      "type": "integer"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Apple ID Number": {
+      "type": "string"
+    },
+    "Order Number": {
+      "type": "string"
+    },
+    "Item Purchased Date": {
+      "type": "string"
+    },
+    "Content Type": {
+      "type": "string"
+    },
+    "Item Reference Number": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Item Description": {
+      "type": "string"
+    },
+    "Seller": {
+      "type": "string"
+    },
+    "Device Identifier": {
+      "type": "string"
+    },
+    "Device Details": {
+      "type": "string"
+    },
+    "Device IP Address": {
+      "type": "string"
+    },
+    "iCloud Family Purchase?": {
+      "type": "string"
+    }
+  }
+}

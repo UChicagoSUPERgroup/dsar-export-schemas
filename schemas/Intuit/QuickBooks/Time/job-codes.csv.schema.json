@@ -1,0 +1,45 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "parent_id": {
+      "type": "integer"
+    },
+    "client_id": {
+      "type": "integer"
+    },
+    "global": {
+      "type": "integer"
+    },
+    "billable": {
+      "type": "integer"
+    },
+    "active": {
+      "type": "integer"
+    },
+    "ctime": {
+      "type": "string"
+    },
+    "mdate": {
+      "type": "string"
+    },
+    "mtime": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "rate": {
+      "type": "number"
+    },
+    "alias": {
+      "type": "integer"
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}

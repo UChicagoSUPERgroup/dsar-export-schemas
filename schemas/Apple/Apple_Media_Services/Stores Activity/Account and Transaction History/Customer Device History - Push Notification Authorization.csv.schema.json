@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Apple ID Number": {
+      "type": "string"
+    },
+    "Device Identifier": {
+      "type": "string"
+    },
+    "Device Name": {
+      "type": "string"
+    },
+    "Device Serial Number": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Associated Date": {
+      "type": "string"
+    },
+    "Latest Device Details": {
+      "type": "string"
+    }
+  }
+}

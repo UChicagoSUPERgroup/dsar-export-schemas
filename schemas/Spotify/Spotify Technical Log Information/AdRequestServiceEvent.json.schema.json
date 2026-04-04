@@ -1,0 +1,141 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "context_time": {
+        "type": "string"
+      },
+      "message_timestamp_ms": {
+        "type": "string"
+      },
+      "message_request_id": {
+        "type": "string"
+      },
+      "message_num_ads_returned": {
+        "type": "integer"
+      },
+      "message_num_slots_with_dependents": {
+        "type": "integer"
+      },
+      "message_pod_session": {
+        "type": "integer"
+      },
+      "message_pod_context": {
+        "type": "integer"
+      },
+      "message_user_agent": {
+        "type": "string"
+      },
+      "message_ad_id": {
+        "type": "integer"
+      },
+      "message_line_item_id": {
+        "type": "integer"
+      },
+      "message_creative_id": {
+        "type": "integer"
+      },
+      "message_inline_vast_id": {
+        "type": "integer"
+      },
+      "message_ad_type": {
+        "type": "integer"
+      },
+      "message_tracking_event_counts": {
+        "type": "string"
+      },
+      "message_ad_duration_in_seconds": {
+        "type": "integer"
+      },
+      "message_ad_response_id": {
+        "type": "string"
+      },
+      "message_programmatic_request_id": {
+        "type": "integer"
+      },
+      "message_audio_files": {
+        "type": "string"
+      },
+      "message_video_files": {
+        "type": "string"
+      },
+      "message_video_request_duration_seconds": {
+        "type": "integer"
+      },
+      "message_video_request_max_ads": {
+        "type": "integer"
+      },
+      "message_video_response_ads_returned": {
+        "type": "integer"
+      },
+      "message_audio_request_duration_seconds": {
+        "type": "integer"
+      },
+      "message_audio_request_max_ads": {
+        "type": "integer"
+      },
+      "message_audio_response_ads_returned": {
+        "type": "integer"
+      },
+      "message_slot_position": {
+        "type": "integer"
+      },
+      "message_ad_id_original": {
+        "type": "integer"
+      },
+      "message_ars_slot_type": {
+        "type": "string"
+      },
+      "message_ip_country": {
+        "type": "string"
+      },
+      "message_fallback_eligibility_type": {
+        "type": "string"
+      },
+      "message_ars_slot_extra_info": {
+        "type": [
+          "integer",
+          "string"
+        ]
+      },
+      "message_gdpr_consent_status": {
+        "type": "string"
+      },
+      "message_ad_system": {
+        "type": "integer"
+      },
+      "message_podcast_context": {
+        "type": "integer"
+      },
+      "message_fallback_video_request_max_ads": {
+        "type": "integer"
+      },
+      "message_fallback_video_request_duration_in_seconds": {
+        "type": "integer"
+      },
+      "message_fallback_audio_request_max_ads": {
+        "type": "integer"
+      },
+      "message_fallback_audio_request_duration_in_seconds": {
+        "type": "integer"
+      },
+      "message_ad_platform": {
+        "type": "string"
+      },
+      "message_in_sponsored_playlist": {
+        "type": "boolean"
+      },
+      "message_sponsored_playlist_ad_returned": {
+        "type": "boolean"
+      },
+      "message_playlist_uri": {
+        "type": "integer"
+      },
+      "timestamp_utc": {
+        "type": "string"
+      }
+    }
+  }
+}

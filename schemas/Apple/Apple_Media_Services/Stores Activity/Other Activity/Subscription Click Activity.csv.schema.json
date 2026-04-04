@@ -1,0 +1,576 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Action Context": {
+      "type": "integer"
+    },
+    "Action Details": {
+      "type": "integer"
+    },
+    "Action Type": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Action URL": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Active Subscription Catalog ID": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Activity Subscription Catalog Name": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Analytics Variant": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "App Name": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "App Version": {
+      "type": "number"
+    },
+    "Apple ID Number": {
+      "type": "string"
+    },
+    "Attempted Subscription Bundle": {
+      "type": "integer"
+    },
+    "Attempted Subscription Bundle ID": {
+      "type": "integer"
+    },
+    "Attempted Subscription Catalog Name": {
+      "type": "integer"
+    },
+    "Attempted Subscription Free Trial Period": {
+      "type": "integer"
+    },
+    "Attempted Subscription ID": {
+      "type": "integer"
+    },
+    "Attempted Subscription Offer ID": {
+      "type": "integer"
+    },
+    "Attempted Subscription Offer Period": {
+      "type": "integer"
+    },
+    "Attempted Subscription Period": {
+      "type": "integer"
+    },
+    "Attempted Subscription Price": {
+      "type": "integer"
+    },
+    "Attempted Subscription Product Type": {
+      "type": "integer"
+    },
+    "Attempted Subscription Purchase ID": {
+      "type": "integer"
+    },
+    "Attempted Subscription Purchase Item ID": {
+      "type": "integer"
+    },
+    "Authorization List": {
+      "type": "integer"
+    },
+    "Billing Information": {
+      "type": "integer"
+    },
+    "BuyInfo Country": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "BuyInfo Price": {
+      "type": "number"
+    },
+    "BuyInfo Subscription Catalog Name": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "BuyInfo Subscription Product Type": {
+      "type": "integer"
+    },
+    "Carrier Subscription Offers": {
+      "type": "integer"
+    },
+    "Channel Link Partner": {
+      "type": "integer"
+    },
+    "Channel Link Partner ID": {
+      "type": "integer"
+    },
+    "Channel Link Partner Type": {
+      "type": "integer"
+    },
+    "Channel Link Product Code": {
+      "type": "integer"
+    },
+    "Channel Link Service": {
+      "type": "integer"
+    },
+    "Channel Partner": {
+      "type": "integer"
+    },
+    "Channel Transaction Partner ID": {
+      "type": "integer"
+    },
+    "Channel Transaction Partner Type": {
+      "type": "integer"
+    },
+    "Channel Transaction Product Code": {
+      "type": "integer"
+    },
+    "Channel Transaction Service": {
+      "type": "integer"
+    },
+    "Client Correlation Key": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Code Redemption Code": {
+      "type": "integer"
+    },
+    "Code Redemption Error Key": {
+      "type": "integer"
+    },
+    "Code Redemption Free Product Code ID": {
+      "type": "integer"
+    },
+    "Code Redemption isRedemption": {
+      "type": "integer"
+    },
+    "Code Redemption Promotion ID": {
+      "type": "integer"
+    },
+    "Code Redemption Subscription Product": {
+      "type": "integer"
+    },
+    "Commerce Flow": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Commerce Flow Type": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Contact Support Indicator": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Country": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Delegate App Name": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Destination URL": {
+      "type": "integer"
+    },
+    "Dialog Code": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Dialog ID": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Dialog Message": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Dialog Options": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Dialog Result": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Dialog Type": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Eligibility Type": {
+      "type": "integer"
+    },
+    "Entry Location": {
+      "type": "integer"
+    },
+    "Event ID": {
+      "type": "string"
+    },
+    "Event Time": {
+      "type": "string"
+    },
+    "Event Type": {
+      "type": "string"
+    },
+    "Event Version": {
+      "type": "integer"
+    },
+    "Expired Subscription Catalog ID": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Expiring Subscription Catalog ID": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Fraud Check Is Rejected": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Fraud Check Result": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Fraud Check Status": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Host App": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Impressions": {
+      "type": "integer"
+    },
+    "InApp Manage Indicator": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "IP Country Code": {
+      "type": "string"
+    },
+    "IP Region": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "IP Timezone": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Is Signed In": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Linkable Subscription Catalog ID": {
+      "type": "integer"
+    },
+    "Locations": {
+      "type": "integer"
+    },
+    "Marketing IDs": {
+      "type": "integer"
+    },
+    "Masked IP": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Metrics Client ID": {
+      "type": "string"
+    },
+    "Offer Placement": {
+      "type": "integer"
+    },
+    "Offer Placement Type": {
+      "type": "integer"
+    },
+    "Offer Scenario Type": {
+      "type": "integer"
+    },
+    "Offer Trial Period": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Offer Type": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Offer Variant": {
+      "type": "integer"
+    },
+    "Operating System": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Operating System Version": {
+      "type": [
+        "number",
+        "string"
+      ]
+    },
+    "Page": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Page Context": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Page Details": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Page ID": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Page Type": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Process Step": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Purchase Context List": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Purchase List": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Purchased Subscription List": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Referral App Name": {
+      "type": "integer"
+    },
+    "Renewal Receipts Indicator": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Result Error Key": {
+      "type": "integer"
+    },
+    "Result Exception Code": {
+      "type": "integer"
+    },
+    "Result type": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Selection Opportunities": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Store Front Header": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Subscription Cancellation - Content Download Indicator": {
+      "type": "integer"
+    },
+    "Subscription Cancellation - Contingent Pricing Indicator": {
+      "type": "integer"
+    },
+    "Subscription Cancellation - Family Share Indicator": {
+      "type": "integer"
+    },
+    "Subscription Change": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Subscription Marketing Item": {
+      "type": "integer"
+    },
+    "Subscription Offer Type": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Subscription Renewal Indicator": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Subscription Sharing Indicator": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Subscription State": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Target ID": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Target Type": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Timezone Offset Min": {
+      "type": "integer"
+    },
+    "Topic": {
+      "type": "string"
+    },
+    "Upcoming Subscription Catalog ID": {
+      "type": "integer"
+    },
+    "User Actions": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "User Agent": {
+      "type": "string"
+    },
+    "Visit End Time": {
+      "type": "string"
+    },
+    "Visit ID": {
+      "type": "string"
+    },
+    "Visit Start Time": {
+      "type": "string"
+    },
+    "Alternate SKU": {
+      "type": "integer"
+    },
+    "Apple Account Number": {
+      "type": "string"
+    },
+    "Browser Name": {
+      "type": "integer"
+    },
+    "Duplicate Subscription Flag": {
+      "type": "integer"
+    },
+    "Duplicate Subscription IDs": {
+      "type": "integer"
+    },
+    "Generic Cancellation Messaging": {
+      "type": "integer"
+    },
+    "Personalized Cancellation Messaging": {
+      "type": "integer"
+    },
+    "Promotional Offer": {
+      "type": "integer"
+    },
+    "Subscription Offer ID": {
+      "type": "integer"
+    },
+    "Visit Start Date": {
+      "type": "string"
+    }
+  }
+}

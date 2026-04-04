@@ -1,0 +1,139 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "ig_stories": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "uri": {
+            "type": "string"
+          },
+          "creation_timestamp": {
+            "type": "string"
+          },
+          "media_metadata": {
+            "type": "object",
+            "properties": {
+              "photo_metadata": {
+                "type": "object",
+                "properties": {
+                  "exif_data": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "scene_capture_type": {
+                          "type": "string"
+                        },
+                        "software": {
+                          "type": [
+                            "number",
+                            "string"
+                          ]
+                        },
+                        "device_id": {
+                          "type": "string"
+                        },
+                        "camera_position": {
+                          "type": "string"
+                        },
+                        "date_time_digitized": {
+                          "type": "string"
+                        },
+                        "date_time_original": {
+                          "type": "string"
+                        },
+                        "source_type": {
+                          "type": [
+                            "integer",
+                            "string"
+                          ]
+                        },
+                        "iso": {
+                          "type": "integer"
+                        },
+                        "focal_length": {
+                          "type": "number"
+                        },
+                        "lens_model": {
+                          "type": "string"
+                        },
+                        "scene_type": {
+                          "type": "integer"
+                        },
+                        "lens_make": {
+                          "type": "string"
+                        },
+                        "aperture": {
+                          "type": "number"
+                        },
+                        "shutter_speed": {
+                          "type": "number"
+                        },
+                        "metering_mode": {
+                          "type": "integer"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "camera_metadata": {
+                "type": "object",
+                "properties": {
+                  "has_camera_metadata": {
+                    "type": "boolean"
+                  }
+                }
+              },
+              "video_metadata": {
+                "type": "object",
+                "properties": {
+                  "exif_data": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "device_id": {
+                          "type": "string"
+                        },
+                        "camera_position": {
+                          "type": "string"
+                        },
+                        "source_type": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "title": {
+            "type": [
+              "integer",
+              "string"
+            ]
+          },
+          "cross_post_source": {
+            "type": "object",
+            "properties": {
+              "source_app": {
+                "type": "string"
+              }
+            }
+          },
+          "dubbing_info": {
+            "type": "array"
+          },
+          "media_variants": {
+            "type": "array"
+          }
+        }
+      }
+    }
+  }
+}

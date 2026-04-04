@@ -1,0 +1,69 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "Container Type": {
+        "type": "string"
+      },
+      "Container Identifier": {
+        "type": "integer"
+      },
+      "Title": {
+        "type": [
+          "integer",
+          "string"
+        ]
+      },
+      "Playlist Item Identifiers": {
+        "type": "array",
+        "items": {
+          "type": "integer"
+        }
+      },
+      "Favorite Status - Playlist": {
+        "type": "boolean"
+      },
+      "Favorite Date - Playlist": {
+        "type": "string"
+      },
+      "Added Date": {
+        "type": "string"
+      },
+      "Name or Description Modified Date": {
+        "type": "string"
+      },
+      "Playlist Items Modified Date": {
+        "type": "string"
+      },
+      "Parent Folder Identifier": {
+        "type": "integer"
+      },
+      "Public Playlist Identifier": {
+        "type": "string"
+      },
+      "Playlist Is Shared": {
+        "type": "boolean"
+      },
+      "Playlist Previously Shared": {
+        "type": "boolean"
+      },
+      "Description": {
+        "type": [
+          "integer",
+          "string"
+        ]
+      },
+      "Available On Apple Music Profile": {
+        "type": "boolean"
+      },
+      "Suppressed Fields": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

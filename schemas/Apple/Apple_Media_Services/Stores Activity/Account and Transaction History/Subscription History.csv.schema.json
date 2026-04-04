@@ -1,0 +1,63 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Apple ID Number": {
+      "type": "string"
+    },
+    "Subscription Initiated Date": {
+      "type": "string"
+    },
+    "Content Type": {
+      "type": "string"
+    },
+    "Item Reference Number": {
+      "type": "string"
+    },
+    "Item Description": {
+      "type": "string"
+    },
+    "Seller": {
+      "type": "string"
+    },
+    "Container Reference Number": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Container Description": {
+      "type": "string"
+    },
+    "Device Identifier": {
+      "type": "string"
+    },
+    "Device IP Address": {
+      "type": "string"
+    },
+    "Device Details": {
+      "type": "string"
+    },
+    "Automatic Renewal?": {
+      "type": "string"
+    },
+    "Last Automatic Renewal Disabled Date": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Last Automatic Renewal Enabled Date": {
+      "type": "string"
+    },
+    "Is part of subscription bundle?": {
+      "type": "string"
+    },
+    "External Partner ID": {
+      "type": [
+        "number",
+        "string"
+      ]
+    }
+  }
+}

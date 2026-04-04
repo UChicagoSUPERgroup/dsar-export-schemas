@@ -1,0 +1,192 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "time": {
+      "type": "string"
+    },
+    "ip": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "region": {
+      "type": "integer"
+    },
+    "asn_id": {
+      "type": "integer"
+    },
+    "provider": {
+      "type": "string"
+    },
+    "device_id": {
+      "type": "string"
+    },
+    "system_version": {
+      "type": "integer"
+    },
+    "ad_type": {
+      "type": "integer"
+    },
+    "platform": {
+      "type": "string"
+    },
+    "partner": {
+      "type": "string"
+    },
+    "logged_in": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "app_build": {
+      "type": "integer"
+    },
+    "roll_type": {
+      "type": "string"
+    },
+    "device_model": {
+      "type": "integer"
+    },
+    "channel": {
+      "type": "string"
+    },
+    "device_software": {
+      "type": "integer"
+    },
+    "live": {
+      "type": "string"
+    },
+    "device_orientation": {
+      "type": "integer"
+    },
+    "time_break": {
+      "type": "integer"
+    },
+    "viewer_count": {
+      "type": "integer"
+    },
+    "promotional": {
+      "type": "integer"
+    },
+    "distinct_id": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "source": {
+      "type": "integer"
+    },
+    "game": {
+      "type": "string"
+    },
+    "login": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "client_time": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "backend": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "content_mode": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "stitched": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "vod_id": {
+      "type": "integer"
+    },
+    "time_utc": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "app_version": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "user_id": {
+      "type": "integer"
+    },
+    "channel_id": {
+      "type": "integer"
+    },
+    "ads_opt_in": {
+      "type": "integer"
+    },
+    "player": {
+      "type": "string"
+    },
+    "amzniid": {
+      "type": "integer"
+    },
+    "amznbid": {
+      "type": "integer"
+    },
+    "client_app": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "broadcaster_software": {
+      "type": "integer"
+    },
+    "backend_version": {
+      "type": "integer"
+    },
+    "ad_server": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "client_triggered": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "player_size_mode": {
+      "type": "integer"
+    },
+    "is_pbyp": {
+      "type": "integer"
+    },
+    "ad_format": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "adv_id": {
+      "type": "integer"
+    }
+  }
+}

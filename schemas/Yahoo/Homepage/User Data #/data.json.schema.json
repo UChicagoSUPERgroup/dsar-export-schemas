@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "publishers": {
+      "type": "object",
+      "properties": {
+        "entities": {
+          "type": "array"
+        }
+      }
+    }
+  }
+}

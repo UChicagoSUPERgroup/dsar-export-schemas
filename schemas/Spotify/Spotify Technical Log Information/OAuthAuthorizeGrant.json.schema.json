@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "context_time": {
+        "type": "string"
+      },
+      "message_user_agent": {
+        "type": "string"
+      },
+      "message_response_type": {
+        "type": "string"
+      },
+      "message_fronted_version": {
+        "type": "string"
+      },
+      "message_redirect_uri": {
+        "type": "string"
+      },
+      "message_client_app_id": {
+        "type": "integer"
+      },
+      "timestamp_utc": {
+        "type": "string"
+      }
+    }
+  }
+}

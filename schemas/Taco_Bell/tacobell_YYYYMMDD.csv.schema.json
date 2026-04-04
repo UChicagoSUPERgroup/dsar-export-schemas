@@ -1,0 +1,132 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Title": {
+      "type": "integer"
+    },
+    "First Name": {
+      "type": "string"
+    },
+    "Last Name": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "string"
+    },
+    "Phone": {
+      "type": "integer"
+    },
+    "Address": {
+      "type": "integer"
+    },
+    "City": {
+      "type": "integer"
+    },
+    "State": {
+      "type": "integer"
+    },
+    "Zip Code": {
+      "type": "integer"
+    },
+    "Gender": {
+      "type": "integer"
+    },
+    "Birthday": {
+      "type": "integer"
+    },
+    "Anniversary": {
+      "type": "integer"
+    },
+    "Secondary Email": {
+      "type": "integer"
+    },
+    "Fb Uid": {
+      "type": "integer"
+    },
+    "Time Zone": {
+      "type": "integer"
+    },
+    "Signup Channel": {
+      "type": "string"
+    },
+    "Preferred Locale": {
+      "type": "integer"
+    },
+    "Marketing Email Subscription": {
+      "type": "string"
+    },
+    "Marketing Pn Subscription": {
+      "type": "string"
+    },
+    "Sms Subscription": {
+      "type": "string"
+    },
+    "Unsubscribed": {
+      "type": "string"
+    },
+    "Unsubscribe Reason": {
+      "type": "integer"
+    },
+    "Age Verified": {
+      "type": "string"
+    },
+    "Banned": {
+      "type": "string"
+    },
+    "Current Sign In Ip": {
+      "type": "integer"
+    },
+    "Last User Agent": {
+      "type": "integer"
+    },
+    "Terms And Conditions": {
+      "type": "string"
+    },
+    "Privacy Policy": {
+      "type": "string"
+    },
+    "Referral Code": {
+      "type": "integer"
+    },
+    "Invite Code": {
+      "type": "integer"
+    },
+    "Created At": {
+      "type": "string"
+    },
+    "Updated At": {
+      "type": "string"
+    },
+    "Joined At": {
+      "type": "integer"
+    },
+    "Confirmation Sent At": {
+      "type": "integer"
+    },
+    "Confirmed At": {
+      "type": "integer"
+    },
+    "Current Sign In At": {
+      "type": "integer"
+    },
+    "Last Sign In Ip": {
+      "type": "integer"
+    },
+    "Last Sign In At": {
+      "type": "integer"
+    },
+    "Last Activity At": {
+      "type": "string"
+    },
+    "Sign In Count": {
+      "type": "integer"
+    },
+    "Old Membership No": {
+      "type": "integer"
+    },
+    "Favorite Locations": {
+      "type": "integer"
+    }
+  }
+}

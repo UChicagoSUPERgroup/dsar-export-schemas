@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "portfolioTransactions": {
+      "type": "array"
+    },
+    "yodleeUser": {
+      "type": "object"
+    },
+    "comments": {
+      "type": "array"
+    },
+    "userMetaData": {
+      "type": "object"
+    },
+    "portfolios": {
+      "type": "array"
+    },
+    "triggerAlerts": {
+      "type": "array"
+    },
+    "yodleePortfolios": {
+      "type": "array"
+    },
+    "yodleeTransactions": {
+      "type": "array"
+    },
+    "portfolioViews": {
+      "type": "array"
+    },
+    "screeners": {
+      "type": "array"
+    },
+    "qspReactions": {
+      "type": "array"
+    },
+    "userPreferences": {
+      "type": "array"
+    },
+    "screenerViews": {
+      "type": "array"
+    },
+    "dockSettings": {
+      "type": "object",
+      "properties": {
+        "dockModules": {
+          "type": "array"
+        }
+      }
+    },
+    "communityData": {
+      "type": "array"
+    },
+    "notifications": {
+      "type": "array"
+    }
+  }
+}

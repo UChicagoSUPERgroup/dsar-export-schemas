@@ -1,0 +1,69 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "context_time": {
+        "type": "string"
+      },
+      "context_receiver_service_timestamp": {
+        "type": "string"
+      },
+      "context_device_manufacturer": {
+        "type": "string"
+      },
+      "context_device_model": {
+        "type": "string"
+      },
+      "context_device_type": {
+        "type": "string"
+      },
+      "context_os_name": {
+        "type": "string"
+      },
+      "context_os_version": {
+        "type": "string"
+      },
+      "context_application_version": {
+        "type": "string"
+      },
+      "context_conn_country": {
+        "type": "string"
+      },
+      "message_action": {
+        "type": "string"
+      },
+      "message_protocol": {
+        "type": "string"
+      },
+      "message_transport_type": {
+        "type": "integer"
+      },
+      "message_accessory_type": {
+        "type": "integer"
+      },
+      "message_accessory_name": {
+        "type": "integer"
+      },
+      "message_brand": {
+        "type": "integer"
+      },
+      "message_model": {
+        "type": "integer"
+      },
+      "message_version": {
+        "type": "integer"
+      },
+      "message_client_id": {
+        "type": "integer"
+      },
+      "message_accessory_class": {
+        "type": "integer"
+      },
+      "timestamp_utc": {
+        "type": "string"
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Date Changed": {
+      "type": "string"
+    },
+    "User": {
+      "type": "string"
+    },
+    "Event": {
+      "type": "string"
+    },
+    "ID": {
+      "type": "string"
+    },
+    "Name": {
+      "type": "integer"
+    },
+    "Date": {
+      "type": "integer"
+    },
+    "Amount": {
+      "type": "integer"
+    }
+  }
+}

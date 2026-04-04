@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Bitly SAR Report Details": {
+      "type": "string"
+    },
+    "<url>": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "settings": {
+      "type": "object",
+      "properties": {
+        "identifiers": {
+          "type": "object",
+          "properties": {
+            "aliases": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "identifier": {
+                    "type": "string"
+                  },
+                  "domain": {
+                    "type": "string"
+                  },
+                  "attributes": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "phones": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "number": {
+                "type": "string"
+              },
+              "isVerified": {
+                "type": "boolean"
+              },
+              "confirmedTime": {
+                "type": "string"
+              },
+              "addedTime": {
+                "type": "string"
+              },
+              "isMarkedAsDeleted": {
+                "type": "boolean"
+              },
+              "contexts": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "type": {
+                "type": "string"
+              },
+              "verifiedTime": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "legalData": {
+          "type": "object",
+          "properties": {
+            "universalTOS": {
+              "type": "object",
+              "properties": {
+                "jurisdiction": {
+                  "type": "string"
+                },
+                "language": {
+                  "type": "string"
+                },
+                "id": {
+                  "type": "string"
+                },
+                "timestamp": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "personalSettings": {
+          "type": "object",
+          "properties": {
+            "firstName": {
+              "type": "string"
+            },
+            "lastName": {
+              "type": "string"
+            },
+            "address": {
+              "type": "object"
+            },
+            "gender": {
+              "type": "string"
+            },
+            "nickname": {
+              "type": "string"
+            },
+            "birthDate": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "locales": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "coppa": {
+      "type": "object"
+    },
+    "devices": {
+      "type": "object",
+      "properties": {
+        "<number>": {
+          "type": "object",
+          "properties": {
+            "lastSeenTime": {
+              "type": "string"
+            },
+            "deviceTypeId": {
+              "type": "string"
+            },
+            "browserId": {
+              "type": "string"
+            },
+            "creationTime": {
+              "type": "string"
+            },
+            "isActiveSession": {
+              "type": "boolean"
+            },
+            "osId": {
+              "type": "string"
+            },
+            "history": {
+              "type": "array"
+            }
+          }
+        }
+      }
+    },
+    "oauth#Clients": {
+      "type": "object",
+      "properties": {
+        "<number>": {
+          "type": "object",
+          "properties": {
+            "client": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "scopes": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "authorizedScopes": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "authorizationTime": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "authActivity": {
+      "type": "object",
+      "properties": {
+        "authFactorChange": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "eventTime": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "accountCreationTime": {
+      "type": "string"
+    },
+    "openIdData": {
+      "type": "object"
+    }
+  }
+}

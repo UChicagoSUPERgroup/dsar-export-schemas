@@ -1,0 +1,94 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "bookingSessions": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "listingOwnerProfileUrl": {
+              "type": "string"
+            },
+            "createdAt": {
+              "type": "string"
+            },
+            "primaryGuestProfileUrl": {
+              "type": "string"
+            },
+            "updatedAt": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "reservations": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "guestCurrency": {
+              "type": "string"
+            },
+            "confirmationCode": {
+              "type": "string"
+            },
+            "isBringingPets": {
+              "type": "integer"
+            },
+            "guestProfileUrl": {
+              "type": "string"
+            },
+            "numberOfGuests": {
+              "type": "integer"
+            },
+            "hostRespondeAt": {
+              "type": "string"
+            },
+            "numberOfInfants": {
+              "type": "integer"
+            },
+            "createdAt": {
+              "type": "string"
+            },
+            "hostingUrl": {
+              "type": "string"
+            },
+            "guestVatCountry": {
+              "type": "string"
+            },
+            "numberOfChildren": {
+              "type": "integer"
+            },
+            "numberOfAdults": {
+              "type": "integer"
+            },
+            "numberOfPets": {
+              "type": "integer"
+            },
+            "nights": {
+              "type": "integer"
+            },
+            "hostProfileUrl": {
+              "type": "string"
+            },
+            "startDate": {
+              "type": "string"
+            },
+            "status": {
+              "type": "string"
+            },
+            "updatedAt": {
+              "type": "string"
+            },
+            "message": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}

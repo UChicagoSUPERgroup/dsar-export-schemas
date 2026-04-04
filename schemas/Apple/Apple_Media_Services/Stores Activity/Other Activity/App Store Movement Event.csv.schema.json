@@ -1,0 +1,189 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Account Match": {
+      "type": "string"
+    },
+    "App Name": {
+      "type": "string"
+    },
+    "Apple Account Number": {
+      "type": "string"
+    },
+    "Bundle Indicator": {
+      "type": "string"
+    },
+    "Client ID": {
+      "type": "string"
+    },
+    "Contingency Indicator": {
+      "type": "string"
+    },
+    "Contingent Item ID": {
+      "type": "integer"
+    },
+    "Contingent Trunk App ID": {
+      "type": "integer"
+    },
+    "Error Indicator": {
+      "type": "string"
+    },
+    "Event Date Time": {
+      "type": "string"
+    },
+    "Event Name": {
+      "type": "string"
+    },
+    "Expected Start Timestamp": {
+      "type": "string"
+    },
+    "Grace Expiration Timestamp": {
+      "type": "integer"
+    },
+    "Hardware Detail": {
+      "type": "string"
+    },
+    "Hardware Model": {
+      "type": "string"
+    },
+    "Intro Price Type": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Is Signed In": {
+      "type": "string"
+    },
+    "Next Bundle Indicator": {
+      "type": "string"
+    },
+    "Next Contingency Indicator": {
+      "type": "string"
+    },
+    "Next Contingent Item ID": {
+      "type": "integer"
+    },
+    "Next Error Indicator": {
+      "type": "string"
+    },
+    "Next State Type": {
+      "type": "string"
+    },
+    "Next Sub State Type": {
+      "type": "string"
+    },
+    "Next Subscription Type": {
+      "type": "string"
+    },
+    "Offer Mechanic": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Original Plan Subscription Period ID": {
+      "type": "integer"
+    },
+    "OS": {
+      "type": "string"
+    },
+    "OS Version": {
+      "type": "number"
+    },
+    "Partner Name": {
+      "type": "integer"
+    },
+    "Payment Name": {
+      "type": "string"
+    },
+    "Payment Type": {
+      "type": "string"
+    },
+    "Period Length Days": {
+      "type": "integer"
+    },
+    "Period Length Type": {
+      "type": "string"
+    },
+    "Platform Name": {
+      "type": "string"
+    },
+    "Previous Contingency Indicator": {
+      "type": "string"
+    },
+    "Previous Contingent Item ID": {
+      "type": "integer"
+    },
+    "Previous Error Indicator": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Previous Funding Type Code": {
+      "type": "string"
+    },
+    "Previous Offer Mechanic": {
+      "type": "string"
+    },
+    "Previous Offer Version": {
+      "type": "string"
+    },
+    "Previous State Type": {
+      "type": "string"
+    },
+    "Previous Sub State Type": {
+      "type": "string"
+    },
+    "Previous Subscription App Name": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Previous Subscription Type": {
+      "type": "string"
+    },
+    "Price": {
+      "type": "number"
+    },
+    "State End In Pacific Time": {
+      "type": "string"
+    },
+    "State End In Regional Time": {
+      "type": "string"
+    },
+    "State Start In Pacific Time": {
+      "type": "string"
+    },
+    "State Start In Regional Time": {
+      "type": "string"
+    },
+    "State Type": {
+      "type": "string"
+    },
+    "Store Front": {
+      "type": "string"
+    },
+    "Sub Event Name": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Sub State Type": {
+      "type": "string"
+    },
+    "Subscription App Name": {
+      "type": "string"
+    },
+    "Subscription Period Type": {
+      "type": "string"
+    },
+    "Subscription Type": {
+      "type": "string"
+    }
+  }
+}

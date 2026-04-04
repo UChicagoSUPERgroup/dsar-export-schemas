@@ -1,0 +1,69 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "context_time": {
+        "type": "string"
+      },
+      "context_receiver_service_timestamp": {
+        "type": "string"
+      },
+      "context_device_manufacturer": {
+        "type": "string"
+      },
+      "context_device_model": {
+        "type": "string"
+      },
+      "context_device_type": {
+        "type": "string"
+      },
+      "context_os_name": {
+        "type": "string"
+      },
+      "context_os_version": {
+        "type": "string"
+      },
+      "context_application_version": {
+        "type": "string"
+      },
+      "context_conn_country": {
+        "type": "string"
+      },
+      "message_total_tracks": {
+        "type": "integer"
+      },
+      "message_total_size": {
+        "type": "integer"
+      },
+      "message_owned_tracks": {
+        "type": "integer"
+      },
+      "message_owned_size": {
+        "type": "integer"
+      },
+      "message_tracks_not_found": {
+        "type": "integer"
+      },
+      "message_tracks_bad_format": {
+        "type": "integer"
+      },
+      "message_tracks_drm_protected": {
+        "type": "integer"
+      },
+      "message_tracks_unknown_pruned": {
+        "type": "integer"
+      },
+      "message_tracks_reallocated_repaired": {
+        "type": "integer"
+      },
+      "message_enabled_sources": {
+        "type": "integer"
+      },
+      "timestamp_utc": {
+        "type": "string"
+      }
+    }
+  }
+}

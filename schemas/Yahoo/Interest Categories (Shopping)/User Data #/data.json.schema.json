@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "inferredPreferableCategories": {
+      "type": "object",
+      "properties": {
+        "gcShoppingInferredPreferableCategories": {
+          "type": "array"
+        },
+        "twAuctionInferredPreferableCategories": {
+          "type": "array"
+        },
+        "twShoppingInferredPreferableCategories": {
+          "type": "array"
+        },
+        "twMarketplaceInferredPreferableCategories": {
+          "type": "array"
+        }
+      }
+    },
+    "browsingHistory": {
+      "type": "object",
+      "properties": {
+        "gcShoppingBrowsedRecords": {
+          "type": "array"
+        },
+        "twMarketplaceBrowsedRecords": {
+          "type": "array"
+        },
+        "twAuctionBrowsedRecords": {
+          "type": "array"
+        },
+        "twShoppingBrowsedRecords": {
+          "type": "array"
+        }
+      }
+    }
+  }
+}

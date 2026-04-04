@@ -1,0 +1,177 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "time": {
+      "type": "string"
+    },
+    "ip": {
+      "type": "integer"
+    },
+    "city": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "region": {
+      "type": "string"
+    },
+    "asn_id": {
+      "type": "integer"
+    },
+    "client_id": {
+      "type": "string"
+    },
+    "user_id": {
+      "type": "integer"
+    },
+    "user_read": {
+      "type": "string"
+    },
+    "chat_login": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "user_follows_edit": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "user_subscriptions": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "user_blocks_read": {
+      "type": "integer"
+    },
+    "user_blocks_edit": {
+      "type": "integer"
+    },
+    "user_push_subscriptions_edit": {
+      "type": "integer"
+    },
+    "channel_editor": {
+      "type": "integer"
+    },
+    "channel_read": {
+      "type": "integer"
+    },
+    "channel_subscriptions": {
+      "type": "integer"
+    },
+    "channel_commercial": {
+      "type": "integer"
+    },
+    "channel_check_subscription": {
+      "type": "integer"
+    },
+    "channel_stream": {
+      "type": "integer"
+    },
+    "metadata_events_edit": {
+      "type": "integer"
+    },
+    "sdk_broadcast": {
+      "type": "integer"
+    },
+    "channel_feed_read": {
+      "type": "integer"
+    },
+    "channel_feed_edit": {
+      "type": "integer"
+    },
+    "client_row_id": {
+      "type": "integer"
+    },
+    "time_utc": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "analytics_read_extensions": {
+      "type": "integer"
+    },
+    "analytics_read_games": {
+      "type": "integer"
+    },
+    "bits_read": {
+      "type": "integer"
+    },
+    "clips_edit": {
+      "type": "integer"
+    },
+    "drops_edit": {
+      "type": "integer"
+    },
+    "user_edit_broadcast": {
+      "type": "integer"
+    },
+    "user_read_email": {
+      "type": "integer"
+    },
+    "user_edit": {
+      "type": "integer"
+    },
+    "extensions_edit_catalog": {
+      "type": "integer"
+    },
+    "chat_read": {
+      "type": "integer"
+    },
+    "chat_edit": {
+      "type": "integer"
+    },
+    "channel_moderate": {
+      "type": "integer"
+    },
+    "whispers_read": {
+      "type": "integer"
+    },
+    "whispers_edit": {
+      "type": "integer"
+    },
+    "viewing_activity_read": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "collections_edit": {
+      "type": "integer"
+    },
+    "communities_moderate": {
+      "type": "integer"
+    },
+    "communities_edit": {
+      "type": "integer"
+    },
+    "user_entitlements_read": {
+      "type": "integer"
+    },
+    "user_friends_edit": {
+      "type": "integer"
+    },
+    "user_friends_read": {
+      "type": "integer"
+    },
+    "user_presence_read": {
+      "type": "integer"
+    },
+    "user_presence_edit": {
+      "type": "integer"
+    },
+    "user_presence_friends_read": {
+      "type": "integer"
+    },
+    "openid": {
+      "type": "integer"
+    }
+  }
+}

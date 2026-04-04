@@ -1,0 +1,183 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Browser History": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "favicon_url": {
+            "type": [
+              "integer",
+              "string"
+            ]
+          },
+          "page_transition_qualifier": {
+            "type": "string"
+          },
+          "title": {
+            "type": [
+              "integer",
+              "string"
+            ]
+          },
+          "url": {
+            "type": "string"
+          },
+          "time_usec": {
+            "type": "integer"
+          },
+          "client_id": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "Typed Url": {
+      "type": "array"
+    },
+    "Session": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "tab_node_id": {
+            "type": "integer"
+          },
+          "tab": {
+            "type": "object",
+            "properties": {
+              "current_navigation_index": {
+                "type": "integer"
+              },
+              "tab_id": {
+                "type": "integer"
+              },
+              "pinned": {
+                "type": "integer"
+              },
+              "navigation": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "navigation_from_address_bar": {
+                      "type": "integer"
+                    },
+                    "unique_id": {
+                      "type": "integer"
+                    },
+                    "favicon_url": {
+                      "type": "string"
+                    },
+                    "navigation_forward_back": {
+                      "type": "integer"
+                    },
+                    "http_status_code": {
+                      "type": "integer"
+                    },
+                    "global_id": {
+                      "type": "integer"
+                    },
+                    "page_transition": {
+                      "type": "string"
+                    },
+                    "title": {
+                      "type": "string"
+                    },
+                    "timestamp_msec": {
+                      "type": "integer"
+                    },
+                    "password_state": {
+                      "type": "string"
+                    },
+                    "referrer": {
+                      "type": [
+                        "integer",
+                        "string"
+                      ]
+                    },
+                    "virtual_url": {
+                      "type": "string"
+                    },
+                    "correct_referrer_policy": {
+                      "type": "integer"
+                    },
+                    "navigation_home_page": {
+                      "type": "integer"
+                    },
+                    "redirect_type": {
+                      "type": "string"
+                    }
+                  }
+                }
+              },
+              "extension_app_id": {
+                "type": "integer"
+              },
+              "browser_type": {
+                "type": "string"
+              },
+              "last_active_time_unix_epoch_millis": {
+                "type": "integer"
+              },
+              "window_id": {
+                "type": "integer"
+              },
+              "tab_visual_index": {
+                "type": "integer"
+              }
+            }
+          },
+          "session_tag": {
+            "type": "string"
+          },
+          "header": {
+            "type": "object",
+            "properties": {
+              "session_start_time_unix_epoch_millis": {
+                "type": "integer"
+              },
+              "device_form_factor": {
+                "type": "string"
+              },
+              "device_type": {
+                "type": "string"
+              },
+              "window": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "selected_tab_index": {
+                      "type": "integer"
+                    },
+                    "tab": {
+                      "type": "array",
+                      "items": {
+                        "type": "integer"
+                      }
+                    },
+                    "browser_type": {
+                      "type": "string"
+                    },
+                    "window_id": {
+                      "type": "integer"
+                    }
+                  }
+                }
+              },
+              "client_name": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "Shared Tab Group": {
+      "type": "array"
+    }
+  }
+}

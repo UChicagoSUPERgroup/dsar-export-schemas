@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "AchievementGroupName": {
+        "type": "string"
+      },
+      "AchievementName": {
+        "type": "string"
+      },
+      "EarnDate": {
+        "type": "string"
+      },
+      "Marketplace": {
+        "type": "string"
+      },
+      "Quantity": {
+        "type": "integer"
+      }
+    }
+  }
+}

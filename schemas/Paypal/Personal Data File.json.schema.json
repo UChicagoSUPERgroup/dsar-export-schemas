@@ -1,0 +1,295 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Personal Information": {
+      "type": "object",
+      "properties": {
+        "Profile Information": {
+          "type": "object",
+          "properties": {
+            "Preferred Name": {
+              "type": "string"
+            },
+            "First Name": {
+              "type": "string"
+            },
+            "Middle Name": {
+              "type": "integer"
+            },
+            "Last Name": {
+              "type": "string"
+            },
+            "Primary Address": {
+              "type": "string"
+            },
+            "Date Of Birth": {
+              "type": [
+                "integer",
+                "string"
+              ]
+            },
+            "SSN": {
+              "type": "integer"
+            },
+            "TAX ID": {
+              "type": "integer"
+            },
+            "Primary Mobile Phone Number": {
+              "type": "string"
+            },
+            "Nationality": {
+              "type": "string"
+            },
+            "Language": {
+              "type": "string"
+            },
+            "Primary E-mail": {
+              "type": "string"
+            }
+          }
+        },
+        "Copies of IDs (For Security reasons, please contact us for the copies of any identity documents)": {
+          "type": "object",
+          "properties": {
+            "ID Number": {
+              "type": "string"
+            }
+          }
+        },
+        "Addresses on File": {
+          "type": "object",
+          "properties": {
+            "Data": {
+              "type": "array",
+              "items": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "Phone numbers on File": {
+          "type": "object",
+          "properties": {
+            "Data": {
+              "type": "array",
+              "items": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "E-mail addresses on File": {
+          "type": "object",
+          "properties": {
+            "Data": {
+              "type": "array",
+              "items": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Financial Information": {
+      "type": "object",
+      "properties": {
+        "PayPal Account Information": {
+          "type": "object",
+          "properties": {
+            "Account Number": {
+              "type": "string"
+            },
+            "Account Type": {
+              "type": "string"
+            },
+            "Account Status": {
+              "type": "string"
+            },
+            "Account Balance as of MMM DD, YYYY HH:MM:SS": {
+              "type": "string"
+            },
+            "Account Time Zone": {
+              "type": "string"
+            },
+            "Account Open date": {
+              "type": "string"
+            },
+            "Account Close date": {
+              "type": "integer"
+            }
+          }
+        },
+        "*Account Status Information and Remarks": {
+          "type": "object",
+          "properties": {
+            "Open": {
+              "type": "string"
+            },
+            "Closed": {
+              "type": "string"
+            },
+            "Open - Locked": {
+              "type": "string"
+            },
+            "Open/Locked - Limited": {
+              "type": "string"
+            },
+            "Permanently Limited": {
+              "type": "string"
+            }
+          }
+        },
+        "Financial Application Status": {
+          "type": "object",
+          "properties": {
+            "Message": {
+              "type": "string"
+            }
+          }
+        },
+        "Crypto Currency Information as of MMM DD, YYYY HH:MM:SS": {
+          "type": "object",
+          "properties": {
+            "Message": {
+              "type": "string"
+            }
+          }
+        },
+        "Bank Information": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "Bank Information - <custom_name>": {
+                "type": "object",
+                "properties": {
+                  "Bank Name": {
+                    "type": "string"
+                  },
+                  "Bank Country": {
+                    "type": "string"
+                  },
+                  "Bank Currency": {
+                    "type": "string"
+                  },
+                  "Bank Address": {
+                    "type": "string"
+                  },
+                  "Bank Last #": {
+                    "type": "string"
+                  },
+                  "Branch Code": {
+                    "type": "integer"
+                  },
+                  "Bank Identifier Code": {
+                    "type": [
+                      "integer",
+                      "string"
+                    ]
+                  },
+                  "Bank Routing Number": {
+                    "type": "integer"
+                  },
+                  "IBAN / BBAN": {
+                    "type": [
+                      "integer",
+                      "string"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        },
+        "Device information upon which PayPal app is installed": {
+          "type": "object",
+          "properties": {
+            "Data": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "Device Brand": {
+                    "type": "string"
+                  },
+                  "Device Name": {
+                    "type": "string"
+                  },
+                  "Device Model": {
+                    "type": "string"
+                  },
+                  "NFC Enabled": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "Credit and Debit Cards linked to PayPal Account": {
+          "type": "object",
+          "properties": {
+            "Data": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "Card Issuer": {
+                    "type": "string"
+                  },
+                  "Network": {
+                    "type": "string"
+                  },
+                  "Card Last # Digits": {
+                    "type": "string"
+                  },
+                  "Expiry": {
+                    "type": "string"
+                  },
+                  "Contactless on App": {
+                    "type": "string"
+                  },
+                  "Currency": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Other Information": {
+      "type": "object",
+      "properties": {
+        "PayPal Rewards Information until MMM DD, YYYY HH:MM:SS": {
+          "type": "object",
+          "properties": {
+            "Points Available": {
+              "type": "integer"
+            }
+          }
+        },
+        "Email IDs Accessed for Package Tracking": {
+          "type": "object",
+          "properties": {
+            "Message": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Yahoo Finance - User Interests": {
+      "type": "array"
+    },
+    "Yahoo Sports - Recent Activities": {
+      "type": "array"
+    },
+    "Yahoo Finance - Recent Activities": {
+      "type": "array"
+    },
+    "Yahoo News - Recent Activities": {
+      "type": "array"
+    },
+    "Yahoo Sports - User Interests": {
+      "type": "array"
+    }
+  }
+}

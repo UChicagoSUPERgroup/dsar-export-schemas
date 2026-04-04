@@ -1,0 +1,238 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "events": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "stored_event": {
+            "type": "object",
+            "properties": {
+              "bundle_id": {
+                "type": "string"
+              },
+              "brand_id": {
+                "type": "string"
+              },
+              "external_playable_id": {
+                "type": [
+                  "integer",
+                  "string"
+                ]
+              },
+              "external_show_id": {
+                "type": "string"
+              },
+              "timestamp": {
+                "type": "string"
+              },
+              "play_cursor_in_milliseconds": {
+                "type": "integer"
+              },
+              "media_length_in_milliseconds": {
+                "type": "integer"
+              },
+              "is_done": {
+                "type": "boolean"
+              },
+              "media_type": {
+                "type": "string"
+              },
+              "canonical_id": {
+                "type": "string"
+              },
+              "canonical_show_id": {
+                "type": "string"
+              },
+              "allowlisted_headers": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "key": {
+                      "type": "string"
+                    },
+                    "value": {
+                      "type": [
+                        "integer",
+                        "string"
+                      ]
+                    }
+                  }
+                }
+              },
+              "client_is_done": {
+                "type": "boolean"
+              },
+              "statistics": {
+                "type": "object",
+                "properties": {
+                  "first_played_timestamp": {
+                    "type": "string"
+                  },
+                  "last_played_timestamp": {
+                    "type": "string"
+                  },
+                  "max_progress_percentage": {
+                    "type": "number"
+                  },
+                  "is_ever_done": {
+                    "type": "boolean"
+                  },
+                  "repeat_count": {
+                    "type": "integer"
+                  },
+                  "start_play_event_statistics": {
+                    "type": "object",
+                    "properties": {
+                      "count": {
+                        "type": "integer"
+                      },
+                      "latest_event_timestamp": {
+                        "type": "string"
+                      }
+                    }
+                  },
+                  "end_play_event_statistics": {
+                    "type": "object",
+                    "properties": {
+                      "count": {
+                        "type": "integer"
+                      },
+                      "latest_event_timestamp": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
+              },
+              "additional_attributes": {
+                "type": "object",
+                "properties": {
+                  "device_info": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "platform": {
+                          "type": [
+                            "integer",
+                            "string"
+                          ]
+                        },
+                        "manufacturer": {
+                          "type": [
+                            "integer",
+                            "string"
+                          ]
+                        },
+                        "last_played_timestamp": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "storefront_id": {
+                "type": "integer"
+              },
+              "play_position_in_milliseconds": {
+                "type": "integer"
+              },
+              "content_id": {
+                "type": "string"
+              },
+              "show_id": {
+                "type": "string"
+              }
+            }
+          },
+          "event_interpretation": {
+            "type": "object",
+            "properties": {
+              "human_readable_media_description": {
+                "type": "string"
+              },
+              "human_readable_timestamp": {
+                "type": "string"
+              },
+              "human_readable_brand": {
+                "type": "string"
+              },
+              "media_description": {
+                "type": "string"
+              },
+              "readable_timestamp": {
+                "type": "string"
+              },
+              "channel_name": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "trailer_playback": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "playbackInfos": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "trailerId": {
+                  "type": "string"
+                },
+                "playTimes": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "lifetimePlayCount": {
+                  "type": "integer"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "generated_at_timestamp": {
+      "type": "string"
+    },
+    "user_settings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "watchlistSettings": {
+            "type": "object",
+            "properties": {
+              "consent_settings": {
+                "type": "object",
+                "properties": {
+                  "global_account_consent_flag": {
+                    "type": "boolean"
+                  },
+                  "global_account_consent_date": {
+                    "type": "string"
+                  },
+                  "vppa_date": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

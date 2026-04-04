@@ -1,0 +1,102 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Device Name": {
+      "type": "string"
+    },
+    "Device Added Date": {
+      "type": "string"
+    },
+    "Device IMEI": {
+      "type": "string"
+    },
+    "Device Serial Number": {
+      "type": "string"
+    },
+    "Device Last Heartbeat IP": {
+      "type": "string"
+    },
+    "Device Last Heartbeat Timestamp": {
+      "type": "string"
+    },
+    "Device Model Name": {
+      "type": "string"
+    },
+    "Device Phone Number": {
+      "type": "string"
+    },
+    "Device ICCID": {
+      "type": "string"
+    },
+    "Device MEID": {
+      "type": "string"
+    },
+    "Device Time Zone": {
+      "type": "string"
+    },
+    "Device Locale Language": {
+      "type": "string"
+    },
+    "Initial Device App Installs": {
+      "type": "string"
+    },
+    "Updates/Restores To Device Apps": {
+      "type": "string"
+    },
+    "Initial installs of browser apps using a non-webkit web engine": {
+      "type": "string"
+    },
+    "Launches/Updates/Restores of browser apps using a non-webkit web engine": {
+      "type": "string"
+    },
+    "Prompts for default browser list": {
+      "type": "string"
+    },
+    "Web App Installs": {
+      "type": "string"
+    },
+    "Home Screen Web App enablement": {
+      "type": "string"
+    },
+    "Updates/Restores to Web Apps": {
+      "type": "string"
+    },
+    "Initial installs of Non-browser apps using a non-webkit web engine": {
+      "type": "string"
+    },
+    "Launches/Updates/Restores of Non-browser apps using a non-webkit web engine": {
+      "type": "string"
+    },
+    "Stolen Device Protection": {
+      "type": "string"
+    },
+    "Recent Biometric Verification": {
+      "type": "string"
+    },
+    "Latest Biometric Timestamp": {
+      "type": "string"
+    },
+    "Stolen Device Protection - Turned On Timestamp": {
+      "type": "string"
+    },
+    "Stolen Device Protection - Turned Off Timestamp": {
+      "type": "string"
+    },
+    "Device Color Code": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Device OS Version": {
+      "type": "string"
+    },
+    "Apple Care+ agreement number": {
+      "type": "string"
+    },
+    "Apple Care+ slot used": {
+      "type": "integer"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "profile_note_interactions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "integer"
+          },
+          "media_map_data": {
+            "type": "object"
+          },
+          "string_map_data": {
+            "type": "object",
+            "properties": {
+              "Hora das \u00c3\u00baltimas notas vistas": {
+                "type": "object",
+                "properties": {
+                  "href": {
+                    "type": "integer"
+                  },
+                  "value": {
+                    "type": "integer"
+                  },
+                  "timestamp": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

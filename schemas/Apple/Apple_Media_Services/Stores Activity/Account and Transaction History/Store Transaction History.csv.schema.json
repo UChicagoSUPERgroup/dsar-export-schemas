@@ -1,0 +1,114 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Apple ID Number": {
+      "type": "string"
+    },
+    "Item Purchased Date": {
+      "type": "string"
+    },
+    "Content Type": {
+      "type": "string"
+    },
+    "Item Reference Number": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Item Description": {
+      "type": "string"
+    },
+    "Seller": {
+      "type": "string"
+    },
+    "Container Reference Number": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Container Description": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Invoice Item Total": {
+      "type": "string"
+    },
+    "Invoice Item Amount": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Device Identifier": {
+      "type": "string"
+    },
+    "Device Details": {
+      "type": "string"
+    },
+    "Device IP Address": {
+      "type": "string"
+    },
+    "Refund Amount": {
+      "type": "integer"
+    },
+    "Document Number": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Invoice Date": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Invoice Tax Amount": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Invoice Total Amount": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Purchase Created Date": {
+      "type": "string"
+    },
+    "Order Number": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Billing Information ID": {
+      "type": "string"
+    },
+    "Payment Type": {
+      "type": "string"
+    },
+    "Currency": {
+      "type": "string"
+    },
+    "Purchase Chargeback?": {
+      "type": "string"
+    },
+    "iCloud Family Purchase?": {
+      "type": "string"
+    },
+    "UUID": {
+      "type": "integer"
+    },
+    "Free product Code Redemption?": {
+      "type": "string"
+    }
+  }
+}

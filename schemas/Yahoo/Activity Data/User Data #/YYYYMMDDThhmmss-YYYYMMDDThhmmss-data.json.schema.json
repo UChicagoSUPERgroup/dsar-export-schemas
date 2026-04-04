@@ -1,0 +1,196 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "events": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "page_uri": {
+            "type": "string"
+          },
+          "user_device_info#device_type": {
+            "type": "string"
+          },
+          "ip_address": {
+            "type": "string"
+          },
+          "ip_geo_info#isp": {
+            "type": "string"
+          },
+          "ip_geo_info#zip": {
+            "type": "integer"
+          },
+          "dt": {
+            "type": "integer"
+          },
+          "browser_name": {
+            "type": "string"
+          },
+          "page_domain": {
+            "type": "string"
+          },
+          "ip_geo_info#state": {
+            "type": "string"
+          },
+          "user_device_info#make": {
+            "type": "string"
+          },
+          "referrer_domain": {
+            "type": "string"
+          },
+          "is_logged_in": {
+            "type": "string"
+          },
+          "ip_geo_info#city": {
+            "type": "string"
+          },
+          "user_privacy_info#dnt": {
+            "type": "string"
+          },
+          "logged_event_timestamp": {
+            "type": "string"
+          },
+          "browser_version": {
+            "type": "number"
+          },
+          "user_device_info#model": {
+            "type": "string"
+          },
+          "event": {
+            "type": "string"
+          },
+          "ip_geo_info#country": {
+            "type": "string"
+          },
+          "user_agent": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "adminData": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "page_uri": {
+            "type": "string"
+          },
+          "page_protocol": {
+            "type": "string"
+          },
+          "referrer_protocol": {
+            "type": "string"
+          },
+          "demog_info#birth_year": {
+            "type": "integer"
+          },
+          "ip_geo_info#timezone_offset": {
+            "type": "integer"
+          },
+          "ip_geo_info#zip": {
+            "type": "integer"
+          },
+          "dt": {
+            "type": "integer"
+          },
+          "event_trigger": {
+            "type": "string"
+          },
+          "page_domain": {
+            "type": "string"
+          },
+          "ip_geo_info#state": {
+            "type": "string"
+          },
+          "referrer_domain": {
+            "type": "string"
+          },
+          "is_logged_in": {
+            "type": "string"
+          },
+          "ip_version": {
+            "type": "integer"
+          },
+          "actual_event_timestamp": {
+            "type": "string"
+          },
+          "logged_event_timestamp": {
+            "type": "string"
+          },
+          "browser_version": {
+            "type": "number"
+          },
+          "event_family": {
+            "type": "string"
+          },
+          "event": {
+            "type": "string"
+          },
+          "user_agent": {
+            "type": "string"
+          },
+          "debug_info#status_code": {
+            "type": "integer"
+          },
+          "ip_geo_info#timezone": {
+            "type": "string"
+          },
+          "os_version": {
+            "type": "number"
+          },
+          "user_device_info#device_type": {
+            "type": "string"
+          },
+          "ip_address": {
+            "type": "string"
+          },
+          "ip_geo_info#isp": {
+            "type": "string"
+          },
+          "demog_info#country": {
+            "type": "string"
+          },
+          "browser_name": {
+            "type": "string"
+          },
+          "ip_geo_info#asn": {
+            "type": "integer"
+          },
+          "user_device_info#make": {
+            "type": "string"
+          },
+          "demog_info#age": {
+            "type": "integer"
+          },
+          "ip_geo_info#city": {
+            "type": "string"
+          },
+          "event_is_user_triggered": {
+            "type": "string"
+          },
+          "user_privacy_info#dnt": {
+            "type": "string"
+          },
+          "os_name": {
+            "type": "string"
+          },
+          "user_device_info#model": {
+            "type": "string"
+          },
+          "ip_geo_info#country": {
+            "type": "string"
+          },
+          "referrer_uri": {
+            "type": "string"
+          },
+          "demog_info#gender": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

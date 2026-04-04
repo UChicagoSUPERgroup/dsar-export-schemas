@@ -1,0 +1,54 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Country": {
+      "type": "string"
+    },
+    "Track Identifier": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Media type": {
+      "type": "string"
+    },
+    "Date Played": {
+      "type": "integer"
+    },
+    "Hours": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Play Duration Milliseconds": {
+      "type": "integer"
+    },
+    "End Reason Type": {
+      "type": "string"
+    },
+    "Source Type": {
+      "type": "string"
+    },
+    "Play Count": {
+      "type": "integer"
+    },
+    "Skip Count": {
+      "type": "integer"
+    },
+    "Ignore For Recommendations": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Track Reference": {
+      "type": "string"
+    },
+    "Track Description": {
+      "type": "string"
+    }
+  }
+}

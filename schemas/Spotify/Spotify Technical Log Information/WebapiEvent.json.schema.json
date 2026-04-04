@@ -1,0 +1,33 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "context_time": {
+        "type": "string"
+      },
+      "message_client_id": {
+        "type": "string"
+      },
+      "message_event_source": {
+        "type": "string"
+      },
+      "message_event_type": {
+        "type": "string"
+      },
+      "message_callback_transport": {
+        "type": "string"
+      },
+      "message_callback": {
+        "type": "string"
+      },
+      "message_status_code": {
+        "type": "integer"
+      },
+      "timestamp_utc": {
+        "type": "string"
+      }
+    }
+  }
+}

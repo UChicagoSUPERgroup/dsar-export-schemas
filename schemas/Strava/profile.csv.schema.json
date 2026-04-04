@@ -1,0 +1,42 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Athlete ID": {
+      "type": "integer"
+    },
+    "Email Address": {
+      "type": "string"
+    },
+    "First Name": {
+      "type": "string"
+    },
+    "Last Name": {
+      "type": "string"
+    },
+    "Sex": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "integer"
+    },
+    "Weight": {
+      "type": "number"
+    },
+    "City": {
+      "type": "integer"
+    },
+    "State": {
+      "type": "integer"
+    },
+    "Country": {
+      "type": "integer"
+    },
+    "Health Consent Status": {
+      "type": "string"
+    },
+    "Date of Health Consent approval/denial": {
+      "type": "string"
+    }
+  }
+}

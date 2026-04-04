@@ -1,0 +1,100 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "first_name": {
+        "type": "string"
+      },
+      "last_name": {
+        "type": "string"
+      },
+      "email": {
+        "type": "string"
+      },
+      "event": {
+        "type": "string"
+      },
+      "attendee_profiles": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "job_title": {
+              "type": [
+                "integer",
+                "string"
+              ]
+            },
+            "company": {
+              "type": [
+                "integer",
+                "string"
+              ]
+            },
+            "gender": {
+              "type": "integer"
+            },
+            "birth_date": {
+              "type": "integer"
+            },
+            "age": {
+              "type": "integer"
+            },
+            "website": {
+              "type": "integer"
+            },
+            "blog": {
+              "type": "integer"
+            },
+            "cell_phone": {
+              "type": "integer"
+            }
+          }
+        }
+      },
+      "attendee_addresses": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "address_line_#": {
+              "type": "integer"
+            },
+            "city": {
+              "type": [
+                "integer",
+                "string"
+              ]
+            },
+            "state": {
+              "type": [
+                "integer",
+                "string"
+              ]
+            },
+            "postal_code": {
+              "type": "integer"
+            },
+            "country": {
+              "type": [
+                "integer",
+                "string"
+              ]
+            },
+            "phone": {
+              "type": "integer"
+            },
+            "address_type": {
+              "type": "string"
+            },
+            "last_update": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}

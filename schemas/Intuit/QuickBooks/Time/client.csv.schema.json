@@ -1,0 +1,81 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "parent_id": {
+      "type": "integer"
+    },
+    "active": {
+      "type": "integer"
+    },
+    "type": {
+      "type": "string"
+    },
+    "trial_days": {
+      "type": "integer"
+    },
+    "bill_day": {
+      "type": "integer"
+    },
+    "auth_type": {
+      "type": "string"
+    },
+    "hide_working_time": {
+      "type": "integer"
+    },
+    "timesheet_notes": {
+      "type": "integer"
+    },
+    "company_name": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "note": {
+      "type": "integer"
+    },
+    "referer": {
+      "type": "string"
+    },
+    "landing_page": {
+      "type": "integer"
+    },
+    "signup_source": {
+      "type": "string"
+    },
+    "signup_detail": {
+      "type": "string"
+    },
+    "admin_contact_id": {
+      "type": "integer"
+    },
+    "company_contact_id": {
+      "type": "integer"
+    },
+    "billing_contact_id": {
+      "type": "integer"
+    },
+    "billing_card_id": {
+      "type": "integer"
+    },
+    "billing_plan_id": {
+      "type": "integer"
+    },
+    "acctmgr_id": {
+      "type": "integer"
+    },
+    "salesman_id": {
+      "type": "integer"
+    },
+    "mtime": {
+      "type": "string"
+    },
+    "ctime": {
+      "type": "string"
+    }
+  }
+}

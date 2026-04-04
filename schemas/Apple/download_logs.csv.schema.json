@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Record ID": {
+      "type": "integer"
+    },
+    "Item Name": {
+      "type": "string"
+    },
+    "Item Reference Number": {
+      "type": "integer"
+    },
+    "Participant ID": {
+      "type": "integer"
+    },
+    "Remote Host IP": {
+      "type": "string"
+    },
+    "User agent": {
+      "type": "string"
+    },
+    "Created Date": {
+      "type": "string"
+    },
+    "Last Updated Date": {
+      "type": "string"
+    }
+  }
+}

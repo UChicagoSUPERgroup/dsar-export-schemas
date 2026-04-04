@@ -1,0 +1,204 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "Content Type": {
+        "type": "string"
+      },
+      "Track Identifier": {
+        "type": "integer"
+      },
+      "Title": {
+        "type": [
+          "number",
+          "string"
+        ]
+      },
+      "Sort Name": {
+        "type": [
+          "number",
+          "string"
+        ]
+      },
+      "Artist": {
+        "type": "string"
+      },
+      "Sort Artist": {
+        "type": [
+          "integer",
+          "string"
+        ]
+      },
+      "Album": {
+        "type": [
+          "integer",
+          "string"
+        ]
+      },
+      "Sort Album": {
+        "type": [
+          "integer",
+          "string"
+        ]
+      },
+      "Album Artist": {
+        "type": [
+          "integer",
+          "string"
+        ]
+      },
+      "Genre": {
+        "type": "string"
+      },
+      "Track Year": {
+        "type": "integer"
+      },
+      "Track Number On Album": {
+        "type": "integer"
+      },
+      "Track Count On Album": {
+        "type": "integer"
+      },
+      "Disc Number Of Album": {
+        "type": "integer"
+      },
+      "Disc Count Of Album": {
+        "type": "integer"
+      },
+      "Track Duration": {
+        "type": "integer"
+      },
+      "Track Play Count": {
+        "type": "integer"
+      },
+      "Date Added To Library": {
+        "type": "string"
+      },
+      "Date Added To iCloud Music Library": {
+        "type": "string"
+      },
+      "Last Modified Date": {
+        "type": "string"
+      },
+      "Purchase Date": {
+        "type": "string"
+      },
+      "Skip Count": {
+        "type": "integer"
+      },
+      "Is Purchased": {
+        "type": "boolean"
+      },
+      "Audio File Extension": {
+        "type": "string"
+      },
+      "Is Checked": {
+        "type": "boolean"
+      },
+      "Release Date": {
+        "type": "string"
+      },
+      "Purchased Track Identifier": {
+        "type": [
+          "integer",
+          "string"
+        ]
+      },
+      "Audio Matched Track Identifier": {
+        "type": [
+          "integer",
+          "string"
+        ]
+      },
+      "Composer": {
+        "type": [
+          "integer",
+          "string"
+        ]
+      },
+      "Is Part of Compilation": {
+        "type": "boolean"
+      },
+      "Tag Matched Track Identifier": {
+        "type": [
+          "integer",
+          "string"
+        ]
+      },
+      "Apple Music Track Identifier": {
+        "type": [
+          "integer",
+          "string"
+        ]
+      },
+      "Last Played Date": {
+        "type": "string"
+      },
+      "Track Like Rating": {
+        "type": "string"
+      },
+      "Favorite Status - Track": {
+        "type": "boolean"
+      },
+      "Favorite Date - Track": {
+        "type": "string"
+      },
+      "Rating": {
+        "type": "integer"
+      },
+      "Album Rating": {
+        "type": "integer"
+      },
+      "Remember Playback Position": {
+        "type": "boolean"
+      },
+      "Beats Per Minute": {
+        "type": "integer"
+      },
+      "Album Rating Method": {
+        "type": "string"
+      },
+      "Comments": {
+        "type": "string"
+      },
+      "Copyright": {
+        "type": "string"
+      },
+      "Playlist Only Track": {
+        "type": "boolean"
+      },
+      "Date of Last Skip": {
+        "type": "string"
+      },
+      "Grouping": {
+        "type": "string"
+      },
+      "Album Like Rating": {
+        "type": "string"
+      },
+      "Favorite Status - Album": {
+        "type": "boolean"
+      },
+      "Work Name": {
+        "type": "string"
+      },
+      "Movement Name": {
+        "type": "string"
+      },
+      "Display Work Name": {
+        "type": "boolean"
+      },
+      "Movement Number": {
+        "type": "integer"
+      },
+      "Movement Count": {
+        "type": "integer"
+      },
+      "Favorite Date - Album": {
+        "type": "string"
+      }
+    }
+  }
+}

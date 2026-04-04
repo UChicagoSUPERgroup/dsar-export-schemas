@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "disable_clubs": {
+      "type": "string"
+    },
+    "disable_discussions": {
+      "type": "string"
+    },
+    "disable_events": {
+      "type": "string"
+    },
+    "disable_stream": {
+      "type": "string"
+    },
+    "disable_immersion": {
+      "type": "string"
+    },
+    "disable_mature_words": {
+      "type": "string"
+    }
+  }
+}

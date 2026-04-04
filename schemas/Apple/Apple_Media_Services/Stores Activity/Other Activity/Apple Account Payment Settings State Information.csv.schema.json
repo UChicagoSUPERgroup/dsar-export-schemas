@@ -1,0 +1,45 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Apple Account Creation Timestamp": {
+      "type": "string"
+    },
+    "Apple Account Number": {
+      "type": "string"
+    },
+    "Apple Account Payment Entry ID": {
+      "type": "string"
+    },
+    "Apple Account Payment Settings Event Type": {
+      "type": "string"
+    },
+    "Apple Account Payment Settings Type": {
+      "type": "string"
+    },
+    "Apple Card Account ID": {
+      "type": "string"
+    },
+    "Billing Information ID": {
+      "type": "string"
+    },
+    "Payment Method Entry Timestamp": {
+      "type": "string"
+    },
+    "Payment Method Rank": {
+      "type": "integer"
+    },
+    "Payment Method Removal Timestamp": {
+      "type": "string"
+    },
+    "Payment Method Type": {
+      "type": "string"
+    },
+    "Storefront Apple Account Payment Settings ID": {
+      "type": "string"
+    },
+    "Storefront Name": {
+      "type": "string"
+    }
+  }
+}

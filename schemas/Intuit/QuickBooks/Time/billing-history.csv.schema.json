@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "trans_id": {
+      "type": "integer"
+    },
+    "refunded": {
+      "type": "integer"
+    },
+    "client_id": {
+      "type": "integer"
+    },
+    "date": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "subtype": {
+      "type": "string"
+    },
+    "amount": {
+      "type": "integer"
+    },
+    "balance": {
+      "type": "integer"
+    },
+    "currency_code": {
+      "type": "string"
+    },
+    "note": {
+      "type": "string"
+    }
+  }
+}

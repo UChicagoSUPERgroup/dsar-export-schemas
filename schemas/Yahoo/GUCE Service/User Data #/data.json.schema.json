@@ -1,0 +1,204 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "preciseGeolocation": {
+      "type": "object",
+      "properties": {
+        "modifiedTime": {
+          "type": "string"
+        },
+        "status": {
+          "type": "integer"
+        }
+      }
+    },
+    "oathAsThirdParty": {
+      "type": "object",
+      "properties": {
+        "modifiedTime": {
+          "type": "string"
+        },
+        "status": {
+          "type": "integer"
+        }
+      }
+    },
+    "allowHumansToReadEmails": {
+      "type": "object",
+      "properties": {
+        "modifiedTime": {
+          "type": "string"
+        },
+        "status": {
+          "type": "integer"
+        }
+      }
+    },
+    "coreEuConsent": {
+      "type": "object",
+      "properties": {
+        "modifiedTime": {
+          "type": "string"
+        },
+        "status": {
+          "type": "integer"
+        }
+      }
+    },
+    "insightsFromCommunications": {
+      "type": "object",
+      "properties": {
+        "modifiedTime": {
+          "type": "string"
+        },
+        "status": {
+          "type": "integer"
+        }
+      }
+    },
+    "generalAnalysisConsent": {
+      "type": "object",
+      "properties": {
+        "modifiedTime": {
+          "type": "string"
+        },
+        "status": {
+          "type": "integer"
+        }
+      }
+    },
+    "iab": {
+      "type": "object",
+      "properties": {
+        "modifiedTime": {
+          "type": "string"
+        },
+        "status": {
+          "type": "integer"
+        }
+      }
+    },
+    "sellPersonalInformation": {
+      "type": "object",
+      "properties": {
+        "modifiedTime": {
+          "type": "string"
+        },
+        "status": {
+          "type": "integer"
+        }
+      }
+    },
+    "thirdPartyConsent": {
+      "type": "object",
+      "properties": {
+        "modifiedTime": {
+          "type": "string"
+        },
+        "status": {
+          "type": "integer"
+        }
+      }
+    },
+    "selfRegulatory": {
+      "type": "object",
+      "properties": {
+        "modifiedTime": {
+          "type": "string"
+        },
+        "status": {
+          "type": "integer"
+        }
+      }
+    },
+    "accountMatching": {
+      "type": "object",
+      "properties": {
+        "modifiedTime": {
+          "type": "string"
+        },
+        "status": {
+          "type": "integer"
+        }
+      }
+    },
+    "contentPersonalization": {
+      "type": "object",
+      "properties": {
+        "modifiedTime": {
+          "type": "string"
+        },
+        "status": {
+          "type": "integer"
+        }
+      }
+    },
+    "crossDeviceMapping": {
+      "type": "object",
+      "properties": {
+        "modifiedTime": {
+          "type": "string"
+        },
+        "status": {
+          "type": "integer"
+        }
+      }
+    },
+    "thirdPartyAnalytics": {
+      "type": "object",
+      "properties": {
+        "modifiedTime": {
+          "type": "string"
+        },
+        "status": {
+          "type": "integer"
+        }
+      }
+    },
+    "thirdPartyContentEmbed": {
+      "type": "object",
+      "properties": {
+        "modifiedTime": {
+          "type": "string"
+        },
+        "status": {
+          "type": "integer"
+        }
+      }
+    },
+    "searchHistory": {
+      "type": "object",
+      "properties": {
+        "modifiedTime": {
+          "type": "string"
+        },
+        "status": {
+          "type": "integer"
+        }
+      }
+    },
+    "analysisOfCommunications": {
+      "type": "object",
+      "properties": {
+        "modifiedTime": {
+          "type": "string"
+        },
+        "status": {
+          "type": "integer"
+        }
+      }
+    },
+    "firstPartyAds": {
+      "type": "object",
+      "properties": {
+        "modifiedTime": {
+          "type": "string"
+        },
+        "status": {
+          "type": "integer"
+        }
+      }
+    }
+  }
+}

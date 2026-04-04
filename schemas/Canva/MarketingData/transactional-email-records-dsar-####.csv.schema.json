@@ -1,0 +1,93 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "EVENT_TYPE": {
+      "type": "string"
+    },
+    "EVENT_TIME": {
+      "type": "string"
+    },
+    "EMAIL_ID": {
+      "type": "string"
+    },
+    "EMAIL_TYPES": {
+      "type": "string"
+    },
+    "EMAIL_TEMPLATE_ID": {
+      "type": "integer"
+    },
+    "SENDER_EMAIL": {
+      "type": "string"
+    },
+    "SENDER_IP": {
+      "type": "string"
+    },
+    "OUTGOING_IP": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "CONFIGURATION_SET": {
+      "type": "string"
+    },
+    "RECEIVER_EMAIL_SHA_###": {
+      "type": "string"
+    },
+    "RECEIVER_EMAIL_DOMAIN": {
+      "type": "string"
+    },
+    "RECEIVER_USER_ID": {
+      "type": "integer"
+    },
+    "EXPERIMENT_ID": {
+      "type": "integer"
+    },
+    "EXPERIMENT_VARIANT": {
+      "type": "integer"
+    },
+    "SEND_ID": {
+      "type": "integer"
+    },
+    "LOCALE": {
+      "type": "integer"
+    },
+    "EVENT_ID": {
+      "type": "string"
+    },
+    "BOUNCE_TYPE": {
+      "type": "integer"
+    },
+    "BOUNCE_SUBTYPE": {
+      "type": "integer"
+    },
+    "BOUNCE_DIAGNOSTIC_CODE": {
+      "type": "integer"
+    },
+    "COMPLAINT_TYPE": {
+      "type": "integer"
+    },
+    "COMPLAINT_SUBTYPE": {
+      "type": "integer"
+    },
+    "COMPLAINT_USER_AGENT": {
+      "type": "integer"
+    },
+    "DELIVERY_DELAY_TYPE": {
+      "type": "integer"
+    },
+    "DELIVERY_DELAY_DIAGNOSTIC_CODE": {
+      "type": "integer"
+    },
+    "DELIVERY_DELAY_RETRY_GIVE_UP_TIME": {
+      "type": "integer"
+    },
+    "IS_TEAM_INVITE_LINK_CLICKED": {
+      "type": "string"
+    },
+    "IS_TEAM_INVITE_REMINDER_CLICKED": {
+      "type": "string"
+    }
+  }
+}

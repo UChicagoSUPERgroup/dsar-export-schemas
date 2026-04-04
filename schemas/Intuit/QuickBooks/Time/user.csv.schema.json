@@ -1,0 +1,66 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "client_id": {
+      "type": "integer"
+    },
+    "group_id": {
+      "type": "integer"
+    },
+    "active": {
+      "type": "integer"
+    },
+    "number": {
+      "type": "integer"
+    },
+    "salaried": {
+      "type": "integer"
+    },
+    "exempt": {
+      "type": "integer"
+    },
+    "hire_date": {
+      "type": "string"
+    },
+    "term_date": {
+      "type": "string"
+    },
+    "username": {
+      "type": "string"
+    },
+    "fname": {
+      "type": "string"
+    },
+    "lname": {
+      "type": "integer"
+    },
+    "email": {
+      "type": "string"
+    },
+    "email_verified": {
+      "type": "integer"
+    },
+    "employee_id": {
+      "type": "integer"
+    },
+    "job_title": {
+      "type": "integer"
+    },
+    "gender": {
+      "type": "integer"
+    },
+    "ctime": {
+      "type": "string"
+    },
+    "mtime": {
+      "type": "string"
+    },
+    "atime": {
+      "type": "string"
+    }
+  }
+}

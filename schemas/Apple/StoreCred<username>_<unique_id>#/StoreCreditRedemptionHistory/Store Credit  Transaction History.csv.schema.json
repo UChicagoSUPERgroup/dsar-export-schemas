@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Apple ID Number": {
+      "type": "string"
+    },
+    "Amount": {
+      "type": "number"
+    },
+    "Country": {
+      "type": "string"
+    },
+    "Order Number": {
+      "type": "string"
+    },
+    "Transaction Date": {
+      "type": "string"
+    },
+    "Transaction Type": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "ITEM": {
+      "type": "string"
+    },
+    "CATEGORY": {
+      "type": "string"
+    },
+    "STORE_NAME": {
+      "type": "string"
+    },
+    "UNIT_PRICE": {
+      "type": "number"
+    },
+    "QUANTITY": {
+      "type": "integer"
+    },
+    "SUBTOTAL": {
+      "type": "number"
+    },
+    "CREATED_AT": {
+      "type": "string"
+    },
+    "DELIVERY_TIME": {
+      "type": "string"
+    },
+    "DELIVERY_ADDRESS": {
+      "type": "string"
+    }
+  }
+}

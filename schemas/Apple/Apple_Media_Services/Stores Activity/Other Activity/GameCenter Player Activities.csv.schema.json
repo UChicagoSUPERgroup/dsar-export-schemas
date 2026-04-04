@@ -1,0 +1,183 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Achievements Title": {
+      "type": "integer"
+    },
+    "Allow Contact Lookup": {
+      "type": "integer"
+    },
+    "App Name": {
+      "type": "string"
+    },
+    "Apple ID Number": {
+      "type": "string"
+    },
+    "Application ID": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Challenge ID": {
+      "type": "integer"
+    },
+    "Challenge Type": {
+      "type": "integer"
+    },
+    "Current Opt-In Status": {
+      "type": "integer"
+    },
+    "Device Identifier": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Environment": {
+      "type": "integer"
+    },
+    "Event Date": {
+      "type": "string"
+    },
+    "Event Post Date": {
+      "type": "integer"
+    },
+    "Event Type": {
+      "type": "string"
+    },
+    "Friend Candidate List Count": {
+      "type": "integer"
+    },
+    "Friends": {
+      "type": "integer"
+    },
+    "Friends Count": {
+      "type": "integer"
+    },
+    "Friends Count Opted-In": {
+      "type": "integer"
+    },
+    "Friends Score": {
+      "type": "integer"
+    },
+    "Game Ratings": {
+      "type": "integer"
+    },
+    "Hardware Family": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "IP City": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "IP Country": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Is Child Account": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Language": {
+      "type": "integer"
+    },
+    "Leaderboard Name": {
+      "type": "integer"
+    },
+    "Leaderboard Score": {
+      "type": "integer"
+    },
+    "Matchmaking Session ID": {
+      "type": "integer"
+    },
+    "Media Type": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Media Version": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Network Connection": {
+      "type": "integer"
+    },
+    "Operating System": {
+      "type": [
+        "number",
+        "string"
+      ]
+    },
+    "Participant Relationship": {
+      "type": "string"
+    },
+    "Participants": {
+      "type": "integer"
+    },
+    "Percentage Complete": {
+      "type": "integer"
+    },
+    "Player Count Max": {
+      "type": "integer"
+    },
+    "Player Count Min": {
+      "type": "integer"
+    },
+    "Player Relationship": {
+      "type": "integer"
+    },
+    "Player Relationship Type": {
+      "type": "integer"
+    },
+    "Previous Opt-In Status": {
+      "type": "integer"
+    },
+    "Privacy Setting": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Session ID": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Store Front": {
+      "type": "integer"
+    },
+    "Token": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Turn-Based Action": {
+      "type": "integer"
+    },
+    "Turn-Based ID": {
+      "type": "integer"
+    },
+    "Turn-Based Number": {
+      "type": "integer"
+    },
+    "Turn-Based State": {
+      "type": "integer"
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "bookmarks": {
+      "type": "object",
+      "properties": {
+        "bookmarks": {
+          "type": "array"
+        }
+      }
+    },
+    "ugcLinks": {
+      "type": "array"
+    },
+    "topics": {
+      "type": "object",
+      "properties": {
+        "followedTopics": {
+          "type": "array"
+        },
+        "createdTopics": {
+          "type": "array"
+        }
+      }
+    },
+    "publishers": {
+      "type": "object",
+      "properties": {
+        "publishers": {
+          "type": "array"
+        }
+      }
+    },
+    "categories": {
+      "type": "object",
+      "properties": {
+        "categories": {
+          "type": "array"
+        }
+      }
+    },
+    "posts": {
+      "type": "object",
+      "properties": {
+        "likedPosts": {
+          "type": "array"
+        },
+        "createdPosts": {
+          "type": "array"
+        }
+      }
+    },
+    "notifications": {
+      "type": "object",
+      "properties": {
+        "notifications": {
+          "type": "array"
+        }
+      }
+    }
+  }
+}

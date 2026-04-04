@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Subscription List": {
+      "type": "object",
+      "properties": {
+        "Result": {
+          "type": "object",
+          "properties": {
+            "Subscription Details": {
+              "type": "array"
+            }
+          }
+        }
+      }
+    },
+    "Tastemaker ": {
+      "type": "object",
+      "properties": {
+        "Product Details": {
+          "type": "array"
+        }
+      }
+    },
+    "Payment Methods List": {
+      "type": "object"
+    },
+    "Billing": {
+      "type": "object",
+      "properties": {
+        "Credit List": {
+          "type": "array"
+        },
+        "Balance List": {
+          "type": "array"
+        }
+      }
+    },
+    "Offers": {
+      "type": "object",
+      "properties": {
+        "Offer Actions": {
+          "type": "array"
+        }
+      }
+    },
+    "Account Activity": {
+      "type": "object",
+      "properties": {
+        "SVU Data": {
+          "type": "array"
+        }
+      }
+    }
+  }
+}

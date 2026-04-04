@@ -1,0 +1,42 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Date of Birth": {
+      "type": "string"
+    },
+    "Weight": {
+      "type": "string"
+    },
+    "Functional Threshold Power": {
+      "type": "string"
+    },
+    "Maximum Heartrate": {
+      "type": "integer"
+    },
+    "Athlete Type": {
+      "type": "string"
+    },
+    "Measurement Preference": {
+      "type": "string"
+    },
+    "Date Preference": {
+      "type": "string"
+    },
+    "Chart Preference": {
+      "type": "string"
+    },
+    "Email Language": {
+      "type": "string"
+    },
+    "Pace Zone Time": {
+      "type": "string"
+    },
+    "Pace Zone Distance": {
+      "type": "integer"
+    },
+    "Default Leaderboard View": {
+      "type": "string"
+    }
+  }
+}

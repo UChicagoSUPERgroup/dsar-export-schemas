@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Apple ID Number": {
+      "type": "string"
+    },
+    "Device Identifier": {
+      "type": "string"
+    },
+    "Device Name": {
+      "type": "string"
+    },
+    "Enabled?": {
+      "type": "string"
+    },
+    "Associated Date": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "RequestID": {
+      "type": "string"
+    },
+    "Username": {
+      "type": "string"
+    },
+    "UserID": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "StartTime": {
+      "type": "string"
+    },
+    "EndTime": {
+      "type": "string"
+    },
+    "DataCategories": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "CompilationDate": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Promotion Seen": {
+      "type": "string"
+    },
+    "Timestamp": {
+      "type": "string"
+    }
+  }
+}

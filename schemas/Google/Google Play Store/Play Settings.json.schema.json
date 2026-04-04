@@ -1,0 +1,25 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "userSetting": {
+        "type": "object",
+        "properties": {
+          "marketingPreferences": {
+            "type": "object",
+            "properties": {
+              "wantsMultiContentEmail": {
+                "type": "integer"
+              }
+            }
+          },
+          "userCountryCode": {
+            "type": "integer"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "devices_devices": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "integer"
+          },
+          "media_map_data": {
+            "type": "object"
+          },
+          "string_map_data": {
+            "type": "object",
+            "properties": {
+              "\u00c3\u009altimo acesso": {
+                "type": "object",
+                "properties": {
+                  "href": {
+                    "type": "integer"
+                  },
+                  "value": {
+                    "type": "integer"
+                  },
+                  "timestamp": {
+                    "type": "string"
+                  }
+                }
+              },
+              "Agente utilizador": {
+                "type": "object",
+                "properties": {
+                  "href": {
+                    "type": "integer"
+                  },
+                  "value": {
+                    "type": "string"
+                  },
+                  "timestamp": {
+                    "type": "integer"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

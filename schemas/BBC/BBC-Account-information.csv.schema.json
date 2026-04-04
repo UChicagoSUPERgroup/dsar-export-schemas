@@ -1,0 +1,90 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Registration date": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Site of registration": {
+      "type": "integer"
+    },
+    "Account last update date": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "<custom_name>": {
+      "type": "integer"
+    },
+    "Email address": {
+      "type": "string"
+    },
+    "Account verified?": {
+      "type": "string"
+    },
+    "Postcode": {
+      "type": "string"
+    },
+    "Hometown": {
+      "type": "integer"
+    },
+    "Display name": {
+      "type": "integer"
+    },
+    "User name": {
+      "type": "integer"
+    },
+    "Gender": {
+      "type": "string"
+    },
+    "Gender other?": {
+      "type": "integer"
+    },
+    "Over ##?": {
+      "type": "string"
+    },
+    "Year of birth": {
+      "type": "integer"
+    },
+    "Date of birth": {
+      "type": "integer"
+    },
+    "Age": {
+      "type": "integer"
+    },
+    "Personalisation enabled?": {
+      "type": "string"
+    },
+    "Allow tailored social media recommendations?": {
+      "type": "integer"
+    },
+    "Country code": {
+      "type": "string"
+    },
+    "Town": {
+      "type": "string"
+    },
+    "Nation": {
+      "type": "string"
+    },
+    "Audience viewing region": {
+      "type": "string"
+    },
+    "Sociodemographic category": {
+      "type": "string"
+    },
+    "Sociodemographic group": {
+      "type": "string"
+    },
+    "Sociodemographic type": {
+      "type": "string"
+    },
+    "Constituency": {
+      "type": "string"
+    }
+  }
+}

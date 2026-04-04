@@ -1,0 +1,39 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Record ID": {
+      "type": "integer"
+    },
+    "Color": {
+      "type": "integer"
+    },
+    "Device Class": {
+      "type": "string"
+    },
+    "Enclosure Color": {
+      "type": "integer"
+    },
+    "Device Model": {
+      "type": "string"
+    },
+    "Device Name": {
+      "type": "string"
+    },
+    "Platform Name": {
+      "type": "string"
+    },
+    "Product Type": {
+      "type": "string"
+    },
+    "UDID": {
+      "type": "string"
+    },
+    "Created Date": {
+      "type": "string"
+    },
+    "Last Updated Date": {
+      "type": "string"
+    }
+  }
+}

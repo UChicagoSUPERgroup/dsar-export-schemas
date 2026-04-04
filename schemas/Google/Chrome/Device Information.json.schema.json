@@ -1,0 +1,91 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Device Info": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "sync_user_agent": {
+            "type": "string"
+          },
+          "device_type": {
+            "type": "string"
+          },
+          "chrome_version_info": {
+            "type": "object",
+            "properties": {
+              "version_number": {
+                "type": "string"
+              }
+            }
+          },
+          "signin_scoped_device_id": {
+            "type": "string"
+          },
+          "manufacturer": {
+            "type": "string"
+          },
+          "cache_guid": {
+            "type": "string"
+          },
+          "device_form_factor": {
+            "type": "string"
+          },
+          "pulse_interval_in_minutes": {
+            "type": "integer"
+          },
+          "feature_fields": {
+            "type": "object",
+            "properties": {
+              "send_tab_to_self_receiving_type": {
+                "type": "string"
+              },
+              "send_tab_to_self_receiving_enabled": {
+                "type": "integer"
+              }
+            }
+          },
+          "invalidation_fields": {
+            "type": "object",
+            "properties": {
+              "instance_id_token": {
+                "type": "string"
+              },
+              "interested_data_type_ids": {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                }
+              }
+            }
+          },
+          "os_type": {
+            "type": "string"
+          },
+          "last_updated_timestamp": {
+            "type": "integer"
+          },
+          "model": {
+            "type": "string"
+          },
+          "client_name": {
+            "type": "string"
+          },
+          "chrome_version": {
+            "type": "string"
+          },
+          "google_play_services_version_info": {
+            "type": "object",
+            "properties": {
+              "apk_version_name": {
+                "type": "integer"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

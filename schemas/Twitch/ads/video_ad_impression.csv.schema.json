@@ -1,0 +1,360 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "time": {
+      "type": "string"
+    },
+    "ip": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "region": {
+      "type": "integer"
+    },
+    "ad_id": {
+      "type": [
+        "number",
+        "string"
+      ]
+    },
+    "browser": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "channel": {
+      "type": "string"
+    },
+    "channel_id": {
+      "type": "integer"
+    },
+    "device_id": {
+      "type": "string"
+    },
+    "distinct_id": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "domain": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "feature_bucket": {
+      "type": "integer"
+    },
+    "flash_version": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "game": {
+      "type": "string"
+    },
+    "host": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "is_subscriber": {
+      "type": "integer"
+    },
+    "is_turbo": {
+      "type": "integer"
+    },
+    "live": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "logged_in": {
+      "type": "integer"
+    },
+    "minutes_logged": {
+      "type": "integer"
+    },
+    "new_player": {
+      "type": "integer"
+    },
+    "os": {
+      "type": "integer"
+    },
+    "partner": {
+      "type": "string"
+    },
+    "player": {
+      "type": "string"
+    },
+    "promotional": {
+      "type": "integer"
+    },
+    "provider": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "referrer_domain": {
+      "type": "integer"
+    },
+    "referrer_host": {
+      "type": "integer"
+    },
+    "referrer_url": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "roll_type": {
+      "type": "string"
+    },
+    "stream_status": {
+      "type": "integer"
+    },
+    "url": {
+      "type": "integer"
+    },
+    "asn": {
+      "type": "string"
+    },
+    "login": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "client_time": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "subscriber": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "viewability_percent_viewable": {
+      "type": "integer"
+    },
+    "viewability_client_height": {
+      "type": "integer"
+    },
+    "viewability_client_width": {
+      "type": "integer"
+    },
+    "app_version": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "backend": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "content_mode": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "platform": {
+      "type": "string"
+    },
+    "time_break": {
+      "type": "integer"
+    },
+    "stitched": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "creative_id": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "vod_id": {
+      "type": "integer"
+    },
+    "time_utc": {
+      "type": "string"
+    },
+    "user_id": {
+      "type": "integer"
+    },
+    "ads_opt_in": {
+      "type": "integer"
+    },
+    "request_to_impression_latency": {
+      "type": "integer"
+    },
+    "ad_system": {
+      "type": [
+        "number",
+        "string"
+      ]
+    },
+    "wrapper_ad_id": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "wrapper_ad_system": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "wrapper_creative_id": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "duration": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "asn_id": {
+      "type": "integer"
+    },
+    "client_app": {
+      "type": "integer"
+    },
+    "broadcaster_software": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "backend_version": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "ad_server": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "ad_position": {
+      "type": "integer"
+    },
+    "max_duration": {
+      "type": "integer"
+    },
+    "pod_index": {
+      "type": "integer"
+    },
+    "total_ads": {
+      "type": "integer"
+    },
+    "player_volume": {
+      "type": "integer"
+    },
+    "player_mute": {
+      "type": "integer"
+    },
+    "visible": {
+      "type": "integer"
+    },
+    "pre_impression_player_volume": {
+      "type": "integer"
+    },
+    "prefetched": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "client_triggered": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "is_pbyp": {
+      "type": "integer"
+    },
+    "player_size_mode": {
+      "type": "integer"
+    },
+    "client_time_utc": {
+      "type": "integer"
+    },
+    "cluster": {
+      "type": "integer"
+    },
+    "version": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "ad_format": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "consent_comscore_ok": {
+      "type": "integer"
+    },
+    "tas_creative_id": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "tas_line_item_id": {
+      "type": [
+        "number",
+        "string"
+      ]
+    },
+    "tas_order_id": {
+      "type": "integer"
+    },
+    "tas_advertiser_id": {
+      "type": "integer"
+    },
+    "tas_ad_duration": {
+      "type": "integer"
+    },
+    "subscription_upsell_shown": {
+      "type": "integer"
+    },
+    "adv_id": {
+      "type": "integer"
+    },
+    "ad_impressions_in_channel_cached": {
+      "type": "integer"
+    }
+  }
+}

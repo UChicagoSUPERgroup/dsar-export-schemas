@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "language": {
+      "type": "string"
+    },
+    "event_timestamp": {
+      "type": "string"
+    },
+    "skill_summary": {
+      "type": "string"
+    }
+  }
+}

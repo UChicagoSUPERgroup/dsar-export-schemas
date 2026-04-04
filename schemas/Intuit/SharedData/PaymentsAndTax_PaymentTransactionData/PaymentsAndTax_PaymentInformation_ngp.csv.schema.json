@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "emailAddress": {
+      "type": "string"
+    },
+    "cardBin": {
+      "type": "integer"
+    },
+    "accountName": {
+      "type": "string"
+    },
+    "billingName": {
+      "type": "string"
+    },
+    "streetAddressLine#": {
+      "type": "string"
+    },
+    "cardLastFour": {
+      "type": "integer"
+    }
+  }
+}

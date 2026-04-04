@@ -1,0 +1,53 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "profile_friend_map": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "integer"
+          },
+          "media_map_data": {
+            "type": "object"
+          },
+          "string_map_data": {
+            "type": "object",
+            "properties": {
+              "Pedidos recebidos": {
+                "type": "object",
+                "properties": {
+                  "href": {
+                    "type": "integer"
+                  },
+                  "value": {
+                    "type": "integer"
+                  },
+                  "timestamp": {
+                    "type": "integer"
+                  }
+                }
+              },
+              "Pedidos enviados": {
+                "type": "object",
+                "properties": {
+                  "href": {
+                    "type": "integer"
+                  },
+                  "value": {
+                    "type": "integer"
+                  },
+                  "timestamp": {
+                    "type": "integer"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

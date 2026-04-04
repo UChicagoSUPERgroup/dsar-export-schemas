@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "context_time": {
+        "type": "string"
+      },
+      "message_client_version": {
+        "type": [
+          "integer",
+          "string"
+        ]
+      },
+      "message_request_method": {
+        "type": "string"
+      },
+      "message_device_descriptor": {
+        "type": "integer"
+      },
+      "message_content_id": {
+        "type": "string"
+      },
+      "message_settings": {
+        "type": "string"
+      },
+      "message_setting_type": {
+        "type": "string"
+      },
+      "timestamp_utc": {
+        "type": "string"
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "wa_registration_info": {
+      "type": "object",
+      "properties": {
+        "network": {
+          "type": "integer"
+        },
+        "type": {
+          "type": "string"
+        },
+        "registration_timestamp": {
+          "type": [
+            "integer",
+            "string"
+          ]
+        }
+      }
+    }
+  }
+}

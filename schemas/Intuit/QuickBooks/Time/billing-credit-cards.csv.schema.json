@@ -1,0 +1,54 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "client_id": {
+      "type": "integer"
+    },
+    "processor": {
+      "type": "string"
+    },
+    "cc_type": {
+      "type": "string"
+    },
+    "cc_number": {
+      "type": "string"
+    },
+    "cc_number_encrypted": {
+      "type": "string"
+    },
+    "cc_exmonth": {
+      "type": "integer"
+    },
+    "cc_exyear": {
+      "type": "integer"
+    },
+    "cc_name": {
+      "type": "integer"
+    },
+    "cc_address": {
+      "type": "integer"
+    },
+    "cc_city": {
+      "type": "integer"
+    },
+    "cc_state": {
+      "type": "integer"
+    },
+    "cc_zip": {
+      "type": "integer"
+    },
+    "cc_country": {
+      "type": "integer"
+    },
+    "ctime": {
+      "type": "string"
+    },
+    "mtime": {
+      "type": "string"
+    }
+  }
+}

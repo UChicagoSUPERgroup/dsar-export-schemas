@@ -1,0 +1,165 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "messageThreads": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "messagesAndContents": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "message": {
+                    "type": "object",
+                    "properties": {
+                      "createdAt": {
+                        "type": "string"
+                      },
+                      "accountType": {
+                        "type": "string"
+                      },
+                      "id": {
+                        "type": "integer"
+                      },
+                      "isPrivate": {
+                        "type": "integer"
+                      },
+                      "contentType": {
+                        "type": "string"
+                      },
+                      "senderPlatform": {
+                        "type": "string"
+                      },
+                      "accountId": {
+                        "type": "integer"
+                      },
+                      "userAgent": {
+                        "type": "string"
+                      }
+                    }
+                  },
+                  "messageContent": {
+                    "type": "object",
+                    "properties": {
+                      "messageContentV#": {
+                        "type": "object",
+                        "properties": {
+                          "content": {
+                            "type": "string"
+                          }
+                        }
+                      },
+                      "eventDescriptionContent": {
+                        "type": "object",
+                        "properties": {
+                          "eventType": {
+                            "type": "string"
+                          }
+                        }
+                      },
+                      "textAndReferenceContent": {
+                        "type": "object",
+                        "properties": {
+                          "referenceType": {
+                            "type": "string"
+                          },
+                          "referenceId": {
+                            "type": "string"
+                          },
+                          "text": {
+                            "type": "string"
+                          }
+                        }
+                      },
+                      "textContent": {
+                        "type": "object",
+                        "properties": {
+                          "body": {
+                            "type": "string"
+                          }
+                        }
+                      },
+                      "msgkitButtonActionStackContent": {
+                        "type": "object",
+                        "properties": {
+                          "referenceType": {
+                            "type": "string"
+                          },
+                          "referenceId": {
+                            "type": "string"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "readReceipts": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "messageReadAt": {
+                    "type": "string"
+                  },
+                  "messageId": {
+                    "type": "integer"
+                  }
+                }
+              }
+            },
+            "id": {
+              "type": "integer"
+            },
+            "messageThreadParticipants": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "accountId": {
+                    "type": "integer"
+                  },
+                  "createdAt": {
+                    "type": "string"
+                  },
+                  "groupParticipant": {
+                    "type": "integer"
+                  },
+                  "statusActive": {
+                    "type": "integer"
+                  },
+                  "accountType": {
+                    "type": "string"
+                  },
+                  "updatedAt": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "messageThreadUserTags": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "tagValue": {
+                    "type": "integer"
+                  },
+                  "tagName": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

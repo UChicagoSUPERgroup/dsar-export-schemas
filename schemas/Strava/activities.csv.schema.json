@@ -1,0 +1,279 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Activity ID": {
+      "type": "string"
+    },
+    "Activity Date": {
+      "type": "string"
+    },
+    "Activity Name": {
+      "type": "string"
+    },
+    "Activity Type": {
+      "type": "string"
+    },
+    "Activity Description": {
+      "type": "integer"
+    },
+    "Elapsed Time": {
+      "type": "number"
+    },
+    "Distance": {
+      "type": "string"
+    },
+    "Max Heart Rate": {
+      "type": "integer"
+    },
+    "Relative Effort": {
+      "type": "integer"
+    },
+    "Commute": {
+      "type": "number"
+    },
+    "Activity Private Note": {
+      "type": "integer"
+    },
+    "Activity Gear": {
+      "type": "integer"
+    },
+    "Filename": {
+      "type": "string"
+    },
+    "Athlete Weight": {
+      "type": "integer"
+    },
+    "Bike Weight": {
+      "type": "integer"
+    },
+    "Moving Time": {
+      "type": "number"
+    },
+    "Max Speed": {
+      "type": "number"
+    },
+    "Average Speed": {
+      "type": "number"
+    },
+    "Elevation Gain": {
+      "type": "number"
+    },
+    "Elevation Loss": {
+      "type": "number"
+    },
+    "Elevation Low": {
+      "type": "number"
+    },
+    "Elevation High": {
+      "type": "number"
+    },
+    "Max Grade": {
+      "type": "number"
+    },
+    "Average Grade": {
+      "type": "number"
+    },
+    "Average Positive Grade": {
+      "type": "integer"
+    },
+    "Average Negative Grade": {
+      "type": "integer"
+    },
+    "Max Cadence": {
+      "type": "integer"
+    },
+    "Average Cadence": {
+      "type": "integer"
+    },
+    "Average Heart Rate": {
+      "type": "integer"
+    },
+    "Max Watts": {
+      "type": "integer"
+    },
+    "Average Watts": {
+      "type": "integer"
+    },
+    "Calories": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Max Temperature": {
+      "type": "integer"
+    },
+    "Average Temperature": {
+      "type": "integer"
+    },
+    "Total Work": {
+      "type": "integer"
+    },
+    "Number of Runs": {
+      "type": "integer"
+    },
+    "Uphill Time": {
+      "type": "integer"
+    },
+    "Downhill Time": {
+      "type": "integer"
+    },
+    "Other Time": {
+      "type": "integer"
+    },
+    "Perceived Exertion": {
+      "type": "number"
+    },
+    "Type": {
+      "type": "integer"
+    },
+    "Start Time": {
+      "type": "integer"
+    },
+    "Weighted Average Power": {
+      "type": "integer"
+    },
+    "Power Count": {
+      "type": "integer"
+    },
+    "Prefer Perceived Exertion": {
+      "type": "number"
+    },
+    "Perceived Relative Effort": {
+      "type": "number"
+    },
+    "Total Weight Lifted": {
+      "type": "integer"
+    },
+    "From Upload": {
+      "type": "number"
+    },
+    "Grade Adjusted Distance": {
+      "type": [
+        "number",
+        "string"
+      ]
+    },
+    "Weather Observation Time": {
+      "type": "integer"
+    },
+    "Weather Condition": {
+      "type": "integer"
+    },
+    "Weather Temperature": {
+      "type": "integer"
+    },
+    "Apparent Temperature": {
+      "type": "integer"
+    },
+    "Dewpoint": {
+      "type": "integer"
+    },
+    "Humidity": {
+      "type": "integer"
+    },
+    "Weather Pressure": {
+      "type": "integer"
+    },
+    "Wind Speed": {
+      "type": "integer"
+    },
+    "Wind Gust": {
+      "type": "integer"
+    },
+    "Wind Bearing": {
+      "type": "integer"
+    },
+    "Precipitation Intensity": {
+      "type": "integer"
+    },
+    "Sunrise Time": {
+      "type": "integer"
+    },
+    "Sunset Time": {
+      "type": "integer"
+    },
+    "Moon Phase": {
+      "type": "integer"
+    },
+    "Bike": {
+      "type": "integer"
+    },
+    "Gear": {
+      "type": "integer"
+    },
+    "Precipitation Probability": {
+      "type": "integer"
+    },
+    "Precipitation Type": {
+      "type": "integer"
+    },
+    "Cloud Cover": {
+      "type": "integer"
+    },
+    "Weather Visibility": {
+      "type": "integer"
+    },
+    "UV Index": {
+      "type": "integer"
+    },
+    "Weather Ozone": {
+      "type": "integer"
+    },
+    "Jump Count": {
+      "type": "integer"
+    },
+    "Total Grit": {
+      "type": "integer"
+    },
+    "Average Flow": {
+      "type": "integer"
+    },
+    "Flagged": {
+      "type": "integer"
+    },
+    "Average Elapsed Speed": {
+      "type": "integer"
+    },
+    "Dirt Distance": {
+      "type": "integer"
+    },
+    "Newly Explored Distance": {
+      "type": "integer"
+    },
+    "Newly Explored Dirt Distance": {
+      "type": "integer"
+    },
+    "Activity Count": {
+      "type": "integer"
+    },
+    "Total Steps": {
+      "type": "integer"
+    },
+    "Carbon Saved": {
+      "type": "integer"
+    },
+    "Pool Length": {
+      "type": "integer"
+    },
+    "Training Load": {
+      "type": "integer"
+    },
+    "Intensity": {
+      "type": "integer"
+    },
+    "Average Grade Adjusted Pace": {
+      "type": "integer"
+    },
+    "Timer Time": {
+      "type": "integer"
+    },
+    "Total Cycles": {
+      "type": "integer"
+    },
+    "Media": {
+      "type": "integer"
+    }
+  }
+}

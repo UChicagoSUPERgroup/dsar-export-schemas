@@ -1,0 +1,82 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "anyOf": [
+    {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    {
+      "type": "object",
+      "properties": {
+        "request_timestamp": {
+          "type": "string"
+        },
+        "session_id": {
+          "type": "string"
+        },
+        "hardware_make": {
+          "type": "integer"
+        },
+        "hardware_model": {
+          "type": "string"
+        },
+        "os_version": {
+          "type": "string"
+        },
+        "application": {
+          "type": "string"
+        },
+        "application_version": {
+          "type": "integer"
+        },
+        "page": {
+          "type": "string"
+        },
+        "referrer_page": {
+          "type": "string"
+        },
+        "format": {
+          "type": "string"
+        },
+        "method": {
+          "type": "string"
+        },
+        "uri": {
+          "type": "string"
+        },
+        "status": {
+          "type": "integer"
+        },
+        "request_type": {
+          "type": "string"
+        },
+        "ip": {
+          "type": "string"
+        },
+        "user_agent": {
+          "type": "string"
+        },
+        "clickstream_cookie": {
+          "type": "integer"
+        },
+        "post_params": {
+          "type": "integer"
+        },
+        "protocol": {
+          "type": "string"
+        },
+        "api_developed_company_name": {
+          "type": "string"
+        },
+        "api_name": {
+          "type": "string"
+        },
+        "user_name": {
+          "type": "string"
+        }
+      }
+    }
+  ]
+}

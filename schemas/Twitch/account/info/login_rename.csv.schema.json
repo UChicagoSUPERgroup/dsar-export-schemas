@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "time": {
+      "type": "string"
+    },
+    "user_id": {
+      "type": "integer"
+    },
+    "old_login": {
+      "type": "string"
+    },
+    "new_login": {
+      "type": "string"
+    },
+    "rename_type": {
+      "type": "integer"
+    },
+    "time_utc": {
+      "type": "integer"
+    }
+  }
+}

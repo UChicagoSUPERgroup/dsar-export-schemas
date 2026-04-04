@@ -1,0 +1,78 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Last Modified": {
+      "type": "string"
+    },
+    "Container Type": {
+      "type": "string"
+    },
+    "Container Description": {
+      "type": "string"
+    },
+    "Track Description": {
+      "type": "string"
+    },
+    "Ignore For Recommendations": {
+      "type": "string"
+    },
+    "Country": {
+      "type": "string"
+    },
+    "Container Reference": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Track Reference": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Feature Name": {
+      "type": "string"
+    },
+    "First Event Timestamp": {
+      "type": "string"
+    },
+    "Last End Reason Tyoe": {
+      "type": "string"
+    },
+    "Last Event End Timestamp": {
+      "type": "string"
+    },
+    "Last Event Received Timestamp": {
+      "type": "string"
+    },
+    "Last Event Start Timestamp": {
+      "type": "string"
+    },
+    "Max Event End Position in millis": {
+      "type": "integer"
+    },
+    "Max Play Duration in millis": {
+      "type": "integer"
+    },
+    "Media duration in millis": {
+      "type": "integer"
+    },
+    "Media type": {
+      "type": "string"
+    },
+    "Min Event Start Position in millis": {
+      "type": "integer"
+    },
+    "Total plays": {
+      "type": "integer"
+    },
+    "Total skips": {
+      "type": "integer"
+    },
+    "Total play duration in millis": {
+      "type": "integer"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "global_stats": {
+      "type": "object",
+      "properties": {
+        "_lbidx": {
+          "type": "integer"
+        },
+        "all_ins": {
+          "type": "integer"
+        },
+        "chip_reserve": {
+          "type": "integer"
+        },
+        "games_played": {
+          "type": "integer"
+        },
+        "level": {
+          "type": "integer"
+        },
+        "play_time": {
+          "type": "integer"
+        },
+        "pvp_games_played": {
+          "type": "integer"
+        },
+        "watch_time": {
+          "type": "integer"
+        },
+        "xp": {
+          "type": "integer"
+        }
+      }
+    },
+    "leaderboards": {
+      "type": "string"
+    }
+  }
+}

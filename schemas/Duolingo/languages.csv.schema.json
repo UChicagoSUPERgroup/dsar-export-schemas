@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "learning_language": {
+      "type": "string"
+    },
+    "from_language": {
+      "type": "string"
+    },
+    "points": {
+      "type": "integer"
+    },
+    "skills_learned": {
+      "type": "integer"
+    },
+    "total_lessons": {
+      "type": "integer"
+    },
+    "days_active": {
+      "type": "integer"
+    },
+    "last_active": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "prior_proficiency": {
+      "type": "integer"
+    },
+    "subscribed": {
+      "type": "integer"
+    }
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "time": {
+      "type": "string"
+    },
+    "ip": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "region": {
+      "type": "integer"
+    },
+    "asn": {
+      "type": "string"
+    },
+    "device_id": {
+      "type": "string"
+    },
+    "channel": {
+      "type": "string"
+    },
+    "channel_game": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "source": {
+      "type": "string"
+    },
+    "login": {
+      "type": "string"
+    },
+    "platform": {
+      "type": "string"
+    },
+    "partner": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "logged_in": {
+      "type": "string"
+    },
+    "client_time": {
+      "type": "string"
+    },
+    "host_channel": {
+      "type": "integer"
+    },
+    "follow_count": {
+      "type": "integer"
+    },
+    "user_id": {
+      "type": "integer"
+    },
+    "host_channel_id": {
+      "type": "integer"
+    },
+    "channel_id": {
+      "type": "integer"
+    },
+    "client_app": {
+      "type": "string"
+    },
+    "time_utc": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    }
+  }
+}

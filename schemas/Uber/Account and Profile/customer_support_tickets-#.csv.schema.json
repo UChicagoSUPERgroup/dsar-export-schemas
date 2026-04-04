@@ -1,0 +1,33 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Trip Request Time": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Create Ticket Time": {
+      "type": "string"
+    },
+    "City": {
+      "type": "string"
+    },
+    "Country": {
+      "type": "string"
+    },
+    "Product Name": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Locale": {
+      "type": "string"
+    },
+    "Modality": {
+      "type": "string"
+    }
+  }
+}

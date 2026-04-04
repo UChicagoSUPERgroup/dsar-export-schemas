@@ -1,0 +1,63 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Profile Type": {
+      "type": "string"
+    },
+    "Bank/Issuer Name": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Payment Method Brand": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Payment Method Type": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Used For Collections": {
+      "type": "string"
+    },
+    "Used For Disbursements": {
+      "type": "string"
+    },
+    "Is the Latest Version": {
+      "type": "string"
+    },
+    "Not Payable": {
+      "type": "string"
+    },
+    "Billing Country": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Country": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Region": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Deleted At": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    }
+  }
+}

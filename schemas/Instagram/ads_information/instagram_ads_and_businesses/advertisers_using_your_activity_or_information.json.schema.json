@@ -1,0 +1,26 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "ig_custom_audiences_all_types": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "advertiser_name": {
+            "type": "string"
+          },
+          "has_data_file_custom_audience": {
+            "type": "boolean"
+          },
+          "has_remarketing_custom_audience": {
+            "type": "boolean"
+          },
+          "has_in_person_store_visit": {
+            "type": "boolean"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Country": {
+      "type": "string"
+    },
+    "Container Name": {
+      "type": "string"
+    },
+    "Impression Create Date": {
+      "type": "integer"
+    },
+    "Location": {
+      "type": "string"
+    },
+    "Recommendation ID": {
+      "type": "string"
+    }
+  }
+}

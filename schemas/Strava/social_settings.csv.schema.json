@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Facebook autoshare is enabled": {
+      "type": "string"
+    },
+    "Garmin popular segments enabled": {
+      "type": "string"
+    },
+    "Default activity highlight image": {
+      "type": "string"
+    },
+    "Primary club ID number": {
+      "type": "integer"
+    },
+    "Sync contacts enabled": {
+      "type": "string"
+    },
+    "Do not promote my activities to my followers": {
+      "type": "string"
+    }
+  }
+}

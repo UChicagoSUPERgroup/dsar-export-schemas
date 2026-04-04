@@ -1,0 +1,690 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Action Context": {
+      "type": "integer"
+    },
+    "Action Details": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Action Type": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Age Verification Trigger Content Identifier": {
+      "type": "integer"
+    },
+    "Album ID": {
+      "type": "integer"
+    },
+    "Album Metadata Artists": {
+      "type": "integer"
+    },
+    "Album Metadata Available": {
+      "type": "integer"
+    },
+    "Album Metadata Content ID": {
+      "type": "integer"
+    },
+    "Album Metadata Deluxe": {
+      "type": "integer"
+    },
+    "Album Metadata Explicit Flag": {
+      "type": "integer"
+    },
+    "Album Metadata ID": {
+      "type": "integer"
+    },
+    "Album Metadata Release Date": {
+      "type": "integer"
+    },
+    "Album Metadata Streamable": {
+      "type": "integer"
+    },
+    "Album Name": {
+      "type": "integer"
+    },
+    "Amount Paid": {
+      "type": "integer"
+    },
+    "Analytics Subscription Mode": {
+      "type": "string"
+    },
+    "Analytics Subscription Type": {
+      "type": "string"
+    },
+    "App Name": {
+      "type": "string"
+    },
+    "App Version": {
+      "type": "number"
+    },
+    "Apple ID Number": {
+      "type": "string"
+    },
+    "Apple Music Subscription": {
+      "type": "integer"
+    },
+    "Artist Name": {
+      "type": "integer"
+    },
+    "Billing Currency Code": {
+      "type": "integer"
+    },
+    "Broadcast Type": {
+      "type": "integer"
+    },
+    "Channel Partner": {
+      "type": "integer"
+    },
+    "Channel Partner ID": {
+      "type": "integer"
+    },
+    "Channel Partner Type ID": {
+      "type": "integer"
+    },
+    "Channel Product Code": {
+      "type": "integer"
+    },
+    "Click Event Referral URL": {
+      "type": "integer"
+    },
+    "Click Target": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Click Target Type": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Client Event ID": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Client ID": {
+      "type": "string"
+    },
+    "Client Platform": {
+      "type": "integer"
+    },
+    "Client Timezone Offset": {
+      "type": "integer"
+    },
+    "Cloud Playlist": {
+      "type": "integer"
+    },
+    "Connection": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Container Album Name": {
+      "type": "integer"
+    },
+    "Container Artist Name": {
+      "type": "integer"
+    },
+    "Container ID": {
+      "type": "integer"
+    },
+    "Container Name": {
+      "type": "integer"
+    },
+    "Container Origin Type": {
+      "type": "integer"
+    },
+    "Container Type": {
+      "type": "integer"
+    },
+    "Container Universal Library ID": {
+      "type": "integer"
+    },
+    "Content Is Shared": {
+      "type": "integer"
+    },
+    "Content Type that Triggered Age Verification": {
+      "type": "integer"
+    },
+    "Correlation Key": {
+      "type": "integer"
+    },
+    "Cumulative Duration": {
+      "type": "integer"
+    },
+    "Device OS Name": {
+      "type": "string"
+    },
+    "Device OS Version": {
+      "type": [
+        "number",
+        "string"
+      ]
+    },
+    "Device Type": {
+      "type": "string"
+    },
+    "Dialog Event": {
+      "type": "integer"
+    },
+    "Dialog ID": {
+      "type": "integer"
+    },
+    "Dialog Options": {
+      "type": "integer"
+    },
+    "Dialog Result": {
+      "type": "integer"
+    },
+    "Dialog Text": {
+      "type": "integer"
+    },
+    "Dialog Type": {
+      "type": "integer"
+    },
+    "Duplicate Cloud Album ID": {
+      "type": "integer"
+    },
+    "Duplicate Container Name": {
+      "type": "integer"
+    },
+    "Eligibility Offer": {
+      "type": "string"
+    },
+    "Eligibility Type": {
+      "type": "integer"
+    },
+    "End Position In Milliseconds": {
+      "type": "integer"
+    },
+    "End Reason Type": {
+      "type": "integer"
+    },
+    "Error Type": {
+      "type": "integer"
+    },
+    "Evaluation Variant": {
+      "type": "string"
+    },
+    "Event Date Time": {
+      "type": "string"
+    },
+    "Event Date Time - Localized": {
+      "type": "string"
+    },
+    "Event End Timestamp": {
+      "type": "integer"
+    },
+    "Event ID": {
+      "type": "string"
+    },
+    "Event Start Timestamp": {
+      "type": "integer"
+    },
+    "Event Type": {
+      "type": "string"
+    },
+    "Event Version": {
+      "type": "integer"
+    },
+    "External Referral URL": {
+      "type": "integer"
+    },
+    "Feature Name": {
+      "type": "integer"
+    },
+    "Free Trial": {
+      "type": "integer"
+    },
+    "Gender": {
+      "type": "integer"
+    },
+    "Global Playlist ID": {
+      "type": "integer"
+    },
+    "Hardware Brand": {
+      "type": "integer"
+    },
+    "Hardware Family": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Hardware Model": {
+      "type": "string"
+    },
+    "Hardware Type": {
+      "type": "string"
+    },
+    "Host App Name": {
+      "type": "integer"
+    },
+    "Host App Version": {
+      "type": "integer"
+    },
+    "Impressed Content Names": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "IP City": {
+      "type": "string"
+    },
+    "IP Country Code": {
+      "type": "string"
+    },
+    "IP Network": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "IP Network type": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "IP Region Code": {
+      "type": "integer"
+    },
+    "Is Siri Initiated?": {
+      "type": "integer"
+    },
+    "Item Descriptions": {
+      "type": "integer"
+    },
+    "Item Type": {
+      "type": "integer"
+    },
+    "iTunes Playlist ID": {
+      "type": "integer"
+    },
+    "Media Duration In Milliseconds": {
+      "type": "integer"
+    },
+    "Media Type": {
+      "type": "integer"
+    },
+    "Music Upgrade": {
+      "type": "integer"
+    },
+    "Offer Placement": {
+      "type": "integer"
+    },
+    "Offer Placement Type": {
+      "type": "integer"
+    },
+    "Offer Trial Period": {
+      "type": "integer"
+    },
+    "Offer Type": {
+      "type": "integer"
+    },
+    "Offer Upsell": {
+      "type": "integer"
+    },
+    "Offer Variant": {
+      "type": "integer"
+    },
+    "Operating System Languages": {
+      "type": "integer"
+    },
+    "OS Build Number": {
+      "type": "string"
+    },
+    "OS Major Version": {
+      "type": "integer"
+    },
+    "OS Minor Version": {
+      "type": "number"
+    },
+    "Page": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Page Click UI Location": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Page Details": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Page Display Type": {
+      "type": "integer"
+    },
+    "Page History": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Page ID": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Page Type": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Page URL": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Parent Folder ID": {
+      "type": "integer"
+    },
+    "Personalized Name": {
+      "type": "integer"
+    },
+    "Play Activity Type": {
+      "type": "integer"
+    },
+    "Playback Session Action Type": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Playback Session Content Group ID": {
+      "type": "integer"
+    },
+    "Playback Session Content Group Type": {
+      "type": "integer"
+    },
+    "Playback Session Content ID": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Playback Session Feature Name": {
+      "type": "integer"
+    },
+    "Playback Session ID": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Playback Session Start Time": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Playback Session Tab Name": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Playlist Version ID": {
+      "type": "integer"
+    },
+    "Price": {
+      "type": "integer"
+    },
+    "Promotion Scenario ID": {
+      "type": "integer"
+    },
+    "Public Playlist ID": {
+      "type": "integer"
+    },
+    "Purchase Result Type": {
+      "type": "integer"
+    },
+    "Radio Seed ID": {
+      "type": "integer"
+    },
+    "Radio Station ID": {
+      "type": "integer"
+    },
+    "Radio Station Information ID": {
+      "type": "integer"
+    },
+    "Record Available": {
+      "type": "integer"
+    },
+    "Record Content ID": {
+      "type": "integer"
+    },
+    "Record Content Index": {
+      "type": "integer"
+    },
+    "Record Content Type": {
+      "type": "integer"
+    },
+    "Record Content Type Name": {
+      "type": "integer"
+    },
+    "Record Reason Location Key": {
+      "type": "integer"
+    },
+    "Record Reason Type": {
+      "type": "integer"
+    },
+    "Record Reasons": {
+      "type": "integer"
+    },
+    "Referral App Name": {
+      "type": "integer"
+    },
+    "Request ID": {
+      "type": "integer"
+    },
+    "Search Term": {
+      "type": "integer"
+    },
+    "Search Term (encoded)": {
+      "type": "integer"
+    },
+    "Season ID": {
+      "type": "integer"
+    },
+    "Session ID": {
+      "type": "integer"
+    },
+    "Session Is Shared": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Shared Activity Devices-Current": {
+      "type": "integer"
+    },
+    "Shared Activity Devices-Max": {
+      "type": "integer"
+    },
+    "Shelf Index": {
+      "type": "integer"
+    },
+    "Shelf Location Key": {
+      "type": "integer"
+    },
+    "Shelf Module Type Name": {
+      "type": "integer"
+    },
+    "Shelf View Type Name": {
+      "type": "integer"
+    },
+    "Song Name": {
+      "type": "integer"
+    },
+    "Start Position Milliseconds": {
+      "type": "integer"
+    },
+    "Station Personalized ID": {
+      "type": "integer"
+    },
+    "Store Front": {
+      "type": "string"
+    },
+    "Store Front Header": {
+      "type": "string"
+    },
+    "Stream Source": {
+      "type": "integer"
+    },
+    "Subscription Campaign Name": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Subscription Grace Period Indicator": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Subscription Hardware Offer": {
+      "type": "integer"
+    },
+    "Subscription Mode Name": {
+      "type": "integer"
+    },
+    "Subscription Offer ID": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Subscription Period": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Subscription Product Code": {
+      "type": "integer"
+    },
+    "Subscription Purchase Date": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Subscription State": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Subscription Type": {
+      "type": "integer"
+    },
+    "Subscription Type Details": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Subscriptions": {
+      "type": "integer"
+    },
+    "System Dialog ID": {
+      "type": "integer"
+    },
+    "Tab": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Timezone Offset Min": {
+      "type": "integer"
+    },
+    "Transaction Date": {
+      "type": "integer"
+    },
+    "Transaction ID": {
+      "type": "integer"
+    },
+    "Type": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Universal Library ID": {
+      "type": "integer"
+    },
+    "URI": {
+      "type": "integer"
+    },
+    "URL": {
+      "type": "integer"
+    },
+    "User Actions": {
+      "type": "integer"
+    },
+    "User Agent": {
+      "type": "string"
+    },
+    "User Hardware Model": {
+      "type": "integer"
+    },
+    "User Playlist ID": {
+      "type": "integer"
+    },
+    "User Subscription Status": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Visit End Time": {
+      "type": "string"
+    },
+    "Visit ID": {
+      "type": "string"
+    },
+    "Visit Start Timestamp": {
+      "type": "string"
+    },
+    "Vocal Attenuation": {
+      "type": "integer"
+    },
+    "Widget Name": {
+      "type": "integer"
+    },
+    "Widget Size": {
+      "type": "integer"
+    },
+    "Widget Subject": {
+      "type": "integer"
+    },
+    "Widget Type": {
+      "type": "integer"
+    }
+  }
+}

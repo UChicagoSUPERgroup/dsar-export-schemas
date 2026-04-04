@@ -1,0 +1,63 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "context_time": {
+        "type": "string"
+      },
+      "context_receiver_service_timestamp": {
+        "type": "string"
+      },
+      "context_device_manufacturer": {
+        "type": "string"
+      },
+      "context_device_model": {
+        "type": "string"
+      },
+      "context_device_type": {
+        "type": "string"
+      },
+      "context_os_name": {
+        "type": "string"
+      },
+      "context_os_version": {
+        "type": "string"
+      },
+      "context_application_version": {
+        "type": "string"
+      },
+      "context_conn_country": {
+        "type": "string"
+      },
+      "message_num_tracks": {
+        "type": "integer"
+      },
+      "message_num_missing_files": {
+        "type": "integer"
+      },
+      "message_num_missing_metadata": {
+        "type": "integer"
+      },
+      "message_num_expired": {
+        "type": "integer"
+      },
+      "message_num_missing_in_audio_index": {
+        "type": "integer"
+      },
+      "message_total_time": {
+        "type": "integer"
+      },
+      "message_num_batches": {
+        "type": "integer"
+      },
+      "message_num_previously_played": {
+        "type": "integer"
+      },
+      "timestamp_utc": {
+        "type": "string"
+      }
+    }
+  }
+}

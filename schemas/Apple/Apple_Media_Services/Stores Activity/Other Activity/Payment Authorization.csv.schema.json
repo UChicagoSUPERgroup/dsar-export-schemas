@@ -1,0 +1,408 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Account Update": {
+      "type": "integer"
+    },
+    "Acquirer Action": {
+      "type": "integer"
+    },
+    "Acquirer Action Description": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Acquirer Bank": {
+      "type": "string"
+    },
+    "Acquirer ID": {
+      "type": "string"
+    },
+    "Acquirer Transaction ID": {
+      "type": "integer"
+    },
+    "Action Description": {
+      "type": "string"
+    },
+    "Adapter Result Code": {
+      "type": "integer"
+    },
+    "Adapter Result Message": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Adapter Transaction ID": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Apple Account Number": {
+      "type": "string"
+    },
+    "Apple Pay Opt-In": {
+      "type": "integer"
+    },
+    "Authorization Adapter Code": {
+      "type": "string"
+    },
+    "Authorization Adapter Description": {
+      "type": "string"
+    },
+    "Authorization Amount": {
+      "type": "number"
+    },
+    "Authorization Attempt": {
+      "type": "integer"
+    },
+    "Authorization Card Processor": {
+      "type": "string"
+    },
+    "Authorization Card Processor ID": {
+      "type": "integer"
+    },
+    "Authorization Category": {
+      "type": "string"
+    },
+    "Authorization Code": {
+      "type": "integer"
+    },
+    "Authorization Create date": {
+      "type": "string"
+    },
+    "Authorization Creation Timestamp": {
+      "type": "string"
+    },
+    "Authorization Decline Reason": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Authorization Key ID": {
+      "type": "string"
+    },
+    "Authorization Message": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Authorization Modified Date": {
+      "type": "string"
+    },
+    "Authorization Processor Message": {
+      "type": "string"
+    },
+    "Authorization Processor Response": {
+      "type": "string"
+    },
+    "Authorization Response Code": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Authorization Result": {
+      "type": "string"
+    },
+    "Authorization Result Type": {
+      "type": "string"
+    },
+    "Authorization Type Name": {
+      "type": "string"
+    },
+    "Authorization USD Amount": {
+      "type": "number"
+    },
+    "Bank Name": {
+      "type": "string"
+    },
+    "Billing Desk Error": {
+      "type": "integer"
+    },
+    "Billing Information ID": {
+      "type": "string"
+    },
+    "Billing Information Type ID": {
+      "type": "integer"
+    },
+    "Card Brand Description": {
+      "type": "string"
+    },
+    "Card Entry Method": {
+      "type": "string"
+    },
+    "Card Expiry": {
+      "type": "string"
+    },
+    "Card Expiry Month Year": {
+      "type": "integer"
+    },
+    "Card Issuer Country": {
+      "type": "string"
+    },
+    "Card Network": {
+      "type": "string"
+    },
+    "Card Type Description": {
+      "type": "string"
+    },
+    "Card Type Extended Description": {
+      "type": "string"
+    },
+    "Carrier Billing Payment Method Type": {
+      "type": "string"
+    },
+    "Channel ID": {
+      "type": "string"
+    },
+    "Client Transaction ID": {
+      "type": "string"
+    },
+    "Content Name": {
+      "type": "integer"
+    },
+    "Country Name": {
+      "type": "string"
+    },
+    "Currency Name": {
+      "type": "string"
+    },
+    "Customer Risk Status": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Decline Reason": {
+      "type": "integer"
+    },
+    "Exemption": {
+      "type": "integer"
+    },
+    "Failed Step Up": {
+      "type": "string"
+    },
+    "First Content Name": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "First Six PAN Number": {
+      "type": "integer"
+    },
+    "Interchange ID": {
+      "type": "string"
+    },
+    "Last Four PAN Number": {
+      "type": "integer"
+    },
+    "Liability Shift": {
+      "type": "integer"
+    },
+    "Line Of Business": {
+      "type": "string"
+    },
+    "Merchant Advice Code": {
+      "type": "integer"
+    },
+    "Native Result Type": {
+      "type": "integer"
+    },
+    "Opportunistic Buy": {
+      "type": "integer"
+    },
+    "Payment Method": {
+      "type": "string"
+    },
+    "Payment Service Number": {
+      "type": "integer"
+    },
+    "Payment Type": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Payment Type Name": {
+      "type": "string"
+    },
+    "Previous Action Code": {
+      "type": "integer"
+    },
+    "Previous Action Code Description": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Processor Entity Code": {
+      "type": "string"
+    },
+    "Processor Response Code": {
+      "type": "integer"
+    },
+    "Processor Response Message": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Processor Transaction Additional Fields": {
+      "type": "integer"
+    },
+    "Processor Transaction ID": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Processor Transaction Operation Text": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Processor Transaction Type": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Product Description": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Product Name": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Purchase ID": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Reason Code": {
+      "type": "integer"
+    },
+    "Reason Description": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Received Amount": {
+      "type": "number"
+    },
+    "Received Local Amount": {
+      "type": "number"
+    },
+    "Received USD Amount": {
+      "type": "number"
+    },
+    "Reference Number": {
+      "type": "string"
+    },
+    "Return Settlement Amount": {
+      "type": "integer"
+    },
+    "Return Settlement Local Amount": {
+      "type": "integer"
+    },
+    "Return Settlement USD Amount": {
+      "type": "integer"
+    },
+    "Reversed Authorization Amount": {
+      "type": "integer"
+    },
+    "Reversed Authorization Local Amount": {
+      "type": "integer"
+    },
+    "Reversed Authorization USD Amount": {
+      "type": "integer"
+    },
+    "Settled Amount": {
+      "type": "number"
+    },
+    "Settled Local Amount": {
+      "type": "number"
+    },
+    "Settled USD Amount": {
+      "type": "number"
+    },
+    "Settlement Entity": {
+      "type": "string"
+    },
+    "Settlement Entity ID": {
+      "type": "integer"
+    },
+    "Store Front Name": {
+      "type": "string"
+    },
+    "Subscription ID": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Subscription ID List": {
+      "type": "integer"
+    },
+    "Subscription Purchase ID": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Subscription Purchase ID List": {
+      "type": "integer"
+    },
+    "Total Purchase Details": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Transaction ID": {
+      "type": "string"
+    },
+    "Transaction Indicator": {
+      "type": "string"
+    },
+    "Transaction Result Message": {
+      "type": "string"
+    },
+    "Transaction State Message": {
+      "type": "string"
+    },
+    "Transaction Type Description": {
+      "type": "string"
+    },
+    "User Step Up": {
+      "type": "integer"
+    },
+    "Wallet Authorization Attempt ID": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Wallet Entry ID": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    }
+  }
+}

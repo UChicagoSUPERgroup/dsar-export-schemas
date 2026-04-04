@@ -1,0 +1,228 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "explanation": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "email": {
+        "type": "string"
+      },
+      "first_name": {
+        "type": "string"
+      },
+      "postal_code": {
+        "type": "string"
+      },
+      "last_login_at": {
+        "type": "string"
+      },
+      "image_uploaded_at": {
+        "type": "string"
+      },
+      "last_name": {
+        "type": "string"
+      },
+      "email_verified_at": {
+        "type": "string"
+      },
+      "born_at": {
+        "type": "string"
+      },
+      "about_me": {
+        "type": "string"
+      },
+      "friends_count": {
+        "type": "integer"
+      },
+      "reviews_count": {
+        "type": "integer"
+      },
+      "favorite_books": {
+        "type": "string"
+      },
+      "city": {
+        "type": "string"
+      },
+      "user_name": {
+        "type": "string"
+      },
+      "login_count": {
+        "type": "integer"
+      },
+      "state_code": {
+        "type": [
+          "integer",
+          "string"
+        ]
+      },
+      "comments_count": {
+        "type": "integer"
+      },
+      "text_reviews_count": {
+        "type": "integer"
+      },
+      "locale": {
+        "type": "string"
+      },
+      "middle_name": {
+        "type": "string"
+      },
+      "gender_custom": {
+        "type": "string"
+      },
+      "created_at": {
+        "type": "string"
+      },
+      "updated_at": {
+        "type": "string"
+      },
+      "gender": {
+        "type": "string"
+      },
+      "last_login_ip_address": {
+        "type": "string"
+      },
+      "priviledge": {
+        "type": "string"
+      },
+      "privacy_preference": {
+        "type": "string"
+      },
+      "full_name_source": {
+        "type": "string"
+      },
+      "informal_name_source": {
+        "type": "string"
+      },
+      "public_name_source": {
+        "type": "string"
+      },
+      "gender_pronoun": {
+        "type": "string"
+      },
+      "image_extension": {
+        "type": "string"
+      },
+      "created_ip_address": {
+        "type": "string"
+      },
+      "my_interests": {
+        "type": "string"
+      },
+      "personal_url": {
+        "type": "string"
+      },
+      "name_privacy_preference": {
+        "type": "string"
+      },
+      "currently_reading_title": {
+        "type": "string"
+      },
+      "users_following_me_count": {
+        "type": "integer"
+      },
+      "likes_count": {
+        "type": "integer"
+      },
+      "country": {
+        "type": "string"
+      },
+      "ratings": {
+        "type": "string"
+      },
+      "location_preference": {
+        "type": "string"
+      },
+      "prompt_to_recommend_books": {
+        "type": "string"
+      },
+      "beta_user": {
+        "type": "string"
+      },
+      "allow_nonfriend_review_comments": {
+        "type": "string"
+      },
+      "show_amazon_import_prompt": {
+        "type": "string"
+      },
+      "show_opted_into_q_and_a_message": {
+        "type": "string"
+      },
+      "author_questions_digest_frequency": {
+        "type": "string"
+      },
+      "q_and_a_ask_or_answer_update": {
+        "type": "string"
+      },
+      "prompt_connect_to_facebook_on_newsfeed": {
+        "type": "string"
+      },
+      "show_welcome_banner": {
+        "type": "string"
+      },
+      "goodreads_recommendations_in_newsfeed": {
+        "type": "string"
+      },
+      "goodreads_editorial_content_in_newsfeed": {
+        "type": "string"
+      },
+      "show_glide_button": {
+        "type": "string"
+      },
+      "romance_newsletter": {
+        "type": "string"
+      },
+      "newsfeed_author_followings": {
+        "type": "string"
+      },
+      "giveaway_winner_followups": {
+        "type": "string"
+      },
+      "author_following_now_available": {
+        "type": "string"
+      },
+      "author_newsletter": {
+        "type": "string"
+      },
+      "user_mention_notification": {
+        "type": "string"
+      },
+      "gender_visibility": {
+        "type": "string"
+      },
+      "searchable_by_email": {
+        "type": "string"
+      },
+      "giveaway_for_author_follow_book_notification": {
+        "type": "string"
+      },
+      "author_marketing": {
+        "type": "string"
+      },
+      "giveaway_nonwinner_message": {
+        "type": "string"
+      },
+      "expose_engagement_engine_web_content": {
+        "type": "string"
+      },
+      "engagement_engine_notification": {
+        "type": "string"
+      },
+      "special_offer_email": {
+        "type": "string"
+      },
+      "feedback_email": {
+        "type": "string"
+      },
+      "sponsored_email": {
+        "type": "string"
+      }
+    }
+  }
+}

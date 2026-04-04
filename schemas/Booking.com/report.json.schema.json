@@ -1,0 +1,618 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "REVIEWS": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "type": "object",
+            "properties": {
+              "<number>": {
+                "type": "object",
+                "properties": {
+                  "completed": {
+                    "type": "string"
+                  },
+                  "suppressed": {
+                    "type": "integer"
+                  },
+                  "hotel_positive": {
+                    "type": "integer"
+                  },
+                  "guest_name": {
+                    "type": "string"
+                  },
+                  "hotel_city": {
+                    "type": "string"
+                  },
+                  "tips": {
+                    "type": "integer"
+                  },
+                  "title": {
+                    "type": "integer"
+                  },
+                  "hotel_name": {
+                    "type": "string"
+                  },
+                  "hotel_negative": {
+                    "type": "integer"
+                  },
+                  "approved": {
+                    "type": "integer"
+                  }
+                }
+              },
+              "by_ufi_id": {
+                "type": "object"
+              },
+              "by_hres_id": {
+                "type": "object"
+              },
+              "unknown": {
+                "type": "array"
+              }
+            }
+          },
+          "topic": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "BTL-BOOKING-ENGINE-GDPR-CONNECTOR": {
+      "type": "array"
+    },
+    "FLIGHTS": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "topic": {
+            "type": "string"
+          },
+          "data": {
+            "type": "array"
+          }
+        }
+      }
+    },
+    "TRIPS_PROMO_SERVICE": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "topic": {
+            "type": "string"
+          },
+          "data": {
+            "type": "object",
+            "properties": {
+              "Benefit": {
+                "type": "string"
+              },
+              "Description": {
+                "type": "string"
+              },
+              "OnProduct": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "CS_TOOLING": {
+      "type": "array"
+    },
+    "BTL-SUPPLIER-BOOKINGS-API": {
+      "type": "array"
+    },
+    "TRIPS_POWERHOUSE": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "topic": {
+            "type": "string"
+          },
+          "data": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "start": {
+                  "type": "string"
+                },
+                "end": {
+                  "type": "string"
+                },
+                "reservations": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "start": {
+                        "type": "string"
+                      },
+                      "end": {
+                        "type": "string"
+                      },
+                      "hotel": {
+                        "type": "object",
+                        "properties": {
+                          "name": {
+                            "type": "string"
+                          },
+                          "location": {
+                            "type": "object",
+                            "properties": {
+                              "cc#": {
+                                "type": "string"
+                              },
+                              "city": {
+                                "type": "integer"
+                              },
+                              "address": {
+                                "type": "object",
+                                "properties": {
+                                  "value": {
+                                    "type": "string"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "components": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "properties": {
+                            "component_id": {
+                              "type": "string"
+                            },
+                            "id": {
+                              "type": "string"
+                            },
+                            "start_time": {
+                              "type": "string"
+                            },
+                            "end_time": {
+                              "type": "string"
+                            },
+                            "parts": {
+                              "type": "array"
+                            },
+                            "linked_orders": {
+                              "type": "object",
+                              "properties": {
+                                "order_relations": {
+                                  "type": "array",
+                                  "items": {
+                                    "type": "object",
+                                    "properties": {
+                                      "order_id": {
+                                        "type": "string"
+                                      },
+                                      "relation_type": {
+                                        "type": "string"
+                                      },
+                                      "objects_information": {
+                                        "type": "array",
+                                        "items": {
+                                          "type": "object",
+                                          "properties": {
+                                            "object_id": {
+                                              "type": "string"
+                                            },
+                                            "world": {
+                                              "type": "string"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "payment_term": {
+                              "type": "object",
+                              "properties": {
+                                "id": {
+                                  "type": "integer"
+                                },
+                                "type": {
+                                  "type": "string"
+                                },
+                                "days_before": {
+                                  "type": "integer"
+                                },
+                                "percent_fee": {
+                                  "type": "integer"
+                                },
+                                "days_fee": {
+                                  "type": "integer"
+                                },
+                                "stages": {
+                                  "type": "array",
+                                  "items": {
+                                    "type": "object",
+                                    "properties": {
+                                      "from": {
+                                        "type": "string"
+                                      },
+                                      "until": {
+                                        "type": "string"
+                                      },
+                                      "no_show": {
+                                        "type": "boolean"
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "reservation_type": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "CSAT-GDPR-CONNECTOR": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "topic": {
+            "type": "string"
+          },
+          "data": {
+            "type": "array"
+          }
+        }
+      }
+    },
+    "CRBMS-GDPR-CONNECTOR": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "topic": {
+            "type": "string"
+          },
+          "data": {
+            "type": "array"
+          }
+        }
+      }
+    },
+    "WEB_MARKETING": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "type": "object",
+            "properties": {
+              "<email>": {
+                "anyOf": [
+                  {
+                    "type": "array"
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "Unsubscription IP Address": {
+                        "type": "string"
+                      },
+                      "Subscription IP Address": {
+                        "type": "string"
+                      },
+                      "Unsubscription Time": {
+                        "type": "integer"
+                      },
+                      "Subscription Time": {
+                        "type": "string"
+                      },
+                      "language": {
+                        "type": "string"
+                      },
+                      "Last name": {
+                        "type": "integer"
+                      },
+                      "Home City": {
+                        "type": "integer"
+                      },
+                      "First name": {
+                        "type": "integer"
+                      },
+                      "email": {
+                        "type": "string"
+                      },
+                      "Country": {
+                        "type": "string"
+                      },
+                      "booking.com": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      },
+                      "email_address_id": {
+                        "type": "integer"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "topic": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "SEARCH_V#": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "topic": {
+            "type": "string"
+          },
+          "data": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "date": {
+                  "type": "string"
+                },
+                "destination": {
+                  "type": "string"
+                },
+                "checkin": {
+                  "type": [
+                    "integer",
+                    "string"
+                  ]
+                },
+                "checkout": {
+                  "type": [
+                    "integer",
+                    "string"
+                  ]
+                },
+                "adults": {
+                  "type": "integer"
+                },
+                "children": {
+                  "type": "integer"
+                },
+                "rooms": {
+                  "type": "integer"
+                },
+                "rank_order": {
+                  "type": "string"
+                },
+                "visitor_country": {
+                  "type": "string"
+                },
+                "site_type": {
+                  "type": "string"
+                },
+                "language": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "BBGDPR": {
+      "type": "array"
+    },
+    "BTL-INSURANCE-CLAIMS-NEW": {
+      "type": "array"
+    },
+    "WISHLIST": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "topic": {
+            "type": "string"
+          },
+          "data": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "last_change": {
+                  "type": "string"
+                },
+                "hotels": {
+                  "type": "array"
+                },
+                "attractions": {
+                  "type": "array"
+                },
+                "flights": {
+                  "type": "array"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "USER_ACCOUNTS": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "topic": {
+            "type": "string"
+          },
+          "data": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "avatar_type": {
+                  "type": "string"
+                },
+                "status": {
+                  "type": "integer"
+                },
+                "status_msg": {
+                  "type": "string"
+                },
+                "Email address": {
+                  "type": "string"
+                },
+                "Is Genius": {
+                  "type": "string"
+                },
+                "Country code": {
+                  "type": "integer"
+                },
+                "Currency code": {
+                  "type": "string"
+                },
+                "First name": {
+                  "type": "string"
+                },
+                "Language": {
+                  "type": "string"
+                },
+                "Last name": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                },
+                "value": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "RESERVATION_SERVICE": {
+      "type": "object",
+      "properties": {
+        "topic": {
+          "type": "string"
+        },
+        "data": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "Date Last Updated": {
+                "type": "string"
+              },
+              "Reference": {
+                "type": "string"
+              },
+              "Stayer emails": {
+                "type": "array"
+              },
+              "Guest name": {
+                "type": "string"
+              },
+              "Room reservation guest comments": {
+                "type": "integer"
+              },
+              "Hotel reservation guest comments": {
+                "type": "string"
+              },
+              "Booker first name": {
+                "type": "string"
+              },
+              "Booker last name": {
+                "type": "string"
+              },
+              "Booker email": {
+                "type": "string"
+              },
+              "Booker address": {
+                "type": "integer"
+              },
+              "Booker city": {
+                "type": "integer"
+              },
+              "Booker zip": {
+                "type": "integer"
+              },
+              "Booker company": {
+                "type": "integer"
+              },
+              "Booker phone": {
+                "type": "string"
+              },
+              "Booker IP": {
+                "type": "string"
+              },
+              "Booker country code": {
+                "type": "string"
+              },
+              "Checkin date": {
+                "type": "string"
+              },
+              "Checkout date": {
+                "type": "string"
+              },
+              "Smoking preferences": {
+                "type": "string"
+              },
+              "Number of guests": {
+                "type": "integer"
+              },
+              "Number of nights": {
+                "type": "integer"
+              },
+              "Created": {
+                "type": "string"
+              },
+              "Travel purpose": {
+                "type": "string"
+              },
+              "Hotel name": {
+                "type": "string"
+              },
+              "Room name": {
+                "type": "string"
+              },
+              "Reservation state": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "subscripton_name": {
+      "type": "string"
+    },
+    "channel_name": {
+      "type": "string"
+    },
+    "price": {
+      "type": "number"
+    },
+    "trial_start_date": {
+      "type": "string"
+    },
+    "trial_end_date": {
+      "type": "string"
+    },
+    "subscription_status": {
+      "type": "string"
+    },
+    "subscription_start_date": {
+      "type": "string"
+    },
+    "subscription_end_date": {
+      "type": "string"
+    },
+    "cancelation_date": {
+      "type": "string"
+    }
+  }
+}

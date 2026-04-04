@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Bike Name": {
+      "type": "string"
+    },
+    "Component Type": {
+      "type": "string"
+    },
+    "Component Brand": {
+      "type": "string"
+    },
+    "Component Model": {
+      "type": "string"
+    }
+  }
+}

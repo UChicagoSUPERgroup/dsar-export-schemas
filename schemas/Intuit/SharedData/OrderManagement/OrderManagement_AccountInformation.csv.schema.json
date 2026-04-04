@@ -1,0 +1,84 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "orderNumber": {
+      "type": "string"
+    },
+    "orderStatus": {
+      "type": "string"
+    },
+    "createdDate": {
+      "type": "string"
+    },
+    "accountId": {
+      "type": "string"
+    },
+    "accountGivenName": {
+      "type": "string"
+    },
+    "accountMiddleName": {
+      "type": "integer"
+    },
+    "accountOrganizationName": {
+      "type": "integer"
+    },
+    "accountFamilyName": {
+      "type": "string"
+    },
+    "accountPhoneNumber": {
+      "type": "string"
+    },
+    "accountOrganizationPhoneNumber": {
+      "type": "integer"
+    },
+    "addressLine#": {
+      "type": "integer"
+    },
+    "city": {
+      "type": "integer"
+    },
+    "stateOrProvince": {
+      "type": "integer"
+    },
+    "locality": {
+      "type": "integer"
+    },
+    "region": {
+      "type": "integer"
+    },
+    "postalCode": {
+      "type": "integer"
+    },
+    "postalExt": {
+      "type": "integer"
+    },
+    "subRegion": {
+      "type": "integer"
+    },
+    "country": {
+      "type": "string"
+    },
+    "accountEmail": {
+      "type": "string"
+    },
+    "accountOrganizationEmail": {
+      "type": "integer"
+    },
+    "accountAuthId": {
+      "type": "integer"
+    },
+    "paymentMethodCategory": {
+      "type": "integer"
+    },
+    "paymentAuthorizationIds": {
+      "type": "integer"
+    },
+    "paymentMethods": {
+      "type": "integer"
+    },
+    "paymentMethodAttributes": {
+      "type": "integer"
+    }
+  }
+}

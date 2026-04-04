@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "nullfilingId": {
+      "type": "string"
+    },
+    "timeStamp": {
+      "type": "string"
+    },
+    "filingState": {
+      "type": "integer"
+    },
+    "message": {
+      "type": "string"
+    }
+  }
+}

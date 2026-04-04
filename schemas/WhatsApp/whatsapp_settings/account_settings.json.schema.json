@@ -1,0 +1,145 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "wa_settings": {
+      "type": "object",
+      "properties": {
+        "last_seen_privacy": {
+          "type": "string"
+        },
+        "profile_photo_privacy": {
+          "type": "string"
+        },
+        "about_privacy": {
+          "type": "string"
+        },
+        "status_privacy": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "blocked_numbers": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "blocked_numbers_update_time": {
+          "type": "string"
+        },
+        "blocked_#p_users": {
+          "type": "array"
+        },
+        "read_receipts": {
+          "type": "string"
+        },
+        "is_dma_eligible": {
+          "type": [
+            "boolean",
+            "integer"
+          ]
+        },
+        "opted_in_dma_integrators": {
+          "type": "array"
+        },
+        "settings_last_fetch_time": {
+          "type": "object",
+          "properties": {
+            "<number>": {
+              "type": [
+                "integer",
+                "string"
+              ]
+            }
+          }
+        },
+        "sync_sessions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "sync_session_id": {
+                "type": "string"
+              },
+              "account_registration_time": {
+                "type": "string"
+              },
+              "state_collections": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "device_sync_status": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "device_id": {
+                "type": "integer"
+              },
+              "last_notification_dropped_time": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "device_info": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "device_id": {
+                "type": "integer"
+              },
+              "app_version": {
+                "type": "string"
+              },
+              "operating_system_version": {
+                "type": [
+                  "integer",
+                  "string"
+                ]
+              },
+              "device_manufacturer": {
+                "type": "string"
+              },
+              "device_model": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "notification_settings": {
+          "type": "array"
+        },
+        "muted_groups": {
+          "type": "array"
+        },
+        "is_nc_eligible": {
+          "type": [
+            "boolean",
+            "integer"
+          ]
+        },
+        "whatsapp_contacts": {
+          "type": [
+            "boolean",
+            "integer"
+          ]
+        },
+        "current_sync_session_id": {
+          "type": "string"
+        },
+        "current_sync_session_account_registration_time": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

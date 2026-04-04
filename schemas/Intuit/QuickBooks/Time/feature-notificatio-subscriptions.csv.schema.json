@@ -1,0 +1,63 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "client_id": {
+      "type": "integer"
+    },
+    "notification_type": {
+      "type": "string"
+    },
+    "due_time": {
+      "type": "string"
+    },
+    "due_days_of_week": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "x_id": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "x_table": {
+      "type": "string"
+    },
+    "distribution_methods": {
+      "type": "string"
+    },
+    "active": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "enabled": {
+      "type": "integer"
+    },
+    "mtime": {
+      "type": "string"
+    },
+    "ctime": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "": {
+      "type": "array",
+      "items": {
+        "type": [
+          "integer",
+          "string"
+        ]
+      }
+    }
+  }
+}

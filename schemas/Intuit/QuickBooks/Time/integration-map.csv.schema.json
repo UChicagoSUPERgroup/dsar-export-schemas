@@ -1,0 +1,42 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "client_id": {
+      "type": "integer"
+    },
+    "addon_id": {
+      "type": "integer"
+    },
+    "external_field": {
+      "type": "string"
+    },
+    "external_id": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "ts_table": {
+      "type": "string"
+    },
+    "ts_id": {
+      "type": "integer"
+    },
+    "ctime": {
+      "type": "string"
+    },
+    "local_version_string": {
+      "type": "integer"
+    },
+    "remote_version_string": {
+      "type": "integer"
+    },
+    "sync_id": {
+      "type": "integer"
+    }
+  }
+}

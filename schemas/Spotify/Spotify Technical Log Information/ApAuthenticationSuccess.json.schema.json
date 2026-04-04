@@ -1,0 +1,48 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "context_time": {
+        "type": "string"
+      },
+      "message_client_id": {
+        "type": "string"
+      },
+      "message_device_id": {
+        "type": "string"
+      },
+      "message_ip_address": {
+        "type": "string"
+      },
+      "message_platform": {
+        "type": "string"
+      },
+      "message_platform_version": {
+        "type": "integer"
+      },
+      "message_system_info": {
+        "type": "string"
+      },
+      "message_brand": {
+        "type": "integer"
+      },
+      "message_language": {
+        "type": "string"
+      },
+      "message_url": {
+        "type": "integer"
+      },
+      "message_authenticated_session_id": {
+        "type": "string"
+      },
+      "message_ap_connection_id": {
+        "type": "integer"
+      },
+      "timestamp_utc": {
+        "type": "string"
+      }
+    }
+  }
+}

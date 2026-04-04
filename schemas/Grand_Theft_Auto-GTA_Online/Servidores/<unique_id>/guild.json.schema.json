@@ -1,0 +1,282 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "integer"
+    },
+    "icon_hash": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "splash_hash": {
+      "type": "integer"
+    },
+    "banner_hash": {
+      "type": "integer"
+    },
+    "home_header": {
+      "type": "integer"
+    },
+    "owner_id": {
+      "type": "string"
+    },
+    "application_id": {
+      "type": "integer"
+    },
+    "emoji_rev": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "region": {
+      "type": "string"
+    },
+    "afk_channel_id": {
+      "type": "integer"
+    },
+    "afk_timeout": {
+      "type": "integer"
+    },
+    "system_channel_id": {
+      "type": "string"
+    },
+    "widget_enabled": {
+      "type": "integer"
+    },
+    "widget_channel_id": {
+      "type": "integer"
+    },
+    "verification_level": {
+      "type": "integer"
+    },
+    "features": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "default_message_notifications": {
+      "type": "integer"
+    },
+    "mfa_level": {
+      "type": "integer"
+    },
+    "max_presences": {
+      "type": "integer"
+    },
+    "max_members": {
+      "type": "integer"
+    },
+    "vanity_url_code": {
+      "type": "integer"
+    },
+    "explicit_content_filter": {
+      "type": "integer"
+    },
+    "system_channel_flags": {
+      "type": "integer"
+    },
+    "preferred_locale": {
+      "type": "string"
+    },
+    "discovery_splash_hash": {
+      "type": "integer"
+    },
+    "rules_channel_id": {
+      "type": "integer"
+    },
+    "public_updates_channel_id": {
+      "type": "integer"
+    },
+    "sticker_rev": {
+      "type": "integer"
+    },
+    "data": {
+      "type": "object",
+      "properties": {
+        "safety_alerts_channel_id": {
+          "type": "integer"
+        },
+        "moderator_reporting": {
+          "type": "integer"
+        },
+        "suspicious_mention_activity_until": {
+          "type": "integer"
+        },
+        "suspicious_mention_activity_ignored_until": {
+          "type": "integer"
+        },
+        "home_header_hash": {
+          "type": "integer"
+        },
+        "latest_onboarding_question_id": {
+          "type": "integer"
+        },
+        "latest_default_sound_id": {
+          "type": "integer"
+        },
+        "growing_friend_guild_upsell_level": {
+          "type": "integer"
+        },
+        "incidents_data": {
+          "type": "integer"
+        },
+        "inventory_settings": {
+          "type": "integer"
+        },
+        "safety_rate_limits": {
+          "type": "object"
+        },
+        "safety_resource_limits": {
+          "type": "object"
+        },
+        "blocked_regions": {
+          "type": "array"
+        },
+        "profile": {
+          "type": "object",
+          "properties": {
+            "tag": {
+              "type": "integer"
+            },
+            "game_application_ids": {
+              "type": "array"
+            },
+            "search_terms": {
+              "type": "array"
+            },
+            "play_style": {
+              "type": "integer"
+            },
+            "badge": {
+              "type": "integer"
+            },
+            "badge_color_primary": {
+              "type": "string"
+            },
+            "badge_color_secondary": {
+              "type": "integer"
+            },
+            "banner": {
+              "type": "integer"
+            },
+            "brand_color_primary": {
+              "type": "string"
+            },
+            "brand_color_secondary": {
+              "type": "integer"
+            },
+            "badge_hash": {
+              "type": "integer"
+            },
+            "description": {
+              "type": "integer"
+            },
+            "wildcard_descriptors": {
+              "type": "array"
+            },
+            "banner_hash": {
+              "type": "integer"
+            },
+            "traits": {
+              "type": "array"
+            }
+          }
+        },
+        "premium_features": {
+          "type": "integer"
+        },
+        "premium_tier": {
+          "type": "integer"
+        },
+        "owner_configured_content_level": {
+          "type": "integer"
+        },
+        "owner_configured_content_level_updated_timestamp": {
+          "type": "integer"
+        }
+      }
+    },
+    "roles": {
+      "type": "object",
+      "properties": {
+        "<number>": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "description": {
+              "type": "integer"
+            },
+            "permissions": {
+              "type": "string"
+            },
+            "position": {
+              "type": "integer"
+            },
+            "color": {
+              "type": "integer"
+            },
+            "colors": {
+              "type": "object",
+              "properties": {
+                "primary_color": {
+                  "type": "integer"
+                },
+                "secondary_color": {
+                  "type": "integer"
+                },
+                "tertiary_color": {
+                  "type": "integer"
+                }
+              }
+            },
+            "hoist": {
+              "type": "integer"
+            },
+            "managed": {
+              "type": "integer"
+            },
+            "mentionable": {
+              "type": "integer"
+            },
+            "icon": {
+              "type": "integer"
+            },
+            "unicode_emoji": {
+              "type": "integer"
+            },
+            "flags": {
+              "type": "integer"
+            },
+            "tags": {
+              "type": "object",
+              "properties": {
+                "bot_id": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "custom_regions": {
+      "type": "object"
+    }
+  }
+}

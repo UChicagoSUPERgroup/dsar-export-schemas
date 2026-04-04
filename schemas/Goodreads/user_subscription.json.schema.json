@@ -1,0 +1,42 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "explanation": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "subject_type": {
+        "type": "string"
+      },
+      "last_emailed_at": {
+        "type": "string"
+      },
+      "parent_subject_type": {
+        "type": "string"
+      },
+      "created_at": {
+        "type": "string"
+      },
+      "updated_at": {
+        "type": "string"
+      },
+      "user": {
+        "type": "string"
+      },
+      "subject": {
+        "type": "string"
+      },
+      "parent_subject": {
+        "type": "string"
+      },
+      "frequency": {
+        "type": "string"
+      }
+    }
+  }
+}

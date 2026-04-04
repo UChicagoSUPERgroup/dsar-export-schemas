@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "create_date": {
+        "type": "string"
+      },
+      "goal_id": {
+        "type": "string"
+      },
+      "goal_value": {
+        "type": "integer"
+      },
+      "has_been_congratulated": {
+        "type": "string"
+      },
+      "last_modified_date": {
+        "type": "string"
+      }
+    }
+  }
+}

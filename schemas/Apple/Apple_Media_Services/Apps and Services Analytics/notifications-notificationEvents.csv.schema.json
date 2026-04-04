@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Date": {
+      "type": "string"
+    },
+    "Notification Type": {
+      "type": "string"
+    },
+    "Device ID": {
+      "type": "string"
+    },
+    "Device Type": {
+      "type": "string"
+    },
+    "OS Version": {
+      "type": "string"
+    },
+    "Relation": {
+      "type": "string"
+    }
+  }
+}

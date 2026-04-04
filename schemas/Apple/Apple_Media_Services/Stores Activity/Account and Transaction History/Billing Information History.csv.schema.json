@@ -1,0 +1,156 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Apple ID Number": {
+      "type": "string"
+    },
+    "Billing Information ID": {
+      "type": "string"
+    },
+    "Active?": {
+      "type": "string"
+    },
+    "Rank": {
+      "type": "integer"
+    },
+    "Billing Information Created Date": {
+      "type": "string"
+    },
+    "E-mail Address": {
+      "type": "string"
+    },
+    "Billing Name Prefix": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Billing First Name": {
+      "type": "string"
+    },
+    "Billing Last Name": {
+      "type": "string"
+    },
+    "Billing Street Address": {
+      "type": "string"
+    },
+    "Billing Street Address #": {
+      "type": "integer"
+    },
+    "Billing Address City": {
+      "type": "string"
+    },
+    "Billing Address County": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Billing District": {
+      "type": "integer"
+    },
+    "Billing Address Suburb": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Billing State/Province": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Billing Postal Code": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Billing Phone Area Code": {
+      "type": "integer"
+    },
+    "Billing Phone Number": {
+      "type": "string"
+    },
+    "Billing Storefront Country": {
+      "type": "string"
+    },
+    "Payment Type": {
+      "type": "string"
+    },
+    "Apple Pay Indicator": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Bank Name": {
+      "type": "integer"
+    },
+    "Carrier Billing Country Dial Code": {
+      "type": "integer"
+    },
+    "Carrier Billing Phone Number": {
+      "type": "integer"
+    },
+    "Carrier Billing Carrier": {
+      "type": "integer"
+    },
+    "Carrier Billing Account Type": {
+      "type": "integer"
+    },
+    "PayPal Account E-mail": {
+      "type": "integer"
+    },
+    "PayPal Billing ID": {
+      "type": "integer"
+    },
+    "Device IP address": {
+      "type": "string"
+    },
+    "Device Details": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Billing First Name (Phonetic)": {
+      "type": "integer"
+    },
+    "Billing Last Name (Phonetic)": {
+      "type": "integer"
+    },
+    "eGUI Consent Contact Information": {
+      "type": "integer"
+    },
+    "Trusted Beneficiary Status": {
+      "type": "integer"
+    },
+    "Card Issuing Bank Name": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Card Issuing Country": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Card Number": {
+      "type": "integer"
+    },
+    "Payment Card Category": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Apple Pay Device Account Number": {
+      "type": "integer"
+    }
+  }
+}

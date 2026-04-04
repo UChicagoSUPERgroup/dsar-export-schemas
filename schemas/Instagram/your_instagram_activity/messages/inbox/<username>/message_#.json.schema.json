@@ -1,0 +1,143 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "participants": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "messages": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "sender_name": {
+            "type": "string"
+          },
+          "timestamp_ms": {
+            "type": "string"
+          },
+          "content": {
+            "type": [
+              "integer",
+              "string"
+            ]
+          },
+          "share": {
+            "type": "object",
+            "properties": {
+              "link": {
+                "type": "string"
+              },
+              "share_text": {
+                "type": [
+                  "number",
+                  "string"
+                ]
+              },
+              "original_content_owner": {
+                "type": [
+                  "integer",
+                  "string"
+                ]
+              },
+              "profile_share_username": {
+                "type": "string"
+              },
+              "profile_share_name": {
+                "type": "string"
+              }
+            }
+          },
+          "is_geoblocked_for_viewer": {
+            "type": "boolean"
+          },
+          "is_unsent_image_by_messenger_kid_parent": {
+            "type": "boolean"
+          },
+          "reactions": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "reaction": {
+                  "type": "string"
+                },
+                "actor": {
+                  "type": "string"
+                },
+                "timestamp": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "photos": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "uri": {
+                  "type": "string"
+                },
+                "creation_timestamp": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "videos": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "uri": {
+                  "type": "string"
+                },
+                "creation_timestamp": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "call_duration": {
+            "type": "integer"
+          }
+        }
+      }
+    },
+    "title": {
+      "type": "string"
+    },
+    "is_still_participant": {
+      "type": "boolean"
+    },
+    "thread_path": {
+      "type": "string"
+    },
+    "magic_words": {
+      "type": "array"
+    },
+    "joinable_mode": {
+      "type": "object",
+      "properties": {
+        "mode": {
+          "type": "integer"
+        },
+        "link": {
+          "type": [
+            "integer",
+            "string"
+          ]
+        }
+      }
+    }
+  }
+}

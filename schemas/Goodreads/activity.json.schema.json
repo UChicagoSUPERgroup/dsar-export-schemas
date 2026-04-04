@@ -1,0 +1,76 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "explanation": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "activities": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "activity_type": {
+              "type": "string"
+            },
+            "activity": {
+              "type": "string"
+            },
+            "user": {
+              "type": "string"
+            },
+            "is_visible": {
+              "type": "string"
+            },
+            "activity_name": {
+              "type": "string"
+            },
+            "posted_external_networks": {
+              "type": "string"
+            },
+            "product": {
+              "type": "string"
+            },
+            "reference_activity": {
+              "type": "string"
+            },
+            "created_at": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "feeds": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "activity_type": {
+              "type": "string"
+            },
+            "activity": {
+              "type": "string"
+            },
+            "user": {
+              "type": "string"
+            },
+            "parent_activity_type": {
+              "type": "string"
+            },
+            "created_at": {
+              "type": "string"
+            },
+            "updated_at": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}

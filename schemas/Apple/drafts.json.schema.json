@@ -1,0 +1,124 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "integer"
+      },
+      "is_complete": {
+        "type": "boolean"
+      },
+      "created_at": {
+        "type": "string"
+      },
+      "updated_at": {
+        "type": "string"
+      },
+      "user_agent": {
+        "type": "string"
+      },
+      "answers_complete": {
+        "type": "boolean"
+      },
+      "for_device": {
+        "type": "integer"
+      },
+      "for_build": {
+        "type": "integer"
+      },
+      "device_udid": {
+        "type": "integer"
+      },
+      "preferred_languages": {
+        "type": "integer"
+      },
+      "system_language": {
+        "type": "integer"
+      },
+      "siri_language": {
+        "type": "integer"
+      },
+      "accept_language": {
+        "type": "integer"
+      },
+      "form": {
+        "type": "object",
+        "properties": {
+          "project_id": {
+            "type": "integer"
+          },
+          "name": {
+            "type": "string"
+          },
+          "project_status": {
+            "type": "string"
+          },
+          "project_name": {
+            "type": "string"
+          }
+        }
+      },
+      "answers": {
+        "type": "array"
+      },
+      "file_promises": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "name": {
+              "type": "integer"
+            },
+            "uuid": {
+              "type": "string"
+            },
+            "started_at": {
+              "type": "integer"
+            },
+            "ended_at": {
+              "type": "integer"
+            },
+            "device_udid": {
+              "type": "string"
+            },
+            "size": {
+              "type": "integer"
+            },
+            "created_at": {
+              "type": "string"
+            },
+            "updated_at": {
+              "type": "string"
+            },
+            "checksum": {
+              "type": "integer"
+            },
+            "build": {
+              "type": "string"
+            },
+            "de_bundle_identifier": {
+              "type": "string"
+            },
+            "status": {
+              "type": "string"
+            },
+            "virus_result": {
+              "type": "string"
+            },
+            "checksum_type": {
+              "type": "integer"
+            }
+          }
+        }
+      },
+      "transient_files": {
+        "type": "array"
+      }
+    }
+  }
+}

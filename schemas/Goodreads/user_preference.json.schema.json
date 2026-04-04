@@ -1,0 +1,225 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "explanation": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "created_at": {
+        "type": "string"
+      },
+      "updated_at": {
+        "type": "string"
+      },
+      "user": {
+        "type": "string"
+      },
+      "friend_update_email_frequency": {
+        "type": "string"
+      },
+      "digest_email_frequency": {
+        "type": "string"
+      },
+      "profile_visibility": {
+        "type": "string"
+      },
+      "who_can_message": {
+        "type": "string"
+      },
+      "allow_non_friend_followers": {
+        "type": "string"
+      },
+      "newsfeed_update_filter_content": {
+        "type": "string"
+      },
+      "newsfeed_update_filter_people": {
+        "type": "string"
+      },
+      "topics_discussion_filter": {
+        "type": "string"
+      },
+      "twitter_updates": {
+        "type": "string"
+      },
+      "follow_discussions_by_default": {
+        "type": "string"
+      },
+      "receive_goodreads_newsletter": {
+        "type": "string"
+      },
+      "publish_update_when_book_shelved": {
+        "type": "string"
+      },
+      "update_on_join_group": {
+        "type": "string"
+      },
+      "update_on_add_friend": {
+        "type": "string"
+      },
+      "update_when_commenting_on_book": {
+        "type": "string"
+      },
+      "update_when_commenting_on_review": {
+        "type": "string"
+      },
+      "update_when_liking_review": {
+        "type": "string"
+      },
+      "update_on_add_or_like_quote": {
+        "type": "string"
+      },
+      "update_on_answer_poll": {
+        "type": "string"
+      },
+      "update_on_recommending": {
+        "type": "string"
+      },
+      "update_on_enter_giveaway": {
+        "type": "string"
+      },
+      "update_on_changing_reading_progress": {
+        "type": "string"
+      },
+      "update_on_book_recommendation": {
+        "type": "string"
+      },
+      "challenge_question_for_friend_request": {
+        "type": "string"
+      },
+      "challenge_answer_for_friend_request": {
+        "type": "string"
+      },
+      "email_monthly_general_newsletter": {
+        "type": "string"
+      },
+      "email_weekly_digest_author_blog_posts": {
+        "type": "string"
+      },
+      "friend_mailer_include_to_read": {
+        "type": "string"
+      },
+      "friend_mailer_include_books_with_no_text_review": {
+        "type": "string"
+      },
+      "goodreads_partners_display_reviews": {
+        "type": "string"
+      },
+      "like_notification": {
+        "type": "string"
+      },
+      "privacy_for_age_and_birthday": {
+        "type": "string"
+      },
+      "inline_comments": {
+        "type": "string"
+      },
+      "group_book_reminders": {
+        "type": "string"
+      },
+      "email_monthly_new_releases": {
+        "type": "string"
+      },
+      "book_show_more_details_by_default": {
+        "type": "string"
+      },
+      "email_author_program_newsletter": {
+        "type": "string"
+      },
+      "email_author_q_and_a": {
+        "type": "string"
+      },
+      "poll_notification": {
+        "type": "string"
+      },
+      "list_notification": {
+        "type": "string"
+      },
+      "group_invite_notification": {
+        "type": "string"
+      },
+      "follower_notification": {
+        "type": "string"
+      },
+      "friend_notification": {
+        "type": "string"
+      },
+      "message_notification": {
+        "type": "string"
+      },
+      "poll_comment_notification": {
+        "type": "string"
+      },
+      "list_comment_notification": {
+        "type": "string"
+      },
+      "follow_reviews_default": {
+        "type": "string"
+      },
+      "profile_comment_notification": {
+        "type": "string"
+      },
+      "user_status_comment_notification": {
+        "type": "string"
+      },
+      "recommendation_comment_notification": {
+        "type": "string"
+      },
+      "review_comment_notification": {
+        "type": "string"
+      },
+      "review_recommendation_notification": {
+        "type": "string"
+      },
+      "recommend_me_notification": {
+        "type": "string"
+      },
+      "email_new_features": {
+        "type": "string"
+      },
+      "email_to_read_now_available": {
+        "type": "string"
+      },
+      "email_favorite_genres_newsletters": {
+        "type": "string"
+      },
+      "email_young_adult_newsletter": {
+        "type": "string"
+      },
+      "list_like_notification": {
+        "type": "string"
+      },
+      "q_and_a_answer_comment_notification": {
+        "type": "string"
+      },
+      "q_and_a_like_notification": {
+        "type": "string"
+      },
+      "email_recommendations_book_completion": {
+        "type": "string"
+      },
+      "giveaway_with_shelved_book_notification": {
+        "type": "string"
+      },
+      "friend_comment_notification": {
+        "type": "string"
+      },
+      "reading_notes_notification": {
+        "type": "string"
+      },
+      "friend_shared_reading_notes_notification": {
+        "type": "string"
+      },
+      "reading_notes_share_prompt_notification": {
+        "type": "string"
+      },
+      "reading_challenge_marketing_notification": {
+        "type": "string"
+      }
+    }
+  }
+}

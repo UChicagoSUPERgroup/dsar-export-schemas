@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Owner Gaia Id": {
+      "type": "string"
+    },
+    "Item Id": {
+      "type": "string"
+    },
+    "Conference Id": {
+      "type": "string"
+    },
+    "Item Type": {
+      "type": "string"
+    },
+    "Meeting Code": {
+      "type": "string"
+    },
+    "Event Id": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Thread Id": {
+      "type": "string"
+    },
+    "Inbox Id": {
+      "type": "string"
+    },
+    "Call Direction": {
+      "type": "integer"
+    },
+    "Start Time": {
+      "type": "string"
+    },
+    "End Time": {
+      "type": "string"
+    },
+    "Duration": {
+      "type": "string"
+    },
+    "Direct Call Result": {
+      "type": "integer"
+    },
+    "Participation State": {
+      "type": "integer"
+    },
+    "Call Counterparts": {
+      "type": "integer"
+    },
+    "Meeting Media Type": {
+      "type": "integer"
+    }
+  }
+}

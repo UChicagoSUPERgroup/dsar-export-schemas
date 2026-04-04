@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "context_time": {
+        "type": "string"
+      },
+      "message_event_id": {
+        "type": "string"
+      },
+      "message_client_id": {
+        "type": "string"
+      },
+      "message_scope": {
+        "type": "string"
+      },
+      "message_redirect_uri": {
+        "type": "string"
+      },
+      "message_device_id": {
+        "type": "integer"
+      },
+      "timestamp_utc": {
+        "type": "string"
+      }
+    }
+  }
+}

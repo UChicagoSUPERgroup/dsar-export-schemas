@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "channel_store": {
+      "type": "string"
+    },
+    "account_language": {
+      "type": "string"
+    },
+    "account_created_date": {
+      "type": "string"
+    },
+    "account_state": {
+      "type": "string"
+    },
+    "payment_method": {
+      "type": "string"
+    }
+  }
+}

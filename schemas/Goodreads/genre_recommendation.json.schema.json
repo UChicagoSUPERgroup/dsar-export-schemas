@@ -1,0 +1,33 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "explanation": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "user": {
+        "type": "string"
+      },
+      "book": {
+        "type": "string"
+      },
+      "genre": {
+        "type": "string"
+      },
+      "status": {
+        "type": "string"
+      },
+      "recommended_because_you_added": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "endTime": {
+        "type": "string"
+      },
+      "podcastName": {
+        "type": "string"
+      },
+      "episodeName": {
+        "type": "string"
+      },
+      "msPlayed": {
+        "type": "integer"
+      }
+    }
+  }
+}

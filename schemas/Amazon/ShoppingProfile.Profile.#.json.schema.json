@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "marketplace": {
+      "type": "string"
+    },
+    "eventDate": {
+      "type": "string"
+    },
+    "height": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "length": {
+            "type": "integer"
+          },
+          "unit": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "weightUnitSystem": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "heightUnitSystem": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "weight": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "unit": {
+            "type": "string"
+          },
+          "mass": {
+            "type": "integer"
+          }
+        }
+      }
+    }
+  }
+}

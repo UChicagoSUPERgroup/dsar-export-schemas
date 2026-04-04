@@ -1,0 +1,39 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Playlist ID": {
+      "type": "string"
+    },
+    "Add new videos to top": {
+      "type": "string"
+    },
+    "Playlist Title (Original)": {
+      "type": "string"
+    },
+    "Playlist Title (Original) Language": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Playlist Create Timestamp": {
+      "type": "string"
+    },
+    "Playlist Update Timestamp": {
+      "type": "string"
+    },
+    "Playlist Video Order": {
+      "type": "string"
+    },
+    "Playlist Visibility": {
+      "type": "string"
+    },
+    "Video ID": {
+      "type": "string"
+    },
+    "Playlist Video Creation Timestamp": {
+      "type": "string"
+    }
+  }
+}

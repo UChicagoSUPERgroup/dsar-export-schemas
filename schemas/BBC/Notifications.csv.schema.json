@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Notification channel": {
+      "type": "string"
+    },
+    "Date and time notifications were last sent": {
+      "type": "string"
+    },
+    "Date and time notifications were turned on": {
+      "type": "string"
+    },
+    "Notification types": {
+      "type": "string"
+    },
+    "Operating system": {
+      "type": "string"
+    }
+  }
+}

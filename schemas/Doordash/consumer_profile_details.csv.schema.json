@@ -1,0 +1,42 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "FIRST_NAME": {
+      "type": "string"
+    },
+    "LAST_NAME": {
+      "type": "string"
+    },
+    "EMAIL": {
+      "type": "string"
+    },
+    "PHONE_NUMBER": {
+      "type": "string"
+    },
+    "DATE_JOINED": {
+      "type": "string"
+    },
+    "DEFAULT_ADDRESS": {
+      "type": "string"
+    },
+    "CONSUMER_LAST_DELIVERY_TIME": {
+      "type": "string"
+    },
+    "SUBMARKET_NAME": {
+      "type": "string"
+    },
+    "NUM_DELIVERIES": {
+      "type": "integer"
+    },
+    "NUM_STORES": {
+      "type": "integer"
+    },
+    "EDIT_TYPE": {
+      "type": "string"
+    },
+    "OLD_VALUE": {
+      "type": "string"
+    }
+  }
+}

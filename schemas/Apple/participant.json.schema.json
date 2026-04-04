@@ -1,0 +1,307 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "company": {
+      "type": "integer"
+    },
+    "first_name": {
+      "type": "string"
+    },
+    "last_name": {
+      "type": "string"
+    },
+    "middle_initial": {
+      "type": "integer"
+    },
+    "nickname": {
+      "type": "integer"
+    },
+    "occupation": {
+      "type": "integer"
+    },
+    "program_profile_completed": {
+      "type": "boolean"
+    },
+    "program_status": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "updated_at": {
+      "type": "string"
+    },
+    "participant_addresses": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer"
+          },
+          "address": {
+            "type": "string"
+          },
+          "address_description": {
+            "type": "integer"
+          },
+          "address_label_order": {
+            "type": "integer"
+          },
+          "city": {
+            "type": "string"
+          },
+          "country": {
+            "type": "string"
+          },
+          "is_default": {
+            "type": "boolean"
+          },
+          "postal_code": {
+            "type": "integer"
+          },
+          "state": {
+            "type": "string"
+          },
+          "created_at": {
+            "type": "string"
+          },
+          "updated_at": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "participant_phones": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer"
+          },
+          "country_code": {
+            "type": "integer"
+          },
+          "phone_description": {
+            "type": "string"
+          },
+          "phone_number": {
+            "type": "string"
+          },
+          "ut_offset": {
+            "type": "integer"
+          },
+          "created_at": {
+            "type": "string"
+          },
+          "updated_at": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "participant_languages": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer"
+          },
+          "comments": {
+            "type": "integer"
+          },
+          "created_at": {
+            "type": "string"
+          },
+          "updated_at": {
+            "type": "string"
+          },
+          "abbreviation": {
+            "type": "string"
+          },
+          "locale_code": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "participant_teams": {
+      "type": "array"
+    },
+    "current_confidentiality_agreement": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "id": {
+          "type": "integer"
+        },
+        "text_file_name": {
+          "type": "integer"
+        },
+        "pdf_file_name": {
+          "type": "string"
+        },
+        "html_file_name": {
+          "type": "integer"
+        },
+        "agreement_text": {
+          "type": "string"
+        }
+      }
+    },
+    "participant_confidentiality_agreements": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer"
+          },
+          "start_date": {
+            "type": "string"
+          },
+          "superseded_date": {
+            "type": "integer"
+          },
+          "created_at": {
+            "type": "string"
+          },
+          "updated_at": {
+            "type": "string"
+          },
+          "agreed": {
+            "type": "boolean"
+          },
+          "text_file_name": {
+            "type": "integer"
+          },
+          "name": {
+            "type": "string"
+          },
+          "pdf_file_name": {
+            "type": "string"
+          },
+          "html_file_name": {
+            "type": "integer"
+          },
+          "agreement_text": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "participant_activity_logs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer"
+          },
+          "activity_type": {
+            "type": "string"
+          },
+          "activity_timestamp": {
+            "type": "integer"
+          },
+          "created_at": {
+            "type": "string"
+          },
+          "updated_at": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "participant_notice_versions": {
+      "type": "array"
+    },
+    "participant_projects": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer"
+          },
+          "status": {
+            "type": "string"
+          },
+          "created_at": {
+            "type": "string"
+          },
+          "updated_at": {
+            "type": "string"
+          },
+          "participant_project_builds": {
+            "type": "array"
+          },
+          "project_status": {
+            "type": "string"
+          },
+          "project_name": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "profile_attributes": {
+      "type": "array"
+    },
+    "invitation_codes": {
+      "type": "array"
+    },
+    "acknowledgements": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer"
+          },
+          "acknowledgeable_id": {
+            "type": "integer"
+          },
+          "acknowledgeable_type": {
+            "type": "string"
+          },
+          "created_at": {
+            "type": "string"
+          },
+          "title": {
+            "type": "integer"
+          },
+          "name": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "dsid": {
+      "type": "string"
+    },
+    "apple_id": {
+      "type": "string"
+    },
+    "prs_type": {
+      "type": "string"
+    },
+    "dev_type": {
+      "type": "integer"
+    },
+    "email_address": {
+      "type": "string"
+    },
+    "last_logged_in": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Vote Reference Number": {
+      "type": "integer"
+    },
+    "Created on": {
+      "type": "string"
+    },
+    "Last Modified on": {
+      "type": "string"
+    },
+    "IP Address": {
+      "type": "string"
+    },
+    "Vote": {
+      "type": "integer"
+    },
+    "Removed?": {
+      "type": "string"
+    },
+    "Item Reference Number": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Item Type": {
+      "type": "string"
+    },
+    "Item Description": {
+      "type": "string"
+    },
+    "Provider Name": {
+      "type": "string"
+    },
+    "App Version": {
+      "type": "integer"
+    },
+    "Review Title": {
+      "type": "string"
+    }
+  }
+}

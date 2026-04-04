@@ -1,0 +1,42 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Date Changed": {
+      "type": "string"
+    },
+    "User": {
+      "type": "string"
+    },
+    "Event": {
+      "type": "string"
+    },
+    "Entity": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Sub Entity": {
+      "type": "integer"
+    },
+    "ID": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Amount": {
+      "type": "integer"
+    },
+    "Summary": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Reference ID": {
+      "type": "integer"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Communication Name": {
+      "type": "string"
+    },
+    "Country": {
+      "type": "string"
+    },
+    "Language": {
+      "type": "string"
+    },
+    "Apple ID Reference Number": {
+      "type": "string"
+    },
+    "Delivery Time": {
+      "type": "string"
+    }
+  }
+}

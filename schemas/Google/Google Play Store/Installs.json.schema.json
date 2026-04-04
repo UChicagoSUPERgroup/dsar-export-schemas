@@ -1,0 +1,60 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "install": {
+        "type": "object",
+        "properties": {
+          "doc": {
+            "type": "object",
+            "properties": {
+              "documentType": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            }
+          },
+          "firstInstallationTime": {
+            "type": "string"
+          },
+          "deviceAttribute": {
+            "type": "object",
+            "properties": {
+              "model": {
+                "type": [
+                  "integer",
+                  "string"
+                ]
+              },
+              "carrier": {
+                "type": [
+                  "integer",
+                  "string"
+                ]
+              },
+              "manufacturer": {
+                "type": [
+                  "integer",
+                  "string"
+                ]
+              },
+              "deviceDisplayName": {
+                "type": [
+                  "integer",
+                  "string"
+                ]
+              }
+            }
+          },
+          "lastUpdateTime": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "first line": {
+        "type": "string"
+      },
+      "second line": {
+        "type": "integer"
+      },
+      "city": {
+        "type": "string"
+      },
+      "state": {
+        "type": "string"
+      },
+      "zip code": {
+        "type": "string"
+      }
+    }
+  }
+}

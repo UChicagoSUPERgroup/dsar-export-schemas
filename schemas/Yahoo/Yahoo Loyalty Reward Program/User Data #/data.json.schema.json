@@ -1,0 +1,34 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "regions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "pointTypes": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "depositPoints": {
+                  "type": "array"
+                },
+                "consumedPoints": {
+                  "type": "array"
+                },
+                "pointType": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "region": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

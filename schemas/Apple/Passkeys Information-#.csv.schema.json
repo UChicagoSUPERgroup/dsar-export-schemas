@@ -1,0 +1,39 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Created Date": {
+      "type": "string"
+    },
+    "Credential ID": {
+      "type": "string"
+    },
+    "Device IP Address": {
+      "type": "string"
+    },
+    "Device Name": {
+      "type": "string"
+    },
+    "Device Serial Number": {
+      "type": "string"
+    },
+    "Device UDID": {
+      "type": "string"
+    },
+    "Domain": {
+      "type": "string"
+    },
+    "Hardware Model": {
+      "type": "string"
+    },
+    "Key ID": {
+      "type": "integer"
+    },
+    "Last Used Date": {
+      "type": "string"
+    },
+    "Public Key": {
+      "type": "string"
+    }
+  }
+}

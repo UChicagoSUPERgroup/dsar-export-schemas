@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "media": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "uri": {
+              "type": "string"
+            },
+            "creation_timestamp": {
+              "type": "string"
+            },
+            "media_metadata": {
+              "type": "object",
+              "properties": {
+                "photo_metadata": {
+                  "type": "object",
+                  "properties": {
+                    "exif_data": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "device_id": {
+                            "type": "string"
+                          },
+                          "source_type": {
+                            "type": "integer"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "camera_metadata": {
+                  "type": "object",
+                  "properties": {
+                    "has_camera_metadata": {
+                      "type": "boolean"
+                    }
+                  }
+                }
+              }
+            },
+            "title": {
+              "type": [
+                "integer",
+                "string"
+              ]
+            },
+            "cross_post_source": {
+              "type": "object",
+              "properties": {
+                "source_app": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      },
+      "title": {
+        "type": "string"
+      },
+      "creation_timestamp": {
+        "type": "string"
+      }
+    }
+  }
+}

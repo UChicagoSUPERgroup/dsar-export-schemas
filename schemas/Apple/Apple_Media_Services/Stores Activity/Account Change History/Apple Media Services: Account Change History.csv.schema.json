@@ -1,0 +1,54 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Account Creation Date": {
+      "type": "string"
+    },
+    "Account History Snapshot ID Number": {
+      "type": "string"
+    },
+    "Account Modification Date": {
+      "type": "string"
+    },
+    "Administrator Identification Number": {
+      "type": "integer"
+    },
+    "Administrator Modification Date": {
+      "type": "integer"
+    },
+    "Apple ID": {
+      "type": "string"
+    },
+    "Apple Pay Classic Identification Number": {
+      "type": "integer"
+    },
+    "Country": {
+      "type": "string"
+    },
+    "Current Billing Partner ID Number": {
+      "type": "integer"
+    },
+    "Enterprise Billing Info Identification Number": {
+      "type": "integer"
+    },
+    "First Name": {
+      "type": "string"
+    },
+    "Middle Name": {
+      "type": "integer"
+    },
+    "Last Name": {
+      "type": "string"
+    },
+    "Prefix": {
+      "type": "string"
+    },
+    "Pending Billing Partner ID Number": {
+      "type": "integer"
+    },
+    "Personal to Managed Apple ID Conversion Number": {
+      "type": "integer"
+    }
+  }
+}

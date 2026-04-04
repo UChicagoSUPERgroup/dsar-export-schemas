@@ -1,0 +1,197 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "stats": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "date": {
+            "type": "string"
+          },
+          "streamCount": {
+            "type": "integer"
+          },
+          "secondsPlayed": {
+            "type": "integer"
+          },
+          "topTracks": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": [
+                    "integer",
+                    "string"
+                  ]
+                },
+                "streamCount": {
+                  "type": "integer"
+                },
+                "secondsPlayed": {
+                  "type": "integer"
+                }
+              }
+            }
+          },
+          "topArtists": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "streamCount": {
+                  "type": "integer"
+                },
+                "secondsPlayed": {
+                  "type": "integer"
+                }
+              }
+            }
+          },
+          "topGenres": {
+            "type": "array"
+          }
+        }
+      }
+    },
+    "highlights": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "date": {
+            "type": "string"
+          },
+          "highlightType": {
+            "type": "string"
+          },
+          "fansLikeYouHighlight": {
+            "type": "object",
+            "properties": {
+              "entity": {
+                "type": "string"
+              },
+              "country": {
+                "type": "string"
+              },
+              "position": {
+                "type": "integer"
+              },
+              "previousPosition": {
+                "type": "integer"
+              },
+              "numberOfListeners": {
+                "type": "integer"
+              }
+            }
+          },
+          "streaksHighlight": {
+            "type": "object",
+            "properties": {
+              "entity": {
+                "type": "string"
+              },
+              "dayStreaks": {
+                "type": "integer"
+              }
+            }
+          },
+          "proportionListeningHighlight": {
+            "type": "object",
+            "properties": {
+              "entity": {
+                "type": "string"
+              },
+              "listeningPercentage": {
+                "type": "number"
+              }
+            }
+          },
+          "onRepeatHighlight": {
+            "type": "object",
+            "properties": {
+              "entity": {
+                "type": "string"
+              },
+              "streamCount": {
+                "type": "integer"
+              }
+            }
+          },
+          "unlikeCombinationHighlight": {
+            "type": "object",
+            "properties": {
+              "firstEntity": {
+                "type": "string"
+              },
+              "secondEntity": {
+                "type": "string"
+              }
+            }
+          },
+          "firstToDiscoverHighlight": {
+            "type": "object",
+            "properties": {
+              "entity": {
+                "type": "string"
+              },
+              "country": {
+                "type": "string"
+              },
+              "position": {
+                "type": "integer"
+              }
+            }
+          },
+          "milestoneHighlight": {
+            "type": "object",
+            "properties": {
+              "entity": {
+                "type": "string"
+              },
+              "milestoneListeningSeconds": {
+                "type": "integer"
+              }
+            }
+          },
+          "<custom_name>": {
+            "type": "object",
+            "properties": {
+              "entity": {
+                "type": "string"
+              },
+              "country": {
+                "type": "string"
+              },
+              "secondsPlayed": {
+                "type": "integer"
+              },
+              "marketAvgSecondsPlayed": {
+                "type": "number"
+              }
+            }
+          },
+          "multiEntityMilestoneHighlight": {
+            "type": "object",
+            "properties": {
+              "entities": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "milestoneListeningSeconds": {
+                "type": "integer"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

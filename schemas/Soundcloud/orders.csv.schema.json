@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "product": {
+      "type": "string"
+    },
+    "plan": {
+      "type": "string"
+    },
+    "order state": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "payment_method_type": {
+      "type": "string"
+    },
+    "price": {
+      "type": "integer"
+    },
+    "currency": {
+      "type": "integer"
+    },
+    "purchase_country": {
+      "type": "string"
+    },
+    "purchase_postal_code": {
+      "type": "integer"
+    },
+    "payment state": {
+      "type": "string"
+    }
+  }
+}

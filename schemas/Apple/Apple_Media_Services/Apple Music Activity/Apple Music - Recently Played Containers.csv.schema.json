@@ -1,0 +1,45 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Total Plays": {
+      "type": "integer"
+    },
+    "Last Plays in Sequence": {
+      "type": "integer"
+    },
+    "Entry Creation Date": {
+      "type": "string"
+    },
+    "Entry Modification Date": {
+      "type": "string"
+    },
+    "Container Type": {
+      "type": "string"
+    },
+    "Container Description": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Track Description": {
+      "type": "string"
+    },
+    "Ignore for recommendations": {
+      "type": "string"
+    },
+    "Country": {
+      "type": "string"
+    },
+    "Container Reference": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Track Reference": {
+      "type": "string"
+    }
+  }
+}

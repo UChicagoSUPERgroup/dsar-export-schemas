@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "follow_time": {
+      "type": "string"
+    },
+    "user_name": {
+      "type": "string"
+    },
+    "user_url": {
+      "type": "string"
+    }
+  }
+}

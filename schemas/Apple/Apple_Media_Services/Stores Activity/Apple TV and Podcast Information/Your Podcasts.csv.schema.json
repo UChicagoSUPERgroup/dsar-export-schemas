@@ -1,0 +1,33 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Last updated": {
+      "type": "string"
+    },
+    "Added on": {
+      "type": "string"
+    },
+    "Feed URL": {
+      "type": "string"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Subscribed?": {
+      "type": "string"
+    },
+    "Last touched on": {
+      "type": "string"
+    },
+    "Show type": {
+      "type": "integer"
+    },
+    "Sort": {
+      "type": "string"
+    },
+    "Playback newest to oldest": {
+      "type": "string"
+    }
+  }
+}

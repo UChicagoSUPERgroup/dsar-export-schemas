@@ -1,0 +1,453 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "AB Test": {
+      "type": "integer"
+    },
+    "Account Match": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Action Context": {
+      "type": "integer"
+    },
+    "Action Details": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Action Type": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Action URL": {
+      "type": "integer"
+    },
+    "App": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Apple ID Number": {
+      "type": "string"
+    },
+    "Application Name": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "AppStore Referral ID": {
+      "type": "integer"
+    },
+    "Billing Currency Code": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Channel Partner": {
+      "type": "integer"
+    },
+    "Channel Partner ID": {
+      "type": "integer"
+    },
+    "Channel Partner Type": {
+      "type": "integer"
+    },
+    "Channel Product Code": {
+      "type": "integer"
+    },
+    "Click Target": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Click Target Type": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Client ID": {
+      "type": "string"
+    },
+    "Content Location": {
+      "type": "integer"
+    },
+    "Contingent Price ID": {
+      "type": "integer"
+    },
+    "Event Date Time": {
+      "type": "string"
+    },
+    "Event Type": {
+      "type": "string"
+    },
+    "External Referral App Name": {
+      "type": "integer"
+    },
+    "External Referral URL": {
+      "type": "integer"
+    },
+    "Final Search Term": {
+      "type": "integer"
+    },
+    "Free App Adam ID": {
+      "type": "integer"
+    },
+    "Free App Amount": {
+      "type": "integer"
+    },
+    "Free App Content ID": {
+      "type": "integer"
+    },
+    "Free App Currency Code": {
+      "type": "integer"
+    },
+    "Free App Developer ID": {
+      "type": "integer"
+    },
+    "Free App Genre": {
+      "type": "integer"
+    },
+    "Free App Product Type": {
+      "type": "integer"
+    },
+    "Free App Timestamp": {
+      "type": "integer"
+    },
+    "Free App Transaction ID": {
+      "type": "integer"
+    },
+    "Hardware Model": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Hardware Type": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Host App Name": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Impressed Content Names": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "IP City": {
+      "type": "integer"
+    },
+    "IP Country Code": {
+      "type": "integer"
+    },
+    "Is Apple One Subscription": {
+      "type": "string"
+    },
+    "Is Arcade Subscription": {
+      "type": "string"
+    },
+    "Is Personalized": {
+      "type": "integer"
+    },
+    "Is Purchase": {
+      "type": "string"
+    },
+    "Is Redownload": {
+      "type": "string"
+    },
+    "Item Descriptions": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Item ID": {
+      "type": "integer"
+    },
+    "Language ID": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Location": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Major OS Version": {
+      "type": "integer"
+    },
+    "Offer Eligibility Type": {
+      "type": "integer"
+    },
+    "Offer Placement": {
+      "type": "integer"
+    },
+    "Offer Placement Type": {
+      "type": "integer"
+    },
+    "Offer Trial ID": {
+      "type": "integer"
+    },
+    "Offer Type": {
+      "type": "integer"
+    },
+    "Offer Variant": {
+      "type": "integer"
+    },
+    "Operating System Languages": {
+      "type": "integer"
+    },
+    "OS": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "OS Build Number": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "OS Version": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Page": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Page Context": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Page Custom ID": {
+      "type": "integer"
+    },
+    "Page Details": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Page Display Type": {
+      "type": "integer"
+    },
+    "Page History": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Page ID": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Page Reason Type": {
+      "type": "integer"
+    },
+    "Page Type": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Page URL": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Page Variant ID": {
+      "type": "integer"
+    },
+    "Platform": {
+      "type": "string"
+    },
+    "Post Time": {
+      "type": "string"
+    },
+    "Pre-Tax Price": {
+      "type": "integer"
+    },
+    "Price": {
+      "type": "number"
+    },
+    "Purchase Date": {
+      "type": "string"
+    },
+    "Purchased Item Descriptions": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Purchased List": {
+      "type": "integer"
+    },
+    "Referral App Name": {
+      "type": "integer"
+    },
+    "Referral URL": {
+      "type": "integer"
+    },
+    "Referring URL": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Search Filters": {
+      "type": "integer"
+    },
+    "Search Tab Term": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Search Term": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Search Term Source": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Search Terms Selected": {
+      "type": "integer"
+    },
+    "Software": {
+      "type": "integer"
+    },
+    "Store Front": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Store Front Header": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Subscription State": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Tab": {
+      "type": "string"
+    },
+    "Tab Indicator": {
+      "type": "integer"
+    },
+    "Term": {
+      "type": "integer"
+    },
+    "Timezone Offset Min": {
+      "type": "integer"
+    },
+    "Total Amount": {
+      "type": "number"
+    },
+    "Transaction ID": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "URL": {
+      "type": "integer"
+    },
+    "User Agent": {
+      "type": "string"
+    },
+    "Widget Name": {
+      "type": "integer"
+    },
+    "Widget Size": {
+      "type": "integer"
+    },
+    "Widget Type": {
+      "type": "integer"
+    },
+    "Age Range": {
+      "type": "integer"
+    },
+    "ASN State": {
+      "type": "integer"
+    },
+    "Commerce Event Time": {
+      "type": "integer"
+    },
+    "Content Restriction": {
+      "type": "integer"
+    },
+    "Dialog Code": {
+      "type": "integer"
+    },
+    "Dialog Details": {
+      "type": "integer"
+    },
+    "Dialog ID": {
+      "type": "integer"
+    },
+    "Dialog Message": {
+      "type": "integer"
+    },
+    "Dialog Type": {
+      "type": "integer"
+    },
+    "Offer Entity ID": {
+      "type": "integer"
+    },
+    "Subscription IDs": {
+      "type": "integer"
+    },
+    "User Actions": {
+      "type": "integer"
+    },
+    "User ID Change Counter": {
+      "type": "integer"
+    },
+    "User ID Change Reason": {
+      "type": "integer"
+    }
+  }
+}

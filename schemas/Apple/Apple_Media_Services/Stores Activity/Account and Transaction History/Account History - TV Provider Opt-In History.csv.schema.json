@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Apple ID Number": {
+      "type": "string"
+    },
+    "Provider": {
+      "type": "string"
+    },
+    "Enabled": {
+      "type": "string"
+    },
+    "Date First Enabled": {
+      "type": "string"
+    },
+    "Date Last Enabled": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Date Last Disabled": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    }
+  }
+}

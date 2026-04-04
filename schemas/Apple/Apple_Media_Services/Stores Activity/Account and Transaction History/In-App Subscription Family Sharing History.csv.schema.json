@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Apple ID Number": {
+      "type": "string"
+    },
+    "Family Share Create Date": {
+      "type": "string"
+    },
+    "Last Modified Date": {
+      "type": "string"
+    },
+    "App Description": {
+      "type": "string"
+    },
+    "App Name": {
+      "type": "string"
+    },
+    "Item Description": {
+      "type": "string"
+    },
+    "Subscription Name": {
+      "type": "string"
+    },
+    "Family Sharing Enabled": {
+      "type": "string"
+    }
+  }
+}

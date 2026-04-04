@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "client_id": {
+      "type": "integer"
+    },
+    "color": {
+      "type": "integer"
+    },
+    "ctime": {
+      "type": "string"
+    },
+    "mtime": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}

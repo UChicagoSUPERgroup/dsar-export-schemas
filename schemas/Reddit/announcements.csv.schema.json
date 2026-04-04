@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "announcement_id": {
+      "type": "string"
+    },
+    "sent_at": {
+      "type": "string"
+    },
+    "read_at": {
+      "type": "integer"
+    },
+    "from_id": {
+      "type": "string"
+    },
+    "from_username": {
+      "type": "string"
+    },
+    "subject": {
+      "type": "string"
+    },
+    "body": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

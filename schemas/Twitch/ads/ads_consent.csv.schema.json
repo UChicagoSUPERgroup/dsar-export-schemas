@@ -1,0 +1,126 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "time": {
+      "type": "string"
+    },
+    "time_utc": {
+      "type": "string"
+    },
+    "ip": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "region": {
+      "type": "integer"
+    },
+    "asn_id": {
+      "type": "integer"
+    },
+    "user_id": {
+      "type": "integer"
+    },
+    "client_app": {
+      "type": "string"
+    },
+    "consent_action": {
+      "type": "string"
+    },
+    "url": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "device_id": {
+      "type": "string"
+    },
+    "domain": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "app_version": {
+      "type": "string"
+    },
+    "login": {
+      "type": "string"
+    },
+    "logged_in": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "received_language": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "platform": {
+      "type": "string"
+    },
+    "batch_time": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "host": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "referrer_host": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "referrer_url": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "adblock": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "consent_string": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "preferred_language": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "device_fingerprint": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "privacy_law": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    }
+  }
+}

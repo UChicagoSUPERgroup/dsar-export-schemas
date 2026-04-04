@@ -1,0 +1,39 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "explanation": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "updated_at": {
+        "type": "string"
+      },
+      "user": {
+        "type": "string"
+      },
+      "shelf": {
+        "type": "string"
+      },
+      "book": {
+        "type": [
+          "integer",
+          "string"
+        ]
+      },
+      "status": {
+        "type": "string"
+      },
+      "because_you_read": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

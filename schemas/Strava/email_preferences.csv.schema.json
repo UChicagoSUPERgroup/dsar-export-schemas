@@ -1,0 +1,102 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "When someone I know joins Strava": {
+      "type": "string"
+    },
+    "When I achieve a new KOM/QOM/CR/LCL": {
+      "type": "string"
+    },
+    "When someone takes a KOM/QOM/CR/LCL from me": {
+      "type": "string"
+    },
+    "When I've joined, made progress on, or completed a challenge": {
+      "type": "string"
+    },
+    "When I complete a challenge that has a reward, donation, or an opportunity to learn more": {
+      "type": "string"
+    },
+    "When a friend invites me to join a club": {
+      "type": "string"
+    },
+    "When someone requests to join a club of which I am an administrator": {
+      "type": "string"
+    },
+    "When a post is added in one of my clubs": {
+      "type": "string"
+    },
+    "When an event is added in one of my clubs": {
+      "type": "string"
+    },
+    "When a friend invites me to join an event": {
+      "type": "string"
+    },
+    "When it is ## hours before one of my events": {
+      "type": "string"
+    },
+    "When one of my events is changed or cancelled": {
+      "type": "string"
+    },
+    "When one of my events has a new discussion": {
+      "type": "string"
+    },
+    "When someone comments on an event discussion": {
+      "type": "string"
+    },
+    "When someone mentions me": {
+      "type": "string"
+    },
+    "When someone comments on my post or replies to my comment on a post": {
+      "type": "string"
+    },
+    "When someone kudos one of my posts": {
+      "type": "string"
+    },
+    "When I have new friends to follow": {
+      "type": "string"
+    },
+    "When my friends post interesting activities": {
+      "type": "string"
+    },
+    "When I have analysis available for a recent segment effort": {
+      "type": "string"
+    },
+    "When I upload a file that includes health data that I haven't given Strava consent to process": {
+      "type": "string"
+    },
+    "When someone follows / requests to follow me": {
+      "type": "string"
+    },
+    "Receive Follower Feed Emails": {
+      "type": "string"
+    },
+    "Receive an email when someone comments on one of my activities": {
+      "type": "string"
+    },
+    "Receive am email when someone kudos one of my activities": {
+      "type": "string"
+    },
+    "Receive the Strava newsletter email": {
+      "type": "string"
+    },
+    "When someone shares a Challenge with me": {
+      "type": "string"
+    },
+    "When someone shares a Route with me": {
+      "type": "string"
+    },
+    "When someone shares an Activity with me": {
+      "type": "string"
+    },
+    "When someone invites me to join a Challenge": {
+      "type": "string"
+    },
+    "When my request to join a club has been accepted": {
+      "type": "string"
+    },
+    "When Strava would like to hear my experience and learn from me through product feedback, surveys and research": {
+      "type": "string"
+    }
+  }
+}

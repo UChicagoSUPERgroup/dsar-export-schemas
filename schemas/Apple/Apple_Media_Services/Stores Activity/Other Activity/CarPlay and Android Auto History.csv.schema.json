@@ -1,0 +1,84 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Action Context": {
+      "type": "string"
+    },
+    "App Name": {
+      "type": "string"
+    },
+    "App Version": {
+      "type": "number"
+    },
+    "Apple ID Number": {
+      "type": "string"
+    },
+    "Base Version": {
+      "type": "integer"
+    },
+    "Client ID": {
+      "type": "string"
+    },
+    "Event Date Time": {
+      "type": "string"
+    },
+    "Event ID": {
+      "type": "string"
+    },
+    "Event Type": {
+      "type": "string"
+    },
+    "Event Version": {
+      "type": "integer"
+    },
+    "Host App Name": {
+      "type": "string"
+    },
+    "Host App Version": {
+      "type": "integer"
+    },
+    "OS Version": {
+      "type": "string"
+    },
+    "Platform": {
+      "type": "string"
+    },
+    "Play Count": {
+      "type": "integer"
+    },
+    "Play Duration": {
+      "type": "integer"
+    },
+    "Shared Activity Max Devices": {
+      "type": "integer"
+    },
+    "Shared Sessions": {
+      "type": "integer"
+    },
+    "Store Front": {
+      "type": "string"
+    },
+    "Timezone Offset Min": {
+      "type": "integer"
+    },
+    "Topic": {
+      "type": "string"
+    },
+    "User Agent": {
+      "type": "string"
+    },
+    "UTC End Time": {
+      "type": "string"
+    },
+    "UTC Event Date": {
+      "type": "string"
+    },
+    "UTC Start Time": {
+      "type": "string"
+    },
+    "Vehicle Manufacturer": {
+      "type": "integer"
+    }
+  }
+}

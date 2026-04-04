@@ -1,0 +1,121 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "context_time": {
+        "type": "string"
+      },
+      "message_request_type": {
+        "type": "string"
+      },
+      "message_device_type": {
+        "type": "string"
+      },
+      "message_client_version": {
+        "type": [
+          "integer",
+          "string"
+        ]
+      },
+      "message_device_brand": {
+        "type": [
+          "integer",
+          "string"
+        ]
+      },
+      "message_device_model": {
+        "type": [
+          "integer",
+          "string"
+        ]
+      },
+      "message_capabilities_supported_media_types": {
+        "anyOf": [
+          {
+            "type": "integer"
+          },
+          {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        ]
+      },
+      "message_capabilities_file_format_filter": {
+        "type": "integer"
+      },
+      "message_capabilities_audio_quality_setting": {
+        "type": "integer"
+      },
+      "message_capabilities_supports_external_episodes": {
+        "type": [
+          "boolean",
+          "integer"
+        ]
+      },
+      "message_capabilities_is_voice_enabled": {
+        "type": "integer"
+      },
+      "message_user_country": {
+        "type": "string"
+      },
+      "message_connection_country": {
+        "type": "string"
+      },
+      "message_host": {
+        "type": [
+          "integer",
+          "string"
+        ]
+      },
+      "message_resp_disallow_reasons": {
+        "type": "integer"
+      },
+      "message_resp_is_dynamic_device": {
+        "type": "boolean"
+      },
+      "message_resp_supports_v#_playlist_urls": {
+        "type": "boolean"
+      },
+      "message_resp_supported_media_types": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "message_resp_is_voice_enabled": {
+        "type": "boolean"
+      },
+      "message_resp_file_format_filter": {
+        "type": "integer"
+      },
+      "message_resp_supported_audio_quality": {
+        "type": [
+          "integer",
+          "string"
+        ]
+      },
+      "message_resp_audio_quality": {
+        "type": "string"
+      },
+      "message_resp_connect_capabilities_id": {
+        "type": "integer"
+      },
+      "message_resp_debug_client_type": {
+        "type": "string"
+      },
+      "message_resp_disallow_transfer_reasons": {
+        "type": "integer"
+      },
+      "message_supports_observing": {
+        "type": "boolean"
+      },
+      "timestamp_utc": {
+        "type": "string"
+      }
+    }
+  }
+}

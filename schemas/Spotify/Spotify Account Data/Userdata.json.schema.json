@@ -1,0 +1,54 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "username": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "createdFromFacebook": {
+      "type": "boolean"
+    },
+    "facebookUid": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "birthdate": {
+      "type": "string"
+    },
+    "gender": {
+      "type": "string"
+    },
+    "postalCode": {
+      "type": "integer"
+    },
+    "mobileNumber": {
+      "type": "integer"
+    },
+    "mobileOperator": {
+      "type": "integer"
+    },
+    "mobileBrand": {
+      "type": "integer"
+    },
+    "creationTime": {
+      "type": "string"
+    },
+    "assuredEstimatedAge": {
+      "type": "integer"
+    },
+    "assuredAgeMethod": {
+      "type": "integer"
+    },
+    "assuredAgeTimestamp": {
+      "type": "integer"
+    }
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "real_name": {
+      "type": "string"
+    },
+    "join_date": {
+      "type": "string"
+    },
+    "description": {
+      "type": "integer"
+    },
+    "occupation": {
+      "type": "integer"
+    },
+    "hometown": {
+      "type": "integer"
+    },
+    "city": {
+      "type": "integer"
+    },
+    "country": {
+      "type": "integer"
+    },
+    "email": {
+      "type": "string"
+    },
+    "social": {
+      "type": "object",
+      "properties": {
+        "facebook": {
+          "type": "integer"
+        },
+        "twitter": {
+          "type": "integer"
+        },
+        "instagram": {
+          "type": "integer"
+        },
+        "pintrest": {
+          "type": "integer"
+        },
+        "tumblr": {
+          "type": "integer"
+        }
+      }
+    },
+    "website_url": {
+      "type": "integer"
+    },
+    "profile_url": {
+      "type": "string"
+    },
+    "nsid": {
+      "type": "string"
+    },
+    "path_alias": {
+      "type": "integer"
+    },
+    "screen_name": {
+      "type": "string"
+    },
+    "pro_user": {
+      "type": "string"
+    },
+    "showcase": {
+      "type": "object",
+      "properties": {
+        "photos": {
+          "type": "array"
+        }
+      }
+    },
+    "settings": {
+      "type": "object",
+      "properties": {
+        "who_can_download_photos": {
+          "type": "string"
+        },
+        "largest_sharable_size": {
+          "type": "string"
+        },
+        "is_shareable": {
+          "type": "string"
+        },
+        "can_add_me_to_photos": {
+          "type": "string"
+        },
+        "allow_photos_in_galleries": {
+          "type": "string"
+        },
+        "view_exif": {
+          "type": "string"
+        },
+        "photos_hidden_public_search": {
+          "type": "string"
+        },
+        "profile_hidden_public_search": {
+          "type": "string"
+        },
+        "profile_email_visibility": {
+          "type": "string"
+        },
+        "profile_name_visibility": {
+          "type": "string"
+        },
+        "profile_city_visibility": {
+          "type": "string"
+        },
+        "show_autotags": {
+          "type": "string"
+        },
+        "new_uploads": {
+          "type": "object",
+          "properties": {
+            "can_view": {
+              "type": "string"
+            },
+            "can_comment_on": {
+              "type": "string"
+            },
+            "can_add_notes_tags_people": {
+              "type": "string"
+            }
+          }
+        },
+        "default_license": {
+          "type": "string"
+        },
+        "view_geo": {
+          "type": "string"
+        },
+        "import_geo_exif": {
+          "type": "string"
+        },
+        "photostream_safety_level": {
+          "type": "string"
+        },
+        "photostream_content_type": {
+          "type": "string"
+        }
+      }
+    },
+    "stats": {
+      "type": "object",
+      "properties": {
+        "view_counts": {
+          "type": "object",
+          "properties": {
+            "photos": {
+              "type": "integer"
+            },
+            "photostream": {
+              "type": "integer"
+            },
+            "sets": {
+              "type": "integer"
+            },
+            "collections": {
+              "type": "integer"
+            },
+            "galleries": {
+              "type": "integer"
+            },
+            "total": {
+              "type": "integer"
+            }
+          }
+        },
+        "tags_count": {
+          "type": "integer"
+        },
+        "geotags_count": {
+          "type": "integer"
+        },
+        "faves_count": {
+          "type": "integer"
+        },
+        "groups_count": {
+          "type": "integer"
+        },
+        "comments_count": {
+          "type": "object",
+          "properties": {
+            "photos": {
+              "type": "integer"
+            },
+            "sets": {
+              "type": "integer"
+            },
+            "apps": {
+              "type": "integer"
+            },
+            "galleries": {
+              "type": "integer"
+            }
+          }
+        }
+      }
+    }
+  }
+}

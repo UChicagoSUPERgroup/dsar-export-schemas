@@ -1,0 +1,1267 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "username": {
+      "type": "string"
+    },
+    "discriminator": {
+      "type": "integer"
+    },
+    "global_name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "verified": {
+      "type": "integer"
+    },
+    "avatar_hash": {
+      "type": "string"
+    },
+    "has_mobile": {
+      "type": "integer"
+    },
+    "needs_email_verification": {
+      "type": "integer"
+    },
+    "premium_until": {
+      "type": "integer"
+    },
+    "phone": {
+      "type": "integer"
+    },
+    "temp_banned_until": {
+      "type": "integer"
+    },
+    "ip": {
+      "type": "string"
+    },
+    "flags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "settings": {
+      "type": "object",
+      "properties": {
+        "settings": {
+          "type": "object",
+          "properties": {
+            "versions": {
+              "type": "object",
+              "properties": {
+                "clientVersion": {
+                  "type": "integer"
+                },
+                "dataVersion": {
+                  "type": "integer"
+                }
+              }
+            },
+            "inbox": {
+              "type": "object"
+            },
+            "guilds": {
+              "type": "object",
+              "properties": {
+                "guilds": {
+                  "type": "object",
+                  "properties": {
+                    "<number>": {
+                      "type": "object",
+                      "properties": {
+                        "guildOnboardingProgress": {
+                          "type": "integer"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "userContent": {
+              "type": "object",
+              "properties": {
+                "dismissedContents": {
+                  "type": "string"
+                },
+                "lastDismissedOutboundPromotionStartDate": {
+                  "type": "string"
+                },
+                "premiumTier#ModalDismissedAt": {
+                  "type": "string"
+                },
+                "lastReceivedChangelogId": {
+                  "type": "string"
+                },
+                "recurringDismissibleContentStates": {
+                  "type": "object",
+                  "properties": {
+                    "<number>": {
+                      "type": "object",
+                      "properties": {
+                        "lastDismissedVersion": {
+                          "type": "integer"
+                        },
+                        "lastDismissedAtMs": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "voiceAndVideo": {
+              "type": "object",
+              "properties": {
+                "afkTimeout": {
+                  "type": "integer"
+                },
+                "streamNotificationsEnabled": {
+                  "type": "integer"
+                },
+                "nativePhoneIntegrationEnabled": {
+                  "type": "integer"
+                },
+                "soundboardSettings": {
+                  "type": "object",
+                  "properties": {
+                    "volume": {
+                      "type": "integer"
+                    }
+                  }
+                },
+                "disableStreamPreviews": {
+                  "type": "integer"
+                }
+              }
+            },
+            "textAndImages": {
+              "type": "object",
+              "properties": {
+                "emojiPickerCollapsedSections": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "convertEmoticons": {
+                  "type": "integer"
+                },
+                "dmSpamFilter": {
+                  "type": "integer"
+                }
+              }
+            },
+            "notifications": {
+              "type": "object",
+              "properties": {
+                "notifyFriendsOnGoLive": {
+                  "type": "integer"
+                }
+              }
+            },
+            "privacy": {
+              "type": "object",
+              "properties": {
+                "detectPlatformAccounts": {
+                  "type": "integer"
+                },
+                "passwordless": {
+                  "type": "integer"
+                },
+                "contactSyncEnabled": {
+                  "type": "integer"
+                },
+                "friendSourceFlags": {
+                  "type": "integer"
+                },
+                "friendDiscoveryFlags": {
+                  "type": "integer"
+                },
+                "dropsOptedOut": {
+                  "type": "integer"
+                }
+              }
+            },
+            "debug": {
+              "type": "object"
+            },
+            "gameLibrary": {
+              "type": "object",
+              "properties": {
+                "disableGamesTab": {
+                  "type": "integer"
+                }
+              }
+            },
+            "status": {
+              "type": "object",
+              "properties": {
+                "status": {
+                  "type": "string"
+                },
+                "showCurrentGame": {
+                  "type": "integer"
+                },
+                "statusCreatedAtMs": {
+                  "type": "string"
+                }
+              }
+            },
+            "localization": {
+              "type": "object",
+              "properties": {
+                "locale": {
+                  "type": "string"
+                },
+                "timezoneOffset": {
+                  "type": "integer"
+                }
+              }
+            },
+            "appearance": {
+              "type": "object",
+              "properties": {
+                "theme": {
+                  "type": "string"
+                },
+                "uiDensity": {
+                  "type": "string"
+                }
+              }
+            },
+            "guildFolders": {
+              "type": "object",
+              "properties": {
+                "folders": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "guildIds": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      },
+                      "id": {
+                        "type": ["integer", "string"]
+                      }
+                    }
+                  }
+                },
+                "guildPositions": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "audioContextSettings": {
+              "type": "object",
+              "properties": {
+                "user": {
+                  "type": "object",
+                  "properties": {
+                    "<number>": {
+                      "type": "object",
+                      "properties": {
+                        "muted": {
+                          "type": "integer"
+                        },
+                        "volume": {
+                          "type": "integer"
+                        },
+                        "modifiedAt": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  }
+                },
+                "stream": {
+                  "type": "object",
+                  "properties": {
+                    "<number>": {
+                      "type": "object",
+                      "properties": {
+                        "volume": {
+                          "type": "integer"
+                        },
+                        "modifiedAt": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "applications": {
+              "type": "object",
+              "properties": {
+                "appSettings": {
+                  "type": "object",
+                  "properties": {
+                    "<number>": {
+                      "type": "object",
+                      "properties": {
+                        "appDmSettings": {
+                          "type": "object"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "inAppFeedbackSettings": {
+              "type": "object",
+              "properties": {
+                "inAppFeedbackStates": {
+                  "type": "object",
+                  "properties": {
+                    "<number>": {
+                      "type": "object",
+                      "properties": {
+                        "optOutExpiryTime": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "frecency": {
+          "type": "object",
+          "properties": {
+            "versions": {
+              "type": "object",
+              "properties": {
+                "clientVersion": {
+                  "type": "integer"
+                },
+                "dataVersion": {
+                  "type": "integer"
+                }
+              }
+            },
+            "favoriteGifs": {
+              "type": "object",
+              "properties": {
+                "gifs": {
+                  "type": "object",
+                  "properties": {
+                    "<url>": {
+                      "type": "object",
+                      "properties": {
+                        "format": {
+                          "type": "string"
+                        },
+                        "src": {
+                          "type": "string"
+                        },
+                        "width": {
+                          "type": "integer"
+                        },
+                        "height": {
+                          "type": "integer"
+                        },
+                        "order": {
+                          "type": "integer"
+                        }
+                      }
+                    }
+                  }
+                },
+                "hideTooltip": {
+                  "type": "integer"
+                }
+              }
+            },
+            "stickerFrecency": {
+              "type": "object",
+              "properties": {
+                "stickers": {
+                  "type": "object",
+                  "properties": {
+                    "<number>": {
+                      "type": "object",
+                      "properties": {
+                        "totalUses": {
+                          "type": "integer"
+                        },
+                        "recentUses": {
+                          "type": "array",
+                          "items": {
+                            "type": "string"
+                          }
+                        },
+                        "frecency": {
+                          "type": "integer"
+                        },
+                        "score": {
+                          "type": "integer"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "favoriteEmojis": {
+              "type": "object",
+              "properties": {
+                "emojis": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "emojiFrecency": {
+              "type": "object",
+              "properties": {
+                "emojis": {
+                  "type": "object",
+                  "properties": {
+                    "<custom_name>": {
+                      "type": "object",
+                      "properties": {
+                        "totalUses": {
+                          "type": "integer"
+                        },
+                        "recentUses": {
+                          "type": "array",
+                          "items": {
+                            "type": "string"
+                          }
+                        },
+                        "frecency": {
+                          "type": "integer"
+                        },
+                        "score": {
+                          "type": "integer"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "applicationCommandFrecency": {
+              "type": "object",
+              "properties": {
+                "applicationCommands": {
+                  "type": "object",
+                  "properties": {
+                    "<number>": {
+                      "type": "object",
+                      "properties": {
+                        "totalUses": {
+                          "type": "integer"
+                        },
+                        "recentUses": {
+                          "type": "array",
+                          "items": {
+                            "type": "string"
+                          }
+                        },
+                        "frecency": {
+                          "type": "integer"
+                        }
+                      }
+                    },
+                    "<unique_id>\ufffd<emoji name>": {
+                      "type": "object",
+                      "properties": {
+                        "totalUses": {
+                          "type": "integer"
+                        },
+                        "recentUses": {
+                          "type": "array",
+                          "items": {
+                            "type": "string"
+                          }
+                        },
+                        "frecency": {
+                          "type": "integer"
+                        }
+                      }
+                    },
+                    "<unique_id>:<unique_id>": {
+                      "type": "object",
+                      "properties": {
+                        "totalUses": {
+                          "type": "integer"
+                        },
+                        "recentUses": {
+                          "type": "array",
+                          "items": {
+                            "type": "string"
+                          }
+                        },
+                        "frecency": {
+                          "type": "integer"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "favoriteSoundboardSounds": {
+              "type": "object",
+              "properties": {
+                "soundIds": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "applicationFrecency": {
+              "type": "object",
+              "properties": {
+                "applications": {
+                  "type": "object",
+                  "properties": {
+                    "<number>": {
+                      "type": "object",
+                      "properties": {
+                        "totalUses": {
+                          "type": "integer"
+                        },
+                        "recentUses": {
+                          "type": "array",
+                          "items": {
+                            "type": "string"
+                          }
+                        },
+                        "frecency": {
+                          "type": "integer"
+                        },
+                        "score": {
+                          "type": "integer"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "guildAndChannelFrecency": {
+              "type": "object",
+              "properties": {
+                "guildAndChannels": {
+                  "type": "object",
+                  "properties": {
+                    "<number>": {
+                      "type": "object",
+                      "properties": {
+                        "totalUses": {
+                          "type": "integer"
+                        },
+                        "recentUses": {
+                          "type": "array",
+                          "items": {
+                            "type": "string"
+                          }
+                        },
+                        "frecency": {
+                          "type": "integer"
+                        },
+                        "score": {
+                          "type": "integer"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "emojiReactionFrecency": {
+              "type": "object",
+              "properties": {
+                "emojis": {
+                  "type": "object",
+                  "properties": {
+                    "<custom_name>": {
+                      "type": "object",
+                      "properties": {
+                        "totalUses": {
+                          "type": "integer"
+                        },
+                        "recentUses": {
+                          "type": "array",
+                          "items": {
+                            "type": "string"
+                          }
+                        },
+                        "frecency": {
+                          "type": "integer"
+                        },
+                        "score": {
+                          "type": "integer"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "connections": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string"
+          },
+          "id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "visibility": {
+            "type": "integer"
+          },
+          "friend_sync": {
+            "type": "integer"
+          },
+          "show_activity": {
+            "type": "integer"
+          },
+          "verified": {
+            "type": "integer"
+          },
+          "two_way_link": {
+            "type": "integer"
+          },
+          "metadata_visibility": {
+            "type": "integer"
+          },
+          "revoked": {
+            "type": "integer"
+          }
+        }
+      }
+    },
+    "external_friends_lists": {
+      "type": "array"
+    },
+    "friend_suggestions": {
+      "type": "array"
+    },
+    "user_sessions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id_hash": {
+            "type": "string"
+          },
+          "user_data": {
+            "type": "object",
+            "properties": {
+              "version": {
+                "type": "integer"
+              },
+              "creation_time": {
+                "type": "string"
+              },
+              "expiration_time": {
+                "type": "string"
+              },
+              "approx_last_used_time": {
+                "type": "string"
+              },
+              "is_mfa": {
+                "type": "integer"
+              },
+              "is_bot": {
+                "type": "integer"
+              },
+              "client_info": {
+                "type": "object",
+                "properties": {
+                  "ip": {
+                    "type": "string"
+                  },
+                  "os": {
+                    "type": "string"
+                  },
+                  "platform": {
+                    "type": "string"
+                  }
+                }
+              },
+              "extra_tokens": {
+                "type": "integer"
+              }
+            }
+          },
+          "is_soft_deleted": {
+            "type": "integer"
+          }
+        }
+      }
+    },
+    "relationships": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string"
+          },
+          "nickname": {
+            "type": ["integer", "string"]
+          },
+          "user_ignored": {
+            "type": "integer"
+          },
+          "user": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "username": {
+                "type": "string"
+              },
+              "global_name": {
+                "type": ["integer", "string"]
+              },
+              "avatar": {
+                "type": ["integer", "string"]
+              },
+              "avatar_decoration_data": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "asset": {
+                        "type": "string"
+                      },
+                      "sku_id": {
+                        "type": "string"
+                      },
+                      "expires_at": {
+                        "type": "integer"
+                      }
+                    }
+                  }
+                ]
+              },
+              "collectibles": {
+                "type": "integer"
+              },
+              "discriminator": {
+                "type": "integer"
+              },
+              "display_name_styles": {
+                "type": "integer"
+              },
+              "public_flags": {
+                "type": "integer"
+              },
+              "primary_guild": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "identity_guild_id": {
+                        "type": "string"
+                      },
+                      "identity_enabled": {
+                        "type": "integer"
+                      },
+                      "tag": {
+                        "type": "string"
+                      },
+                      "badge": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                ]
+              },
+              "clan": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "identity_guild_id": {
+                        "type": "string"
+                      },
+                      "identity_enabled": {
+                        "type": "integer"
+                      },
+                      "tag": {
+                        "type": "string"
+                      },
+                      "badge": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "is_spam_request": {
+            "type": "integer"
+          }
+        }
+      }
+    },
+    "payments": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "created_at": {
+            "type": "string"
+          },
+          "currency": {
+            "type": "string"
+          },
+          "tax": {
+            "type": "integer"
+          },
+          "tax_inclusive": {
+            "type": "integer"
+          },
+          "amount": {
+            "type": "integer"
+          },
+          "amount_refunded": {
+            "type": "integer"
+          },
+          "status": {
+            "type": "integer"
+          },
+          "description": {
+            "type": "string"
+          },
+          "flags": {
+            "type": "array"
+          },
+          "subscription": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "type": {
+                "type": "integer"
+              },
+              "current_period_start": {
+                "type": "string"
+              },
+              "current_period_end": {
+                "type": "string"
+              },
+              "payment_gateway": {
+                "type": "integer"
+              },
+              "payment_gateway_plan_id": {
+                "type": "integer"
+              },
+              "currency": {
+                "type": "string"
+              },
+              "items": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "plan_id": {
+                      "type": "string"
+                    },
+                    "quantity": {
+                      "type": "integer"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "payment_source": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "type": {
+                "type": "integer"
+              },
+              "invalid": {
+                "type": "integer"
+              },
+              "flags": {
+                "type": "integer"
+              },
+              "deleted_at": {
+                "type": "integer"
+              },
+              "email": {
+                "type": "string"
+              },
+              "country": {
+                "type": "string"
+              },
+              "payment_gateway": {
+                "type": "integer"
+              },
+              "payment_gateway_source_id": {
+                "type": "string"
+              }
+            }
+          },
+          "sku_id": {
+            "type": "string"
+          },
+          "sku_price": {
+            "type": "integer"
+          },
+          "sku_subscription_plan_id": {
+            "type": "string"
+          },
+          "has_invoice_url": {
+            "type": "integer"
+          },
+          "has_refund_invoice_urls": {
+            "type": "integer"
+          },
+          "metadata": {
+            "type": "object",
+            "properties": {
+              "billing_error_code": {
+                "type": "integer"
+              }
+            }
+          }
+        }
+      }
+    },
+    "payment_sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "type": {
+            "type": "integer"
+          },
+          "invalid": {
+            "type": "integer"
+          },
+          "flags": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "deleted_at": {
+            "type": "integer"
+          },
+          "email": {
+            "type": "string"
+          },
+          "country": {
+            "type": "string"
+          },
+          "payment_gateway": {
+            "type": "integer"
+          },
+          "payment_gateway_source_id": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "guild_settings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "guild_id": {
+            "type": ["integer", "string"]
+          },
+          "suppress_everyone": {
+            "type": "integer"
+          },
+          "suppress_roles": {
+            "type": "integer"
+          },
+          "mute_scheduled_events": {
+            "type": "integer"
+          },
+          "message_notifications": {
+            "type": "integer"
+          },
+          "flags": {
+            "type": "integer"
+          },
+          "mobile_push": {
+            "type": "integer"
+          },
+          "muted": {
+            "type": "integer"
+          },
+          "mute_config": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "end_time": {
+                    "type": "integer"
+                  },
+                  "selected_time_window": {
+                    "type": "integer"
+                  }
+                }
+              }
+            ]
+          },
+          "hide_muted_channels": {
+            "type": "integer"
+          },
+          "channel_overrides": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "channel_id": {
+                  "type": "string"
+                },
+                "message_notifications": {
+                  "type": "integer"
+                },
+                "muted": {
+                  "type": "integer"
+                },
+                "mute_config": {
+                  "anyOf": [
+                    {
+                      "type": "integer"
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "end_time": {
+                          "type": "integer"
+                        },
+                        "selected_time_window": {
+                          "type": "integer"
+                        }
+                      }
+                    }
+                  ]
+                },
+                "collapsed": {
+                  "type": "integer"
+                },
+                "flags": {
+                  "type": "integer"
+                }
+              }
+            }
+          },
+          "notify_highlights": {
+            "type": "integer"
+          },
+          "version": {
+            "type": "integer"
+          }
+        }
+      }
+    },
+    "library_applications": {
+      "type": "array"
+    },
+    "entitlements": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "sku_id": {
+            "type": "string"
+          },
+          "application_id": {
+            "type": "string"
+          },
+          "user_id": {
+            "type": "string"
+          },
+          "promotion_id": {
+            "type": ["integer", "string"]
+          },
+          "type": {
+            "type": "integer"
+          },
+          "deleted": {
+            "type": "integer"
+          },
+          "gift_code_flags": {
+            "type": "array"
+          },
+          "starts_at": {
+            "type": "integer"
+          },
+          "ends_at": {
+            "type": "integer"
+          },
+          "consumed": {
+            "type": "integer"
+          },
+          "subscription_plan": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "interval": {
+                "type": "integer"
+              },
+              "interval_count": {
+                "type": "integer"
+              },
+              "tax_inclusive": {
+                "type": "integer"
+              },
+              "sku_id": {
+                "type": "string"
+              }
+            }
+          },
+          "gift_code_batch_id": {
+            "type": "string"
+          },
+          "sku_name": {
+            "type": "string"
+          },
+          "parent_id": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "user_activity_application_statistics": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "application_id": {
+            "type": "string"
+          },
+          "last_played_at": {
+            "type": "string"
+          },
+          "first_played_at": {
+            "type": ["integer", "string"]
+          },
+          "total_duration": {
+            "type": "integer"
+          },
+          "total_discord_sku_duration": {
+            "type": "integer"
+          }
+        }
+      }
+    },
+    "notes": {
+      "type": "object",
+      "properties": {
+        "<number>": {
+          "type": "string"
+        }
+      }
+    },
+    "user_profile_metadata": {
+      "type": "object",
+      "properties": {
+        "user_id": {
+          "type": "string"
+        },
+        "boosting_started_at": {
+          "type": "integer"
+        },
+        "premium_started_at": {
+          "type": "integer"
+        },
+        "legacy_username": {
+          "type": "string"
+        },
+        "widgets": {
+          "type": "array"
+        },
+        "wishlist_settings": {
+          "type": "object"
+        }
+      }
+    },
+    "application_user_role_connections": {
+      "type": "array"
+    },
+    "lobby_members": {
+      "type": "array"
+    },
+    "current_orbs_balance": {
+      "type": "integer"
+    },
+    "orbs_transactions": {
+      "type": "array"
+    }
+  }
+}

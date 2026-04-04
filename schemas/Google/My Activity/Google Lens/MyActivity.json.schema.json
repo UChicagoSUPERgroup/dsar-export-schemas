@@ -1,0 +1,33 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "header": {
+        "type": "string"
+      },
+      "title": {
+        "type": "string"
+      },
+      "time": {
+        "type": "string"
+      },
+      "products": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "activityControls": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "titleUrl": {
+        "type": "string"
+      }
+    }
+  }
+}

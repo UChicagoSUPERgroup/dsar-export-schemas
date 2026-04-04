@@ -1,0 +1,300 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "city_name": {
+      "type": "string"
+    },
+    "currency_code": {
+      "type": "string"
+    },
+    "timezone": {
+      "type": "string"
+    },
+    "flow": {
+      "type": "string"
+    },
+    "product_type_name": {
+      "type": "string"
+    },
+    "global_product_name": {
+      "type": "string"
+    },
+    "request_timestamp_local": {
+      "type": "string"
+    },
+    "request_timestamp_utc": {
+      "type": "string"
+    },
+    "request_lat": {
+      "type": "number"
+    },
+    "request_lng": {
+      "type": "number"
+    },
+    "begintrip_timestamp_local": {
+      "type": "string"
+    },
+    "begintrip_timestamp_utc": {
+      "type": "string"
+    },
+    "begintrip_lat": {
+      "type": "number"
+    },
+    "begintrip_lng": {
+      "type": "number"
+    },
+    "begintrip_address": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "dropoff_timestamp_local": {
+      "type": "string"
+    },
+    "dropoff_timestamp_utc": {
+      "type": "string"
+    },
+    "dropoff_lat": {
+      "type": "number"
+    },
+    "dropoff_lng": {
+      "type": "number"
+    },
+    "destination_lat": {
+      "type": "number"
+    },
+    "destination_lng": {
+      "type": "number"
+    },
+    "has_destination": {
+      "type": "string"
+    },
+    "destination_string": {
+      "type": "string"
+    },
+    "dropoff_address": {
+      "type": "string"
+    },
+    "eta": {
+      "type": "number"
+    },
+    "surge_multiplier": {
+      "type": "number"
+    },
+    "is_surged": {
+      "type": "string"
+    },
+    "is_pool_matched": {
+      "type": "string"
+    },
+    "request_to_begin_distance_miles": {
+      "type": "number"
+    },
+    "request_to_begin_duration_seconds": {
+      "type": "integer"
+    },
+    "trip_distance_miles": {
+      "type": "number"
+    },
+    "trip_duration_seconds": {
+      "type": "integer"
+    },
+    "status": {
+      "type": "string"
+    },
+    "is_completed": {
+      "type": "string"
+    },
+    "fare_amount": {
+      "type": "number"
+    },
+    "is_fare_split": {
+      "type": "string"
+    },
+    "is_flat_rate": {
+      "type": "string"
+    },
+    "is_cash_trip": {
+      "type": "string"
+    },
+    "client_app_version": {
+      "type": "string"
+    },
+    "client_device": {
+      "type": "string"
+    },
+    "promotion_local": {
+      "type": "number"
+    },
+    "promotion_usd": {
+      "type": "number"
+    },
+    "credits_local": {
+      "type": "integer"
+    },
+    "credits_usd": {
+      "type": "integer"
+    },
+    "has_client_upfront_fare": {
+      "type": "string"
+    },
+    "client_upfront_fare_local": {
+      "type": "number"
+    },
+    "client_upfront_fare_usd": {
+      "type": "number"
+    },
+    "original_fare_local": {
+      "type": "number"
+    },
+    "original_fare_usd": {
+      "type": "number"
+    },
+    "base_fare_local": {
+      "type": "number"
+    },
+    "base_fare_usd": {
+      "type": "number"
+    },
+    "surge_fare_local": {
+      "type": "number"
+    },
+    "surge_fare_usd": {
+      "type": "number"
+    },
+    "minimum_fare_roundup_local": {
+      "type": "number"
+    },
+    "minimum_fare_roundup_usd": {
+      "type": "number"
+    },
+    "per_mile_fare_local": {
+      "type": "number"
+    },
+    "per_mile_fare_usd": {
+      "type": "number"
+    },
+    "per_minute_fare_local": {
+      "type": "number"
+    },
+    "per_minute_fare_usd": {
+      "type": "number"
+    },
+    "cancellation_fee_local": {
+      "type": "number"
+    },
+    "cancellation_fee_usd": {
+      "type": "number"
+    },
+    "rounding_down_amount_local": {
+      "type": "number"
+    },
+    "rounding_down_amount_usd": {
+      "type": "number"
+    },
+    "service_fee_local": {
+      "type": "integer"
+    },
+    "service_fee_usd": {
+      "type": "integer"
+    },
+    "toll_amount_local": {
+      "type": "number"
+    },
+    "toll_amount_usd": {
+      "type": "number"
+    },
+    "booking_fee_local": {
+      "type": "number"
+    },
+    "booking_fee_usd": {
+      "type": "number"
+    },
+    "earnings_boost_local": {
+      "type": "integer"
+    },
+    "earnings_boost_usd": {
+      "type": "integer"
+    },
+    "fare_distance_miles": {
+      "type": "number"
+    },
+    "fare_duration_minutes": {
+      "type": "number"
+    },
+    "concierge_source_type": {
+      "type": "integer"
+    },
+    "wait_time_fare_local": {
+      "type": "number"
+    },
+    "wait_time_fare_usd": {
+      "type": "number"
+    },
+    "driver_cancellation_reason": {
+      "type": "integer"
+    },
+    "is_multidestination": {
+      "type": "string"
+    },
+    "long_distance_surcharge_local": {
+      "type": "integer"
+    },
+    "long_distance_surcharge_usd": {
+      "type": "integer"
+    },
+    "ufp_type": {
+      "type": "string"
+    },
+    "cancellation_type": {
+      "type": "integer"
+    },
+    "is_directed_dispatch_trip": {
+      "type": "string"
+    },
+    "wait_duration_minutes": {
+      "type": "number"
+    },
+    "is_scheduled_trip": {
+      "type": "string"
+    },
+    "is_airport_trip": {
+      "type": "string"
+    },
+    "profile_type": {
+      "type": "string"
+    },
+    "card_number": {
+      "type": "integer"
+    },
+    "city": {
+      "type": "string"
+    },
+    "product_type": {
+      "type": "string"
+    },
+    "request_time": {
+      "type": "string"
+    },
+    "begin_trip_time": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "dropoff_time": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "distance": {
+      "type": "number"
+    },
+    "fare_currency": {
+      "type": "string"
+    }
+  }
+}

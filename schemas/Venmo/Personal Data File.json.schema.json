@@ -1,0 +1,210 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "User Information": {
+      "type": "object",
+      "properties": {
+        "First Name": {
+          "type": "string"
+        },
+        "Last Name": {
+          "type": "string"
+        },
+        "Date Of Birth": {
+          "type": [
+            "integer",
+            "string"
+          ]
+        },
+        "Primary Phone Number": {
+          "type": "string"
+        },
+        "Primary Email": {
+          "type": "string"
+        },
+        "Primary Address": {
+          "type": "string"
+        }
+      }
+    },
+    "Account Information": {
+      "type": "object",
+      "properties": {
+        "Profile Image": {
+          "type": "string"
+        },
+        "Account Open Date": {
+          "type": "string"
+        },
+        "Account Number": {
+          "type": "integer"
+        },
+        "Account Close Date": {
+          "type": "integer"
+        },
+        "Funds In Venmo": {
+          "type": "integer"
+        },
+        "Direct Deposit Account Numbers": {
+          "type": "integer"
+        },
+        "Government ID": {
+          "type": "string"
+        },
+        "Social Security Info": {
+          "type": "string"
+        }
+      }
+    },
+    "Rewards Accrued": {
+      "type": "string"
+    },
+    "Debit and Credit Cards": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "Card Type": {
+            "type": "string"
+          },
+          "Card Name": {
+            "type": "string"
+          },
+          "Bank": {
+            "type": "string"
+          },
+          "Name": {
+            "type": "string"
+          },
+          "Last # Digits": {
+            "type": "integer"
+          },
+          "Expiry Date": {
+            "type": "string"
+          },
+          "Currency": {
+            "type": "string"
+          },
+          "Status": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "Bank Account Details": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "Bank Name": {
+                "type": "string"
+              },
+              "Name": {
+                "type": "string"
+              },
+              "Country": {
+                "type": "integer"
+              },
+              "Currency": {
+                "type": "string"
+              },
+              "Bank Address": {
+                "type": "string"
+              },
+              "Account Number Last # Digits": {
+                "type": "integer"
+              },
+              "Branch Code": {
+                "type": "integer"
+              },
+              "Bank Identifier Code": {
+                "type": "integer"
+              },
+              "Routing Number": {
+                "type": "integer"
+              },
+              "Status": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "Addresses On Record": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "Phone Numbers On Record": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "Emails On Record": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "Other Information On Record": {
+      "type": "object",
+      "properties": {
+        "Country where the data is stored": {
+          "type": "string"
+        },
+        "Geolocation Information": {
+          "type": "string"
+        },
+        "Device Information": {
+          "type": "string"
+        },
+        "Cellular Network": {
+          "type": "string"
+        },
+        "Copies of IDs": {
+          "type": "string"
+        }
+      }
+    },
+    "Social Media Information": {
+      "type": "object",
+      "properties": {
+        "Facebook Friends Connection": {
+          "type": "string"
+        },
+        "Phone/Contacts Connection": {
+          "type": "string"
+        }
+      }
+    },
+    "Likes and Comments": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "Created Datetime": {
+            "type": "string"
+          },
+          "Amount": {
+            "type": "number"
+          },
+          "Audience": {
+            "type": "string"
+          },
+          "Note": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

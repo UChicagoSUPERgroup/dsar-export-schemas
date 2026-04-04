@@ -1,0 +1,1318 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "title": {
+        "type": "string"
+      },
+      "create_time": {
+        "type": [
+          "integer",
+          "string"
+        ]
+      },
+      "update_time": {
+        "type": [
+          "integer",
+          "string"
+        ]
+      },
+      "mapping": {
+        "type": "object",
+        "properties": {
+          "<unique_id>": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "message": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "author": {
+                    "type": "object",
+                    "properties": {
+                      "role": {
+                        "type": "string"
+                      },
+                      "name": {
+                        "type": [
+                          "integer",
+                          "string"
+                        ]
+                      },
+                      "metadata": {
+                        "type": "object",
+                        "properties": {
+                          "real_author": {
+                            "type": "string"
+                          },
+                          "source": {
+                            "type": "string"
+                          },
+                          "sonicberry_model_id": {
+                            "type": "string"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "create_time": {
+                    "type": [
+                      "integer",
+                      "string"
+                    ]
+                  },
+                  "update_time": {
+                    "type": [
+                      "integer",
+                      "string"
+                    ]
+                  },
+                  "content": {
+                    "type": "object",
+                    "properties": {
+                      "content_type": {
+                        "type": "string"
+                      },
+                      "parts": {
+                        "type": "array",
+                        "items": {
+                          "anyOf": [
+                            {
+                              "type": [
+                                "integer",
+                                "string"
+                              ]
+                            },
+                            {
+                              "type": "object",
+                              "properties": {
+                                "content_type": {
+                                  "type": "string"
+                                },
+                                "text": {
+                                  "type": "string"
+                                },
+                                "direction": {
+                                  "type": "string"
+                                },
+                                "decoding_id": {
+                                  "type": "integer"
+                                },
+                                "expiry_datetime": {
+                                  "type": "string"
+                                },
+                                "asset_pointer": {
+                                  "type": "string"
+                                },
+                                "size_bytes": {
+                                  "type": "integer"
+                                },
+                                "format": {
+                                  "type": "string"
+                                },
+                                "metadata": {
+                                  "type": "object",
+                                  "properties": {
+                                    "start_timestamp": {
+                                      "type": "integer"
+                                    },
+                                    "end_timestamp": {
+                                      "type": "integer"
+                                    },
+                                    "pretokenized_vq": {
+                                      "type": "integer"
+                                    },
+                                    "interruptions": {
+                                      "type": "integer"
+                                    },
+                                    "original_audio_source": {
+                                      "type": "integer"
+                                    },
+                                    "transcription": {
+                                      "type": "integer"
+                                    },
+                                    "word_transcription": {
+                                      "type": "integer"
+                                    },
+                                    "start": {
+                                      "type": "integer"
+                                    },
+                                    "end": {
+                                      "type": "number"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  "status": {
+                    "type": "string"
+                  },
+                  "end_turn": {
+                    "type": [
+                      "boolean",
+                      "integer"
+                    ]
+                  },
+                  "weight": {
+                    "type": "integer"
+                  },
+                  "metadata": {
+                    "type": "object",
+                    "properties": {
+                      "citations": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "properties": {
+                            "start_ix": {
+                              "type": "integer"
+                            },
+                            "end_ix": {
+                              "type": "integer"
+                            },
+                            "invalid_reason": {
+                              "type": "string"
+                            },
+                            "metadata": {
+                              "type": "object",
+                              "properties": {
+                                "type": {
+                                  "type": "string"
+                                },
+                                "title": {
+                                  "type": "string"
+                                },
+                                "url": {
+                                  "type": "string"
+                                },
+                                "text": {
+                                  "type": "string"
+                                },
+                                "pub_date": {
+                                  "type": [
+                                    "integer",
+                                    "string"
+                                  ]
+                                },
+                                "extra": {
+                                  "anyOf": [
+                                    {
+                                      "type": "integer"
+                                    },
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "cited_message_idx": {
+                                          "type": "integer"
+                                        },
+                                        "search_result_idx": {
+                                          "type": "integer"
+                                        },
+                                        "evidence_text": {
+                                          "type": "string"
+                                        },
+                                        "cloud_doc_url": {
+                                          "type": "integer"
+                                        }
+                                      }
+                                    }
+                                  ]
+                                },
+                                "og_tags": {
+                                  "type": "integer"
+                                }
+                              }
+                            },
+                            "citation_format_type": {
+                              "type": "string"
+                            }
+                          }
+                        }
+                      },
+                      "content_references": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "properties": {
+                            "matched_text": {
+                              "type": [
+                                "integer",
+                                "string"
+                              ]
+                            },
+                            "start_idx": {
+                              "type": "integer"
+                            },
+                            "end_idx": {
+                              "type": "integer"
+                            },
+                            "safe_urls": {
+                              "type": "array",
+                              "items": {
+                                "type": "string"
+                              }
+                            },
+                            "refs": {
+                              "type": "array",
+                              "items": {
+                                "anyOf": [
+                                  {
+                                    "type": "string"
+                                  },
+                                  {
+                                    "type": "object",
+                                    "properties": {
+                                      "turn_index": {
+                                        "type": "integer"
+                                      },
+                                      "ref_type": {
+                                        "type": "string"
+                                      },
+                                      "ref_index": {
+                                        "type": "integer"
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            },
+                            "alt": {
+                              "type": [
+                                "integer",
+                                "string"
+                              ]
+                            },
+                            "prompt_text": {
+                              "type": [
+                                "integer",
+                                "string"
+                              ]
+                            },
+                            "type": {
+                              "type": "string"
+                            },
+                            "domains": {
+                              "type": "array",
+                              "items": {
+                                "type": "object",
+                                "properties": {
+                                  "title": {
+                                    "type": "string"
+                                  },
+                                  "subtitle": {
+                                    "type": "string"
+                                  },
+                                  "domain": {
+                                    "type": "string"
+                                  },
+                                  "url": {
+                                    "type": "string"
+                                  },
+                                  "sub_domains": {
+                                    "type": "array"
+                                  },
+                                  "snippet": {
+                                    "type": "integer"
+                                  },
+                                  "attribution": {
+                                    "type": "string"
+                                  }
+                                }
+                              }
+                            },
+                            "invalid": {
+                              "type": "integer"
+                            },
+                            "attributable_index": {
+                              "type": "string"
+                            },
+                            "attributions": {
+                              "type": "integer"
+                            },
+                            "attributions_debug": {
+                              "type": "integer"
+                            },
+                            "items": {
+                              "type": "array",
+                              "items": {
+                                "type": "object",
+                                "properties": {
+                                  "title": {
+                                    "type": "string"
+                                  },
+                                  "url": {
+                                    "type": "string"
+                                  },
+                                  "pub_date": {
+                                    "type": "integer"
+                                  },
+                                  "snippet": {
+                                    "type": [
+                                      "integer",
+                                      "string"
+                                    ]
+                                  },
+                                  "attribution_segments": {
+                                    "anyOf": [
+                                      {
+                                        "type": "integer"
+                                      },
+                                      {
+                                        "type": "array",
+                                        "items": {
+                                          "type": "string"
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  "supporting_websites": {
+                                    "type": "array",
+                                    "items": {
+                                      "type": "object",
+                                      "properties": {
+                                        "title": {
+                                          "type": "string"
+                                        },
+                                        "url": {
+                                          "type": "string"
+                                        },
+                                        "pub_date": {
+                                          "type": "integer"
+                                        },
+                                        "snippet": {
+                                          "type": [
+                                            "integer",
+                                            "string"
+                                          ]
+                                        },
+                                        "attribution": {
+                                          "type": "string"
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "refs": {
+                                    "type": "array",
+                                    "items": {
+                                      "type": "object",
+                                      "properties": {
+                                        "turn_index": {
+                                          "type": "integer"
+                                        },
+                                        "ref_type": {
+                                          "type": "string"
+                                        },
+                                        "ref_index": {
+                                          "type": "integer"
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "hue": {
+                                    "type": "integer"
+                                  },
+                                  "attributions": {
+                                    "type": "integer"
+                                  },
+                                  "attribution": {
+                                    "type": "string"
+                                  },
+                                  "thumbnail_url": {
+                                    "type": [
+                                      "integer",
+                                      "string"
+                                    ]
+                                  }
+                                }
+                              }
+                            },
+                            "fallback_items": {
+                              "anyOf": [
+                                {
+                                  "type": "integer"
+                                },
+                                {
+                                  "type": "array",
+                                  "items": {
+                                    "type": "object",
+                                    "properties": {
+                                      "title": {
+                                        "type": "string"
+                                      },
+                                      "url": {
+                                        "type": "string"
+                                      },
+                                      "pub_date": {
+                                        "type": "integer"
+                                      },
+                                      "snippet": {
+                                        "type": "string"
+                                      },
+                                      "attribution_segments": {
+                                        "type": "integer"
+                                      },
+                                      "supporting_websites": {
+                                        "type": "array"
+                                      },
+                                      "refs": {
+                                        "type": "array",
+                                        "items": {
+                                          "type": "object",
+                                          "properties": {
+                                            "turn_index": {
+                                              "type": "integer"
+                                            },
+                                            "ref_type": {
+                                              "type": "string"
+                                            },
+                                            "ref_index": {
+                                              "type": "integer"
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "hue": {
+                                        "type": "integer"
+                                      },
+                                      "attributions": {
+                                        "type": "integer"
+                                      }
+                                    }
+                                  }
+                                }
+                              ]
+                            },
+                            "status": {
+                              "type": "string"
+                            },
+                            "error": {
+                              "type": "integer"
+                            },
+                            "style": {
+                              "type": [
+                                "integer",
+                                "string"
+                              ]
+                            },
+                            "sources": {
+                              "type": "array",
+                              "items": {
+                                "type": "object",
+                                "properties": {
+                                  "title": {
+                                    "type": "string"
+                                  },
+                                  "url": {
+                                    "type": "string"
+                                  },
+                                  "attribution": {
+                                    "type": "string"
+                                  }
+                                }
+                              }
+                            },
+                            "has_images": {
+                              "type": [
+                                "boolean",
+                                "integer"
+                              ]
+                            },
+                            "title": {
+                              "type": "string"
+                            },
+                            "thumbnail_url": {
+                              "type": "string"
+                            },
+                            "url": {
+                              "type": "string"
+                            },
+                            "video_site": {
+                              "type": "string"
+                            },
+                            "video_id": {
+                              "type": "string"
+                            },
+                            "images": {
+                              "type": "array",
+                              "items": {
+                                "type": "object",
+                                "properties": {
+                                  "url": {
+                                    "type": "string"
+                                  },
+                                  "content_url": {
+                                    "type": "string"
+                                  },
+                                  "thumbnail_url": {
+                                    "type": "string"
+                                  },
+                                  "title": {
+                                    "type": "string"
+                                  },
+                                  "content_size": {
+                                    "type": "object",
+                                    "properties": {
+                                      "width": {
+                                        "type": "integer"
+                                      },
+                                      "height": {
+                                        "type": "integer"
+                                      }
+                                    }
+                                  },
+                                  "thumbnail_size": {
+                                    "type": "object",
+                                    "properties": {
+                                      "width": {
+                                        "type": "integer"
+                                      },
+                                      "height": {
+                                        "type": "integer"
+                                      }
+                                    }
+                                  },
+                                  "thumbnail_crop_info": {
+                                    "type": "object",
+                                    "properties": {
+                                      "center_x_percent": {
+                                        "type": "integer"
+                                      },
+                                      "center_y_percent": {
+                                        "type": "integer"
+                                      }
+                                    }
+                                  },
+                                  "attribution": {
+                                    "type": "string"
+                                  }
+                                }
+                              }
+                            },
+                            "time_zone": {
+                              "type": "string"
+                            },
+                            "businesses": {
+                              "type": "array",
+                              "items": {
+                                "type": "object",
+                                "properties": {
+                                  "id": {
+                                    "type": "string"
+                                  },
+                                  "provider": {
+                                    "type": "string"
+                                  },
+                                  "provider_url": {
+                                    "type": "string"
+                                  },
+                                  "latitude": {
+                                    "type": "integer"
+                                  },
+                                  "longitude": {
+                                    "type": "integer"
+                                  },
+                                  "name": {
+                                    "type": "string"
+                                  },
+                                  "rating_scale": {
+                                    "type": "integer"
+                                  },
+                                  "address": {
+                                    "type": "string"
+                                  },
+                                  "description": {
+                                    "type": "string"
+                                  },
+                                  "description_cite": {
+                                    "type": [
+                                      "integer",
+                                      "string"
+                                    ]
+                                  },
+                                  "image_url": {
+                                    "type": [
+                                      "integer",
+                                      "string"
+                                    ]
+                                  },
+                                  "image_urls": {
+                                    "anyOf": [
+                                      {
+                                        "type": "integer"
+                                      },
+                                      {
+                                        "type": "array",
+                                        "items": {
+                                          "type": "string"
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  "rating": {
+                                    "type": "integer"
+                                  },
+                                  "review_count": {
+                                    "type": "integer"
+                                  },
+                                  "price": {
+                                    "type": "integer"
+                                  },
+                                  "categories": {
+                                    "type": "array",
+                                    "items": {
+                                      "type": "string"
+                                    }
+                                  },
+                                  "website_url": {
+                                    "type": [
+                                      "integer",
+                                      "string"
+                                    ]
+                                  },
+                                  "hours": {
+                                    "type": "array",
+                                    "items": {
+                                      "type": "object",
+                                      "properties": {
+                                        "day": {
+                                          "type": "integer"
+                                        },
+                                        "start": {
+                                          "type": "integer"
+                                        },
+                                        "end": {
+                                          "type": "integer"
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "is_open": {
+                                    "type": "integer"
+                                  },
+                                  "next_open_hour": {
+                                    "anyOf": [
+                                      {
+                                        "type": "integer"
+                                      },
+                                      {
+                                        "type": "object",
+                                        "properties": {
+                                          "day": {
+                                            "type": "integer"
+                                          },
+                                          "start": {
+                                            "type": "integer"
+                                          },
+                                          "end": {
+                                            "type": "integer"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  "phone": {
+                                    "type": [
+                                      "integer",
+                                      "string"
+                                    ]
+                                  },
+                                  "is_closed_permanently": {
+                                    "type": "integer"
+                                  }
+                                }
+                              }
+                            },
+                            "business_fallbacks": {
+                              "type": "array",
+                              "items": {
+                                "type": "object",
+                                "properties": {
+                                  "name": {
+                                    "type": "string"
+                                  },
+                                  "location": {
+                                    "type": "string"
+                                  },
+                                  "description": {
+                                    "type": "string"
+                                  },
+                                  "cite": {
+                                    "type": [
+                                      "integer",
+                                      "string"
+                                    ]
+                                  },
+                                  "url": {
+                                    "type": "string"
+                                  }
+                                }
+                              }
+                            },
+                            "render_fallbacks": {
+                              "type": "integer"
+                            },
+                            "cite_map": {
+                              "type": "object",
+                              "properties": {
+                                "turn#search#": {
+                                  "type": "object",
+                                  "properties": {
+                                    "cite": {
+                                      "type": "string"
+                                    },
+                                    "title": {
+                                      "type": "string"
+                                    },
+                                    "url": {
+                                      "type": "string"
+                                    },
+                                    "pub_date": {
+                                      "type": "integer"
+                                    },
+                                    "snippet": {
+                                      "type": "string"
+                                    },
+                                    "attribution": {
+                                      "type": "string"
+                                    }
+                                  }
+                                },
+                                "turn#search##": {
+                                  "type": "object",
+                                  "properties": {
+                                    "cite": {
+                                      "type": "string"
+                                    },
+                                    "title": {
+                                      "type": "string"
+                                    },
+                                    "url": {
+                                      "type": "string"
+                                    },
+                                    "pub_date": {
+                                      "type": "integer"
+                                    },
+                                    "snippet": {
+                                      "type": "string"
+                                    },
+                                    "attribution": {
+                                      "type": "string"
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "pub_date": {
+                              "type": "integer"
+                            },
+                            "snippet": {
+                              "type": "string"
+                            },
+                            "attribution": {
+                              "type": "string"
+                            },
+                            "icon_type": {
+                              "type": "integer"
+                            }
+                          }
+                        }
+                      },
+                      "finish_details": {
+                        "type": "object",
+                        "properties": {
+                          "type": {
+                            "type": "string"
+                          },
+                          "stop_tokens": {
+                            "type": "array",
+                            "items": {
+                              "type": "integer"
+                            }
+                          },
+                          "reason": {
+                            "type": "string"
+                          },
+                          "stop": {
+                            "type": "string"
+                          }
+                        }
+                      },
+                      "is_complete": {
+                        "type": [
+                          "boolean",
+                          "integer"
+                        ]
+                      },
+                      "parent_id": {
+                        "type": "string"
+                      },
+                      "turn_exchange_id": {
+                        "type": "string"
+                      },
+                      "timestamp_": {
+                        "type": "string"
+                      },
+                      "request_id": {
+                        "type": [
+                          "integer",
+                          "string"
+                        ]
+                      },
+                      "message_type": {
+                        "type": [
+                          "integer",
+                          "string"
+                        ]
+                      },
+                      "model_slug": {
+                        "type": "string"
+                      },
+                      "default_model_slug": {
+                        "type": "string"
+                      },
+                      "debug_sonic_thread_id": {
+                        "type": "string"
+                      },
+                      "search_result_groups": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "properties": {
+                            "type": {
+                              "type": "string"
+                            },
+                            "domain": {
+                              "type": "string"
+                            },
+                            "entries": {
+                              "type": "array",
+                              "items": {
+                                "type": "object",
+                                "properties": {
+                                  "type": {
+                                    "type": "string"
+                                  },
+                                  "url": {
+                                    "type": "string"
+                                  },
+                                  "title": {
+                                    "type": [
+                                      "integer",
+                                      "string"
+                                    ]
+                                  },
+                                  "snippet": {
+                                    "type": [
+                                      "integer",
+                                      "string"
+                                    ]
+                                  },
+                                  "ref_id": {
+                                    "type": "object",
+                                    "properties": {
+                                      "turn_index": {
+                                        "type": "integer"
+                                      },
+                                      "ref_type": {
+                                        "type": "string"
+                                      },
+                                      "ref_index": {
+                                        "type": "integer"
+                                      }
+                                    }
+                                  },
+                                  "content_type": {
+                                    "type": "integer"
+                                  },
+                                  "pub_date": {
+                                    "type": "integer"
+                                  },
+                                  "attributions": {
+                                    "type": "integer"
+                                  },
+                                  "attribution": {
+                                    "type": "string"
+                                  },
+                                  "attributions_debug": {
+                                    "type": "integer"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "safe_urls": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      },
+                      "message_locale": {
+                        "type": "string"
+                      },
+                      "image_results": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "properties": {
+                            "url": {
+                              "type": "string"
+                            },
+                            "content_url": {
+                              "type": "string"
+                            },
+                            "thumbnail_url": {
+                              "type": "string"
+                            },
+                            "title": {
+                              "type": "string"
+                            },
+                            "content_size": {
+                              "type": "object",
+                              "properties": {
+                                "width": {
+                                  "type": "integer"
+                                },
+                                "height": {
+                                  "type": "integer"
+                                }
+                              }
+                            },
+                            "thumbnail_size": {
+                              "type": "object",
+                              "properties": {
+                                "width": {
+                                  "type": "integer"
+                                },
+                                "height": {
+                                  "type": "integer"
+                                }
+                              }
+                            },
+                            "thumbnail_crop_info": {
+                              "type": "integer"
+                            },
+                            "attribution": {
+                              "type": "string"
+                            }
+                          }
+                        }
+                      },
+                      "search_source": {
+                        "type": "string"
+                      },
+                      "client_reported_search_source": {
+                        "type": "string"
+                      },
+                      "search_turns_count": {
+                        "type": "integer"
+                      },
+                      "voice_mode_message": {
+                        "type": "integer"
+                      },
+                      "search_queries": {
+                        "type": "array"
+                      },
+                      "real_time_audio_has_video": {
+                        "type": "integer"
+                      },
+                      "dictation": {
+                        "type": "integer"
+                      },
+                      "image_gen_async": {
+                        "type": "integer"
+                      },
+                      "trigger_async_ux": {
+                        "type": "integer"
+                      },
+                      "message_source": {
+                        "type": "integer"
+                      },
+                      "augmented_paragen_prompt_label": {
+                        "type": "integer"
+                      },
+                      "model_adjustments": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      },
+                      "gizmo_id": {
+                        "type": "integer"
+                      },
+                      "pad": {
+                        "type": "string"
+                      },
+                      "sonic_classification_result": {
+                        "type": "object",
+                        "properties": {
+                          "latency_ms": {
+                            "type": "number"
+                          },
+                          "simple_search_prob": {
+                            "type": "number"
+                          },
+                          "complex_search_prob": {
+                            "type": "number"
+                          },
+                          "no_search_prob": {
+                            "type": "number"
+                          },
+                          "search_complexity_decision": {
+                            "type": "string"
+                          },
+                          "search_decision": {
+                            "type": "boolean"
+                          },
+                          "simple_search_threshold": {
+                            "type": "integer"
+                          },
+                          "complex_search_threshold": {
+                            "type": "number"
+                          },
+                          "no_search_threshold": {
+                            "type": "number"
+                          },
+                          "threshold_order": {
+                            "type": "array",
+                            "items": {
+                              "type": "string"
+                            }
+                          },
+                          "classifier_config_name": {
+                            "type": "string"
+                          },
+                          "classifier_config": {
+                            "type": "object",
+                            "properties": {
+                              "model_name": {
+                                "type": "string"
+                              },
+                              "renderer_name": {
+                                "type": "string"
+                              },
+                              "force_disabled_rate": {
+                                "type": "integer"
+                              },
+                              "force_enabled_rate": {
+                                "type": "integer"
+                              },
+                              "num_messages": {
+                                "type": "integer"
+                              },
+                              "only_user_messages": {
+                                "type": "boolean"
+                              },
+                              "remove_memory": {
+                                "type": "boolean"
+                              },
+                              "support_mm": {
+                                "type": "boolean"
+                              },
+                              "n_ctx": {
+                                "type": "integer"
+                              },
+                              "max_action_length": {
+                                "type": "integer"
+                              },
+                              "dynamic_set_max_message_size": {
+                                "type": "boolean"
+                              },
+                              "max_message_tokens": {
+                                "type": "integer"
+                              },
+                              "append_base_config": {
+                                "type": "boolean"
+                              },
+                              "no_search_token": {
+                                "type": "integer"
+                              },
+                              "simple_search_token": {
+                                "type": "integer"
+                              },
+                              "complex_search_token": {
+                                "type": "integer"
+                              },
+                              "simple_search_threshold": {
+                                "type": "integer"
+                              },
+                              "complex_search_threshold": {
+                                "type": "number"
+                              },
+                              "no_search_threshold": {
+                                "type": "number"
+                              },
+                              "threshold_order": {
+                                "type": "array",
+                                "items": {
+                                  "type": "string"
+                                }
+                              },
+                              "timeout": {
+                                "type": "integer"
+                              }
+                            }
+                          },
+                          "decision_source": {
+                            "type": "string"
+                          },
+                          "passthrough_tool_names": {
+                            "type": "array"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "recipient": {
+                    "type": "string"
+                  },
+                  "channel": {
+                    "type": [
+                      "integer",
+                      "string"
+                    ]
+                  }
+                }
+              },
+              "parent": {
+                "type": "string"
+              },
+              "children": {
+                "type": "array"
+              }
+            }
+          },
+          "client-created-root": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "message": {
+                "type": "integer"
+              },
+              "parent": {
+                "type": "integer"
+              },
+              "children": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      },
+      "moderation_results": {
+        "type": "array"
+      },
+      "current_node": {
+        "type": "string"
+      },
+      "plugin_ids": {
+        "type": "integer"
+      },
+      "conversation_id": {
+        "type": "string"
+      },
+      "conversation_template_id": {
+        "type": "integer"
+      },
+      "gizmo_id": {
+        "type": "integer"
+      },
+      "gizmo_type": {
+        "type": "integer"
+      },
+      "is_archived": {
+        "type": [
+          "boolean",
+          "integer"
+        ]
+      },
+      "is_starred": {
+        "type": "integer"
+      },
+      "safe_urls": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "blocked_urls": {
+        "type": "array"
+      },
+      "default_model_slug": {
+        "type": [
+          "integer",
+          "string"
+        ]
+      },
+      "conversation_origin": {
+        "type": "integer"
+      },
+      "is_read_only": {
+        "type": "integer"
+      },
+      "voice": {
+        "type": [
+          "integer",
+          "string"
+        ]
+      },
+      "async_status": {
+        "type": "integer"
+      },
+      "disabled_tool_ids": {
+        "type": "array"
+      },
+      "is_do_not_remember": {
+        "type": [
+          "boolean",
+          "integer"
+        ]
+      },
+      "memory_scope": {
+        "type": "string"
+      },
+      "context_scopes": {
+        "type": "integer"
+      },
+      "sugar_item_id": {
+        "type": "integer"
+      },
+      "sugar_item_visible": {
+        "type": [
+          "boolean",
+          "integer"
+        ]
+      },
+      "is_study_mode": {
+        "type": [
+          "boolean",
+          "integer"
+        ]
+      },
+      "owner": {
+        "type": "integer"
+      },
+      "id": {
+        "type": "string"
+      }
+    }
+  }
+}

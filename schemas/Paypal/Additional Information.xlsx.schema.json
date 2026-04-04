@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Web Usage Information": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "Web Usage Information": {
+            "type": "string"
+          },
+          "__EMPTY": {
+            "type": "string"
+          },
+          "__EMPTY_#": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "Pools Created": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "Pools Created": {
+            "type": "string"
+          },
+          "__EMPTY": {
+            "type": "string"
+          },
+          "__EMPTY_#": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "<custom_name>": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "<custom_name>": {
+            "type": "string"
+          },
+          "__EMPTY": {
+            "type": "string"
+          },
+          "__EMPTY_#": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

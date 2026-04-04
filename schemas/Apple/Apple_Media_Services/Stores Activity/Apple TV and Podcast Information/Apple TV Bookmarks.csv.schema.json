@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Item Reference": {
+      "type": "string"
+    },
+    "Last activity timestamp": {
+      "type": "string"
+    },
+    "Item Description": {
+      "type": "string"
+    },
+    "Marked as unwatched?": {
+      "type": "string"
+    },
+    "Has been played?": {
+      "type": "string"
+    },
+    "Playback position": {
+      "type": "integer"
+    },
+    "Play count": {
+      "type": "integer"
+    },
+    "Has been rented?": {
+      "type": "string"
+    }
+  }
+}

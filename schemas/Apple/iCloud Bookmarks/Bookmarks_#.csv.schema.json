@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Title": {
+      "type": "string"
+    },
+    "URL": {
+      "type": "string"
+    },
+    "modifiedOn": {
+      "type": "string"
+    },
+    "favorite": {
+      "type": "string"
+    },
+    "deleted": {
+      "type": "string"
+    }
+  }
+}

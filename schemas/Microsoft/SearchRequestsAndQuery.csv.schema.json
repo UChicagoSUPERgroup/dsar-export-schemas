@@ -1,0 +1,42 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "DateTime": {
+      "type": "string"
+    },
+    "DeviceId": {
+      "type": "integer"
+    },
+    "AccuracyRadius": {
+      "type": "integer"
+    },
+    "Latitude": {
+      "type": "integer"
+    },
+    "Longitude": {
+      "type": "integer"
+    },
+    "Time": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Title": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Url": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "SearchTerms": {
+      "type": "string"
+    }
+  }
+}

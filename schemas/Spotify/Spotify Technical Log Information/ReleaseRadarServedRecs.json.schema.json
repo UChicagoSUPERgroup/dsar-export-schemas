@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "context_time": {
+        "type": "string"
+      },
+      "message_registration_country": {
+        "type": "string"
+      },
+      "message_context_uri": {
+        "type": "string"
+      },
+      "message_is_made_for_user": {
+        "type": "boolean"
+      },
+      "message_track_uris": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "timestamp_utc": {
+        "type": "string"
+      }
+    }
+  }
+}

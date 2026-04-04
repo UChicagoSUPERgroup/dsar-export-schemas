@@ -1,0 +1,87 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "explanation": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "similarBooksCurRead": {
+        "anyOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "recommended_item": {
+                  "type": "string"
+                },
+                "rank": {
+                  "type": "integer"
+                },
+                "source_book": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "similarBooksWantToRead": {
+        "anyOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "recommended_item": {
+                  "type": "string"
+                },
+                "rank": {
+                  "type": "integer"
+                },
+                "source_book": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "similarBooks": {
+        "anyOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "recommended_item": {
+                  "type": "string"
+                },
+                "rank": {
+                  "type": "integer"
+                },
+                "source_book": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Apple ID Number": {
+      "type": "string"
+    },
+    "Card Type Exists in Wallet": {
+      "type": "string"
+    },
+    "Device Type": {
+      "type": "string"
+    },
+    "Event Timestamp": {
+      "type": "string"
+    },
+    "Event Type": {
+      "type": "string"
+    },
+    "Wallet Card Type": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,453 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Action Name": {
+      "type": "integer"
+    },
+    "Action Type": {
+      "type": "string"
+    },
+    "Age Bucket": {
+      "type": "string"
+    },
+    "App": {
+      "type": "string"
+    },
+    "App Version": {
+      "type": [
+        "number",
+        "string"
+      ]
+    },
+    "Apple ID Number": {
+      "type": "string"
+    },
+    "Application Name": {
+      "type": "integer"
+    },
+    "Asset Placement": {
+      "type": "string"
+    },
+    "Audio Description": {
+      "type": "integer"
+    },
+    "Audio Format": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Audio Locale": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Audio Variant": {
+      "type": "integer"
+    },
+    "Birth Year": {
+      "type": "integer"
+    },
+    "Bundle Offer Subscription": {
+      "type": "integer"
+    },
+    "Bundle Subscription Name": {
+      "type": "integer"
+    },
+    "Bundle Subscription Type": {
+      "type": "integer"
+    },
+    "Caption Locale": {
+      "type": "integer"
+    },
+    "Client ID": {
+      "type": "string"
+    },
+    "Client Platform": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Connection": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Content Episode Name": {
+      "type": "string"
+    },
+    "Content Length MS": {
+      "type": "integer"
+    },
+    "Content Master Feature Title": {
+      "type": "string"
+    },
+    "Content Master Feature Vendor": {
+      "type": "string"
+    },
+    "Content Master Title": {
+      "type": "string"
+    },
+    "Content Master Vendor": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Content Ownership Status": {
+      "type": "string"
+    },
+    "Content Provider ID": {
+      "type": "integer"
+    },
+    "Content Season Name": {
+      "type": "string"
+    },
+    "Content Sub-Type": {
+      "type": "integer"
+    },
+    "Content Title": {
+      "type": "string"
+    },
+    "Current Substate": {
+      "type": "integer"
+    },
+    "Device Details": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Download State": {
+      "type": "string"
+    },
+    "Episode Number": {
+      "type": "number"
+    },
+    "Event Date Time": {
+      "type": "string"
+    },
+    "Event Duration": {
+      "type": "integer"
+    },
+    "Event Type": {
+      "type": "string"
+    },
+    "Feature End Position": {
+      "type": "integer"
+    },
+    "Feature Play Duration": {
+      "type": "integer"
+    },
+    "Feature Test": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Gender": {
+      "type": "string"
+    },
+    "Hardware Brand": {
+      "type": "integer"
+    },
+    "Hardware Category": {
+      "type": "string"
+    },
+    "Hardware Family": {
+      "type": "string"
+    },
+    "Hardware Model": {
+      "type": "string"
+    },
+    "Is Feature": {
+      "type": "string"
+    },
+    "Is Skip Intro": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Is Skippable": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Is User Agent Web": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Localized Episode Number": {
+      "type": "integer"
+    },
+    "Localized Season Number": {
+      "type": "integer"
+    },
+    "Max Feature Play Position": {
+      "type": "integer"
+    },
+    "Max Overall Play Position": {
+      "type": "integer"
+    },
+    "Media Play Position MS": {
+      "type": "integer"
+    },
+    "Media Player Height Pixel": {
+      "type": "integer"
+    },
+    "Media Player Width Pixel": {
+      "type": "integer"
+    },
+    "Min Feature Play Position": {
+      "type": "integer"
+    },
+    "Min Overall Play Position": {
+      "type": "integer"
+    },
+    "MVPD Active Months": {
+      "type": "integer"
+    },
+    "MVPD Partner": {
+      "type": "integer"
+    },
+    "Operating System": {
+      "type": "string"
+    },
+    "Operating System Languages": {
+      "type": "string"
+    },
+    "Operating System Version": {
+      "type": [
+        "number",
+        "string"
+      ]
+    },
+    "OS Build Number": {
+      "type": "string"
+    },
+    "OS Language (Primary)": {
+      "type": "string"
+    },
+    "Overall Play Position": {
+      "type": "integer"
+    },
+    "Overall Position": {
+      "type": "integer"
+    },
+    "Partner Subscription ID": {
+      "type": "integer"
+    },
+    "Play Break Reasons": {
+      "type": "string"
+    },
+    "Play Duration": {
+      "type": "integer"
+    },
+    "Playback Delegation": {
+      "type": "integer"
+    },
+    "Playback View": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Played Offline": {
+      "type": "string"
+    },
+    "Post Time": {
+      "type": "string"
+    },
+    "Postal Code": {
+      "type": "integer"
+    },
+    "Program Type": {
+      "type": "string"
+    },
+    "Provider Brand Name": {
+      "type": "string"
+    },
+    "Provider Marked Content Sensitive": {
+      "type": "integer"
+    },
+    "Receipt Time": {
+      "type": "string"
+    },
+    "Screen Height Pixel": {
+      "type": "integer"
+    },
+    "Screen Width Pixel": {
+      "type": "integer"
+    },
+    "SDH": {
+      "type": "integer"
+    },
+    "Session Is Shared": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Shared Activity Devices-Current": {
+      "type": "integer"
+    },
+    "Shared Activity Devices-Max": {
+      "type": "integer"
+    },
+    "Shared Content": {
+      "type": "integer"
+    },
+    "Special Access Type": {
+      "type": "integer"
+    },
+    "Start Asset Name": {
+      "type": "integer"
+    },
+    "Start Feature Play Position": {
+      "type": "integer"
+    },
+    "Start Overall Position": {
+      "type": "integer"
+    },
+    "Start Play Position": {
+      "type": "integer"
+    },
+    "Start Position": {
+      "type": "integer"
+    },
+    "Start Reason": {
+      "type": "string"
+    },
+    "Start Reason Type": {
+      "type": "integer"
+    },
+    "Start Time": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Start Type": {
+      "type": "string"
+    },
+    "Stop Reason": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Stop Reason Type": {
+      "type": "integer"
+    },
+    "Stop Type": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Store Front Name": {
+      "type": "string"
+    },
+    "Subscription Category": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Subscription Channel": {
+      "type": "integer"
+    },
+    "Subscription Currency Code": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Subscription Funding": {
+      "type": "integer"
+    },
+    "Subscription Identifier": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Subscription Name": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Subscription Partner": {
+      "type": "integer"
+    },
+    "Subscription Price": {
+      "type": "number"
+    },
+    "Subscription Product Code": {
+      "type": "integer"
+    },
+    "Subtitle Locale": {
+      "type": "integer"
+    },
+    "Tab": {
+      "type": "string"
+    },
+    "Timezone Offset": {
+      "type": "integer"
+    },
+    "TVS Service Name": {
+      "type": "string"
+    },
+    "TVS Service Status": {
+      "type": "string"
+    },
+    "TVS Service Type": {
+      "type": "integer"
+    },
+    "URL": {
+      "type": "string"
+    },
+    "User Agent": {
+      "type": "string"
+    },
+    "UTC End Time": {
+      "type": "string"
+    },
+    "UTC Event Date": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "UTC Start Time": {
+      "type": "string"
+    },
+    "Video Color Range": {
+      "type": "string"
+    },
+    "Video Dimension": {
+      "type": "integer"
+    },
+    "Apple Account Number": {
+      "type": "string"
+    },
+    "Apple TV+ Content Artwork ID": {
+      "type": "integer"
+    },
+    "Channel Name": {
+      "type": "integer"
+    },
+    "Play Break Reason": {
+      "type": "string"
+    }
+  }
+}

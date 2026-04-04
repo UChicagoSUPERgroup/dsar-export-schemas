@@ -1,0 +1,294 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Member Information": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "accountId": {
+            "type": "string"
+          },
+          "aeRewardLevel": {
+            "type": "string"
+          },
+          "country": {
+            "type": "string"
+          },
+          "email": {
+            "type": "string"
+          },
+          "firstName": {
+            "type": "string"
+          },
+          "lastName": {
+            "type": "string"
+          },
+          "loginMobile": {
+            "type": "integer"
+          },
+          "memberId": {
+            "type": "string"
+          },
+          "newAeRewardLevel": {
+            "type": "string"
+          },
+          "registerTime": {
+            "type": "string"
+          },
+          "totalScore": {
+            "type": "integer"
+          },
+          "vipLevel": {
+            "type": "integer"
+          }
+        }
+      }
+    },
+    "Order Information": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "order_id": {
+            "type": "string"
+          },
+          "parent_orderid": {
+            "type": "string"
+          },
+          "receiver_mobileno": {
+            "type": "string"
+          },
+          "receiver_mobileprefixcode": {
+            "type": "string"
+          },
+          "receiver_contractname": {
+            "type": "string"
+          },
+          "receiveaddress_countrycode": {
+            "type": "string"
+          },
+          "receiveaddress_countryname": {
+            "type": "string"
+          },
+          "receiveaddress_postcode": {
+            "type": [
+              "integer",
+              "string"
+            ]
+          },
+          "receiveaddress_city": {
+            "type": "string"
+          },
+          "receiveaddress_state": {
+            "type": "string"
+          },
+          "receiveaddress_locationtreeaddressname": {
+            "type": "string"
+          },
+          "receiveaddress_detailaddress": {
+            "type": "string"
+          },
+          "receiveaddress_languagecode": {
+            "type": "string"
+          },
+          "receiveaddressaddress#": {
+            "type": [
+              "integer",
+              "string"
+            ]
+          },
+          "gmt_create_order_time": {
+            "type": "string"
+          },
+          "order_status": {
+            "type": "string"
+          },
+          "frozen_status": {
+            "type": "integer"
+          },
+          "item_name": {
+            "type": "string"
+          },
+          "unit_price": {
+            "type": "integer"
+          },
+          "payable_amt": {
+            "type": "integer"
+          },
+          "buyer_admin_id": {
+            "type": "string"
+          },
+          "gmt_pay_order_time": {
+            "type": [
+              "integer",
+              "string"
+            ]
+          },
+          "is_success_pay": {
+            "type": "string"
+          },
+          "is_send_goods": {
+            "type": "string"
+          },
+          "is_buyer_accept": {
+            "type": "string"
+          },
+          "gmt_trade_end_time": {
+            "type": [
+              "integer",
+              "string"
+            ]
+          },
+          "end_reason": {
+            "type": [
+              "integer",
+              "string"
+            ]
+          }
+        }
+      }
+    },
+    "LogisticsAddress Information": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "country": {
+            "type": "string"
+          },
+          "buyerAddressType": {
+            "type": "string"
+          },
+          "ownerSeq": {
+            "type": "string"
+          },
+          "province": {
+            "type": "string"
+          },
+          "zip": {
+            "type": [
+              "integer",
+              "string"
+            ]
+          },
+          "district": {
+            "type": "integer"
+          },
+          "countryName": {
+            "type": "string"
+          },
+          "city": {
+            "type": "string"
+          },
+          "address": {
+            "type": "string"
+          },
+          "address#": {
+            "type": [
+              "integer",
+              "string"
+            ]
+          },
+          "contactPerson": {
+            "type": "string"
+          },
+          "platform": {
+            "type": "string"
+          },
+          "phoneCountry": {
+            "type": "string"
+          },
+          "mobileNo": {
+            "type": "string"
+          },
+          "gmtCreate": {
+            "type": "string"
+          },
+          "gmtModified": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "Issue Information": {
+      "type": "array"
+    },
+    "Evaluate Information": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "buyerEvaluationDate": {
+            "type": "string"
+          },
+          "buyerEvaluationText": {
+            "type": "integer"
+          },
+          "customerService": {
+            "type": "integer"
+          },
+          "itemAsDescribed": {
+            "type": "integer"
+          },
+          "shippingService": {
+            "type": "integer"
+          },
+          "evaluationId": {
+            "type": "string"
+          },
+          "orderId": {
+            "type": "string"
+          },
+          "productId": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "QA Information": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "createTime": {
+            "type": "string"
+          },
+          "interlocutionId": {
+            "type": "string"
+          },
+          "interlouctionType": {
+            "type": "string"
+          },
+          "productId": {
+            "type": "string"
+          },
+          "content": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "UGC Information": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "nickName": {
+            "type": "string"
+          },
+          "memberSeq": {
+            "type": "string"
+          },
+          "contactName": {
+            "type": "string"
+          },
+          "avatar": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

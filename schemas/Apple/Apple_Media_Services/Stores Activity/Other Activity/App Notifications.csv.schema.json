@@ -1,0 +1,270 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Action Context": {
+      "type": "integer"
+    },
+    "Action Detail": {
+      "type": "integer"
+    },
+    "Action Subtype": {
+      "type": "integer"
+    },
+    "Action Type": {
+      "type": "integer"
+    },
+    "Action URL": {
+      "type": "integer"
+    },
+    "Analytics Variant": {
+      "type": "integer"
+    },
+    "App Name": {
+      "type": "string"
+    },
+    "App Version": {
+      "type": "number"
+    },
+    "Apple Internal ID": {
+      "type": "string"
+    },
+    "Artwork URL": {
+      "type": "integer"
+    },
+    "Base Version": {
+      "type": "integer"
+    },
+    "Campaign Group": {
+      "type": "integer"
+    },
+    "Campaign Token": {
+      "type": "integer"
+    },
+    "Click Target": {
+      "type": "integer"
+    },
+    "Click Target Type": {
+      "type": "integer"
+    },
+    "Client Correlation Key": {
+      "type": "integer"
+    },
+    "Client ID": {
+      "type": "integer"
+    },
+    "Client ID Version": {
+      "type": "integer"
+    },
+    "Consented TV Provider": {
+      "type": "integer"
+    },
+    "Cookies": {
+      "type": "integer"
+    },
+    "Destination URL": {
+      "type": "integer"
+    },
+    "Details": {
+      "type": "integer"
+    },
+    "Device Data Capacity": {
+      "type": "integer"
+    },
+    "Device Data Capacity Available": {
+      "type": "integer"
+    },
+    "Device Disk Capacity": {
+      "type": "integer"
+    },
+    "Device System Capacity": {
+      "type": "integer"
+    },
+    "Device System Capacity Available": {
+      "type": "integer"
+    },
+    "Dialog Buttons": {
+      "type": "integer"
+    },
+    "Dialog Message": {
+      "type": "integer"
+    },
+    "Dialog Options": {
+      "type": "integer"
+    },
+    "Dialog Subject ID": {
+      "type": "integer"
+    },
+    "Dialog Title": {
+      "type": "integer"
+    },
+    "Display Criteria": {
+      "type": "string"
+    },
+    "Eligible TV Provider": {
+      "type": "integer"
+    },
+    "Event ID": {
+      "type": "string"
+    },
+    "Event Post Date Time": {
+      "type": "string"
+    },
+    "Event Receipt Time": {
+      "type": "string"
+    },
+    "Event Time": {
+      "type": "string"
+    },
+    "Event Type": {
+      "type": "string"
+    },
+    "Explicit Flag": {
+      "type": "integer"
+    },
+    "Has Previously Consented": {
+      "type": "integer"
+    },
+    "Installed TV Provider Apps": {
+      "type": "integer"
+    },
+    "Interruption Level": {
+      "type": "integer"
+    },
+    "IP City": {
+      "type": "string"
+    },
+    "IP Continent": {
+      "type": "string"
+    },
+    "IP Country Code": {
+      "type": "string"
+    },
+    "IP Network": {
+      "type": "string"
+    },
+    "IP Network type": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "IP Region Code": {
+      "type": "string"
+    },
+    "Is Free Eligible": {
+      "type": "integer"
+    },
+    "Locations": {
+      "type": "integer"
+    },
+    "Max Display Schedule": {
+      "type": "integer"
+    },
+    "Media Play Duration MS": {
+      "type": "integer"
+    },
+    "Media TV Provider": {
+      "type": "integer"
+    },
+    "Message Code": {
+      "type": "integer"
+    },
+    "Min Display Schedule": {
+      "type": "integer"
+    },
+    "Notification Sub Type": {
+      "type": "integer"
+    },
+    "Notification Type": {
+      "type": "integer"
+    },
+    "Operating System Version": {
+      "type": [
+        "number",
+        "string"
+      ]
+    },
+    "OS Language": {
+      "type": "integer"
+    },
+    "Page": {
+      "type": "integer"
+    },
+    "Page History": {
+      "type": "integer"
+    },
+    "Page ID": {
+      "type": "integer"
+    },
+    "Page Type": {
+      "type": "string"
+    },
+    "Page URL": {
+      "type": "integer"
+    },
+    "Personalized Notification ID": {
+      "type": "integer"
+    },
+    "Platform Name": {
+      "type": "integer"
+    },
+    "Recommendation ID": {
+      "type": "integer"
+    },
+    "Root ID": {
+      "type": "integer"
+    },
+    "Screen Height Pixel": {
+      "type": "integer"
+    },
+    "Screen Pixel Ratio": {
+      "type": "integer"
+    },
+    "Screen Width Pixel": {
+      "type": "integer"
+    },
+    "Search Filters": {
+      "type": "integer"
+    },
+    "Search Term": {
+      "type": "integer"
+    },
+    "Store Front Header": {
+      "type": "string"
+    },
+    "Store Front ID": {
+      "type": "integer"
+    },
+    "Subscribed TV Provider": {
+      "type": "integer"
+    },
+    "Tab": {
+      "type": "string"
+    },
+    "Timezone Offset Min": {
+      "type": "integer"
+    },
+    "User Agent": {
+      "type": "string"
+    },
+    "User Subscription Status": {
+      "type": "integer"
+    },
+    "Window Inner Height Pixel": {
+      "type": "integer"
+    },
+    "Window Inner Width Pixel": {
+      "type": "integer"
+    },
+    "Window Orientation": {
+      "type": "integer"
+    },
+    "Window Outer Height Pixel": {
+      "type": "integer"
+    },
+    "Window Outer Width Pixel": {
+      "type": "integer"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string"
+      },
+      "user_id": {
+        "type": "string"
+      },
+      "action_type": {
+        "type": "integer"
+      },
+      "changes": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "key": {
+              "type": "string"
+            },
+            "new_value": {
+              "type": "string"
+            },
+            "old_value": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "type": {
+      "type": "string"
+    },
+    "uid": {
+      "type": "string"
+    },
+    "user_name": {
+      "type": "string"
+    },
+    "post_tracks": {
+      "type": "integer"
+    },
+    "post_contributions": {
+      "type": "integer"
+    },
+    "post_reposts": {
+      "type": "integer"
+    },
+    "post_favorites": {
+      "type": "integer"
+    },
+    "post_added_to_set": {
+      "type": "integer"
+    },
+    "post_listenings": {
+      "type": "integer"
+    },
+    "post_comments": {
+      "type": "integer"
+    },
+    "show_contacts": {
+      "type": "integer"
+    },
+    "for_publishing": {
+      "type": "integer"
+    },
+    "for_importing": {
+      "type": "integer"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "first_login_at": {
+      "type": "string"
+    },
+    "updated_at": {
+      "type": "string"
+    },
+    "last_checked_at": {
+      "type": "integer"
+    },
+    "import_started_at": {
+      "type": "integer"
+    },
+    "revoked_at": {
+      "type": "integer"
+    }
+  }
+}

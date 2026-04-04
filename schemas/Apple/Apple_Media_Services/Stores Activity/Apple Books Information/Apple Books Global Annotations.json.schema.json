@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string"
+      },
+      "description": {
+        "type": "string"
+      },
+      "annotations": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "created": {
+              "type": "string"
+            },
+            "lastModification": {
+              "type": "string"
+            },
+            "type": {
+              "type": "string"
+            },
+            "selectedText": {
+              "type": "integer"
+            },
+            "representativeText": {
+              "type": "integer"
+            },
+            "location": {
+              "type": [
+                "integer",
+                "string"
+              ]
+            },
+            "note": {
+              "type": "integer"
+            }
+          }
+        }
+      }
+    }
+  }
+}

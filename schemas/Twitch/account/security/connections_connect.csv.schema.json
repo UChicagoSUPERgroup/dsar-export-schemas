@@ -1,0 +1,42 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "time": {
+      "type": "string"
+    },
+    "time_utc": {
+      "type": "string"
+    },
+    "ip": {
+      "type": "integer"
+    },
+    "city": {
+      "type": "integer"
+    },
+    "country": {
+      "type": "integer"
+    },
+    "region": {
+      "type": "integer"
+    },
+    "asn_id": {
+      "type": "integer"
+    },
+    "blizzard_region": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "client_id": {
+      "type": "integer"
+    },
+    "user_id": {
+      "type": "integer"
+    },
+    "platform": {
+      "type": "string"
+    }
+  }
+}

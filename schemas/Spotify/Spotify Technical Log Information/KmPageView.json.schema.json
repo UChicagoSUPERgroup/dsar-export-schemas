@@ -1,0 +1,54 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "context_time": {
+        "type": "string"
+      },
+      "context_receiver_service_timestamp": {
+        "type": "string"
+      },
+      "context_user_agent": {
+        "type": [
+          "integer",
+          "string"
+        ]
+      },
+      "context_application_version": {
+        "type": "string"
+      },
+      "context_conn_country": {
+        "type": "string"
+      },
+      "message_type": {
+        "type": "string"
+      },
+      "message_page": {
+        "type": "string"
+      },
+      "message_view_uri": {
+        "type": "string"
+      },
+      "message_referrer": {
+        "type": "integer"
+      },
+      "message_browser_name": {
+        "type": "integer"
+      },
+      "message_browser_os": {
+        "type": "integer"
+      },
+      "message_browser_platform": {
+        "type": "integer"
+      },
+      "message_page_id_for_metrics": {
+        "type": "integer"
+      },
+      "timestamp_utc": {
+        "type": "string"
+      }
+    }
+  }
+}

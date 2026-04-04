@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "displayName": {
+      "type": "string"
+    },
+    "firstName": {
+      "type": "integer"
+    },
+    "lastName": {
+      "type": "integer"
+    },
+    "imageUrl": {
+      "type": "string"
+    },
+    "largeImageUrl": {
+      "type": "string"
+    },
+    "tasteMaker": {
+      "type": "boolean"
+    },
+    "verified": {
+      "type": "boolean"
+    }
+  }
+}

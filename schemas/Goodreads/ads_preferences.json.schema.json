@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "explanation": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "allow_behavioral_targeting": {
+        "type": "string"
+      },
+      "allow_ccba_targeting": {
+        "type": "string"
+      }
+    }
+  }
+}

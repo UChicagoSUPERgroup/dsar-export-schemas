@@ -1,0 +1,87 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "time": {
+      "type": "string"
+    },
+    "time_utc": {
+      "type": "string"
+    },
+    "ip": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "region": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "asn_id": {
+      "type": "integer"
+    },
+    "request_id": {
+      "type": "string"
+    },
+    "preferred_languages": {
+      "type": "integer"
+    },
+    "referrer_url": {
+      "type": "integer"
+    },
+    "login": {
+      "type": "string"
+    },
+    "header_string": {
+      "type": "integer"
+    },
+    "time_to_submit": {
+      "type": "integer"
+    },
+    "login_method": {
+      "type": "integer"
+    },
+    "two_factor_enabled": {
+      "type": "string"
+    },
+    "client_time": {
+      "type": "string"
+    },
+    "from_embed": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "shown_captcha": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "embed": {
+      "type": "string"
+    },
+    "browser": {
+      "type": "integer"
+    },
+    "device_id": {
+      "type": "string"
+    },
+    "client_id": {
+      "type": "string"
+    },
+    "user_id": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    }
+  }
+}

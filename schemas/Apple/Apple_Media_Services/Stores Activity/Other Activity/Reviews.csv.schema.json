@@ -1,0 +1,78 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Review Reference Number": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Item Reference Number": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Item Type": {
+      "type": "string"
+    },
+    "Item Description": {
+      "type": "string"
+    },
+    "Provider Name": {
+      "type": "string"
+    },
+    "App Version": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Review Title": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Review Text": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Created on": {
+      "type": "string"
+    },
+    "Rating": {
+      "type": "integer"
+    },
+    "Removed?": {
+      "type": "string"
+    },
+    "Language": {
+      "type": "string"
+    },
+    "IP Address": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "User Agent": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Pulled For Concern": {
+      "type": "integer"
+    },
+    "Device Identifier": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    }
+  }
+}

@@ -1,0 +1,427 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "transactionDetails": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "amountMicros": {
+              "type": [
+                "integer",
+                "string"
+              ]
+            },
+            "currency": {
+              "type": "string"
+            },
+            "additionalAttributes": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "orderId": {
+                      "type": "string"
+                    },
+                    "deviceData": {
+                      "type": "object",
+                      "properties": {
+                        "correlation_id": {
+                          "type": "string"
+                        }
+                      }
+                    },
+                    "paypalReceiptDescription": {
+                      "type": "string"
+                    },
+                    "transactionDescriptor": {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "phone": {
+                          "type": "string"
+                        },
+                        "url": {
+                          "type": "string"
+                        }
+                      }
+                    },
+                    "isThreeDomainSecureRequired": {
+                      "type": "integer"
+                    },
+                    "customerIp": {
+                      "type": "string"
+                    },
+                    "lodgingData": {
+                      "type": "object",
+                      "properties": {
+                        "reservationId": {
+                          "type": "string"
+                        },
+                        "supportPhoneNumber": {
+                          "type": "string"
+                        },
+                        "checkInDate": {
+                          "type": "string"
+                        },
+                        "checkOutDate": {
+                          "type": "string"
+                        }
+                      }
+                    },
+                    "transactionSource": {
+                      "type": "object",
+                      "properties": {
+                        "sourceType": {
+                          "type": "string"
+                        }
+                      }
+                    },
+                    "stepstonesToken": {
+                      "type": "string"
+                    },
+                    "traExemptionRequested": {
+                      "type": "integer"
+                    },
+                    "traExemptionGranted": {
+                      "type": "integer"
+                    },
+                    "avsPostalCodeResponseCode": {
+                      "type": "string"
+                    },
+                    "avsStreetAddressResponseCode": {
+                      "type": "string"
+                    },
+                    "cvvResponseCode": {
+                      "type": "string"
+                    },
+                    "processorResponseCode": {
+                      "type": "integer"
+                    },
+                    "processorResponseText": {
+                      "type": "string"
+                    },
+                    "processorSettlementResponseCode": {
+                      "type": "integer"
+                    },
+                    "processorSettlementResponseText": {
+                      "type": [
+                        "integer",
+                        "string"
+                      ]
+                    },
+                    "transactionId": {
+                      "type": "string"
+                    },
+                    "liabilityShifted": {
+                      "type": "integer"
+                    },
+                    "liabilityShiftPossible": {
+                      "type": "integer"
+                    },
+                    "isScaPerformed": {
+                      "type": "integer"
+                    },
+                    "transactionInitiatedBy": {
+                      "type": "string"
+                    },
+                    "authorizationType": {
+                      "type": "string"
+                    },
+                    "externalReferenceToken": {
+                      "type": "string"
+                    },
+                    "eventType": {
+                      "type": "string"
+                    },
+                    "source": {
+                      "type": "string"
+                    },
+                    "paymentNetwork": {
+                      "type": "string"
+                    },
+                    "processor": {
+                      "type": "string"
+                    },
+                    "acquirerReferenceNumber": {
+                      "type": "string"
+                    },
+                    "processorTransactionId": {
+                      "type": "string"
+                    },
+                    "merchantAccountId": {
+                      "type": "string"
+                    },
+                    "drachmaNormalizedId": {
+                      "type": "string"
+                    },
+                    "drachmaMetadata": {
+                      "type": "object",
+                      "properties": {
+                        "normalizedDrachmaTable": {
+                          "type": "string"
+                        },
+                        "normalizedDrachmaId": {
+                          "type": "string"
+                        },
+                        "fileName": {
+                          "type": "string"
+                        },
+                        "fileData": {
+                          "type": "string"
+                        }
+                      }
+                    },
+                    "ibfEventPayload": {
+                      "type": "object",
+                      "properties": {
+                        "Option # Name": {
+                          "type": "integer"
+                        },
+                        "Transaction Debit or Credit": {
+                          "type": "string"
+                        },
+                        "First Name": {
+                          "type": "string"
+                        },
+                        "Payment Tracking ID": {
+                          "type": "integer"
+                        },
+                        "Gross Transaction Currency": {
+                          "type": "string"
+                        },
+                        "Shipping Address State": {
+                          "type": "integer"
+                        },
+                        "Billing Address Line#": {
+                          "type": "string"
+                        },
+                        "Terminal ID": {
+                          "type": "integer"
+                        },
+                        "Billing Address Zip": {
+                          "type": "integer"
+                        },
+                        "Transaction Initiation Date": {
+                          "type": "string"
+                        },
+                        "Card Type": {
+                          "type": "integer"
+                        },
+                        "Option # Value": {
+                          "type": "integer"
+                        },
+                        "Auction Site": {
+                          "type": "integer"
+                        },
+                        "Authorization Review Status": {
+                          "type": "integer"
+                        },
+                        "Fee Amount": {
+                          "type": "integer"
+                        },
+                        "Shipping Address Line#": {
+                          "type": "integer"
+                        },
+                        "Transaction Note": {
+                          "type": "integer"
+                        },
+                        "PayPal Reference ID Type": {
+                          "type": "string"
+                        },
+                        "Auction Closing Date": {
+                          "type": "integer"
+                        },
+                        "Special Offers": {
+                          "type": "integer"
+                        },
+                        "Transactional Status": {
+                          "type": "string"
+                        },
+                        "Item Name": {
+                          "type": "string"
+                        },
+                        "Shipping Address Country": {
+                          "type": "integer"
+                        },
+                        "Payer Address Status": {
+                          "type": "string"
+                        },
+                        "Auction Buyer ID": {
+                          "type": "integer"
+                        },
+                        "Last Name": {
+                          "type": "string"
+                        },
+                        "Coupons": {
+                          "type": "integer"
+                        },
+                        "Transaction ID": {
+                          "type": "string"
+                        },
+                        "Shipping Method": {
+                          "type": "integer"
+                        },
+                        "Billing Address Country": {
+                          "type": "string"
+                        },
+                        "Gross Transaction Amount": {
+                          "type": "integer"
+                        },
+                        "Shipping Amount": {
+                          "type": "integer"
+                        },
+                        "Shipping Name": {
+                          "type": "string"
+                        },
+                        "Payment Source": {
+                          "type": "string"
+                        },
+                        "Invoice ID": {
+                          "type": "string"
+                        },
+                        "Fee Currency": {
+                          "type": "string"
+                        },
+                        "Consumer ID": {
+                          "type": "string"
+                        },
+                        "Custom Field": {
+                          "type": "integer"
+                        },
+                        "Billing Address State": {
+                          "type": "string"
+                        },
+                        "Consumer Business Name": {
+                          "type": "string"
+                        },
+                        "CH": {
+                          "type": "string"
+                        },
+                        "Loyalty Card Number": {
+                          "type": "integer"
+                        },
+                        "Transaction Subject": {
+                          "type": "string"
+                        },
+                        "Store ID": {
+                          "type": "integer"
+                        },
+                        "Transaction Completion Date": {
+                          "type": "string"
+                        },
+                        "Fee Debit or Credit": {
+                          "type": "string"
+                        },
+                        "Sales Tax Amount": {
+                          "type": "integer"
+                        },
+                        "Payer's Account ID": {
+                          "type": "string"
+                        },
+                        "Transaction Event Code": {
+                          "type": "string"
+                        },
+                        "PayPal Reference ID": {
+                          "type": "string"
+                        },
+                        "Item ID": {
+                          "type": "integer"
+                        },
+                        "Insurance Amount": {
+                          "type": "integer"
+                        },
+                        "Shipping Address City": {
+                          "type": "integer"
+                        },
+                        "Shipping Address Zip": {
+                          "type": "integer"
+                        },
+                        "Billing Address City": {
+                          "type": "string"
+                        },
+                        "Protection Eligibility": {
+                          "type": "integer"
+                        },
+                        "Currency Iso Code": {
+                          "type": "string"
+                        },
+                        "Presentment Currency Iso Code": {
+                          "type": "string"
+                        },
+                        "Disbursement Date": {
+                          "type": "string"
+                        },
+                        "Settlement Amount": {
+                          "type": "number"
+                        },
+                        "Refunded Transaction Id": {
+                          "type": "integer"
+                        },
+                        "Transaction Type": {
+                          "type": "string"
+                        },
+                        "Acquirer Reference Number": {
+                          "type": "string"
+                        },
+                        "Presentment Amount": {
+                          "type": "number"
+                        },
+                        "Settled Date": {
+                          "type": "string"
+                        },
+                        "Merchant Account Id": {
+                          "type": "string"
+                        },
+                        "Transaction Id": {
+                          "type": "string"
+                        }
+                      }
+                    },
+                    "normalizedProcessorAttributes": {
+                      "type": "object",
+                      "properties": {
+                        "acquirerReferenceNumber": {
+                          "type": "string"
+                        },
+                        "ibfEventId": {
+                          "type": "string"
+                        }
+                      }
+                    },
+                    "taxAmountMicros": {
+                      "type": "integer"
+                    },
+                    "email": {
+                      "type": "string"
+                    },
+                    "phoneNumber": {
+                      "type": "string"
+                    },
+                    "processorAuthorizationCode": {
+                      "type": "string"
+                    },
+                    "networkTransactionId": {
+                      "type": "string"
+                    },
+                    "billToken": {
+                      "type": "string"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

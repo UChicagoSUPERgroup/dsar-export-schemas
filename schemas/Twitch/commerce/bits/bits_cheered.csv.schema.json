@@ -1,0 +1,60 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "time": {
+      "type": "string"
+    },
+    "time_utc": {
+      "type": "string"
+    },
+    "ip": {
+      "type": "string"
+    },
+    "user_id": {
+      "type": "integer"
+    },
+    "used_total": {
+      "type": "integer"
+    },
+    "used_of_this_type": {
+      "type": "integer"
+    },
+    "current_balance": {
+      "type": "integer"
+    },
+    "amount_total_emote": {
+      "type": "integer"
+    },
+    "channel_login": {
+      "type": "integer"
+    },
+    "server_time": {
+      "type": "string"
+    },
+    "promotion": {
+      "type": "integer"
+    },
+    "channel_id": {
+      "type": "integer"
+    },
+    "context_details": {
+      "type": "string"
+    },
+    "user_login": {
+      "type": "string"
+    },
+    "context": {
+      "type": "string"
+    },
+    "platform": {
+      "type": "string"
+    },
+    "client_id": {
+      "type": "string"
+    },
+    "bit_type": {
+      "type": "string"
+    }
+  }
+}

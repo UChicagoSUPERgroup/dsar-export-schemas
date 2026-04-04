@@ -1,0 +1,48 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "client_id": {
+      "type": "integer"
+    },
+    "active": {
+      "type": "integer"
+    },
+    "global": {
+      "type": "integer"
+    },
+    "type": {
+      "type": "string"
+    },
+    "tag_type": {
+      "type": "string"
+    },
+    "txt_order": {
+      "type": "integer"
+    },
+    "color": {
+      "type": "integer"
+    },
+    "alias": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "tag_regex": {
+      "type": "integer"
+    },
+    "name": {
+      "type": "string"
+    },
+    "ctime": {
+      "type": "string"
+    },
+    "mtime": {
+      "type": "string"
+    }
+  }
+}

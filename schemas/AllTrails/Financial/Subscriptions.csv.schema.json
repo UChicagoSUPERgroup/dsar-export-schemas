@@ -1,0 +1,165 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "object": {
+      "type": "string"
+    },
+    "uuid": {
+      "type": "string"
+    },
+    "account": {
+      "type": "string"
+    },
+    "billing_info_id": {
+      "type": "integer"
+    },
+    "active_invoice_id": {
+      "type": "integer"
+    },
+    "plan": {
+      "type": "string"
+    },
+    "state": {
+      "type": "string"
+    },
+    "shipping": {
+      "type": "string"
+    },
+    "coupon_redemptions": {
+      "type": "integer"
+    },
+    "pending_change": {
+      "type": "integer"
+    },
+    "current_period_started_at": {
+      "type": "string"
+    },
+    "current_period_ends_at": {
+      "type": "string"
+    },
+    "current_term_started_at": {
+      "type": "string"
+    },
+    "current_term_ends_at": {
+      "type": "string"
+    },
+    "trial_started_at": {
+      "type": "integer"
+    },
+    "trial_ends_at": {
+      "type": "integer"
+    },
+    "remaining_billing_cycles": {
+      "type": "integer"
+    },
+    "total_billing_cycles": {
+      "type": "integer"
+    },
+    "renewal_billing_cycles": {
+      "type": "integer"
+    },
+    "revenue_schedule_type": {
+      "type": "string"
+    },
+    "auto_renew": {
+      "type": "string"
+    },
+    "paused_at": {
+      "type": "integer"
+    },
+    "remaining_pause_cycles": {
+      "type": "integer"
+    },
+    "currency": {
+      "type": "string"
+    },
+    "tax_inclusive": {
+      "type": "integer"
+    },
+    "unit_amount": {
+      "type": "number"
+    },
+    "quantity": {
+      "type": "integer"
+    },
+    "add_ons": {
+      "type": "string"
+    },
+    "add_ons_total": {
+      "type": "integer"
+    },
+    "subtotal": {
+      "type": "number"
+    },
+    "collection_method": {
+      "type": "string"
+    },
+    "po_number": {
+      "type": "integer"
+    },
+    "net_terms": {
+      "type": "integer"
+    },
+    "net_terms_type": {
+      "type": "string"
+    },
+    "terms_and_conditions": {
+      "type": "integer"
+    },
+    "customer_notes": {
+      "type": "integer"
+    },
+    "expiration_reason": {
+      "type": "string"
+    },
+    "custom_fields": {
+      "type": "string"
+    },
+    "bank_account_authorized_at": {
+      "type": "integer"
+    },
+    "gateway_code": {
+      "type": "integer"
+    },
+    "started_with_gift": {
+      "type": "string"
+    },
+    "converted_at": {
+      "type": "integer"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "updated_at": {
+      "type": "string"
+    },
+    "activated_at": {
+      "type": "string"
+    },
+    "canceled_at": {
+      "type": "string"
+    },
+    "expires_at": {
+      "type": "string"
+    },
+    "action_result": {
+      "type": "integer"
+    },
+    "tax": {
+      "type": "integer"
+    },
+    "tax_info": {
+      "type": "integer"
+    },
+    "total": {
+      "type": "number"
+    },
+    "ramp_intervals": {
+      "type": "string"
+    }
+  }
+}

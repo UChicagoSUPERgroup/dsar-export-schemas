@@ -1,0 +1,510 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Action Context": {
+      "type": "integer"
+    },
+    "Action Details": {
+      "type": "integer"
+    },
+    "Action Details Auto Reload Status": {
+      "type": "integer"
+    },
+    "Action Details Currency": {
+      "type": "integer"
+    },
+    "Action Details Min Balance": {
+      "type": "integer"
+    },
+    "Action Details Reload Amount": {
+      "type": "integer"
+    },
+    "Action Details Reloads": {
+      "type": "integer"
+    },
+    "Action Details Setup Method": {
+      "type": "integer"
+    },
+    "Action Details Start": {
+      "type": "integer"
+    },
+    "Action Type": {
+      "type": "integer"
+    },
+    "Add Funds Status": {
+      "type": "integer"
+    },
+    "Add Funds Type": {
+      "type": "integer"
+    },
+    "Adjusted Event Time": {
+      "type": "string"
+    },
+    "Amount Paid": {
+      "type": "number"
+    },
+    "Amount Selected": {
+      "type": "integer"
+    },
+    "App Version": {
+      "type": "integer"
+    },
+    "Apple ID Number": {
+      "type": "string"
+    },
+    "Application Name": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Authorization Amount": {
+      "type": "integer"
+    },
+    "Authorization Card Processor": {
+      "type": "integer"
+    },
+    "Authorization Card Processor ID": {
+      "type": "integer"
+    },
+    "Authorization Code": {
+      "type": "integer"
+    },
+    "Authorization List": {
+      "type": "integer"
+    },
+    "Authorization Response Type": {
+      "type": "integer"
+    },
+    "Authorization Result Type": {
+      "type": "integer"
+    },
+    "Authorization Time": {
+      "type": "integer"
+    },
+    "Authorization Type": {
+      "type": "integer"
+    },
+    "Auto Reload Amount": {
+      "type": "integer"
+    },
+    "Auto Reload Currency": {
+      "type": "integer"
+    },
+    "Auto Reload Min Balance": {
+      "type": "integer"
+    },
+    "Auto Reload Registration Status": {
+      "type": "integer"
+    },
+    "Auto Reload Setting": {
+      "type": "integer"
+    },
+    "Auto Reload Start Date": {
+      "type": "integer"
+    },
+    "Auto Reload Status": {
+      "type": "integer"
+    },
+    "Billing Country code": {
+      "type": "integer"
+    },
+    "Billing Information": {
+      "type": "integer"
+    },
+    "Billing Information Created Date": {
+      "type": "integer"
+    },
+    "Billing Information ID": {
+      "type": "integer"
+    },
+    "Billing Payment Type": {
+      "type": "integer"
+    },
+    "Billing Storefront Country": {
+      "type": "integer"
+    },
+    "Campaign Client ID": {
+      "type": "integer"
+    },
+    "Campaign Group": {
+      "type": "integer"
+    },
+    "Campaign Token": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Click Target": {
+      "type": "integer"
+    },
+    "Click Target Type": {
+      "type": "integer"
+    },
+    "Client ID": {
+      "type": "string"
+    },
+    "Code Redemption Code": {
+      "type": "integer"
+    },
+    "Code Redemption Current Subscription Level": {
+      "type": "integer"
+    },
+    "Code Redemption Error Key": {
+      "type": "integer"
+    },
+    "Code Redemption Free Product Code ID": {
+      "type": "integer"
+    },
+    "Code Redemption Promotion ID": {
+      "type": "integer"
+    },
+    "Code Redemption Redeemed": {
+      "type": "integer"
+    },
+    "Code Redemption Result": {
+      "type": "integer"
+    },
+    "Code Redemption Subscription Product": {
+      "type": "integer"
+    },
+    "Code Redemption Subscription Product ID": {
+      "type": "integer"
+    },
+    "Code Redemption Subscription Product Type": {
+      "type": "integer"
+    },
+    "Commerce Flow": {
+      "type": "integer"
+    },
+    "Commerce Flow Type": {
+      "type": "integer"
+    },
+    "Content ID": {
+      "type": "integer"
+    },
+    "Content Name": {
+      "type": "integer"
+    },
+    "Dialog Code": {
+      "type": "integer"
+    },
+    "Dialog ID": {
+      "type": "integer"
+    },
+    "Dialog Message": {
+      "type": "integer"
+    },
+    "Dialog Name": {
+      "type": "integer"
+    },
+    "Dialog Options": {
+      "type": "integer"
+    },
+    "Dialog Result": {
+      "type": "integer"
+    },
+    "Dialog Type": {
+      "type": "integer"
+    },
+    "Event Date Time": {
+      "type": "string"
+    },
+    "Event Details": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Event Type": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Event Version": {
+      "type": "integer"
+    },
+    "Exchange Rate": {
+      "type": "number"
+    },
+    "Fraud Check Status": {
+      "type": "integer"
+    },
+    "Hardware Family": {
+      "type": "string"
+    },
+    "Hardware Model": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Host App": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "IP Country Code": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "IP Region Code": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "IP Time Zone": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Is Signed In": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Masked IP Address": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Operating System": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Operating System Version": {
+      "type": [
+        "number",
+        "string"
+      ]
+    },
+    "Page": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Page Detail Promo": {
+      "type": "integer"
+    },
+    "Page Details": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Page Details - App Name": {
+      "type": "integer"
+    },
+    "Page Details - Application State": {
+      "type": "integer"
+    },
+    "Page Details - Auto Reload Setting": {
+      "type": "integer"
+    },
+    "Page Details - Auto Reload Status": {
+      "type": "integer"
+    },
+    "Page Details - Bank Transfer": {
+      "type": "integer"
+    },
+    "Page Details - Content Name": {
+      "type": "integer"
+    },
+    "Page Details - Country Code": {
+      "type": "integer"
+    },
+    "Page Details - Denomination": {
+      "type": "integer"
+    },
+    "Page Details - External Referral URL": {
+      "type": "integer"
+    },
+    "Page Details - Installation State": {
+      "type": "integer"
+    },
+    "Page Details - Is Apple Pay Enabled": {
+      "type": "integer"
+    },
+    "Page Details - Localized Language": {
+      "type": "integer"
+    },
+    "Page Details - Non-Topup Only Type": {
+      "type": "integer"
+    },
+    "Page Details - Promotion Scenario ID": {
+      "type": "integer"
+    },
+    "Page Details - Redemption Code": {
+      "type": "integer"
+    },
+    "Page Details - Redemption Credit Amount": {
+      "type": "integer"
+    },
+    "Page Details - Requirements Message": {
+      "type": "integer"
+    },
+    "Page Details - Subscriber State": {
+      "type": "integer"
+    },
+    "Page Details - Subscription ID": {
+      "type": "integer"
+    },
+    "Page History": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Page ID": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Page Reference": {
+      "type": "integer"
+    },
+    "Page Type": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Page URL": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Payment for Auto Reload": {
+      "type": "integer"
+    },
+    "Payment Type ID": {
+      "type": "integer"
+    },
+    "Played App Name": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Primary App Name": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Promotion ID": {
+      "type": "integer"
+    },
+    "Purchase Item List": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Purchase List": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Purchase Status": {
+      "type": "integer"
+    },
+    "Purchased Storefront ID": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Purchased Storefront Name": {
+      "type": "integer"
+    },
+    "Redeem Type": {
+      "type": "integer"
+    },
+    "Result Error Key": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Result Exception Code": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Result Type": {
+      "type": "integer"
+    },
+    "Store Front Name": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Tab": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Timezone Offset Min": {
+      "type": "integer"
+    },
+    "Topic": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "UI Experiment Data": {
+      "type": "integer"
+    },
+    "User Actions": {
+      "type": "integer"
+    },
+    "User Agent": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "User Auto Reload Status": {
+      "type": "integer"
+    },
+    "Visit Duration": {
+      "type": "integer"
+    },
+    "Visit End Time": {
+      "type": "string"
+    },
+    "Visit ID": {
+      "type": "string"
+    },
+    "Visit Start Date": {
+      "type": "string"
+    },
+    "Visit Start Time": {
+      "type": "string"
+    },
+    "Visit Variant ID": {
+      "type": "string"
+    }
+  }
+}

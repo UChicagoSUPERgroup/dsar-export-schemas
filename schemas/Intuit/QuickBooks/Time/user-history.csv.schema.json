@@ -1,0 +1,42 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "client_id": {
+      "type": "integer"
+    },
+    "x_table": {
+      "type": "string"
+    },
+    "x_id": {
+      "type": "integer"
+    },
+    "name": {
+      "type": "string"
+    },
+    "value": {
+      "type": "integer"
+    },
+    "start_date": {
+      "type": "string"
+    },
+    "start_time": {
+      "type": "string"
+    },
+    "end_date": {
+      "type": "string"
+    },
+    "end_time": {
+      "type": "string"
+    },
+    "mtime": {
+      "type": "string"
+    },
+    "ctime": {
+      "type": "string"
+    }
+  }
+}

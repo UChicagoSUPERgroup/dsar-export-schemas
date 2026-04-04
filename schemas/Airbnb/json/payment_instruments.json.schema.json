@@ -1,0 +1,82 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "instruments": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "instrumentDetails": {
+              "type": "object",
+              "properties": {
+                "expirationYear": {
+                  "type": "integer"
+                },
+                "country": {
+                  "type": "string"
+                },
+                "cardLastFourDigits": {
+                  "type": "integer"
+                },
+                "commercial": {
+                  "type": "string"
+                },
+                "durbinRegulated": {
+                  "type": "string"
+                },
+                "bin": {
+                  "type": "integer"
+                },
+                "postalCode": {
+                  "type": "integer"
+                },
+                "cardType": {
+                  "type": "string"
+                },
+                "prepaid": {
+                  "type": "string"
+                },
+                "instrumentToken": {
+                  "type": "string"
+                },
+                "expirationMonth": {
+                  "type": "integer"
+                },
+                "countryOfIssuance": {
+                  "type": "string"
+                },
+                "healthcare": {
+                  "type": "string"
+                },
+                "issuingBank": {
+                  "type": "string"
+                },
+                "payroll": {
+                  "type": "string"
+                },
+                "debit": {
+                  "type": "string"
+                },
+                "streetAddress#": {
+                  "type": "string"
+                },
+                "locality": {
+                  "type": "string"
+                },
+                "region": {
+                  "type": "string"
+                },
+                "paypalEmail": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

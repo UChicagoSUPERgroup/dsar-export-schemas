@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "context_time": {
+        "type": "string"
+      },
+      "message_country": {
+        "type": "string"
+      },
+      "message_product": {
+        "type": "string"
+      },
+      "message_query_hash": {
+        "type": "string"
+      },
+      "message_operation_name": {
+        "type": "string"
+      },
+      "message_variables": {
+        "type": "string"
+      },
+      "message_errors": {
+        "type": "boolean"
+      },
+      "message_user_agent": {
+        "type": "string"
+      },
+      "message_region": {
+        "type": "string"
+      },
+      "message_ms_latency": {
+        "type": "integer"
+      },
+      "message_ip_address": {
+        "type": "string"
+      },
+      "message_client_version": {
+        "type": [
+          "integer",
+          "string"
+        ]
+      },
+      "timestamp_utc": {
+        "type": "string"
+      }
+    }
+  }
+}

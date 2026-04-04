@@ -1,0 +1,45 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Gaia ID": {
+      "type": "string"
+    },
+    "Activity Timestamp": {
+      "type": "string"
+    },
+    "IP Address": {
+      "type": "string"
+    },
+    "Proxiedhost IP Address": {
+      "type": "integer"
+    },
+    "Is Non-routable IP Address": {
+      "type": "string"
+    },
+    "Activity Country": {
+      "type": "integer"
+    },
+    "Activity Region": {
+      "type": "integer"
+    },
+    "Activity City": {
+      "type": "integer"
+    },
+    "User Agent String": {
+      "type": "string"
+    },
+    "Product Name": {
+      "type": "string"
+    },
+    "Sub-Product Name": {
+      "type": "string"
+    },
+    "Activity Type": {
+      "type": "integer"
+    },
+    "Gmail Access Channel": {
+      "type": "integer"
+    }
+  }
+}

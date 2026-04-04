@@ -1,0 +1,60 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "description": {
+      "type": "integer"
+    },
+    "image_url": {
+      "type": "integer"
+    },
+    "genre": {
+      "type": "integer"
+    },
+    "album": {
+      "type": "integer"
+    },
+    "label_name": {
+      "type": "integer"
+    },
+    "release": {
+      "type": "integer"
+    },
+    "artist": {
+      "type": "integer"
+    },
+    "set_type": {
+      "type": "integer"
+    },
+    "purchase_url": {
+      "type": "integer"
+    },
+    "ean": {
+      "type": "integer"
+    },
+    "release_date": {
+      "type": "integer"
+    },
+    "license": {
+      "type": "integer"
+    },
+    "public": {
+      "type": "integer"
+    },
+    "embeddable": {
+      "type": "integer"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "updated_at": {
+      "type": "string"
+    }
+  }
+}

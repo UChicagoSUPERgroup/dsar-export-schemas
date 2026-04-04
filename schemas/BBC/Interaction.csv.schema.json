@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Activity": {
+      "type": "string"
+    },
+    "URL/Application/Section": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Title/item type": {
+      "type": "string"
+    },
+    "Date/Time": {
+      "type": "string"
+    }
+  }
+}

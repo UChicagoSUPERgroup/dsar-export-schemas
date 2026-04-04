@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "City_Name": {
+      "type": "string"
+    },
+    "Restaurant_Name": {
+      "type": "string"
+    },
+    "Request_Time_Local": {
+      "type": "string"
+    },
+    "Final_Delivery_Time_Local": {
+      "type": "string"
+    },
+    "Order_Status": {
+      "type": "string"
+    },
+    "Item_Name": {
+      "type": "string"
+    },
+    "Item_quantity": {
+      "type": "integer"
+    },
+    "Customizations": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Customization_Cost_Local": {
+      "type": "number"
+    },
+    "Special_Instructions": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Item_Price": {
+      "type": "number"
+    },
+    "Order_Price": {
+      "type": "number"
+    },
+    "Currency": {
+      "type": "string"
+    }
+  }
+}

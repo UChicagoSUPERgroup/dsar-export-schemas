@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "like_time": {
+      "type": "string"
+    },
+    "playlist_title": {
+      "type": "string"
+    },
+    "playlist_url": {
+      "type": "string"
+    }
+  }
+}

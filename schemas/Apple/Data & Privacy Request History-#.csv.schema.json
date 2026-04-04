@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Request ID": {
+      "type": "string"
+    },
+    "Category Name": {
+      "type": "string"
+    },
+    "Request Time": {
+      "type": "string"
+    },
+    "Activity Type": {
+      "type": "string"
+    },
+    "Apple ID Number": {
+      "type": "string"
+    },
+    "Access Category Completed Time": {
+      "type": "string"
+    },
+    "Request Completed Time": {
+      "type": "string"
+    },
+    "Archive Size": {
+      "type": "string"
+    },
+    "Maximum File Size": {
+      "type": "string"
+    },
+    "Transfer Success Count": {
+      "type": "string"
+    },
+    "Transfer Failure Count": {
+      "type": "string"
+    },
+    "Developer Name": {
+      "type": "string"
+    },
+    "Request Status": {
+      "type": "string"
+    },
+    "Transfer Type": {
+      "type": "string"
+    },
+    "Schedule Type": {
+      "type": "string"
+    }
+  }
+}

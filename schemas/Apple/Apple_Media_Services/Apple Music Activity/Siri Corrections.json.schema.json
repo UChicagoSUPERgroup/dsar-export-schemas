@@ -1,0 +1,32 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "Event Date": {
+        "type": "string"
+      },
+      "Playback Identifier": {
+        "type": "string"
+      },
+      "Currently Playing Track Identifier": {
+        "type": "string"
+      },
+      "Currently Playing Track Name": {
+        "type": "string"
+      },
+      "Change List": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "Change Description": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}

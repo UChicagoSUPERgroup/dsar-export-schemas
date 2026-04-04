@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Apple Account Number": {
+      "type": "string"
+    },
+    "Card Type Exists": {
+      "type": "string"
+    },
+    "Device Family": {
+      "type": "string"
+    },
+    "Device Type": {
+      "type": "string"
+    },
+    "First Provision Date": {
+      "type": "string"
+    },
+    "First Provision Date for Card Type": {
+      "type": "string"
+    },
+    "First Provision Date for Card Type and Device Family": {
+      "type": "string"
+    },
+    "Last De-Provision Date": {
+      "type": "string"
+    },
+    "Last Provision Date": {
+      "type": "string"
+    },
+    "Wallet Card Type": {
+      "type": "string"
+    }
+  }
+}

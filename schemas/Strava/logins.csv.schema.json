@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "IP Address": {
+      "type": "string"
+    },
+    "Login Source": {
+      "type": "string"
+    },
+    "Login Date & Time": {
+      "type": "string"
+    }
+  }
+}

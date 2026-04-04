@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "user": {
+      "type": "object",
+      "properties": {
+        "streamUserId": {
+          "type": "string"
+        },
+        "createdAt": {
+          "type": "string"
+        },
+        "updatedAt": {
+          "type": "string"
+        },
+        "lastActive": {
+          "type": "string"
+        },
+        "settings": {
+          "type": "object",
+          "properties": {
+            "isInvisible": {
+              "type": "boolean"
+            }
+          }
+        },
+        "name": {
+          "type": "string"
+        },
+        "image": {
+          "type": "string"
+        }
+      }
+    },
+    "messages": {
+      "type": "array"
+    },
+    "reactions": {
+      "type": "array"
+    }
+  }
+}

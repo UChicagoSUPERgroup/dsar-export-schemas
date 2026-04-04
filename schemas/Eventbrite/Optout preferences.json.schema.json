@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "optout_preference": {
+        "type": "object",
+        "properties": {
+          "channel": {
+            "type": "string"
+          },
+          "global_preference": {
+            "type": "string"
+          },
+          "changed": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

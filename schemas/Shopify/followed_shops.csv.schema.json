@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "shop_name": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "currently_following": {
+      "type": "string"
+    }
+  }
+}

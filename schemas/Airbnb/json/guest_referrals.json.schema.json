@@ -1,0 +1,26 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "referralCodes": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "code": {
+              "type": "string"
+            },
+            "entityType": {
+              "type": "string"
+            },
+            "vanityType": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}

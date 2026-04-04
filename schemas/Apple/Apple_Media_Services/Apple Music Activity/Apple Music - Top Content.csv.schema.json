@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Country": {
+      "type": "string"
+    },
+    "Content": {
+      "type": "string"
+    },
+    "Play Duration Milliseconds": {
+      "type": "integer"
+    },
+    "First Played": {
+      "type": "string"
+    },
+    "Last Played": {
+      "type": "string"
+    },
+    "Last Received": {
+      "type": "string"
+    },
+    "Source Type": {
+      "type": "string"
+    },
+    "Rankings": {
+      "type": "integer"
+    }
+  }
+}

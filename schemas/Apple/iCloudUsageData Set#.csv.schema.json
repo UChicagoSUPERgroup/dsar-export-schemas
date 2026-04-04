@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Safari Bookmarks and Bookmark Folders Events": {
+      "type": "string"
+    },
+    "": {
+      "type": "array",
+      "items": {
+        "type": [
+          "number",
+          "string"
+        ]
+      }
+    },
+    "Additional Information of Reminders Events": {
+      "type": "string"
+    }
+  }
+}

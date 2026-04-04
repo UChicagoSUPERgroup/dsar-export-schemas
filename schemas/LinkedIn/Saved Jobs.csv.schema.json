@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Saved Date": {
+      "type": "string"
+    },
+    "Job Url": {
+      "type": "string"
+    },
+    "Job Title": {
+      "type": "string"
+    },
+    "Company Name": {
+      "type": "string"
+    }
+  }
+}

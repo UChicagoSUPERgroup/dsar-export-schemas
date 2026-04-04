@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "email": {
+        "type": "string"
+      },
+      "ip_address": {
+        "type": "string"
+      },
+      "date_accepted": {
+        "type": "string"
+      }
+    }
+  }
+}

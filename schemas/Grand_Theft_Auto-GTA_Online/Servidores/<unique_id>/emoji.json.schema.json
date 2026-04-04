@@ -1,0 +1,33 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "name": {
+        "type": "string"
+      },
+      "roles": {
+        "type": "array"
+      },
+      "id": {
+        "type": "string"
+      },
+      "require_colons": {
+        "type": "integer"
+      },
+      "managed": {
+        "type": "integer"
+      },
+      "animated": {
+        "type": "integer"
+      },
+      "available": {
+        "type": "integer"
+      },
+      "user_id": {
+        "type": "string"
+      }
+    }
+  }
+}

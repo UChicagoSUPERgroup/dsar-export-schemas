@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "DateTime": {
+      "type": "string"
+    },
+    "DeviceId": {
+      "type": "string"
+    },
+    "NavigatedToUrl": {
+      "type": "string"
+    },
+    "PageTitle": {
+      "type": "string"
+    },
+    "SearchTerms": {
+      "type": "integer"
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Locations": {
+      "type": "string"
+    },
+    "Industries": {
+      "type": "integer"
+    },
+    "Company Employee Count": {
+      "type": "integer"
+    },
+    "Preferred Job Types": {
+      "type": "string"
+    },
+    "Job Titles": {
+      "type": "string"
+    },
+    "Open To Recruiters": {
+      "type": "string"
+    },
+    "Dream Companies": {
+      "type": "integer"
+    },
+    "Profile Shared With Job Poster": {
+      "type": "string"
+    },
+    "Job Title For Searching Fast Growing Companies": {
+      "type": "integer"
+    },
+    "Introduction Statement": {
+      "type": "integer"
+    },
+    "Phone Number": {
+      "type": "integer"
+    },
+    "Job Seeker Activity Level": {
+      "type": "integer"
+    },
+    "Preferred Start Time Range": {
+      "type": "integer"
+    },
+    "Commute Preference Starting Address": {
+      "type": "integer"
+    },
+    "Commute Preference Starting Time": {
+      "type": "integer"
+    },
+    "Mode Of Transportation": {
+      "type": "integer"
+    },
+    "Maximum Commute Duration": {
+      "type": "integer"
+    },
+    "Open Candidate Visibility": {
+      "type": "string"
+    },
+    "Job Seeking Urgency Level": {
+      "type": "string"
+    }
+  }
+}

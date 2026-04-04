@@ -1,0 +1,45 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "context_time": {
+        "type": "string"
+      },
+      "message_event_id": {
+        "type": "string"
+      },
+      "message_timestamp": {
+        "type": "string"
+      },
+      "message_environment": {
+        "type": "string"
+      },
+      "message_platform": {
+        "type": "string"
+      },
+      "message_status": {
+        "type": "integer"
+      },
+      "message_app_device_id": {
+        "type": "string"
+      },
+      "message_app_version": {
+        "type": "integer"
+      },
+      "message_os_version": {
+        "type": "string"
+      },
+      "message_app_id": {
+        "type": "string"
+      },
+      "message_app": {
+        "type": "string"
+      },
+      "timestamp_utc": {
+        "type": "string"
+      }
+    }
+  }
+}

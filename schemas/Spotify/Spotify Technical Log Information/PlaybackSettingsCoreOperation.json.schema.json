@@ -1,0 +1,78 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "context_time": {
+        "type": "string"
+      },
+      "context_receiver_service_timestamp": {
+        "type": "string"
+      },
+      "context_device_manufacturer": {
+        "type": "string"
+      },
+      "context_device_model": {
+        "type": "string"
+      },
+      "context_device_type": {
+        "type": "string"
+      },
+      "context_os_name": {
+        "type": "string"
+      },
+      "context_os_version": {
+        "type": [
+          "number",
+          "string"
+        ]
+      },
+      "context_application_version": {
+        "type": "string"
+      },
+      "context_conn_country": {
+        "type": "string"
+      },
+      "message_operation": {
+        "type": "string"
+      },
+      "message_result": {
+        "type": "string"
+      },
+      "message_setting_type": {
+        "type": "string"
+      },
+      "message_retry_count": {
+        "type": "integer"
+      },
+      "message_duration_ms": {
+        "type": "integer"
+      },
+      "message_error_message": {
+        "type": [
+          "integer",
+          "string"
+        ]
+      },
+      "message_content_id": {
+        "type": [
+          "integer",
+          "string"
+        ]
+      },
+      "message_settings": {
+        "type": [
+          "integer",
+          "string"
+        ]
+      },
+      "message_timestamp": {
+        "type": "string"
+      },
+      "timestamp_utc": {
+        "type": "string"
+      }
+    }
+  }
+}

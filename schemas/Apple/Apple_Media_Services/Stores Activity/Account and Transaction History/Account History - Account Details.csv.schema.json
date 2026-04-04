@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Apple ID Number": {
+      "type": "string"
+    },
+    "Account Signup Date": {
+      "type": "string"
+    },
+    "Screen Name": {
+      "type": "integer"
+    },
+    "Country": {
+      "type": "string"
+    },
+    "Device Details": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Birth Year": {
+      "type": "integer"
+    },
+    "Opted Out of Personalized Recommendations?": {
+      "type": "string"
+    },
+    "Opted Out of Receiving Subscription Renewal Receipts?": {
+      "type": "string"
+    },
+    "Last date of VPPA Consent": {
+      "type": "string"
+    },
+    "Cross Border Consent Presented": {
+      "type": "string"
+    },
+    "Cross Border Consent Provided": {
+      "type": "string"
+    },
+    "Birth Month": {
+      "type": "integer"
+    },
+    "Birth Day": {
+      "type": "integer"
+    },
+    "Under Teenage Age?": {
+      "type": "string"
+    },
+    "Under Child Age? (Legacy)": {
+      "type": "string"
+    },
+    "Under Child Age?": {
+      "type": "string"
+    }
+  }
+}

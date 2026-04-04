@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Play Duration Milliseconds": {
+      "type": "integer"
+    },
+    "First Played": {
+      "type": "string"
+    },
+    "Last Played": {
+      "type": "string"
+    },
+    "Source Type": {
+      "type": "string"
+    },
+    "Date Created": {
+      "type": "integer"
+    }
+  }
+}

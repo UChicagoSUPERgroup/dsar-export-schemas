@@ -1,0 +1,91 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "user": {
+        "type": "object",
+        "properties": {
+          "country": {
+            "type": "string"
+          },
+          "lastName": {
+            "type": "string"
+          },
+          "birthdate": {
+            "type": "string"
+          },
+          "initialIp": {
+            "type": "string"
+          },
+          "languages": {
+            "type": "integer"
+          },
+          "tosVersion": {
+            "type": "integer"
+          },
+          "tosAcceptedAt": {
+            "type": "string"
+          },
+          "mostRecentIp": {
+            "type": "string"
+          },
+          "createdAt": {
+            "type": "string"
+          },
+          "firstName": {
+            "type": "string"
+          },
+          "nativeCurrency": {
+            "type": "string"
+          },
+          "id": {
+            "type": "integer"
+          },
+          "email": {
+            "type": "string"
+          },
+          "preferredLocale": {
+            "type": "string"
+          },
+          "updatedAt": {
+            "type": "string"
+          }
+        }
+      },
+      "phoneNumbers": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "string"
+            },
+            "country": {
+              "type": "string"
+            },
+            "createdAt": {
+              "type": "string"
+            },
+            "receivesSms": {
+              "type": "integer"
+            },
+            "verifiedAt": {
+              "type": "string"
+            },
+            "verificationMethod": {
+              "type": "integer"
+            },
+            "userId": {
+              "type": "integer"
+            },
+            "updatedAt": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "object": {
+      "type": "string"
+    },
+    "account_balance": {
+      "type": "integer"
+    },
+    "address": {
+      "type": "string"
+    },
+    "balance": {
+      "type": "integer"
+    },
+    "created": {
+      "type": "string"
+    },
+    "currency": {
+      "type": "integer"
+    },
+    "default_currency": {
+      "type": "integer"
+    },
+    "default_source": {
+      "type": "integer"
+    },
+    "delinquent": {
+      "type": "string"
+    },
+    "description": {
+      "type": "integer"
+    },
+    "discount": {
+      "type": "integer"
+    },
+    "email": {
+      "type": "string"
+    },
+    "invoice_prefix": {
+      "type": "string"
+    },
+    "invoice_settings": {
+      "type": "string"
+    },
+    "livemode": {
+      "type": "string"
+    },
+    "metadata": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "next_invoice_sequence": {
+      "type": "integer"
+    },
+    "phone": {
+      "type": "integer"
+    },
+    "preferred_locales": {
+      "type": "string"
+    },
+    "shipping": {
+      "type": "integer"
+    },
+    "sources": {
+      "type": "string"
+    },
+    "subscriptions": {
+      "type": "string"
+    },
+    "tax_exempt": {
+      "type": "string"
+    },
+    "tax_ids": {
+      "type": "string"
+    },
+    "tax_info": {
+      "type": "integer"
+    },
+    "tax_info_verification": {
+      "type": "integer"
+    },
+    "test_clock": {
+      "type": "integer"
+    }
+  }
+}

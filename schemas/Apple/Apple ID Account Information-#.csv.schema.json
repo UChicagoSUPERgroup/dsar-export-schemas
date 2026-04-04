@@ -1,0 +1,291 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Apple ID Number": {
+      "type": "string"
+    },
+    "Apple ID": {
+      "type": "string"
+    },
+    "Account Link Name": {
+      "type": "string"
+    },
+    "Account Link Type": {
+      "type": "string"
+    },
+    "Account Link Create Date": {
+      "type": "string"
+    },
+    "Account Link Last Update Date": {
+      "type": "string"
+    },
+    "Create Date": {
+      "type": "string"
+    },
+    "Prefix": {
+      "type": "string"
+    },
+    "First Name": {
+      "type": "string"
+    },
+    "Middle Name": {
+      "type": "string"
+    },
+    "Last Name": {
+      "type": "string"
+    },
+    "Nickname": {
+      "type": "string"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Suffix": {
+      "type": "string"
+    },
+    "Gender": {
+      "type": "string"
+    },
+    "Language": {
+      "type": "string"
+    },
+    "Last Update Date": {
+      "type": "string"
+    },
+    "Phonetic Prefix": {
+      "type": "string"
+    },
+    "Phonetic First Name": {
+      "type": "string"
+    },
+    "Phonetic Middle Name": {
+      "type": "string"
+    },
+    "Phonetic Last Name": {
+      "type": "string"
+    },
+    "Phonetic Nick Name": {
+      "type": "string"
+    },
+    "Phonetic Title": {
+      "type": "string"
+    },
+    "Phonetic Suffix": {
+      "type": "string"
+    },
+    "Legal Name": {
+      "type": "string"
+    },
+    "TimeZone": {
+      "type": "string"
+    },
+    "Company Name": {
+      "type": "string"
+    },
+    "Apple ID Alias": {
+      "type": "string"
+    },
+    "Organization Name": {
+      "type": "string"
+    },
+    "Last Password Change Date": {
+      "type": "string"
+    },
+    "Trusted Devices": {
+      "type": "string"
+    },
+    "Trusted Phone Numbers #": {
+      "type": "string"
+    },
+    "iMessage Phones": {
+      "type": "string"
+    },
+    "Emails": {
+      "type": "string"
+    },
+    "iCloud Mail Aliases": {
+      "type": "string"
+    },
+    "Phones": {
+      "type": "string"
+    },
+    "Official Address": {
+      "type": "string"
+    },
+    "Residence Address": {
+      "type": "string"
+    },
+    "Mailing Address": {
+      "type": "string"
+    },
+    "Shipping Address": {
+      "type": "string"
+    },
+    "Billing Address": {
+      "type": "string"
+    },
+    "Payment Type": {
+      "type": "string"
+    },
+    "Billing Info Prefix": {
+      "type": "string"
+    },
+    "Billing Info First Name": {
+      "type": "string"
+    },
+    "Billing Info Last Name": {
+      "type": "string"
+    },
+    "Billing Info Suffix": {
+      "type": "string"
+    },
+    "Billing Info Phonetic First Name": {
+      "type": "string"
+    },
+    "Billing Info Phonetic Last Name": {
+      "type": "string"
+    },
+    "Shipping Info Prefix": {
+      "type": "string"
+    },
+    "Shipping Info First Name": {
+      "type": "string"
+    },
+    "Shipping Info Last Name": {
+      "type": "string"
+    },
+    "Shipping Info Suffix": {
+      "type": "string"
+    },
+    "Shipping Info Phonetic First Name": {
+      "type": "string"
+    },
+    "Shipping Info Phonetic Last Name": {
+      "type": "string"
+    },
+    "App Store Announcements and Offers": {
+      "type": "string"
+    },
+    "Apps, Music, Movies, and More": {
+      "type": "string"
+    },
+    "Apple News Updates": {
+      "type": "string"
+    },
+    "Apple Music": {
+      "type": "string"
+    },
+    "Beats Email Subscription": {
+      "type": "string"
+    },
+    "Teacher Engagement Program": {
+      "type": "string"
+    },
+    "Apple Survey": {
+      "type": "string"
+    },
+    "Share iCloud Analytics": {
+      "type": "string"
+    },
+    "Compliance Phone": {
+      "type": "string"
+    },
+    "Family Sharing": {
+      "type": "string"
+    },
+    "Third Party Email Permission": {
+      "type": "string"
+    },
+    "Apple Store App Communications": {
+      "type": "string"
+    },
+    "Recovery Contacts": {
+      "type": "string"
+    },
+    "Recovery ID": {
+      "type": "string"
+    },
+    "Recovery Initiated Device Class": {
+      "type": "string"
+    },
+    "Recovery Initiated Device Locale": {
+      "type": "string"
+    },
+    "Recovery Initiated Client IP": {
+      "type": "string"
+    },
+    "Beneficiary Contacts": {
+      "type": "string"
+    },
+    "AppleCare+ Communications": {
+      "type": "string"
+    },
+    "Advanced Data Protection": {
+      "type": "string"
+    },
+    "iCloud Data Access Web Enabled": {
+      "type": "string"
+    },
+    "iCloud Data Access Timestamp": {
+      "type": "string"
+    },
+    "Advanced Data Protection - Device IP Address": {
+      "type": "string"
+    },
+    "Advanced Data Protection - Device Name": {
+      "type": "string"
+    },
+    "Advanced Data Protection - Device Serial Number": {
+      "type": "string"
+    },
+    "Automatic CAPTCHA Verification": {
+      "type": "string"
+    },
+    "Apple Newsletters Preference Opted-In": {
+      "type": "string"
+    },
+    "Apple Newsletters Preference Opted-Out": {
+      "type": "string"
+    },
+    "Advanced Data Protection Data Collection Disclosure": {
+      "type": "string"
+    },
+    "iCloud Cross Border Consent": {
+      "type": "string"
+    },
+    "iCloud Cross Border Consent Date": {
+      "type": "string"
+    },
+    "Apple Cross Border Consent": {
+      "type": "string"
+    },
+    "Apple Cross Border Consent Date": {
+      "type": "string"
+    },
+    "Hardware Personalization Preference": {
+      "type": "string"
+    },
+    "Services Personalization Preference": {
+      "type": "string"
+    },
+    "Apple Regional Entity Consent": {
+      "type": "string"
+    },
+    "Apple Regional Entity Consent Date": {
+      "type": "string"
+    },
+    "Upgrade Notifications preference": {
+      "type": "string"
+    },
+    "Notification Dates": {
+      "type": "string"
+    },
+    "Notification Type": {
+      "type": "string"
+    },
+    "Apple Store App Communications Date": {
+      "type": "string"
+    }
+  }
+}

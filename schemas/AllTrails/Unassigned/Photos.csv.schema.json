@@ -1,0 +1,117 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "username": {
+      "type": "integer"
+    },
+    "flickr": {
+      "type": "integer"
+    },
+    "url": {
+      "type": "integer"
+    },
+    "title": {
+      "type": "integer"
+    },
+    "description": {
+      "type": "integer"
+    },
+    "tags": {
+      "type": "integer"
+    },
+    "photo_type": {
+      "type": "string"
+    },
+    "height": {
+      "type": "integer"
+    },
+    "width": {
+      "type": "integer"
+    },
+    "camera_make": {
+      "type": "integer"
+    },
+    "camera_model": {
+      "type": "integer"
+    },
+    "latitude": {
+      "type": "number"
+    },
+    "longitude": {
+      "type": "number"
+    },
+    "views": {
+      "type": "integer"
+    },
+    "likes": {
+      "type": "integer"
+    },
+    "ratings": {
+      "type": "integer"
+    },
+    "status": {
+      "type": "string"
+    },
+    "hidden": {
+      "type": "integer"
+    },
+    "taken_at": {
+      "type": "integer"
+    },
+    "created_at_timestamp": {
+      "type": "string"
+    },
+    "sync_timestamp": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "created_at_date": {
+      "type": "string"
+    },
+    "updated_at": {
+      "type": "string"
+    },
+    "private": {
+      "type": "integer"
+    },
+    "content_privacy": {
+      "type": "string"
+    },
+    "source": {
+      "type": "integer"
+    },
+    "source_remote_slug": {
+      "type": "integer"
+    },
+    "processing_status": {
+      "type": "integer"
+    },
+    "image_processing": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "faces_count": {
+      "type": "integer"
+    },
+    "faces_version": {
+      "type": "integer"
+    },
+    "dedupe_hidden": {
+      "type": "integer"
+    },
+    "paq#piq_quality_score": {
+      "type": "number"
+    },
+    "row_created_at": {
+      "type": "integer"
+    },
+    "source_attribution": {
+      "type": "integer"
+    }
+  }
+}

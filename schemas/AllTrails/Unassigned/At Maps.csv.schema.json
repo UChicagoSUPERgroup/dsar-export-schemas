@@ -1,0 +1,84 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "type": {
+      "type": "integer"
+    },
+    "presentation_type": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "integer"
+    },
+    "device_type": {
+      "type": "integer"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "partner": {
+      "type": "integer"
+    },
+    "status": {
+      "type": "string"
+    },
+    "hidden": {
+      "type": "integer"
+    },
+    "rating": {
+      "type": "integer"
+    },
+    "popularity": {
+      "type": "number"
+    },
+    "private": {
+      "type": "string"
+    },
+    "content_privacy": {
+      "type": "string"
+    },
+    "source": {
+      "type": "integer"
+    },
+    "source_remote_slug": {
+      "type": "integer"
+    },
+    "source_stats": {
+      "type": "integer"
+    },
+    "summary_stats": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "created_at_timestamp": {
+      "type": "string"
+    },
+    "updated_at": {
+      "type": "string"
+    },
+    "sync_timestamp": {
+      "type": "string"
+    },
+    "static_map_timestamp": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "map_originated": {
+      "type": "integer"
+    },
+    "processing_version": {
+      "type": "integer"
+    },
+    "timezone": {
+      "type": "string"
+    }
+  }
+}

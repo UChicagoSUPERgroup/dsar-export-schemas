@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "contacts": {
+      "type": "object",
+      "properties": {
+        "Flickr": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

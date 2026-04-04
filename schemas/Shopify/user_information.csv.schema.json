@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "email": {
+      "type": "string"
+    },
+    "locale": {
+      "type": "string"
+    },
+    "privacy_policy_acknowledged_at": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "avatar_filepath": {
+      "type": "integer"
+    },
+    "image_filepath": {
+      "type": "integer"
+    }
+  }
+}

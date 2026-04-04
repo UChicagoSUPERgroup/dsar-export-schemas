@@ -1,0 +1,142 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "topArtists": {
+      "type": "object",
+      "properties": {
+        "numUniqueArtists": {
+          "type": "integer"
+        },
+        "topArtists": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "artistUri": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "topArtistMilliseconds": {
+          "type": "integer"
+        },
+        "topArtistFanPercentage": {
+          "type": "number"
+        }
+      }
+    },
+    "topPodcasts": {
+      "type": "object",
+      "properties": {
+        "topPodcastsUri": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "topPodcastPercentage": {
+          "type": "integer"
+        },
+        "totalPodcastMilliseconds": {
+          "type": "integer"
+        },
+        "topPodcastMilliseconds": {
+          "type": "integer"
+        }
+      }
+    },
+    "topTracks": {
+      "type": "object",
+      "properties": {
+        "topTracks": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "topTrackPlayCount": {
+          "type": "integer"
+        },
+        "topTrackFirstPlayedDate": {
+          "type": "string"
+        },
+        "distinctTracksPlayed": {
+          "type": "integer"
+        }
+      }
+    },
+    "yearlyMetrics": {
+      "type": "object",
+      "properties": {
+        "totalMsListened": {
+          "type": [
+            "integer",
+            "string"
+          ]
+        },
+        "mostListenedDay": {
+          "type": "string"
+        },
+        "mostListenedDayMinutes": {
+          "type": "number"
+        },
+        "percentGreaterThanWorldwideUsers": {
+          "type": "number"
+        }
+      }
+    },
+    "musicEvolution": {
+      "type": "object",
+      "properties": {
+        "eras": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "key": {
+                "type": "integer"
+              },
+              "peakMonth": {
+                "type": "integer"
+              },
+              "color": {
+                "type": "string"
+              },
+              "genre": {
+                "type": "string"
+              },
+              "mood": {
+                "type": "string"
+              },
+              "descriptor": {
+                "type": "string"
+              },
+              "pivotalArtists": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "tracks": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "trackName": {
+                      "type": "string"
+                    },
+                    "trackUri": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

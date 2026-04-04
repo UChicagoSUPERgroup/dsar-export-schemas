@@ -1,0 +1,138 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Advertisement Placement": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Agency ID": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "AppAdam ID": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Apple ID Number": {
+      "type": "string"
+    },
+    "Application Campaign ID": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Applied From Web Browser": {
+      "type": "integer"
+    },
+    "Campaign Channel": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Campaign Country Code": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Campaign Device ID": {
+      "type": "integer"
+    },
+    "Campaign Group": {
+      "type": "integer"
+    },
+    "Campaign ID": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Campaign Token": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Country Code": {
+      "type": "integer"
+    },
+    "Event Date": {
+      "type": "string"
+    },
+    "Event Date Time": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Event ID": {
+      "type": "string"
+    },
+    "Event Post Date Time": {
+      "type": "string"
+    },
+    "Event Receipt Time": {
+      "type": "string"
+    },
+    "Event Time": {
+      "type": "string"
+    },
+    "Event Type": {
+      "type": "string"
+    },
+    "Historical Vendor ID": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Metadata ID": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Platform ID": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Search Term": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Topic": {
+      "type": "string"
+    },
+    "URI": {
+      "type": "string"
+    },
+    "URI Description": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "User Agent": {
+      "type": "string"
+    },
+    "Vendor ID": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    }
+  }
+}

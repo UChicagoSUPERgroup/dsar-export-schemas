@@ -1,0 +1,108 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "device": {
+        "type": "object",
+        "properties": {
+          "mostRecentData": {
+            "type": "object",
+            "properties": {
+              "carrierName": {
+                "type": "string"
+              },
+              "playStoreClientVersion": {
+                "type": "integer"
+              },
+              "manufacturer": {
+                "type": "string"
+              },
+              "modelName": {
+                "type": "string"
+              },
+              "deviceName": {
+                "type": "string"
+              },
+              "productName": {
+                "type": "string"
+              },
+              "retailBrand": {
+                "type": "string"
+              },
+              "totalMemoryBytes": {
+                "type": "string"
+              },
+              "nativePlatform": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "deviceIpCountry": {
+                "type": "string"
+              },
+              "userLocale": {
+                "type": "string"
+              },
+              "buildFingerprint": {
+                "type": "string"
+              },
+              "androidSdkVersion": {
+                "type": "integer"
+              }
+            }
+          },
+          "dataAtTimeOfUserPlayActivity": {
+            "type": "object",
+            "properties": {
+              "carrierName": {
+                "type": "string"
+              },
+              "manufacturer": {
+                "type": "string"
+              },
+              "modelName": {
+                "type": "string"
+              },
+              "deviceName": {
+                "type": "string"
+              },
+              "productName": {
+                "type": "string"
+              },
+              "retailBrand": {
+                "type": "string"
+              },
+              "nativePlatform": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "deviceIpCountry": {
+                "type": "string"
+              },
+              "userLocale": {
+                "type": "string"
+              },
+              "androidSdkVersion": {
+                "type": "integer"
+              }
+            }
+          },
+          "deviceRegistrationTime": {
+            "type": "string"
+          },
+          "userAddedOnDeviceTime": {
+            "type": "string"
+          },
+          "lastTimeDeviceActive": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "Artist Identifier": {
+        "type": "string"
+      },
+      "Artist Name": {
+        "type": [
+          "integer",
+          "string"
+        ]
+      },
+      "Date Created": {
+        "type": "string"
+      },
+      "Date Created In Library": {
+        "type": "string"
+      },
+      "Visible": {
+        "type": "boolean"
+      },
+      "Catalog Identifiers - Artist": {
+        "type": [
+          "integer",
+          "string"
+        ]
+      },
+      "Favorite Artist - Status": {
+        "type": "boolean"
+      },
+      "Favorite Artist - Date": {
+        "type": "string"
+      }
+    }
+  }
+}

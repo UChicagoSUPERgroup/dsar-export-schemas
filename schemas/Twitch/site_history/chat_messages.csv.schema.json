@@ -1,0 +1,114 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "time": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "region": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "body_full": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "asn_id": {
+      "type": "integer"
+    },
+    "ip": {
+      "type": "string"
+    },
+    "login": {
+      "type": "string"
+    },
+    "server_timestamp": {
+      "type": "string"
+    },
+    "body": {
+      "type": "string"
+    },
+    "channel": {
+      "type": "string"
+    },
+    "msg_id": {
+      "type": "string"
+    },
+    "filtered_tags": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "asn": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "user_id": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "time_utc": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "canonical_client_id": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "room_id": {
+      "type": "integer"
+    },
+    "room_type": {
+      "type": "integer"
+    },
+    "chatroom_type": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "chatroom_id": {
+      "type": "integer"
+    },
+    "channel_points_modification": {
+      "type": "integer"
+    },
+    "previously_dropped": {
+      "type": "integer"
+    },
+    "is_reply": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "is_mention": {
+      "type": "integer"
+    },
+    "chant_id": {
+      "type": "integer"
+    },
+    "chant_message_id": {
+      "type": "integer"
+    }
+  }
+}

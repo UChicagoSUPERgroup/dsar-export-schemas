@@ -1,0 +1,87 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "context_time": {
+        "type": "string"
+      },
+      "context_receiver_service_timestamp": {
+        "type": "string"
+      },
+      "context_device_manufacturer": {
+        "type": "string"
+      },
+      "context_device_model": {
+        "type": "string"
+      },
+      "context_device_type": {
+        "type": "string"
+      },
+      "context_os_name": {
+        "type": "string"
+      },
+      "context_os_version": {
+        "type": "string"
+      },
+      "context_application_version": {
+        "type": "string"
+      },
+      "context_conn_country": {
+        "type": "string"
+      },
+      "message_opportunity_id": {
+        "type": "string"
+      },
+      "message_message_id": {
+        "type": "integer"
+      },
+      "message_message_uuid": {
+        "type": "string"
+      },
+      "message_message_creative_id": {
+        "type": "integer"
+      },
+      "message_message_format": {
+        "type": "string"
+      },
+      "message_trigger": {
+        "type": "string"
+      },
+      "message_interaction_type": {
+        "type": "string"
+      },
+      "message_cta_identifier": {
+        "type": "string"
+      },
+      "message_cta_url": {
+        "type": "string"
+      },
+      "message_locale": {
+        "type": "string"
+      },
+      "message_message_creative_version": {
+        "type": "string"
+      },
+      "message_message_creative_template_id": {
+        "type": "integer"
+      },
+      "message_message_creative_campaign_id": {
+        "type": "integer"
+      },
+      "message_button_identifier": {
+        "type": "string"
+      },
+      "message_local_message_identifier": {
+        "type": "integer"
+      },
+      "message_cmp_message_type": {
+        "type": "string"
+      },
+      "timestamp_utc": {
+        "type": "string"
+      }
+    }
+  }
+}

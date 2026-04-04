@@ -1,0 +1,115 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "playlists": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "lastModifiedDate": {
+            "type": "string"
+          },
+          "collaborators": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "track": {
+                  "anyOf": [
+                    {
+                      "type": "integer"
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "trackName": {
+                          "type": [
+                            "number",
+                            "string"
+                          ]
+                        },
+                        "artistName": {
+                          "type": "string"
+                        },
+                        "albumName": {
+                          "type": [
+                            "number",
+                            "string"
+                          ]
+                        },
+                        "trackUri": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  ]
+                },
+                "episode": {
+                  "anyOf": [
+                    {
+                      "type": "integer"
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "episodeName": {
+                          "type": "string"
+                        },
+                        "showName": {
+                          "type": "string"
+                        },
+                        "episodeUri": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  ]
+                },
+                "audiobook": {
+                  "type": "integer"
+                },
+                "localTrack": {
+                  "anyOf": [
+                    {
+                      "type": "integer"
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "uri": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  ]
+                },
+                "addedDate": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "description": {
+            "type": [
+              "integer",
+              "string"
+            ]
+          },
+          "numberOfFollowers": {
+            "type": "integer"
+          }
+        }
+      }
+    }
+  }
+}

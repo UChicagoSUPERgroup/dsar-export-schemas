@@ -1,0 +1,72 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Dropbox_User_Data": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "First Name": {
+            "type": "string"
+          },
+          "Last Name": {
+            "type": "string"
+          },
+          "Display Name": {
+            "type": "string"
+          },
+          "Created At": {
+            "type": "string"
+          },
+          "Auth History": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "Ip": {
+                  "type": "string"
+                },
+                "Created At": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Iterable": {
+      "type": "object",
+      "properties": {
+        "Email": {
+          "type": "string"
+        },
+        "First Name": {
+          "type": "string"
+        },
+        "Last Name": {
+          "type": "string"
+        },
+        "Is Team Admin": {
+          "type": [
+            "boolean",
+            "integer"
+          ]
+        },
+        "Is Team Creator": {
+          "type": [
+            "boolean",
+            "integer"
+          ]
+        },
+        "Is Team Member": {
+          "type": [
+            "boolean",
+            "integer"
+          ]
+        }
+      }
+    }
+  }
+}

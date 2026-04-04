@@ -1,0 +1,147 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "message": {
+      "type": "string"
+    },
+    "users_created_at": {
+      "type": "string"
+    },
+    "users_email_subscribe": {
+      "type": "string"
+    },
+    "users_random_bucket": {
+      "type": "number"
+    },
+    "users_phone": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "users_push_subscribe": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "users_total_revenue": {
+      "type": "number"
+    },
+    "users_email": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "users_custom_events_last": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "users_custom_events_name": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "users_custom_events_count": {
+      "type": "number"
+    },
+    "users_custom_events_first": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "users_campaigns_received_last_received": {
+      "type": "integer"
+    },
+    "users_campaigns_received_variation_api_id": {
+      "type": "integer"
+    },
+    "users_campaigns_received_variation_name": {
+      "type": "integer"
+    },
+    "users_campaigns_received_name": {
+      "type": "integer"
+    },
+    "users_campaigns_received_api_campaign_id": {
+      "type": "integer"
+    },
+    "users_campaigns_received_in_control": {
+      "type": "integer"
+    },
+    "users_campaigns_received_engaged_opened_email": {
+      "type": "integer"
+    },
+    "users_campaigns_received_converted": {
+      "type": "integer"
+    },
+    "users_campaigns_received_multiple_converted_Primary Conversion Event - A": {
+      "type": "integer"
+    },
+    "users_canvases_received_variation_name": {
+      "type": "integer"
+    },
+    "users_canvases_received_api_canvas_id": {
+      "type": "integer"
+    },
+    "users_canvases_received_name": {
+      "type": "integer"
+    },
+    "users_canvases_received_last_received_message": {
+      "type": "integer"
+    },
+    "users_canvases_received_last_entered": {
+      "type": "integer"
+    },
+    "users_canvases_received_in_control": {
+      "type": "integer"
+    },
+    "users_canvases_received_is_in_control": {
+      "type": "integer"
+    },
+    "users_canvases_received_last_entered_control_at": {
+      "type": "integer"
+    },
+    "users_canvases_received_steps_received_last_received": {
+      "type": "integer"
+    },
+    "users_canvases_received_steps_received_name": {
+      "type": "integer"
+    },
+    "users_canvases_received_steps_received_api_canvas_step_id": {
+      "type": "integer"
+    },
+    "users_canvases_received_last_exited": {
+      "type": "integer"
+    },
+    "users_custom_attributes_<unique_id>": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "users_apps_sessions": {
+      "type": "integer"
+    },
+    "users_apps_first_used": {
+      "type": "integer"
+    },
+    "users_apps_last_used": {
+      "type": "integer"
+    },
+    "users_apps_name": {
+      "type": "integer"
+    },
+    "users_apps_version": {
+      "type": "integer"
+    },
+    "users_apps_platform": {
+      "type": "integer"
+    }
+  }
+}

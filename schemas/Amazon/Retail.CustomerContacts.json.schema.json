@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "countryCode": {
+        "type": "integer"
+      },
+      "localPhoneNumber": {
+        "type": "integer"
+      },
+      "communicationMedium": {
+        "type": "string"
+      },
+      "eventDate": {
+        "type": "string"
+      }
+    }
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "first_name": {
+      "type": "string"
+    },
+    "last_name": {
+      "type": "string"
+    },
+    "username": {
+      "type": "string"
+    },
+    "permalink": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "description": {
+      "type": "integer"
+    },
+    "current_avatar_id": {
+      "type": "integer"
+    },
+    "plan": {
+      "type": "integer"
+    },
+    "tracks_count": {
+      "type": "integer"
+    },
+    "public_tracks_count": {
+      "type": "integer"
+    },
+    "private_tracks_count": {
+      "type": "integer"
+    },
+    "public_playlists_count": {
+      "type": "integer"
+    },
+    "private_playlists_count": {
+      "type": "integer"
+    },
+    "comments_count": {
+      "type": "integer"
+    },
+    "email": {
+      "type": "string"
+    },
+    "year_and_month_of_birth": {
+      "type": "integer"
+    },
+    "gender": {
+      "type": "string"
+    },
+    "verified": {
+      "type": "integer"
+    },
+    "city": {
+      "type": "integer"
+    },
+    "country_code": {
+      "type": "integer"
+    },
+    "locale": {
+      "type": "integer"
+    },
+    "ip": {
+      "type": "string"
+    },
+    "via": {
+      "type": "integer"
+    },
+    "signup_method": {
+      "type": "string"
+    },
+    "rtype": {
+      "type": "integer"
+    },
+    "channel": {
+      "type": "integer"
+    },
+    "campaign": {
+      "type": "integer"
+    },
+    "keyword": {
+      "type": "integer"
+    },
+    "content": {
+      "type": "integer"
+    },
+    "invited_by_user": {
+      "type": "integer"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "terms_accepted_at": {
+      "type": "string"
+    },
+    "activated_at": {
+      "type": "integer"
+    },
+    "updated_at": {
+      "type": "string"
+    }
+  }
+}

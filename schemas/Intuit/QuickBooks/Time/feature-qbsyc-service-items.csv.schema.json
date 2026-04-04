@@ -1,0 +1,42 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "client_id": {
+      "type": "integer"
+    },
+    "external_id": {
+      "type": "integer"
+    },
+    "name": {
+      "type": "string"
+    },
+    "parent_id": {
+      "type": "integer"
+    },
+    "parent_name": {
+      "type": "integer"
+    },
+    "type": {
+      "type": "string"
+    },
+    "active": {
+      "type": "integer"
+    },
+    "unit_price": {
+      "type": "number"
+    },
+    "changed": {
+      "type": "integer"
+    },
+    "taxable": {
+      "type": "integer"
+    },
+    "sync_token": {
+      "type": "integer"
+    }
+  }
+}

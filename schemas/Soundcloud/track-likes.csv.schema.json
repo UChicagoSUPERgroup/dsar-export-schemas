@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "like_time": {
+      "type": "string"
+    },
+    "track_title": {
+      "type": "string"
+    },
+    "track_url": {
+      "type": "string"
+    }
+  }
+}

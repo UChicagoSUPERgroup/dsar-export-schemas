@@ -1,0 +1,165 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Actual Price": {
+      "type": "string"
+    },
+    "Apple Account Number": {
+      "type": "string"
+    },
+    "Apple Card Account ID": {
+      "type": "string"
+    },
+    "Application": {
+      "type": "string"
+    },
+    "Billing Country Code": {
+      "type": "string"
+    },
+    "Billing Information Id": {
+      "type": "string"
+    },
+    "Billing Transaction Date": {
+      "type": "string"
+    },
+    "Billing Transaction Type": {
+      "type": "string"
+    },
+    "Cancellation Reason": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Cancellation Refund Type": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Content Quality Type": {
+      "type": "string"
+    },
+    "Content Version": {
+      "type": "integer"
+    },
+    "Device Operating System Version": {
+      "type": [
+        "number",
+        "string"
+      ]
+    },
+    "Device Type": {
+      "type": "string"
+    },
+    "Device Version": {
+      "type": "string"
+    },
+    "Estimated Total Cost (USD)": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Family member purchase indicator": {
+      "type": "string"
+    },
+    "IP Country Code": {
+      "type": "string"
+    },
+    "Low Balance Top-Up Indicator": {
+      "type": "string"
+    },
+    "Mobile Carrier ID": {
+      "type": "integer"
+    },
+    "Offer Purchase Mode": {
+      "type": "integer"
+    },
+    "Offer Type": {
+      "type": "integer"
+    },
+    "Order Number": {
+      "type": "string"
+    },
+    "Parent Content Name": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Parent Content Type": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Payment Method Type": {
+      "type": "string"
+    },
+    "Payment Type": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Posting Reason": {
+      "type": "string"
+    },
+    "Price in US Dollars Before Royalties/Taxes": {
+      "type": "string"
+    },
+    "Price Per Item": {
+      "type": "integer"
+    },
+    "Promotion Scenario ID": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Purchase App Version": {
+      "type": "number"
+    },
+    "Purchase ID": {
+      "type": "string"
+    },
+    "Purchase Product Name": {
+      "type": "string"
+    },
+    "Purchased item IDs": {
+      "type": "string"
+    },
+    "Quantity Purchased": {
+      "type": "integer"
+    },
+    "Store Currency Code": {
+      "type": "string"
+    },
+    "Store Currency Estimated Tax": {
+      "type": "string"
+    },
+    "Store Currency Estimated Total": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Store Front Name": {
+      "type": "string"
+    },
+    "Subscription Duration": {
+      "type": "integer"
+    },
+    "Subscription Renewal Indicator": {
+      "type": "integer"
+    },
+    "Top-Up Scheduled Indicator": {
+      "type": "string"
+    },
+    "Type of Purchase": {
+      "type": "string"
+    }
+  }
+}

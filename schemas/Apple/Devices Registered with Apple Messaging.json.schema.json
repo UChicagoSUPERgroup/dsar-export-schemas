@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "devices": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "os-version": {
+            "type": "string"
+          },
+          "hardware-version": {
+            "type": "string"
+          },
+          "software-version": {
+            "type": "string"
+          },
+          "registrations": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "device-name": {
+            "type": "string"
+          },
+          "device-trust-level": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "user-handles": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

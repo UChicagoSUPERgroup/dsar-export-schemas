@@ -1,0 +1,162 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "broadcaster_software": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "channel_name": {
+      "type": "string"
+    },
+    "channel_id": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "device_id": {
+      "type": "string"
+    },
+    "channel_is_live": {
+      "type": "string"
+    },
+    "minutes_watched_unadjusted": {
+      "type": "integer"
+    },
+    "referrer_domain": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "referrer_host": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "referrer_url": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "url": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "viewer_country_code_two_letter": {
+      "type": "string"
+    },
+    "viewer_city": {
+      "type": "string"
+    },
+    "viewer_region": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "asn": {
+      "type": "string"
+    },
+    "host_channel_name": {
+      "type": "integer"
+    },
+    "user_login": {
+      "type": "string"
+    },
+    "chromecast_sender": {
+      "type": "integer"
+    },
+    "platform": {
+      "type": "string"
+    },
+    "content_mode": {
+      "type": "string"
+    },
+    "vod_id": {
+      "type": "integer"
+    },
+    "viewer_mobile_connection_type": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "user_id": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "day": {
+      "type": "string"
+    },
+    "player": {
+      "type": "string"
+    },
+    "game_name": {
+      "type": "string"
+    },
+    "host_channel_id": {
+      "type": "integer"
+    },
+    "medium_tracking_code": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "viewer_language_primary_code": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "player_is_chat_visible": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "client_app": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "viewer_device_model": {
+      "type": "integer"
+    },
+    "viewer_device_manufacturer": {
+      "type": "integer"
+    },
+    "viewer_browser_family": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "viewer_browser_version": {
+      "type": "number"
+    },
+    "viewer_os_name": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "viewer_os_version": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    }
+  }
+}

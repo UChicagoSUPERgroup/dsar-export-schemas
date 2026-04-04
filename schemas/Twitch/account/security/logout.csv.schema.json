@@ -1,0 +1,117 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "time": {
+      "type": "string"
+    },
+    "time_utc": {
+      "type": "string"
+    },
+    "ip": {
+      "type": "string"
+    },
+    "city": {
+      "type": "integer"
+    },
+    "country": {
+      "type": "string"
+    },
+    "region": {
+      "type": "integer"
+    },
+    "asn_id": {
+      "type": "integer"
+    },
+    "device_id": {
+      "type": "string"
+    },
+    "distinct_id": {
+      "type": "string"
+    },
+    "login": {
+      "type": "string"
+    },
+    "logged_in": {
+      "type": "string"
+    },
+    "host": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "app_version": {
+      "type": "integer"
+    },
+    "platform": {
+      "type": "integer"
+    },
+    "device_model": {
+      "type": "integer"
+    },
+    "device_software": {
+      "type": "integer"
+    },
+    "device_type": {
+      "type": "integer"
+    },
+    "language": {
+      "type": "integer"
+    },
+    "device_os_version": {
+      "type": "integer"
+    },
+    "orientation": {
+      "type": "integer"
+    },
+    "device_diagonal": {
+      "type": "integer"
+    },
+    "feature_bucket": {
+      "type": "integer"
+    },
+    "app_fullscreen": {
+      "type": "integer"
+    },
+    "source": {
+      "type": "integer"
+    },
+    "app_window_height": {
+      "type": "integer"
+    },
+    "app_window_width": {
+      "type": "integer"
+    },
+    "app_build": {
+      "type": "integer"
+    },
+    "system_version": {
+      "type": "integer"
+    },
+    "user_id": {
+      "type": "integer"
+    },
+    "player": {
+      "type": "integer"
+    },
+    "client_time": {
+      "type": "string"
+    },
+    "primary_abi": {
+      "type": "integer"
+    },
+    "secondary_abi": {
+      "type": "integer"
+    },
+    "viewport_width": {
+      "type": "integer"
+    },
+    "is_turbo": {
+      "type": "integer"
+    },
+    "viewport_height": {
+      "type": "integer"
+    }
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "slug": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "integer"
+    },
+    "items": {
+      "type": "integer"
+    },
+    "city": {
+      "type": "integer"
+    },
+    "state": {
+      "type": "integer"
+    },
+    "country": {
+      "type": "integer"
+    },
+    "latitude": {
+      "type": "number"
+    },
+    "longitude": {
+      "type": "number"
+    },
+    "order": {
+      "type": "integer"
+    },
+    "backpacking": {
+      "type": "integer"
+    },
+    "birding": {
+      "type": "integer"
+    },
+    "camping": {
+      "type": "integer"
+    },
+    "canoeing": {
+      "type": "integer"
+    },
+    "fishing": {
+      "type": "integer"
+    },
+    "fly_fishing": {
+      "type": "integer"
+    },
+    "hiking": {
+      "type": "integer"
+    },
+    "horses": {
+      "type": "integer"
+    },
+    "ice_climbing": {
+      "type": "integer"
+    },
+    "mountain_biking": {
+      "type": "integer"
+    },
+    "nature_trips": {
+      "type": "integer"
+    },
+    "off_road_driving": {
+      "type": "integer"
+    },
+    "paddle_sports": {
+      "type": "integer"
+    },
+    "rails_trails": {
+      "type": "integer"
+    },
+    "road_biking": {
+      "type": "integer"
+    },
+    "rock_climbing": {
+      "type": "integer"
+    },
+    "scenic_driving": {
+      "type": "integer"
+    },
+    "sea_kayaking": {
+      "type": "integer"
+    },
+    "snowshoeing": {
+      "type": "integer"
+    },
+    "skiing": {
+      "type": "integer"
+    },
+    "snowboarding": {
+      "type": "integer"
+    },
+    "surfing": {
+      "type": "integer"
+    },
+    "trail_running": {
+      "type": "integer"
+    },
+    "walking": {
+      "type": "integer"
+    },
+    "ww_kayaking": {
+      "type": "integer"
+    },
+    "xc_skiing": {
+      "type": "integer"
+    },
+    "status": {
+      "type": "string"
+    },
+    "replaced_by": {
+      "type": "integer"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "created_at_timestamp": {
+      "type": "string"
+    },
+    "updated_at": {
+      "type": "string"
+    },
+    "sync_timestamp": {
+      "type": "string"
+    },
+    "private": {
+      "type": "integer"
+    },
+    "content_privacy": {
+      "type": "string"
+    },
+    "source": {
+      "type": "integer"
+    },
+    "featured": {
+      "type": "integer"
+    }
+  }
+}

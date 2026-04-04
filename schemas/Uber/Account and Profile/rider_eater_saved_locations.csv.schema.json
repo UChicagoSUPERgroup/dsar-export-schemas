@@ -1,0 +1,33 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Label": {
+      "type": "string"
+    },
+    "House number": {
+      "type": "integer"
+    },
+    "Street name": {
+      "type": "string"
+    },
+    "City": {
+      "type": "string"
+    },
+    "State": {
+      "type": "string"
+    },
+    "Postal code": {
+      "type": "string"
+    },
+    "Country code": {
+      "type": "string"
+    },
+    "Latitude": {
+      "type": "number"
+    },
+    "Longitude": {
+      "type": "number"
+    }
+  }
+}

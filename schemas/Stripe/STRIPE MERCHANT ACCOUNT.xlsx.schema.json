@@ -1,0 +1,158 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Individual": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "Type": {
+            "type": "string"
+          },
+          "Data": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "Marketing Outreach": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "Domain": {
+            "type": "string"
+          },
+          "First Name": {
+            "type": "integer"
+          },
+          "Last Name": {
+            "type": "integer"
+          },
+          "Title": {
+            "type": "integer"
+          },
+          "Phone": {
+            "type": "integer"
+          },
+          "Persona": {
+            "type": "string"
+          },
+          "Seniority": {
+            "type": "string"
+          },
+          "In App": {
+            "type": "string"
+          },
+          "In Spend": {
+            "type": "string"
+          },
+          "In Sfdc": {
+            "type": "string"
+          },
+          "Last Activity Sfdc": {
+            "type": "integer"
+          },
+          "Last Activity Spend": {
+            "type": "integer"
+          },
+          "Is Decision Maker": {
+            "type": "integer"
+          },
+          "Contact Score": {
+            "type": "integer"
+          },
+          "Is Clearbit Manual": {
+            "type": "string"
+          },
+          "Is Clearbit": {
+            "type": "string"
+          },
+          "Is Cognism": {
+            "type": "string"
+          },
+          "Is Consumer Email": {
+            "type": "string"
+          },
+          "Is Dashboard User": {
+            "type": "string"
+          },
+          "Clearbit Id": {
+            "type": "integer"
+          },
+          "Cognism Id": {
+            "type": "integer"
+          }
+        }
+      }
+    },
+    "Business Info": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "Timestamp": {
+            "type": "string"
+          },
+          "Business Dba Name": {
+            "type": "integer"
+          },
+          "Business Legal Name": {
+            "type": "integer"
+          },
+          "Business Phone Number": {
+            "type": "integer"
+          },
+          "Business Vat Id": {
+            "type": "integer"
+          },
+          "Business Tax Id": {
+            "type": "integer"
+          },
+          "Business Url": {
+            "type": "integer"
+          },
+          "Product Description": {
+            "type": "integer"
+          }
+        }
+      }
+    },
+    "Email Metadata": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "Timestamp": {
+            "type": "string"
+          },
+          "Email From Address": {
+            "type": "string"
+          },
+          "Email Cc Address": {
+            "type": "integer"
+          },
+          "Email Bcc Address": {
+            "type": "integer"
+          },
+          "Email Reply To Address": {
+            "type": "string"
+          },
+          "Email Subject": {
+            "type": "string"
+          },
+          "Email Merchant Id": {
+            "type": [
+              "integer",
+              "string"
+            ]
+          },
+          "Email Locale": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

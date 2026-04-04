@@ -1,0 +1,102 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "context_time": {
+        "type": "string"
+      },
+      "message_campaign_id": {
+        "type": "integer"
+      },
+      "message_channel": {
+        "type": "string"
+      },
+      "message_reorder_occurred": {
+        "type": "boolean"
+      },
+      "message_rank": {
+        "type": "integer"
+      },
+      "message_message_id": {
+        "type": "integer"
+      },
+      "message_locale": {
+        "type": "string"
+      },
+      "message_region": {
+        "type": "string"
+      },
+      "message_module_channel": {
+        "type": "string"
+      },
+      "message_uplift_variant": {
+        "type": "integer"
+      },
+      "message_business_metric": {
+        "type": "string"
+      },
+      "message_filter_reason": {
+        "type": "string"
+      },
+      "message_request_index": {
+        "type": "integer"
+      },
+      "message_experiment_properties": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "key": {
+              "type": "string"
+            },
+            "value": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "message_stages": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "key": {
+              "type": "string"
+            },
+            "value": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "message_holdouts": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "key": {
+              "type": "string"
+            },
+            "value": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "message_business_metric_sub_category": {
+        "type": "integer"
+      },
+      "message_ppc_action": {
+        "type": "integer"
+      },
+      "message_product": {
+        "type": "string"
+      },
+      "timestamp_utc": {
+        "type": "string"
+      }
+    }
+  }
+}

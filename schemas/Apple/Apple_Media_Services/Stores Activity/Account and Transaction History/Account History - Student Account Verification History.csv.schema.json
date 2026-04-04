@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Apple ID Number": {
+      "type": "string"
+    },
+    "Student Verification Result": {
+      "type": "string"
+    },
+    "Student Verification Date": {
+      "type": "string"
+    },
+    "Country": {
+      "type": "integer"
+    },
+    "Device Details": {
+      "type": "integer"
+    }
+  }
+}

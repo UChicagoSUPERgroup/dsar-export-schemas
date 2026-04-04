@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "address": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "confirmed_at": {
+      "type": "string"
+    },
+    "bounced": {
+      "type": "integer"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "context_time": {
+        "type": "string"
+      },
+      "message_playlist_uri": {
+        "type": "string"
+      },
+      "message_item_uri": {
+        "type": "string"
+      },
+      "message_item_uri_kind": {
+        "type": "string"
+      },
+      "message_client_platform": {
+        "type": "integer"
+      },
+      "timestamp_utc": {
+        "type": "string"
+      }
+    }
+  }
+}

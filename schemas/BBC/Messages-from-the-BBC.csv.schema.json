@@ -1,0 +1,42 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Date": {
+      "type": "string"
+    },
+    "Activity": {
+      "type": "string"
+    },
+    "From Email": {
+      "type": "string"
+    },
+    "Email Subject": {
+      "type": "string"
+    },
+    "Browser": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Client": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Operating System": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Device": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    }
+  }
+}

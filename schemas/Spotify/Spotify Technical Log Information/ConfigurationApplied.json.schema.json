@@ -1,0 +1,96 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "context_time": {
+        "type": "string"
+      },
+      "context_receiver_service_timestamp": {
+        "type": "string"
+      },
+      "context_device_manufacturer": {
+        "type": [
+          "integer",
+          "string"
+        ]
+      },
+      "context_device_model": {
+        "type": [
+          "integer",
+          "string"
+        ]
+      },
+      "context_device_type": {
+        "type": [
+          "integer",
+          "string"
+        ]
+      },
+      "context_os_name": {
+        "type": [
+          "integer",
+          "string"
+        ]
+      },
+      "context_os_version": {
+        "type": [
+          "integer",
+          "string"
+        ]
+      },
+      "context_application_version": {
+        "type": "string"
+      },
+      "context_conn_country": {
+        "type": "string"
+      },
+      "context_user_agent": {
+        "type": [
+          "integer",
+          "string"
+        ]
+      },
+      "message_last_rcs_fetch_time": {
+        "type": "string"
+      },
+      "message_installation_id": {
+        "type": [
+          "integer",
+          "string"
+        ]
+      },
+      "message_policy_group_ids": {
+        "type": "array",
+        "items": {
+          "type": "integer"
+        }
+      },
+      "message_configuration_assignment_id": {
+        "type": "string"
+      },
+      "message_rc_client_id": {
+        "type": "string"
+      },
+      "message_rc_client_version": {
+        "type": [
+          "integer",
+          "string"
+        ]
+      },
+      "message_platform": {
+        "type": "string"
+      },
+      "message_fetch_type": {
+        "type": "integer"
+      },
+      "message_type": {
+        "type": "integer"
+      },
+      "timestamp_utc": {
+        "type": "string"
+      }
+    }
+  }
+}

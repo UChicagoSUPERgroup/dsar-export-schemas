@@ -1,0 +1,78 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "user_id": {
+        "type": "string"
+      },
+      "quest_id": {
+        "type": "string"
+      },
+      "enrolled_at": {
+        "type": [
+          "integer",
+          "string"
+        ]
+      },
+      "completed_at": {
+        "type": [
+          "integer",
+          "string"
+        ]
+      },
+      "claimed_at": {
+        "type": [
+          "integer",
+          "string"
+        ]
+      },
+      "claimed_tier": {
+        "type": "integer"
+      },
+      "last_stream_heartbeat_at": {
+        "type": "integer"
+      },
+      "stream_progress_seconds": {
+        "type": "integer"
+      },
+      "dismissed_quest_content": {
+        "type": "integer"
+      },
+      "progress": {
+        "type": "object",
+        "properties": {
+          "PLAY_ON_DESKTOP": {
+            "type": "object",
+            "properties": {
+              "value": {
+                "type": "integer"
+              },
+              "event_name": {
+                "type": "string"
+              },
+              "updated_at": {
+                "type": "string"
+              },
+              "completed_at": {
+                "type": "string"
+              },
+              "heartbeat": {
+                "type": "object",
+                "properties": {
+                  "last_beat_at": {
+                    "type": "string"
+                  },
+                  "expires_at": {
+                    "type": "integer"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

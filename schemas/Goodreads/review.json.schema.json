@@ -1,0 +1,54 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "explanation": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "rating": {
+        "type": "integer"
+      },
+      "read_status": {
+        "type": "string"
+      },
+      "review": {
+        "type": "string"
+      },
+      "comments_count": {
+        "type": "integer"
+      },
+      "last_comment_at": {
+        "type": "string"
+      },
+      "last_revision_at": {
+        "type": "string"
+      },
+      "created_at": {
+        "type": "string"
+      },
+      "updated_at": {
+        "type": "string"
+      },
+      "user": {
+        "type": "string"
+      },
+      "book": {
+        "type": "string"
+      },
+      "includes_spoilers": {
+        "type": "string"
+      },
+      "notes": {
+        "type": "string"
+      },
+      "likes_count": {
+        "type": "integer"
+      }
+    }
+  }
+}

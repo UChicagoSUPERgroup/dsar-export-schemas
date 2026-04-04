@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Follower Athlete ID": {
+      "type": "integer"
+    },
+    "Following Athlete ID": {
+      "type": "integer"
+    },
+    "Favorite Status": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "createdTime": {
+      "type": "string"
+    },
+    "modifiedTime": {
+      "type": "string"
+    },
+    "deviceSettings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "deviceTag": {
+            "type": "integer"
+          },
+          "reportingEnabled": {
+            "type": "integer"
+          },
+          "devicePrettyName": {
+            "type": "string"
+          },
+          "platformType": {
+            "type": "string"
+          },
+          "deviceCreationTime": {
+            "type": "string"
+          },
+          "latestLocationReportingSettingChange": {
+            "type": "object",
+            "properties": {
+              "reportingEnabledModificationTime": {
+                "type": "string"
+              }
+            }
+          },
+          "androidOsLevel": {
+            "type": "integer"
+          },
+          "deviceSpec": {
+            "type": "object",
+            "properties": {
+              "manufacturer": {
+                "type": "string"
+              },
+              "brand": {
+                "type": "string"
+              },
+              "product": {
+                "type": "string"
+              },
+              "device": {
+                "type": "string"
+              },
+              "model": {
+                "type": "string"
+              },
+              "isLowRam": {
+                "type": "integer"
+              }
+            }
+          },
+          "deviceActiveness": {
+            "type": "object",
+            "properties": {
+              "hasSavedTimelineData": {
+                "type": "integer"
+              }
+            }
+          }
+        }
+      }
+    },
+    "hasReportedLocations": {
+      "type": "integer"
+    },
+    "hasSetRetention": {
+      "type": "integer"
+    },
+    "storeVisitControl": {
+      "type": "object",
+      "properties": {
+        "enabled": {
+          "type": "integer"
+        },
+        "updateTime": {
+          "type": "string"
+        }
+      }
+    },
+    "encryptedBackupsControls": {
+      "type": "object",
+      "properties": {
+        "<number>": {
+          "type": "object",
+          "properties": {
+            "enabled": {
+              "type": "integer"
+            }
+          }
+        }
+      }
+    },
+    "retentionControl": {
+      "type": "object",
+      "properties": {
+        "retentionWindowDays": {
+          "type": "integer"
+        },
+        "updateTime": {
+          "type": "string"
+        }
+      }
+    },
+    "timelineEnabled": {
+      "type": "integer"
+    },
+    "timelineDeletionTime": {
+      "type": "string"
+    },
+    "latestTimelineSettingChange": {
+      "type": "object",
+      "properties": {
+        "timelineEnabledModificationTime": {
+          "type": "string"
+        }
+      }
+    },
+    "googleOpinionRewardsControl": {
+      "type": "object",
+      "properties": {
+        "enabled": {
+          "type": "integer"
+        },
+        "updateTime": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

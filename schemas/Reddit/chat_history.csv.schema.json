@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "message_id": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "updated_at": {
+      "type": "string"
+    },
+    "username": {
+      "type": "string"
+    },
+    "message": {
+      "type": "string"
+    },
+    "thread_parent_message_id": {
+      "type": "integer"
+    },
+    "channel_url": {
+      "type": "string"
+    },
+    "subreddit": {
+      "type": "integer"
+    },
+    "channel_name": {
+      "type": "string"
+    },
+    "conversation_type": {
+      "type": "string"
+    }
+  }
+}

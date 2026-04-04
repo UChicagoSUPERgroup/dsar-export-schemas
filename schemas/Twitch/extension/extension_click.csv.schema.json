@@ -1,0 +1,90 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "time": {
+      "type": "string"
+    },
+    "time_utc": {
+      "type": "string"
+    },
+    "ip": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "region": {
+      "type": "integer"
+    },
+    "asn_id": {
+      "type": "integer"
+    },
+    "channel": {
+      "type": "string"
+    },
+    "locale": {
+      "type": "string"
+    },
+    "referrer_url": {
+      "type": "integer"
+    },
+    "received_language": {
+      "type": "string"
+    },
+    "platform": {
+      "type": "string"
+    },
+    "referrer_host": {
+      "type": "string"
+    },
+    "device_id": {
+      "type": "string"
+    },
+    "preferred_language": {
+      "type": "string"
+    },
+    "url": {
+      "type": "integer"
+    },
+    "host": {
+      "type": "string"
+    },
+    "domain": {
+      "type": "string"
+    },
+    "player_type": {
+      "type": "string"
+    },
+    "channel_id": {
+      "type": "integer"
+    },
+    "login": {
+      "type": "string"
+    },
+    "login_id": {
+      "type": "integer"
+    },
+    "extension_anchor": {
+      "type": "string"
+    },
+    "extension_mode": {
+      "type": "string"
+    },
+    "element_tag": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "element_class": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    }
+  }
+}

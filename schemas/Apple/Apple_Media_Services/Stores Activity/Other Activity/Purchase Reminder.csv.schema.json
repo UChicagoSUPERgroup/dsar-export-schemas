@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Apple ID Number": {
+      "type": "string"
+    },
+    "Attempted Purchase Correlation Key": {
+      "type": "string"
+    },
+    "Event Timestamp": {
+      "type": "string"
+    },
+    "Hardware Type": {
+      "type": "string"
+    },
+    "OS Version": {
+      "type": "string"
+    },
+    "Product ID": {
+      "type": "string"
+    },
+    "Purchase Reminder": {
+      "type": "string"
+    },
+    "Purchase Reminder Eligibility Check Correlation Key": {
+      "type": "string"
+    },
+    "Purchase Reminder Reason": {
+      "type": "string"
+    },
+    "Store Front Name": {
+      "type": "string"
+    }
+  }
+}

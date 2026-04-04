@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Created": {
+      "type": "string"
+    },
+    "Track Description": {
+      "type": "string"
+    },
+    "Station Id": {
+      "type": "integer"
+    },
+    "Event Type": {
+      "type": "string"
+    },
+    "Country": {
+      "type": "string"
+    },
+    "Item Reference Number": {
+      "type": "integer"
+    }
+  }
+}

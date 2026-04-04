@@ -1,0 +1,147 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "username": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "recurly_account_status": {
+      "type": "string"
+    },
+    "first_name": {
+      "type": "string"
+    },
+    "last_name": {
+      "type": "string"
+    },
+    "zip": {
+      "type": "integer"
+    },
+    "country": {
+      "type": "integer"
+    },
+    "latitude": {
+      "type": "number"
+    },
+    "longitude": {
+      "type": "number"
+    },
+    "phone": {
+      "type": "integer"
+    },
+    "birthday": {
+      "type": "string"
+    },
+    "height": {
+      "type": "number"
+    },
+    "weight": {
+      "type": "number"
+    },
+    "about_me": {
+      "type": "integer"
+    },
+    "activities": {
+      "type": "integer"
+    },
+    "email": {
+      "type": "string"
+    },
+    "email_verified": {
+      "type": "integer"
+    },
+    "email_none": {
+      "type": "string"
+    },
+    "referrer": {
+      "type": "integer"
+    },
+    "verify": {
+      "type": "integer"
+    },
+    "status": {
+      "type": "string"
+    },
+    "status_alltrails": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "updated_at": {
+      "type": "string"
+    },
+    "verified": {
+      "type": "integer"
+    },
+    "activated_at": {
+      "type": "integer"
+    },
+    "network": {
+      "type": "integer"
+    },
+    "deleted": {
+      "type": "integer"
+    },
+    "api_logins": {
+      "type": "integer"
+    },
+    "private": {
+      "type": "integer"
+    },
+    "pro": {
+      "type": "string"
+    },
+    "admin": {
+      "type": "integer"
+    },
+    "ip": {
+      "type": "integer"
+    },
+    "source": {
+      "type": "integer"
+    },
+    "source_remote_slug": {
+      "type": "integer"
+    },
+    "remember_created_at": {
+      "type": "integer"
+    },
+    "sign_in_count": {
+      "type": "integer"
+    },
+    "current_sign_in_at": {
+      "type": "string"
+    },
+    "last_sign_in_at": {
+      "type": "string"
+    },
+    "current_sign_in_ip": {
+      "type": "string"
+    },
+    "last_sign_in_ip": {
+      "type": "string"
+    },
+    "metric": {
+      "type": "string"
+    },
+    "display_speed": {
+      "type": "string"
+    },
+    "replaced_by": {
+      "type": "integer"
+    },
+    "locale": {
+      "type": "string"
+    },
+    "referral_code": {
+      "type": "string"
+    },
+    "storefront_country": {
+      "type": "integer"
+    }
+  }
+}

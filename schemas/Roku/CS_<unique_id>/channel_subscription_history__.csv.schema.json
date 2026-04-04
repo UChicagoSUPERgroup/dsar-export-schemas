@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "date": {
+      "type": "string"
+    },
+    "product_name": {
+      "type": "string"
+    },
+    "developer": {
+      "type": "string"
+    },
+    "price": {
+      "type": "integer"
+    }
+  }
+}

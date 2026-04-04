@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Home Platform Application Permissions Grants": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    }
+  }
+}

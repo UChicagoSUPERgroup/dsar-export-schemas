@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "object": {
+      "type": "string"
+    },
+    "account_id": {
+      "type": "string"
+    },
+    "primary_payment_method": {
+      "type": "string"
+    },
+    "backup_payment_method": {
+      "type": "string"
+    },
+    "first_name": {
+      "type": "string"
+    },
+    "last_name": {
+      "type": "string"
+    },
+    "company": {
+      "type": "integer"
+    },
+    "address": {
+      "type": "string"
+    },
+    "vat_number": {
+      "type": "integer"
+    },
+    "valid": {
+      "type": "string"
+    },
+    "payment_method": {
+      "type": "string"
+    },
+    "payment_gateway_references": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "updated_at": {
+      "type": "string"
+    },
+    "updated_by": {
+      "type": "string"
+    },
+    "fraud": {
+      "type": "integer"
+    }
+  }
+}

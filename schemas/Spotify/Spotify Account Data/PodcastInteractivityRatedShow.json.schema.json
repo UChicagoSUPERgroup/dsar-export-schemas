@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "ratedShows": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "showName": {
+            "type": "string"
+          },
+          "rating": {
+            "type": "integer"
+          },
+          "ratedAt": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "LAST#": {
+      "type": "integer"
+    },
+    "EXP_MONTH": {
+      "type": "integer"
+    },
+    "EXP_YEAR": {
+      "type": "integer"
+    },
+    "TYPE": {
+      "type": "string"
+    },
+    "CREATED_AT": {
+      "type": "string"
+    },
+    "REMOVED_AT": {
+      "type": "string"
+    },
+    "COUNTRY_OF_ORIGIN": {
+      "type": "string"
+    }
+  }
+}

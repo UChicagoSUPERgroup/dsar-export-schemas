@@ -1,0 +1,251 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "integer"
+      },
+      "title": {
+        "type": "string"
+      },
+      "created_at": {
+        "type": "string"
+      },
+      "updated_at": {
+        "type": "string"
+      },
+      "is_resolved_by_user": {
+        "type": "boolean"
+      },
+      "modified_at": {
+        "type": "string"
+      },
+      "last_viewed_at": {
+        "type": "integer"
+      },
+      "display_area": {
+        "type": "integer"
+      },
+      "feedback_histories": {
+        "type": "array"
+      },
+      "message_requests": {
+        "type": "array"
+      },
+      "cm_translation_holding_queues": {
+        "type": "array"
+      },
+      "form_response": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer"
+          },
+          "is_complete": {
+            "type": "boolean"
+          },
+          "created_at": {
+            "type": "string"
+          },
+          "updated_at": {
+            "type": "string"
+          },
+          "user_agent": {
+            "type": "string"
+          },
+          "answers_complete": {
+            "type": "boolean"
+          },
+          "for_device": {
+            "type": "string"
+          },
+          "for_build": {
+            "type": "string"
+          },
+          "device_udid": {
+            "type": "string"
+          },
+          "preferred_languages": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "system_language": {
+            "type": "string"
+          },
+          "siri_language": {
+            "type": "string"
+          },
+          "accept_language": {
+            "type": "string"
+          },
+          "form": {
+            "type": "object",
+            "properties": {
+              "project_id": {
+                "type": "integer"
+              },
+              "name": {
+                "type": "string"
+              },
+              "project_status": {
+                "type": "string"
+              },
+              "project_name": {
+                "type": "string"
+              }
+            }
+          },
+          "answers": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "created_at": {
+                  "type": "string"
+                },
+                "updated_at": {
+                  "type": "string"
+                },
+                "answer_choices": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "text": {
+                        "type": "string"
+                      },
+                      "created_at": {
+                        "type": "string"
+                      },
+                      "updated_at": {
+                        "type": "string"
+                      },
+                      "english_text": {
+                        "type": "string"
+                      },
+                      "display_value": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                },
+                "question_text": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "language": {
+            "type": "object",
+            "properties": {
+              "abbreviation": {
+                "type": "string"
+              },
+              "locale_code": {
+                "type": "string"
+              }
+            }
+          },
+          "form_response_summary": {
+            "type": "object",
+            "properties": {
+              "build_name": {
+                "type": "integer"
+              },
+              "title": {
+                "type": "string"
+              },
+              "short_description": {
+                "type": "string"
+              },
+              "updated_at": {
+                "type": "string"
+              }
+            }
+          },
+          "file_promises": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "name": {
+                  "type": [
+                    "integer",
+                    "string"
+                  ]
+                },
+                "uuid": {
+                  "type": "string"
+                },
+                "started_at": {
+                  "type": [
+                    "integer",
+                    "string"
+                  ]
+                },
+                "ended_at": {
+                  "type": [
+                    "integer",
+                    "string"
+                  ]
+                },
+                "device_udid": {
+                  "type": "string"
+                },
+                "size": {
+                  "type": "integer"
+                },
+                "created_at": {
+                  "type": "string"
+                },
+                "updated_at": {
+                  "type": "string"
+                },
+                "checksum": {
+                  "type": [
+                    "integer",
+                    "string"
+                  ]
+                },
+                "build": {
+                  "type": "string"
+                },
+                "de_bundle_identifier": {
+                  "type": "string"
+                },
+                "status": {
+                  "type": "string"
+                },
+                "virus_result": {
+                  "type": "string"
+                },
+                "checksum_type": {
+                  "type": [
+                    "integer",
+                    "string"
+                  ]
+                }
+              }
+            }
+          },
+          "transient_files": {
+            "type": "array"
+          }
+        }
+      },
+      "feedback_followups": {
+        "type": "array"
+      }
+    }
+  }
+}

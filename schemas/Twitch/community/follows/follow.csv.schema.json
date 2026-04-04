@@ -1,0 +1,117 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "time": {
+      "type": "string"
+    },
+    "ip": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "region": {
+      "type": "integer"
+    },
+    "asn": {
+      "type": "string"
+    },
+    "device_id": {
+      "type": "string"
+    },
+    "channel": {
+      "type": "string"
+    },
+    "channel_game": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "host_channel": {
+      "type": "integer"
+    },
+    "source": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "login": {
+      "type": "string"
+    },
+    "logged_in": {
+      "type": "string"
+    },
+    "platform": {
+      "type": "string"
+    },
+    "partner": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "client_time": {
+      "type": "integer"
+    },
+    "vod_id": {
+      "type": "integer"
+    },
+    "cta_visible": {
+      "type": "string"
+    },
+    "user_id": {
+      "type": "integer"
+    },
+    "host_channel_id": {
+      "type": "integer"
+    },
+    "channel_id": {
+      "type": "integer"
+    },
+    "app_version": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "player": {
+      "type": "integer"
+    },
+    "game": {
+      "type": "integer"
+    },
+    "client_app": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "is_recommendation": {
+      "type": "integer"
+    },
+    "mweb_device_id": {
+      "type": "integer"
+    },
+    "multi_stream_id": {
+      "type": "integer"
+    },
+    "screen_name": {
+      "type": "integer"
+    },
+    "interaction": {
+      "type": "integer"
+    },
+    "time_utc": {
+      "type": "integer"
+    },
+    "url": {
+      "type": "integer"
+    }
+  }
+}

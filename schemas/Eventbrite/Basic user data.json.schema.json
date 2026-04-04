@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "first_name": {
+      "type": "string"
+    },
+    "last_name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "ip_address": {
+      "type": "string"
+    },
+    "close_reason": {
+      "type": "integer"
+    },
+    "assortments_plan": {
+      "type": "integer"
+    }
+  }
+}

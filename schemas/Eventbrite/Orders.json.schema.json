@@ -1,0 +1,155 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "first_name": {
+        "type": "string"
+      },
+      "last_name": {
+        "type": "string"
+      },
+      "email": {
+        "type": "string"
+      },
+      "gross": {
+        "type": "number"
+      },
+      "pp_payer_email": {
+        "type": "string"
+      },
+      "pp_receiver_email": {
+        "type": "integer"
+      },
+      "ip_address": {
+        "type": "string"
+      },
+      "event_data": {
+        "type": "object",
+        "properties": {
+          "event_name": {
+            "type": "string"
+          },
+          "organizer": {
+            "type": "string"
+          },
+          "start_date": {
+            "type": "string"
+          },
+          "end_date": {
+            "type": "string"
+          },
+          "venue": {
+            "type": [
+              "integer",
+              "string"
+            ]
+          }
+        }
+      },
+      "order_payments": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "card_type": {
+              "type": "string"
+            },
+            "last_four": {
+              "type": "integer"
+            },
+            "last_name": {
+              "type": "string"
+            },
+            "created": {
+              "type": "string"
+            },
+            "gross": {
+              "type": "number"
+            }
+          }
+        }
+      },
+      "order_addresses": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "address_line_#": {
+              "type": "integer"
+            },
+            "city": {
+              "type": [
+                "integer",
+                "string"
+              ]
+            },
+            "state": {
+              "type": [
+                "integer",
+                "string"
+              ]
+            },
+            "postal_code": {
+              "type": "integer"
+            },
+            "country": {
+              "type": [
+                "integer",
+                "string"
+              ]
+            },
+            "phone": {
+              "type": "integer"
+            },
+            "address_type": {
+              "type": "string"
+            },
+            "last_update": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "order_profiles": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "job_title": {
+              "type": [
+                "integer",
+                "string"
+              ]
+            },
+            "company": {
+              "type": [
+                "integer",
+                "string"
+              ]
+            },
+            "gender": {
+              "type": "integer"
+            },
+            "birth_date": {
+              "type": "integer"
+            },
+            "age": {
+              "type": "integer"
+            },
+            "website": {
+              "type": "integer"
+            },
+            "blog": {
+              "type": "integer"
+            },
+            "cell_phone": {
+              "type": "integer"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Apple ID Number": {
+      "type": "string"
+    },
+    "Account Status": {
+      "type": "string"
+    },
+    "Country": {
+      "type": "string"
+    },
+    "Currency": {
+      "type": "string"
+    },
+    "Date Created": {
+      "type": "string"
+    },
+    "Date Last Modified": {
+      "type": "string"
+    },
+    "Gift Account ID": {
+      "type": "string"
+    },
+    "Last Transaction ID": {
+      "type": "string"
+    },
+    "Provisioning Date": {
+      "type": "string"
+    },
+    "Provisioning Status": {
+      "type": "string"
+    },
+    "Total Balance": {
+      "type": "number"
+    },
+    "Total Credit": {
+      "type": "number"
+    },
+    "Total Debit": {
+      "type": "number"
+    },
+    "Transaction Count": {
+      "type": "integer"
+    }
+  }
+}

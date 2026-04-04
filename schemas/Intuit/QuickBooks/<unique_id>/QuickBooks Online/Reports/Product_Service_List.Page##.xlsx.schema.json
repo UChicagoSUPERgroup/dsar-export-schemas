@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Product Service List": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "My Company": {
+            "type": [
+              "integer",
+              "string"
+            ]
+          },
+          "__EMPTY": {
+            "type": "string"
+          },
+          "__EMPTY_#": {
+            "type": "string"
+          },
+          "__EMPTY_##": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

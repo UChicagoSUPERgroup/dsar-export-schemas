@@ -1,0 +1,54 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "appId": {
+      "type": "integer"
+    },
+    "userId": {
+      "type": "string"
+    },
+    "storefrontId": {
+      "type": "integer"
+    },
+    "journeyId": {
+      "type": "integer"
+    },
+    "journeyVersionId": {
+      "type": "integer"
+    },
+    "startedOn": {
+      "type": "string"
+    },
+    "stepEnteredOn": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "controlStatus": {
+      "type": "string"
+    },
+    "event_appId": {
+      "type": "integer"
+    },
+    "event_storefrontId": {
+      "type": "integer"
+    },
+    "event_userId": {
+      "type": "string"
+    },
+    "event_createdOn": {
+      "type": "string"
+    },
+    "endedOn": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    }
+  }
+}

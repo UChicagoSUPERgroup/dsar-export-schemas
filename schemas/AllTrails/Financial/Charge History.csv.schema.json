@@ -1,0 +1,147 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "object": {
+      "type": "string"
+    },
+    "amount": {
+      "type": "integer"
+    },
+    "amount_captured": {
+      "type": "integer"
+    },
+    "amount_refunded": {
+      "type": "integer"
+    },
+    "application": {
+      "type": "string"
+    },
+    "application_fee": {
+      "type": "integer"
+    },
+    "application_fee_amount": {
+      "type": "integer"
+    },
+    "balance_transaction": {
+      "type": "string"
+    },
+    "billing_details": {
+      "type": "string"
+    },
+    "calculated_statement_descriptor": {
+      "type": "string"
+    },
+    "captured": {
+      "type": "string"
+    },
+    "created": {
+      "type": "string"
+    },
+    "currency": {
+      "type": "string"
+    },
+    "customer": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "destination": {
+      "type": "integer"
+    },
+    "dispute": {
+      "type": "integer"
+    },
+    "disputed": {
+      "type": "string"
+    },
+    "failure_balance_transaction": {
+      "type": "integer"
+    },
+    "failure_code": {
+      "type": "integer"
+    },
+    "failure_message": {
+      "type": "integer"
+    },
+    "fraud_details": {
+      "type": "string"
+    },
+    "invoice": {
+      "type": "integer"
+    },
+    "livemode": {
+      "type": "string"
+    },
+    "metadata": {
+      "type": "string"
+    },
+    "on_behalf_of": {
+      "type": "integer"
+    },
+    "order": {
+      "type": "integer"
+    },
+    "outcome": {
+      "type": "string"
+    },
+    "paid": {
+      "type": "string"
+    },
+    "payment_intent": {
+      "type": "string"
+    },
+    "payment_method": {
+      "type": "string"
+    },
+    "payment_method_details": {
+      "type": "string"
+    },
+    "receipt_email": {
+      "type": "integer"
+    },
+    "receipt_number": {
+      "type": "integer"
+    },
+    "receipt_url": {
+      "type": "string"
+    },
+    "refunded": {
+      "type": "string"
+    },
+    "refunds": {
+      "type": "string"
+    },
+    "review": {
+      "type": "integer"
+    },
+    "shipping": {
+      "type": "integer"
+    },
+    "source": {
+      "type": "integer"
+    },
+    "source_transfer": {
+      "type": "integer"
+    },
+    "statement_descriptor": {
+      "type": "integer"
+    },
+    "statement_descriptor_suffix": {
+      "type": "integer"
+    },
+    "status": {
+      "type": "string"
+    },
+    "transfer_data": {
+      "type": "integer"
+    },
+    "transfer_group": {
+      "type": "integer"
+    }
+  }
+}

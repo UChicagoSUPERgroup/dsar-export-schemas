@@ -1,0 +1,102 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Business Name": {
+      "type": "string"
+    },
+    "Is Household": {
+      "type": "string"
+    },
+    "Bank Routing Number": {
+      "type": "integer"
+    },
+    "Bank Account Number": {
+      "type": "integer"
+    },
+    "Credit Card Holder Name": {
+      "type": "integer"
+    },
+    "Credit Card Number": {
+      "type": "integer"
+    },
+    "Credit Card Expiration Month": {
+      "type": "integer"
+    },
+    "Credit Card Expiration Year": {
+      "type": "integer"
+    },
+    "Credit Card Type": {
+      "type": "integer"
+    },
+    "Sign-Up Date": {
+      "type": "string"
+    },
+    "Terminated On": {
+      "type": "integer"
+    },
+    "Termination Reason": {
+      "type": "string"
+    },
+    "Date of Contract Received": {
+      "type": "integer"
+    },
+    "Filing Name": {
+      "type": "integer"
+    },
+    "Is Direct Deposit Enabled?": {
+      "type": "string"
+    },
+    "Bank Account Type": {
+      "type": "string"
+    },
+    "Is Filing Address same as Business Address?": {
+      "type": "string"
+    },
+    "Filing Address": {
+      "type": "integer"
+    },
+    "Billing Activation Date": {
+      "type": "string"
+    },
+    "Tax Address": {
+      "type": "integer"
+    },
+    "Is Billing Address same as Business Address?": {
+      "type": "string"
+    },
+    "Billing Address": {
+      "type": "integer"
+    },
+    "Bank Account TIN": {
+      "type": "integer"
+    },
+    "Industry": {
+      "type": "integer"
+    },
+    "Principal Name": {
+      "type": "integer"
+    },
+    "Principal SSN": {
+      "type": "integer"
+    },
+    "Filing Type": {
+      "type": "string"
+    },
+    "Exporting To": {
+      "type": "integer"
+    },
+    "Region": {
+      "type": "string"
+    },
+    "Service Type": {
+      "type": "string"
+    },
+    "Export QBO Company ID": {
+      "type": "integer"
+    },
+    "Principal Address": {
+      "type": "integer"
+    }
+  }
+}

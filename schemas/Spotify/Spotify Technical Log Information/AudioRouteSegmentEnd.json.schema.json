@@ -1,0 +1,60 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "context_time": {
+        "type": "string"
+      },
+      "context_receiver_service_timestamp": {
+        "type": "string"
+      },
+      "context_device_manufacturer": {
+        "type": "string"
+      },
+      "context_device_model": {
+        "type": "string"
+      },
+      "context_device_type": {
+        "type": "string"
+      },
+      "context_os_name": {
+        "type": "string"
+      },
+      "context_os_version": {
+        "type": "string"
+      },
+      "context_application_version": {
+        "type": "string"
+      },
+      "context_conn_country": {
+        "type": "string"
+      },
+      "message_playback_id": {
+        "type": "string"
+      },
+      "message_reason": {
+        "type": "string"
+      },
+      "message_current_route_name": {
+        "type": "string"
+      },
+      "message_current_route_type": {
+        "type": "string"
+      },
+      "message_previous_route_id": {
+        "type": "integer"
+      },
+      "message_previous_route_name": {
+        "type": "integer"
+      },
+      "message_previous_route_type": {
+        "type": "integer"
+      },
+      "timestamp_utc": {
+        "type": "string"
+      }
+    }
+  }
+}

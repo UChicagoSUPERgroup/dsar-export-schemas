@@ -1,0 +1,468 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Address Result": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Analytics Variant": {
+      "type": "string"
+    },
+    "Analytics Variant IDs": {
+      "type": "string"
+    },
+    "App Subscription": {
+      "type": "integer"
+    },
+    "Apple Card Family Account ID": {
+      "type": "integer"
+    },
+    "Apple ID Number": {
+      "type": "string"
+    },
+    "Apple Music Free Trial": {
+      "type": "integer"
+    },
+    "Apple Music Subscription": {
+      "type": "integer"
+    },
+    "Apple Music Upgrade": {
+      "type": "integer"
+    },
+    "Application Name": {
+      "type": "string"
+    },
+    "Application Reference": {
+      "type": "integer"
+    },
+    "Area ID": {
+      "type": "string"
+    },
+    "Authorization Amount": {
+      "type": "number"
+    },
+    "Authorization Card Processor": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Authorization Card Processor ID": {
+      "type": "integer"
+    },
+    "Authorization ID": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Authorization Key ID": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Authorization List": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Authorization Result": {
+      "type": "integer"
+    },
+    "Authorization Result Type": {
+      "type": "integer"
+    },
+    "Authorization Time": {
+      "type": "integer"
+    },
+    "Authorization Type": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Billing Information": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Camera Redemption": {
+      "type": "integer"
+    },
+    "Chargeback Reason": {
+      "type": "integer"
+    },
+    "Client ID": {
+      "type": "integer"
+    },
+    "Commerce Flow": {
+      "type": "string"
+    },
+    "Commerce Flow Type": {
+      "type": "string"
+    },
+    "Correlation Key": {
+      "type": "string"
+    },
+    "Country": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "CVV Correction": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "CVV Result": {
+      "type": "integer"
+    },
+    "Device Hardware Family": {
+      "type": "string"
+    },
+    "Device Hardware Model": {
+      "type": "string"
+    },
+    "Device Identifier": {
+      "type": "string"
+    },
+    "Event Date": {
+      "type": "string"
+    },
+    "Event Duration": {
+      "type": "integer"
+    },
+    "Event Time": {
+      "type": "string"
+    },
+    "Event Type": {
+      "type": "string"
+    },
+    "Family Status": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Head of Household ID": {
+      "type": "integer"
+    },
+    "Initial Failed Purchased Start Date": {
+      "type": "integer"
+    },
+    "IP": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "IP City": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "IP Country Code": {
+      "type": "string"
+    },
+    "IP Latitude": {
+      "type": "number"
+    },
+    "IP Longitude": {
+      "type": "number"
+    },
+    "IP Network": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "IP Network Type": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "IP Region Code": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Item Purchased Date": {
+      "type": "string"
+    },
+    "Last Automatic Renewal Disabled Date": {
+      "type": "integer"
+    },
+    "Last Automatic Renewal Enabled Date": {
+      "type": "integer"
+    },
+    "Metrics Event Time": {
+      "type": "integer"
+    },
+    "Notification Type": {
+      "type": "integer"
+    },
+    "Operating System": {
+      "type": "string"
+    },
+    "Operating System Version": {
+      "type": [
+        "number",
+        "string"
+      ]
+    },
+    "Original Source": {
+      "type": "string"
+    },
+    "Page Context": {
+      "type": "integer"
+    },
+    "Page ID": {
+      "type": "integer"
+    },
+    "Page Type": {
+      "type": "integer"
+    },
+    "Partner ID": {
+      "type": "integer"
+    },
+    "Process Step": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Purchase Country Code": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Purchase Error": {
+      "type": "integer"
+    },
+    "Purchase id": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Purchase Reference Number": {
+      "type": "integer"
+    },
+    "Purchase Result": {
+      "type": "string"
+    },
+    "Purchase Session Subtotal": {
+      "type": "number"
+    },
+    "Purchased Items Application Name": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Purchased Items Content Type": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Purchased Items Genres": {
+      "type": "string"
+    },
+    "Purchased Items Key": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Purchased Items Name": {
+      "type": "string"
+    },
+    "Purchased Items Price": {
+      "type": "number"
+    },
+    "Purchased Items Price Paid": {
+      "type": [
+        "number",
+        "string"
+      ]
+    },
+    "Purchased Items Product Type": {
+      "type": "integer"
+    },
+    "Purchased Items Transaction Type": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Recovery Authorization ID": {
+      "type": "integer"
+    },
+    "Storefront": {
+      "type": "string"
+    },
+    "Subscription Apple Music": {
+      "type": "integer"
+    },
+    "Subscription Application ID": {
+      "type": "integer"
+    },
+    "Subscription Application Version": {
+      "type": "integer"
+    },
+    "Subscription Attempt ID": {
+      "type": "integer"
+    },
+    "Subscription Automatic Renewal?": {
+      "type": "integer"
+    },
+    "Subscription Catalog Name": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Subscription Deleted": {
+      "type": "integer"
+    },
+    "Subscription Duration": {
+      "type": "integer"
+    },
+    "Subscription Failure Count": {
+      "type": "integer"
+    },
+    "Subscription Family ID": {
+      "type": "integer"
+    },
+    "Subscription Flag": {
+      "type": "integer"
+    },
+    "Subscription Grace Period": {
+      "type": "integer"
+    },
+    "Subscription iCloud": {
+      "type": "integer"
+    },
+    "Subscription ID": {
+      "type": "integer"
+    },
+    "Subscription Initiated Date": {
+      "type": "integer"
+    },
+    "Subscription iTunes Match": {
+      "type": "integer"
+    },
+    "Subscription Period": {
+      "type": "integer"
+    },
+    "Subscription Price Paid": {
+      "type": "number"
+    },
+    "Subscription Product Type": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Subscription Purchase Details": {
+      "type": "integer"
+    },
+    "Subscription Purchase ID": {
+      "type": "integer"
+    },
+    "Subscription Purchase List": {
+      "type": "integer"
+    },
+    "Subscription Renewal": {
+      "type": "integer"
+    },
+    "Subscription Renewal ID": {
+      "type": "integer"
+    },
+    "Subscription Retry": {
+      "type": "integer"
+    },
+    "Subscription Retry Count": {
+      "type": "integer"
+    },
+    "Subscription Retry Type": {
+      "type": "integer"
+    },
+    "Subscription Status": {
+      "type": "integer"
+    },
+    "Subscription Storefront": {
+      "type": "integer"
+    },
+    "Subscription Storefront  Automatic Renewal?": {
+      "type": "integer"
+    },
+    "Timestamp": {
+      "type": "integer"
+    },
+    "Topic": {
+      "type": "string"
+    },
+    "Total Purchase": {
+      "type": "string"
+    },
+    "Total Purchase Commerce": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Total Purchase Details": {
+      "type": "string"
+    },
+    "Total Purchase Paid": {
+      "type": "number"
+    },
+    "Total Purchase Price": {
+      "type": "number"
+    },
+    "Total Purchase Status": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Total Purchase Type": {
+      "type": "string"
+    },
+    "Transaction Types": {
+      "type": "string"
+    },
+    "User Agent": {
+      "type": "string"
+    },
+    "Web Order": {
+      "type": "integer"
+    },
+    "Zip Code Check": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Zip Code Result": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    }
+  }
+}

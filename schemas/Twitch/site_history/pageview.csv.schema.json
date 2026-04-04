@@ -1,0 +1,327 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "time": {
+      "type": "string"
+    },
+    "ip": {
+      "type": "string"
+    },
+    "city": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "country": {
+      "type": "string"
+    },
+    "region": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "device_id": {
+      "type": "string"
+    },
+    "browser": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "channel": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "collapse_left": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "collapse_right": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "domain": {
+      "type": "string"
+    },
+    "game": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "host": {
+      "type": "string"
+    },
+    "is_live": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "is_preset": {
+      "type": "integer"
+    },
+    "is_turbo": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "player": {
+      "type": "integer"
+    },
+    "preferred_language": {
+      "type": "string"
+    },
+    "received_language": {
+      "type": "string"
+    },
+    "language": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "referrer_host": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "referrer_domain": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "viewport_height": {
+      "type": "integer"
+    },
+    "asn": {
+      "type": "string"
+    },
+    "num_live_channels": {
+      "type": "integer"
+    },
+    "login": {
+      "type": "string"
+    },
+    "num_host_channels": {
+      "type": "integer"
+    },
+    "num_live_games": {
+      "type": "integer"
+    },
+    "system_version": {
+      "type": "integer"
+    },
+    "device_model": {
+      "type": "integer"
+    },
+    "device_software": {
+      "type": "integer"
+    },
+    "client_time": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "is_following": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "num_language_channels": {
+      "type": "integer"
+    },
+    "collapse_language": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "vod_id": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "content_filter": {
+      "type": "integer"
+    },
+    "content_type": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "query": {
+      "type": "integer"
+    },
+    "medium": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "content": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "app_fullscreen": {
+      "type": "integer"
+    },
+    "app_window_width": {
+      "type": "integer"
+    },
+    "app_window_height": {
+      "type": "integer"
+    },
+    "localized_channels_int": {
+      "type": "integer"
+    },
+    "page": {
+      "type": "integer"
+    },
+    "content_index": {
+      "type": "integer"
+    },
+    "viewport_width": {
+      "type": "integer"
+    },
+    "device_software_int": {
+      "type": "integer"
+    },
+    "channel_id": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "user_id": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "orientation": {
+      "type": "integer"
+    },
+    "referrer": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "referrer_url": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "url": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "platform": {
+      "type": "string"
+    },
+    "time_utc": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "device_type": {
+      "type": "integer"
+    },
+    "client_app": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "app_version": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "destination": {
+      "type": "integer"
+    },
+    "device_fingerprint": {
+      "type": "integer"
+    },
+    "adblock": {
+      "type": "integer"
+    },
+    "device_manufacturer": {
+      "type": "integer"
+    },
+    "email_id": {
+      "type": "integer"
+    },
+    "localstorage_device_id": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "session_device_id": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "tab": {
+      "type": "integer"
+    },
+    "organization_id": {
+      "type": "integer"
+    },
+    "browser_family": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "browser_version": {
+      "type": "number"
+    },
+    "theme": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "os_name": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "os_version": {
+      "type": "integer"
+    },
+    "client_offline": {
+      "type": "integer"
+    }
+  }
+}

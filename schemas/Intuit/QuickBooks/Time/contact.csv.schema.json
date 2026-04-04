@@ -1,0 +1,69 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "client_id": {
+      "type": "integer"
+    },
+    "active": {
+      "type": "integer"
+    },
+    "company_name": {
+      "type": "integer"
+    },
+    "fname": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "lname": {
+      "type": "integer"
+    },
+    "email": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "email_verified": {
+      "type": "integer"
+    },
+    "address#": {
+      "type": "integer"
+    },
+    "city": {
+      "type": "integer"
+    },
+    "state": {
+      "type": "integer"
+    },
+    "zip": {
+      "type": "integer"
+    },
+    "country": {
+      "type": "string"
+    },
+    "intuit_known_address": {
+      "type": "integer"
+    },
+    "phone": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "cell_phone": {
+      "type": "integer"
+    },
+    "ctime": {
+      "type": "string"
+    },
+    "mtime": {
+      "type": "string"
+    }
+  }
+}

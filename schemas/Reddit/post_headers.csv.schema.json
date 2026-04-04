@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "permalink": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string"
+    },
+    "ip": {
+      "type": "integer"
+    },
+    "subreddit": {
+      "type": "string"
+    },
+    "gildings": {
+      "type": "integer"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

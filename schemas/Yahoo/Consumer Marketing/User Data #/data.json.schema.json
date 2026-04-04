@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Best Product Offer": {
+      "type": "string"
+    },
+    "Email Subscriptions": {
+      "type": "object",
+      "properties": {
+        "Newsletter Preferences": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "Offers": {
+          "type": "string"
+        }
+      }
+    },
+    "Apple Device": {
+      "type": "string"
+    },
+    "Yahoo Network Activity": {
+      "type": "string"
+    }
+  }
+}

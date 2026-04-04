@@ -1,0 +1,108 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "day_pt": {
+      "type": "string"
+    },
+    "game_names_clean_l###": {
+      "type": "array"
+    },
+    "game_names_clean_l##": {
+      "type": "array"
+    },
+    "genre_names_l##": {
+      "type": "array"
+    },
+    "primary_platform_l##": {
+      "type": "string"
+    },
+    "reg_country_code": {
+      "type": "string"
+    },
+    "reg_region": {
+      "type": "string"
+    },
+    "user_id": {
+      "type": "string"
+    },
+    "has_active_mobile_subscription": {
+      "type": "integer"
+    },
+    "game_ids_l###": {
+      "type": "array",
+      "items": {
+        "type": [
+          "integer",
+          "string"
+        ]
+      }
+    },
+    "game_ids_l##": {
+      "type": "array",
+      "items": {
+        "type": [
+          "integer",
+          "string"
+        ]
+      }
+    },
+    "genre_ids_l##": {
+      "type": "array",
+      "items": {
+        "type": "integer"
+      }
+    },
+    "quest_history_enrolled": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "quest_history_reward_claimed": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "has_active_subscription": {
+      "type": "integer"
+    },
+    "subscription_premium_type": {
+      "type": "integer"
+    },
+    "is_underage": {
+      "type": "integer"
+    },
+    "age_group": {
+      "type": "string"
+    },
+    "reg_region_code": {
+      "type": "string"
+    },
+    "theme_ids_l##": {
+      "type": "array",
+      "items": {
+        "type": "integer"
+      }
+    },
+    "ml_genre_ids_v#": {
+      "type": "array",
+      "items": {
+        "type": "integer"
+      }
+    },
+    "theme_names_l##": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "mobile_genre_names": {
+      "type": "array"
+    },
+    "ml_mobile_genre_names_v#": {
+      "type": "array"
+    }
+  }
+}

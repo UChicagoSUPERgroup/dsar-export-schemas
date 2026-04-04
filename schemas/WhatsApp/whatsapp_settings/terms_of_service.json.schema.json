@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "wa_terms_of_service": {
+      "type": "object",
+      "properties": {
+        "tos_accepted_YYYY": {
+          "type": [
+            "boolean",
+            "integer"
+          ]
+        },
+        "data_sharing_opt_out": {
+          "type": [
+            "boolean",
+            "integer"
+          ]
+        },
+        "tos_accept_time_YYYY": {
+          "type": "string"
+        },
+        "wamo_pptos_accepted": {
+          "type": "boolean"
+        },
+        "wamo_pptos_accept_time": {
+          "type": "string"
+        },
+        "data_sharing_opt_out_time": {
+          "type": "string"
+        },
+        "metabot_invoke_tos_accepted": {
+          "type": "boolean"
+        },
+        "metabot_invoke_tos_accept_time": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

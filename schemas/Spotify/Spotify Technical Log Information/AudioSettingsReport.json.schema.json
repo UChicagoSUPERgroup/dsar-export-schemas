@@ -1,0 +1,111 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "context_time": {
+        "type": "string"
+      },
+      "context_receiver_service_timestamp": {
+        "type": "string"
+      },
+      "context_device_manufacturer": {
+        "type": "string"
+      },
+      "context_device_model": {
+        "type": "string"
+      },
+      "context_device_type": {
+        "type": "string"
+      },
+      "context_os_name": {
+        "type": "string"
+      },
+      "context_os_version": {
+        "type": "string"
+      },
+      "context_application_version": {
+        "type": "string"
+      },
+      "context_conn_country": {
+        "type": "string"
+      },
+      "message_offline_mode": {
+        "type": "boolean"
+      },
+      "message_default_play_bitrate_product_state": {
+        "type": "integer"
+      },
+      "message_user_selected_bitrate": {
+        "type": "integer"
+      },
+      "message_play_bitrate": {
+        "type": "integer"
+      },
+      "message_low_bitrate_on_cellular": {
+        "type": "integer"
+      },
+      "message_default_sync_bitrate_product_state": {
+        "type": "integer"
+      },
+      "message_user_selected_sync_bitrate": {
+        "type": "integer"
+      },
+      "message_sync_bitrate": {
+        "type": "integer"
+      },
+      "message_sync_over_cellular": {
+        "type": "integer"
+      },
+      "message_enable_gapless_product_state": {
+        "type": "string"
+      },
+      "message_enable_gapless": {
+        "type": "boolean"
+      },
+      "message_enable_crossfade_product_state": {
+        "type": "string"
+      },
+      "message_enable_crossfade": {
+        "type": "boolean"
+      },
+      "message_crossfade_time": {
+        "type": "integer"
+      },
+      "message_enable_normalization": {
+        "type": "boolean"
+      },
+      "message_playback_speed": {
+        "type": "integer"
+      },
+      "message_audio_loudness_level": {
+        "type": "string"
+      },
+      "message_enable_automix": {
+        "type": "boolean"
+      },
+      "message_enable_silence_trimmer": {
+        "type": "integer"
+      },
+      "message_enable_mono_downmixer": {
+        "type": "boolean"
+      },
+      "message_send_reason": {
+        "type": "string"
+      },
+      "message_change_list": {
+        "type": "integer"
+      },
+      "message_enable_equalizer": {
+        "type": "boolean"
+      },
+      "message_enable_dynamic_normalizer": {
+        "type": "boolean"
+      },
+      "timestamp_utc": {
+        "type": "string"
+      }
+    }
+  }
+}

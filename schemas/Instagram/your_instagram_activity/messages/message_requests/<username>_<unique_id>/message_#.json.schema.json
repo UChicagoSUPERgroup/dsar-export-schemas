@@ -1,0 +1,69 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "participants": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "messages": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "sender_name": {
+            "type": "string"
+          },
+          "timestamp_ms": {
+            "type": "string"
+          },
+          "content": {
+            "type": "string"
+          },
+          "is_geoblocked_for_viewer": {
+            "type": "boolean"
+          },
+          "is_unsent_image_by_messenger_kid_parent": {
+            "type": "boolean"
+          },
+          "share": {
+            "type": "object",
+            "properties": {
+              "link": {
+                "type": "string"
+              },
+              "share_text": {
+                "type": "integer"
+              },
+              "original_content_owner": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "title": {
+      "type": "string"
+    },
+    "is_still_participant": {
+      "type": "boolean"
+    },
+    "thread_path": {
+      "type": "string"
+    },
+    "magic_words": {
+      "type": "array"
+    },
+    "is_pending": {
+      "type": "boolean"
+    }
+  }
+}

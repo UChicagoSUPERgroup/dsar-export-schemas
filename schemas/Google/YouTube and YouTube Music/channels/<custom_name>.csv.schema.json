@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Channel ID": {
+      "type": "string"
+    },
+    "Channel Title (Original)": {
+      "type": "string"
+    },
+    "Channel Visibility": {
+      "type": "string"
+    },
+    "Channel Auto Moderation in Live Chat": {
+      "type": "string"
+    },
+    "Video Default Allowed Comments Type": {
+      "type": "string"
+    },
+    "Video Default Targeted Audience": {
+      "type": "string"
+    },
+    "Video Default License": {
+      "type": "string"
+    },
+    "Video Default Location Latitude": {
+      "type": "integer"
+    },
+    "Video Default Location Longitude": {
+      "type": "integer"
+    },
+    "Channel Vanity URL # Name": {
+      "type": "string"
+    }
+  }
+}

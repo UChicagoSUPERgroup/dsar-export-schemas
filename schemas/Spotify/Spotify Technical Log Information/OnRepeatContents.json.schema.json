@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "context_time": {
+        "type": "string"
+      },
+      "message_mix_id": {
+        "type": "string"
+      },
+      "message_contents": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "message_type": {
+        "type": "string"
+      },
+      "timestamp_utc": {
+        "type": "string"
+      }
+    }
+  }
+}

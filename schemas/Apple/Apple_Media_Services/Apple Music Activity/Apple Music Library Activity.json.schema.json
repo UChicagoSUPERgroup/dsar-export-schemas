@@ -1,0 +1,420 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "Transaction Type": {
+        "type": "string"
+      },
+      "Transaction Identifier": {
+        "type": "integer"
+      },
+      "Transaction Date": {
+        "type": "string"
+      },
+      "UserAgent": {
+        "type": "string"
+      },
+      "Subscription Start Date": {
+        "type": "string"
+      },
+      "Subscription Type": {
+        "type": "string"
+      },
+      "User": {
+        "type": "object",
+        "properties": {
+          "Subscription Start Date": {
+            "type": "string"
+          },
+          "Subscription Types": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "Add Playlist Songs Setting": {
+            "type": "string"
+          },
+          "Add Song Setting": {
+            "type": "string"
+          }
+        }
+      },
+      "Country": {
+        "type": "string"
+      },
+      "Language": {
+        "type": "string"
+      },
+      "Tracks": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "Content Type": {
+              "type": "string"
+            },
+            "Track Identifier": {
+              "type": "integer"
+            },
+            "Title": {
+              "type": [
+                "integer",
+                "string"
+              ]
+            },
+            "Sort Name": {
+              "type": "string"
+            },
+            "Artist": {
+              "type": "string"
+            },
+            "Sort Artist": {
+              "type": "string"
+            },
+            "Album": {
+              "type": "string"
+            },
+            "Sort Album": {
+              "type": "string"
+            },
+            "Album Artist": {
+              "type": "string"
+            },
+            "Genre": {
+              "type": "string"
+            },
+            "Track Year": {
+              "type": "integer"
+            },
+            "Track Number On Album": {
+              "type": "integer"
+            },
+            "Track Count On Album": {
+              "type": "integer"
+            },
+            "Disc Number Of Album": {
+              "type": "integer"
+            },
+            "Disc Count Of Album": {
+              "type": "integer"
+            },
+            "Track Duration": {
+              "type": "integer"
+            },
+            "Date Added To Library": {
+              "type": "string"
+            },
+            "Date Added To iCloud Music Library": {
+              "type": "string"
+            },
+            "Last Modified Date": {
+              "type": "string"
+            },
+            "Purchase Date": {
+              "type": "string"
+            },
+            "Is Purchased": {
+              "type": "boolean"
+            },
+            "Audio File Extension": {
+              "type": "string"
+            },
+            "Release Date": {
+              "type": "string"
+            },
+            "Purchased Track Identifier": {
+              "type": [
+                "integer",
+                "string"
+              ]
+            },
+            "Audio Matched Track Identifier": {
+              "type": [
+                "integer",
+                "string"
+              ]
+            },
+            "Composer": {
+              "type": "string"
+            },
+            "Is Part of Compilation": {
+              "type": "boolean"
+            },
+            "Track Play Count": {
+              "type": "integer"
+            },
+            "Rating": {
+              "type": "integer"
+            },
+            "Album Rating": {
+              "type": "integer"
+            },
+            "Skip Count": {
+              "type": "integer"
+            },
+            "Remember Playback Position": {
+              "type": "boolean"
+            },
+            "Is Checked": {
+              "type": "boolean"
+            },
+            "Last Played Date": {
+              "type": "string"
+            },
+            "Apple Music Track Identifier": {
+              "type": [
+                "integer",
+                "string"
+              ]
+            },
+            "Beats Per Minute": {
+              "type": "integer"
+            },
+            "Comments": {
+              "type": "string"
+            },
+            "Tag Matched Track Identifier": {
+              "type": [
+                "integer",
+                "string"
+              ]
+            },
+            "Playlist Only Track": {
+              "type": "boolean"
+            },
+            "Album Rating Method": {
+              "type": "string"
+            },
+            "Track Like Rating": {
+              "type": "string"
+            },
+            "Favorite Status - Track": {
+              "type": "boolean"
+            },
+            "Favorite Date - Track": {
+              "type": "string"
+            },
+            "Album Like Rating": {
+              "type": "string"
+            },
+            "Favorite Status - Album": {
+              "type": "boolean"
+            },
+            "Favorite Date - Album": {
+              "type": "string"
+            },
+            "Date of Last Skip": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "Playlists": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "Container Type": {
+              "type": "string"
+            },
+            "Container Identifier": {
+              "type": "integer"
+            },
+            "Title": {
+              "type": [
+                "integer",
+                "string"
+              ]
+            },
+            "Playlist Item Identifiers": {
+              "type": "array",
+              "items": {
+                "type": "integer"
+              }
+            },
+            "Added Date": {
+              "type": "string"
+            },
+            "Name or Description Modified Date": {
+              "type": "string"
+            },
+            "Playlist Items Modified Date": {
+              "type": "string"
+            },
+            "Description": {
+              "type": "string"
+            },
+            "Playlist Is Shared": {
+              "type": "boolean"
+            },
+            "Available On Apple Music Profile": {
+              "type": "boolean"
+            }
+          }
+        }
+      },
+      "Playlist": {
+        "type": "object",
+        "properties": {
+          "Container Type": {
+            "type": "string"
+          },
+          "Container Identifier": {
+            "type": "integer"
+          },
+          "Title": {
+            "type": [
+              "integer",
+              "string"
+            ]
+          },
+          "Public Playlist Identifier": {
+            "type": "string"
+          },
+          "Playlist Is Shared": {
+            "type": "boolean"
+          },
+          "Playlist Previously Shared": {
+            "type": "boolean"
+          },
+          "Added Date": {
+            "type": "string"
+          },
+          "Available On Apple Music Profile": {
+            "type": "boolean"
+          },
+          "Name or Description Modified Date": {
+            "type": "string"
+          },
+          "Playlist Items Modified Date": {
+            "type": "string"
+          },
+          "Playlist Item Identifiers": {
+            "type": "array",
+            "items": {
+              "type": "integer"
+            }
+          },
+          "Parent Folder Identifier": {
+            "type": "integer"
+          },
+          "Description": {
+            "type": [
+              "integer",
+              "string"
+            ]
+          },
+          "Favorite Status - Playlist": {
+            "type": "boolean"
+          },
+          "Favorite Date - Playlist": {
+            "type": "string"
+          },
+          "Suppressed Fields": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "Playlist Identifier": {
+        "type": "integer"
+      },
+      "Playlist Item Identifiers Appended": {
+        "type": "array",
+        "items": {
+          "type": "integer"
+        }
+      },
+      "Track Identifiers": {
+        "type": "array",
+        "items": {
+          "type": "integer"
+        }
+      },
+      "Modified Container Identifiers": {
+        "type": "array",
+        "items": {
+          "type": "integer"
+        }
+      },
+      "Artists": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "Artist Identifier": {
+              "type": "string"
+            },
+            "Is Favorite": {
+              "type": "boolean"
+            }
+          }
+        }
+      },
+      "Public Playlist Identifier": {
+        "type": "string"
+      },
+      "Artist Catalog Identifier": {
+        "type": "array",
+        "items": {
+          "type": [
+            "integer",
+            "string"
+          ]
+        }
+      },
+      "Liked Status": {
+        "type": "string"
+      },
+      "Playlist Identifiers Set From Profile": {
+        "type": "array",
+        "items": {
+          "type": "integer"
+        }
+      },
+      "Playlist Identifiers Added From Profile": {
+        "type": "array",
+        "items": {
+          "type": "integer"
+        }
+      },
+      "Albums": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "Album Identifier": {
+              "type": "string"
+            },
+            "Is Favorite": {
+              "type": "boolean"
+            }
+          }
+        }
+      },
+      "Collaboration Identifier": {
+        "type": "string"
+      },
+      "Collaboration Playlist Identifier": {
+        "type": "integer"
+      },
+      "Source Playlist Identifier": {
+        "type": "integer"
+      },
+      "Undeleted Source Playlist Identifier": {
+        "type": "integer"
+      },
+      "Subscription End Date": {
+        "type": "string"
+      },
+      "Subscription Types": {
+        "type": "string"
+      }
+    }
+  }
+}

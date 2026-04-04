@@ -1,0 +1,69 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "subscriber_user_id": {
+      "type": "integer"
+    },
+    "channel_login": {
+      "type": "string"
+    },
+    "access_start": {
+      "type": "string"
+    },
+    "access_end": {
+      "type": "string"
+    },
+    "is_paid": {
+      "type": "string"
+    },
+    "is_recurring": {
+      "type": "string"
+    },
+    "is_token_sub": {
+      "type": "string"
+    },
+    "is_prime_sub": {
+      "type": "string"
+    },
+    "is_gift": {
+      "type": "string"
+    },
+    "is_community_gift": {
+      "type": "string"
+    },
+    "is_anonymous_gift": {
+      "type": "string"
+    },
+    "is_auto_renewal": {
+      "type": "string"
+    },
+    "is_cancelled_early": {
+      "type": "string"
+    },
+    "is_prime_to_paid": {
+      "type": "string"
+    },
+    "is_gift_to_paid": {
+      "type": "string"
+    },
+    "is_tier_upgrade": {
+      "type": "string"
+    },
+    "subscription_cancelled_at": {
+      "type": "integer"
+    },
+    "subscription_cancel_reason": {
+      "type": "integer"
+    },
+    "gift_quantity": {
+      "type": "integer"
+    },
+    "promotion_name": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    }
+  }
+}

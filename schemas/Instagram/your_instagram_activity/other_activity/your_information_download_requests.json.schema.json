@@ -1,0 +1,38 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "timestamp": {
+      "type": "string"
+    },
+    "media": {
+      "type": "array"
+    },
+    "label_values": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "label": {
+            "type": "string"
+          },
+          "timestamp_value": {
+            "type": "string"
+          },
+          "value": {
+            "type": [
+              "integer",
+              "string"
+            ]
+          },
+          "vec": {
+            "type": "array"
+          }
+        }
+      }
+    },
+    "fbid": {
+      "type": "string"
+    }
+  }
+}

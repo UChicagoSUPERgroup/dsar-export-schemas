@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "Title": {
+        "type": "string"
+      },
+      "Description": {
+        "type": "string"
+      },
+      "Paid date": {
+        "type": "string"
+      },
+      "Shipped date": {
+        "type": "string"
+      },
+      "Price": {
+        "type": "number"
+      },
+      "Shipping cost": {
+        "type": "number"
+      },
+      "url": {
+        "type": "string"
+      }
+    }
+  }
+}

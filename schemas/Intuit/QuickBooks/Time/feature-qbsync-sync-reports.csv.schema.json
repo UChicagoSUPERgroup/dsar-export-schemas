@@ -1,0 +1,80 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "client_id": {
+      "type": [
+        "integer",
+        "null",
+        "string"
+      ]
+    },
+    "sync_id": {
+      "type": [
+        "integer",
+        "null",
+        "string"
+      ]
+    },
+    "sync_list": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "direction": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "imported": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "exported": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "updated": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "errors": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "error_html": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "imported_html": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "exported_html": {
+      "type": "null"
+    },
+    "updated_html": {
+      "type": "null"
+    }
+  }
+}

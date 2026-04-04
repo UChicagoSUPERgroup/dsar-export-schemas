@@ -1,0 +1,168 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Cancellation ID": {
+      "type": "integer"
+    },
+    "Charge Amount": {
+      "type": "number"
+    },
+    "Amount": {
+      "type": "number"
+    },
+    "Charge Details": {
+      "type": "string"
+    },
+    "Charge Reason": {
+      "type": "string"
+    },
+    "Currency": {
+      "type": "integer"
+    },
+    "Effective Date": {
+      "type": "string"
+    },
+    "External Line Item ID": {
+      "type": "string"
+    },
+    "External Subscription ID": {
+      "type": "string"
+    },
+    "Family ID": {
+      "type": "integer"
+    },
+    "Free Trial Length": {
+      "type": "integer"
+    },
+    "Hard Cancellation Indicator": {
+      "type": "integer"
+    },
+    "Immediately Effective Indicator": {
+      "type": "integer"
+    },
+    "Intro Offer Count": {
+      "type": "integer"
+    },
+    "Intro Offer Length": {
+      "type": "string"
+    },
+    "Item Reference Number": {
+      "type": "string"
+    },
+    "Line Item Creation Date": {
+      "type": "string"
+    },
+    "Line Item Creation Modification Date": {
+      "type": "string"
+    },
+    "Line Item Status": {
+      "type": "integer"
+    },
+    "Next Renewal Date": {
+      "type": "integer"
+    },
+    "Partner Line Item Detail Creation Date": {
+      "type": "string"
+    },
+    "Partner Line Item Detail ID": {
+      "type": "string"
+    },
+    "Partner Line Item Detail Modification Date": {
+      "type": "string"
+    },
+    "Partner Line Item Number": {
+      "type": "string"
+    },
+    "Partner Product ID": {
+      "type": "string"
+    },
+    "Partner Subscription Event Creation Date": {
+      "type": "string"
+    },
+    "Partner Subscription Event ID": {
+      "type": "string"
+    },
+    "Partner Subscription Event Modification Date": {
+      "type": "string"
+    },
+    "Partner Subscription ID": {
+      "type": "string"
+    },
+    "Plan Change Type": {
+      "type": "integer"
+    },
+    "Post Trial Renewal Indicator": {
+      "type": "integer"
+    },
+    "Primary Product Group ID": {
+      "type": "integer"
+    },
+    "Primary Product ID": {
+      "type": "string"
+    },
+    "Product ID": {
+      "type": "string"
+    },
+    "Purchase Line Item ID": {
+      "type": "string"
+    },
+    "Refund Details": {
+      "type": "integer"
+    },
+    "Refund Type": {
+      "type": "integer"
+    },
+    "Renewal Details": {
+      "type": "string"
+    },
+    "Renewal Indicator": {
+      "type": "integer"
+    },
+    "Renewal Period": {
+      "type": "string"
+    },
+    "Retain Billing Cycle Indicator": {
+      "type": "integer"
+    },
+    "Scheduled Charge Types": {
+      "type": "integer"
+    },
+    "Standalone Subscription Indicator": {
+      "type": "integer"
+    },
+    "Subscription Creation Date": {
+      "type": "string"
+    },
+    "Subscription Description": {
+      "type": "string"
+    },
+    "Line Item Product Description": {
+      "type": "string"
+    },
+    "Subscription ID": {
+      "type": "string"
+    },
+    "Subscription Modification Date": {
+      "type": "string"
+    },
+    "Subscription Name": {
+      "type": "string"
+    },
+    "Line Item Product Name": {
+      "type": "string"
+    },
+    "Subscription Renewal Start Date": {
+      "type": "integer"
+    },
+    "Subscription Start Date": {
+      "type": "string"
+    },
+    "Tax Product Code": {
+      "type": "string"
+    },
+    "Transaction ID": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,992 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "listAllVerticalSearch": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "guestCurrency": {
+              "type": "string"
+            },
+            "priceMax": {
+              "type": "integer"
+            },
+            "infants": {
+              "type": "integer"
+            },
+            "modifiedAt": {
+              "type": "integer"
+            },
+            "query": {
+              "type": "string"
+            },
+            "adults": {
+              "type": "integer"
+            },
+            "placeId": {
+              "type": "string"
+            },
+            "source": {
+              "type": "string"
+            },
+            "bathrooms": {
+              "type": "integer"
+            },
+            "priceMin": {
+              "type": "integer"
+            },
+            "bedrooms": {
+              "type": "integer"
+            },
+            "children": {
+              "type": "integer"
+            },
+            "isSuperhost": {
+              "type": "integer"
+            },
+            "hashUserId": {
+              "type": "string"
+            },
+            "savedSearchId": {
+              "type": "string"
+            },
+            "context": {
+              "type": "object",
+              "properties": {
+                "userAgent": {
+                  "type": "string"
+                },
+                "language": {
+                  "type": "string"
+                },
+                "source": {
+                  "type": "string"
+                },
+                "visitor": {
+                  "type": "object",
+                  "properties": {
+                    "userId": {
+                      "type": "integer"
+                    },
+                    "visitorId": {
+                      "type": "string"
+                    }
+                  }
+                },
+                "locale": {
+                  "type": "string"
+                },
+                "platform": {
+                  "type": "string"
+                },
+                "timestamp": {
+                  "type": "string"
+                }
+              }
+            },
+            "queryText": {
+              "type": "string"
+            },
+            "startTime": {
+              "type": "integer"
+            },
+            "endTime": {
+              "type": "integer"
+            },
+            "beds": {
+              "type": "integer"
+            },
+            "instantBook": {
+              "type": "integer"
+            },
+            "guests": {
+              "type": "integer"
+            },
+            "domain": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "listAllVerticalSearchWithQueryFirstPage": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "guestCurrency": {
+              "type": "string"
+            },
+            "pets": {
+              "type": "integer"
+            },
+            "geoCountryCode": {
+              "type": "string"
+            },
+            "modifiedAt": {
+              "type": "integer"
+            },
+            "federatedSearchId": {
+              "type": "string"
+            },
+            "flexibleTripLengths": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "adults": {
+              "type": "integer"
+            },
+            "placeId": {
+              "type": "string"
+            },
+            "source": {
+              "type": "string"
+            },
+            "facets": {
+              "type": "object",
+              "properties": {
+                "bedrooms": {
+                  "type": "object",
+                  "properties": {
+                    "<number>": {
+                      "type": "integer"
+                    }
+                  }
+                },
+                "superhost": {
+                  "type": "object",
+                  "properties": {
+                    "true": {
+                      "type": "integer"
+                    },
+                    "false": {
+                      "type": "integer"
+                    }
+                  }
+                },
+                "property_type_id": {
+                  "type": "object",
+                  "properties": {
+                    "<number>": {
+                      "type": "integer"
+                    }
+                  }
+                },
+                "language_ids": {
+                  "type": "object",
+                  "properties": {
+                    "<number>": {
+                      "type": "integer"
+                    }
+                  }
+                },
+                "amenity_ids": {
+                  "type": "object",
+                  "properties": {
+                    "<number>": {
+                      "type": "integer"
+                    }
+                  }
+                },
+                "host_promotion": {
+                  "type": "object",
+                  "properties": {
+                    "<custom_name>": {
+                      "type": "integer"
+                    }
+                  }
+                },
+                "availability": {
+                  "type": "object",
+                  "properties": {
+                    "AVAILABLE_BUT_NOT_INSTANT_BOOKABLE": {
+                      "type": "integer"
+                    },
+                    "INSTANT_BOOKABLE": {
+                      "type": "integer"
+                    },
+                    "UNAVAILABLE": {
+                      "type": "integer"
+                    }
+                  }
+                },
+                "bathrooms": {
+                  "type": "object",
+                  "properties": {
+                    "<number>": {
+                      "type": "integer"
+                    }
+                  }
+                },
+                "beds": {
+                  "type": "object",
+                  "properties": {
+                    "<number>": {
+                      "type": "integer"
+                    }
+                  }
+                },
+                "tier_id": {
+                  "type": "object",
+                  "properties": {
+                    "<number>": {
+                      "type": "integer"
+                    }
+                  }
+                },
+                "room_type": {
+                  "type": "object",
+                  "properties": {
+                    "Hotel room": {
+                      "type": "integer"
+                    },
+                    "Private room": {
+                      "type": "integer"
+                    },
+                    "Shared room": {
+                      "type": "integer"
+                    },
+                    "Private room M#": {
+                      "type": "integer"
+                    },
+                    "Entire home/apt": {
+                      "type": "integer"
+                    }
+                  }
+                }
+              }
+            },
+            "children": {
+              "type": "integer"
+            },
+            "savedSearchId": {
+              "type": "string"
+            },
+            "refinementPaths": {
+              "type": "string"
+            },
+            "context": {
+              "type": "object",
+              "properties": {
+                "userAgent": {
+                  "type": "string"
+                },
+                "language": {
+                  "type": "string"
+                },
+                "source": {
+                  "type": "string"
+                },
+                "visitor": {
+                  "type": "object",
+                  "properties": {
+                    "userId": {
+                      "type": "integer"
+                    },
+                    "visitorId": {
+                      "type": "string"
+                    }
+                  }
+                },
+                "locale": {
+                  "type": "string"
+                },
+                "platform": {
+                  "type": "string"
+                },
+                "timestamp": {
+                  "type": "string"
+                }
+              }
+            },
+            "queryText": {
+              "type": "string"
+            },
+            "geoState": {
+              "type": "string"
+            },
+            "infants": {
+              "type": "integer"
+            },
+            "query": {
+              "type": "string"
+            },
+            "geoCity": {
+              "type": "string"
+            },
+            "datePickerType": {
+              "type": "string"
+            },
+            "geoFullAddress": {
+              "type": "string"
+            },
+            "flexibleTripDates": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "isSuperhost": {
+              "type": "integer"
+            },
+            "hashUserId": {
+              "type": "string"
+            },
+            "domain": {
+              "type": "string"
+            },
+            "guests": {
+              "type": "integer"
+            },
+            "instantBook": {
+              "type": "integer"
+            }
+          }
+        }
+      },
+      "listAllVerticalNotificationEventOpen": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "stage": {
+              "type": "string"
+            },
+            "templateName": {
+              "type": "string"
+            },
+            "context": {
+              "type": "object",
+              "properties": {
+                "visitor": {
+                  "type": "object",
+                  "properties": {
+                    "userId": {
+                      "type": "integer"
+                    }
+                  }
+                },
+                "timestamp": {
+                  "type": "string"
+                }
+              }
+            },
+            "channel": {
+              "type": "string"
+            },
+            "sendTimestampMs": {
+              "type": "integer"
+            },
+            "uuid": {
+              "type": "string"
+            },
+            "rookeryPayload": {
+              "type": "object",
+              "properties": {
+                "messagePackageUuid": {
+                  "type": "string"
+                },
+                "messageUuid": {
+                  "type": "string"
+                },
+                "provider": {
+                  "type": "string"
+                },
+                "externalId": {
+                  "type": "string"
+                },
+                "status": {
+                  "type": "string"
+                }
+              }
+            },
+            "omniPageId": {
+              "type": "integer"
+            }
+          }
+        }
+      },
+      "listHomePdpView": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "avgRateWithoutTaxUsd": {
+              "type": "integer"
+            },
+            "avgPriceCurrency": {
+              "type": "string"
+            },
+            "totalPrice": {
+              "type": "integer"
+            },
+            "accuracyRating": {
+              "type": "integer"
+            },
+            "avgPrice": {
+              "type": "integer"
+            },
+            "listingLat": {
+              "type": "integer"
+            },
+            "personCapacity": {
+              "type": "integer"
+            },
+            "clientType": {
+              "type": "string"
+            },
+            "reviewCount": {
+              "type": "integer"
+            },
+            "price": {
+              "type": "integer"
+            },
+            "context": {
+              "type": "object",
+              "properties": {
+                "screenWidth": {
+                  "type": "integer"
+                },
+                "screenHeight": {
+                  "type": "integer"
+                },
+                "userAgent": {
+                  "type": "string"
+                },
+                "language": {
+                  "type": "string"
+                },
+                "source": {
+                  "type": "string"
+                },
+                "visitor": {
+                  "type": "object",
+                  "properties": {
+                    "userId": {
+                      "type": "integer"
+                    },
+                    "visitorId": {
+                      "type": "string"
+                    }
+                  }
+                },
+                "locale": {
+                  "type": "string"
+                },
+                "mobileContext": {
+                  "type": "object",
+                  "properties": {
+                    "deviceType": {
+                      "type": "string"
+                    },
+                    "screenOrientation": {
+                      "type": "string"
+                    },
+                    "carrierName": {
+                      "type": "string"
+                    },
+                    "networkType": {
+                      "type": "string"
+                    },
+                    "carrierCountry": {
+                      "type": "string"
+                    },
+                    "deviceId": {
+                      "type": "string"
+                    }
+                  }
+                },
+                "version": {
+                  "type": ["number", "string"]
+                },
+                "platform": {
+                  "type": "string"
+                },
+                "timestamp": {
+                  "type": "string"
+                }
+              }
+            },
+            "valueRatingDecimal": {
+              "type": "integer"
+            },
+            "accuracyRatingDecimal": {
+              "type": "integer"
+            },
+            "roomType": {
+              "type": "string"
+            },
+            "totalPriceCurrency": {
+              "type": "string"
+            },
+            "guestSatisfactionOverall": {
+              "type": "integer"
+            },
+            "cleanlinessRating": {
+              "type": "integer"
+            },
+            "listingId": {
+              "type": "integer"
+            },
+            "locationRating": {
+              "type": "integer"
+            },
+            "communicationRatingDecimal": {
+              "type": "integer"
+            },
+            "pictureCount": {
+              "type": "integer"
+            },
+            "communicationRating": {
+              "type": "integer"
+            },
+            "listingLng": {
+              "type": "integer"
+            },
+            "basePriceUsd": {
+              "type": "integer"
+            },
+            "isSuperhost": {
+              "type": "integer"
+            },
+            "locationRatingDecimal": {
+              "type": "integer"
+            },
+            "guests": {
+              "type": "integer"
+            },
+            "valueRating": {
+              "type": "integer"
+            },
+            "fromMobile": {
+              "type": "integer"
+            },
+            "checkinRatingDecimal": {
+              "type": "integer"
+            },
+            "cleanlinessRatingDecimal": {
+              "type": "integer"
+            },
+            "checkinRating": {
+              "type": "integer"
+            },
+            "cleaningFeeUsd": {
+              "type": "integer"
+            },
+            "checkinDate": {
+              "type": "string"
+            },
+            "serviceFeeUsd": {
+              "type": "integer"
+            },
+            "taxAmountUsd": {
+              "type": "integer"
+            },
+            "checkoutDate": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "listHomeSearchQueryResults": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "context": {
+              "type": "object",
+              "properties": {
+                "userAgent": {
+                  "type": "string"
+                },
+                "language": {
+                  "type": "string"
+                },
+                "source": {
+                  "type": "string"
+                },
+                "visitor": {
+                  "type": "object",
+                  "properties": {
+                    "userId": {
+                      "type": "integer"
+                    },
+                    "visitorId": {
+                      "type": "string"
+                    }
+                  }
+                },
+                "locale": {
+                  "type": "string"
+                },
+                "platform": {
+                  "type": "string"
+                },
+                "timestamp": {
+                  "type": "string"
+                }
+              }
+            },
+            "searchResults": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "includeServiceFee": {
+                    "type": "integer"
+                  },
+                  "rateType": {
+                    "type": "string"
+                  },
+                  "avgPriceUsd": {
+                    "type": "integer"
+                  },
+                  "nReviewsShown": {
+                    "type": "integer"
+                  },
+                  "pinState": {
+                    "type": "string"
+                  },
+                  "reviewStarsShown": {
+                    "type": "integer"
+                  },
+                  "serviceFeeUsd": {
+                    "type": "integer"
+                  },
+                  "listingId": {
+                    "type": "integer"
+                  },
+                  "page": {
+                    "type": "integer"
+                  },
+                  "totalPriceUsd": {
+                    "type": "integer"
+                  },
+                  "instantBookable": {
+                    "type": "integer"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "listHomeBooking": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "checkoutDate": {
+              "type": "string"
+            },
+            "reservationId": {
+              "type": "integer"
+            },
+            "context": {
+              "type": "object",
+              "properties": {
+                "visitor": {
+                  "type": "object",
+                  "properties": {
+                    "userId": {
+                      "type": "integer"
+                    }
+                  }
+                },
+                "timestamp": {
+                  "type": "string"
+                }
+              }
+            },
+            "checkinDate": {
+              "type": "string"
+            },
+            "listingId": {
+              "type": "integer"
+            }
+          }
+        }
+      },
+      "listAllVerticalNotificationEventClick": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "stage": {
+              "type": "string"
+            },
+            "templateName": {
+              "type": "string"
+            },
+            "context": {
+              "type": "object",
+              "properties": {
+                "visitor": {
+                  "type": "object",
+                  "properties": {
+                    "userId": {
+                      "type": "integer"
+                    }
+                  }
+                },
+                "timestamp": {
+                  "type": "string"
+                }
+              }
+            },
+            "channel": {
+              "type": "string"
+            },
+            "sendTimestampMs": {
+              "type": "integer"
+            },
+            "uuid": {
+              "type": "string"
+            },
+            "rookeryPayload": {
+              "type": "object",
+              "properties": {
+                "messagePackageUuid": {
+                  "type": "string"
+                },
+                "messageUuid": {
+                  "type": "string"
+                },
+                "provider": {
+                  "type": "string"
+                },
+                "externalId": {
+                  "type": "string"
+                },
+                "label": {
+                  "type": "string"
+                },
+                "status": {
+                  "type": "string"
+                }
+              }
+            },
+            "omniPageId": {
+              "type": "integer"
+            }
+          }
+        }
+      },
+      "listHomeSearchQuery": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "clientType": {
+              "type": "string"
+            },
+            "infants": {
+              "type": "integer"
+            },
+            "searchId": {
+              "type": "string"
+            },
+            "children": {
+              "type": "integer"
+            },
+            "flexibleDateSearchFilterType": {
+              "type": "integer"
+            },
+            "federatedSearchId": {
+              "type": "string"
+            },
+            "context": {
+              "type": "object",
+              "properties": {
+                "userAgent": {
+                  "type": "string"
+                },
+                "language": {
+                  "type": "string"
+                },
+                "source": {
+                  "type": "string"
+                },
+                "visitor": {
+                  "type": "object",
+                  "properties": {
+                    "userId": {
+                      "type": "integer"
+                    },
+                    "visitorId": {
+                      "type": "string"
+                    }
+                  }
+                },
+                "locale": {
+                  "type": "string"
+                },
+                "platform": {
+                  "type": "string"
+                },
+                "timestamp": {
+                  "type": "string"
+                }
+              }
+            },
+            "guests": {
+              "type": "integer"
+            },
+            "datePickerType": {
+              "type": "string"
+            },
+            "lng": {
+              "type": "integer"
+            },
+            "query": {
+              "type": "string"
+            },
+            "geoFullAddress": {
+              "type": "string"
+            },
+            "market": {
+              "type": "string"
+            },
+            "geoCityStateCountry": {
+              "type": "string"
+            },
+            "suggestedBoundingBox": {
+              "type": "object",
+              "properties": {
+                "swLat": {
+                  "type": "integer"
+                },
+                "neLng": {
+                  "type": "integer"
+                },
+                "neLat": {
+                  "type": "integer"
+                },
+                "swLng": {
+                  "type": "integer"
+                }
+              }
+            },
+            "lat": {
+              "type": "integer"
+            }
+          }
+        }
+      },
+      "inferredUserData": {
+        "type": "object",
+        "properties": {
+          "<custom_name>": {
+            "type": "object",
+            "properties": {
+              "inferences": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "inferredAtNs": {
+                      "type": "integer"
+                    },
+                    "signalType": {
+                      "type": "string"
+                    },
+                    "tripId": {
+                      "type": "integer"
+                    },
+                    "userId": {
+                      "type": "integer"
+                    },
+                    "signal": {
+                      "type": "object",
+                      "properties": {
+                        "listingHighlights": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "properties": {
+                              "highlight": {
+                                "type": "string"
+                              },
+                              "confidenceLevel": {
+                                "type": "string"
+                              },
+                              "checkinDateLocal": {
+                                "type": "string"
+                              },
+                              "highlightInclusion": {
+                                "type": "integer"
+                              },
+                              "bookedAtTs": {
+                                "type": "string"
+                              },
+                              "listingId": {
+                                "type": "integer"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "listAllVerticalNotificationEventRookeryAttempt": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "stage": {
+              "type": "string"
+            },
+            "templateName": {
+              "type": "string"
+            },
+            "context": {
+              "type": "object",
+              "properties": {
+                "visitor": {
+                  "type": "object",
+                  "properties": {
+                    "userId": {
+                      "type": "integer"
+                    }
+                  }
+                },
+                "timestamp": {
+                  "type": "string"
+                }
+              }
+            },
+            "channel": {
+              "type": "string"
+            },
+            "sendTimestampMs": {
+              "type": "integer"
+            },
+            "category": {
+              "type": "string"
+            },
+            "uuid": {
+              "type": "string"
+            },
+            "omniPageId": {
+              "type": "integer"
+            },
+            "<custom_name>": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}

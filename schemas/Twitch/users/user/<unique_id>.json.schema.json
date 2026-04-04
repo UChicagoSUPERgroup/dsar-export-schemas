@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "login": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "phoneNumber": {
+      "type": "string"
+    },
+    "language": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "remoteIp": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "lastLogin": {
+      "type": "string"
+    },
+    "displayname": {
+      "type": "string"
+    },
+    "profileImageUrl": {
+      "type": "string"
+    },
+    "emailVerified": {
+      "type": "integer"
+    },
+    "createdOn": {
+      "type": "string"
+    },
+    "updatedOn": {
+      "type": "string"
+    },
+    "birthday": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "appAdamId": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "name": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "builds_version": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "builds_buildVersion": {
+      "type": "integer"
+    },
+    "builds_platform": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "notificationSettings": {
+      "type": "string"
+    }
+  }
+}

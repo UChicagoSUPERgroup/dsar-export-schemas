@@ -1,0 +1,42 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Device Type": {
+      "type": "string"
+    },
+    "Brand Name": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "Marketing Name": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "OS": {
+      "type": "string"
+    },
+    "OS Version": {
+      "type": "number"
+    },
+    "Device Model": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "User Given Name": {
+      "type": "integer"
+    },
+    "Device Last Location": {
+      "type": "string"
+    },
+    "Gaia ID": {
+      "type": "string"
+    }
+  }
+}

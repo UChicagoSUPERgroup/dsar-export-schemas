@@ -1,0 +1,39 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "Album ID": {
+        "type": "string"
+      },
+      "Title": {
+        "type": [
+          "integer",
+          "string"
+        ]
+      },
+      "Date Created": {
+        "type": "string"
+      },
+      "Date Created In Library": {
+        "type": "string"
+      },
+      "Visible": {
+        "type": "boolean"
+      },
+      "Catalog Identifiers - Album": {
+        "type": [
+          "integer",
+          "string"
+        ]
+      },
+      "Favorite Album - Status": {
+        "type": "boolean"
+      },
+      "Favorite Album - Date": {
+        "type": "string"
+      }
+    }
+  }
+}

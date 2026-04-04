@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "donate_detail": {
+      "type": "array"
+    },
+    "donator_data": {
+      "type": "object"
+    }
+  }
+}

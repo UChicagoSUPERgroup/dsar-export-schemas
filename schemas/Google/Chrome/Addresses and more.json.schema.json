@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "Autofill": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "usage_timestamp": {
+            "type": "array",
+            "items": {
+              "type": "integer"
+            }
+          },
+          "name": {
+            "type": "string"
+          },
+          "value": {
+            "type": [
+              "number",
+              "string"
+            ]
+          }
+        }
+      }
+    },
+    "Autofill Profile": {
+      "type": "array"
+    },
+    "Contact Info": {
+      "type": "array"
+    }
+  }
+}
