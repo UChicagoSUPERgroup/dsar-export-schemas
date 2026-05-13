@@ -70,3 +70,21 @@ The content of JSON files are described by the schema in the typical way, i.e.,
 `properties` correspond to CSV column names. For XLSX files, top-level
 `properties` correspond to sheet names within the file and second-level
 `properties` correspond to column names within that sheet.
+
+## Schema Variation
+
+Note that data exports may vary based on the requester's location and age of
+account, the date on which the DSAR was made, and the settings chosen when
+filling out the DSAR form. The following platforms let consumers choose between
+file types when making requests, meaning data exports could diverge from the
+schemas in this repository:
+
+- Airbnb
+- Capcut
+- Facebook
+- Google
+- Instagram
+- Paypal
+- Tiktok
+- Venmo
+- United
