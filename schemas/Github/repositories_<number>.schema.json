@@ -1,0 +1,254 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "type": {
+        "type": "string"
+      },
+      "url": {
+        "type": "string"
+      },
+      "owner": {
+        "type": "string"
+      },
+      "name": {
+        "type": "string"
+      },
+      "description": {
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      "website": {
+        "type": [
+          "integer",
+          "null",
+          "string"
+        ]
+      },
+      "private": {
+        "type": "boolean"
+      },
+      "has_issues": {
+        "type": "boolean"
+      },
+      "has_wiki": {
+        "type": "boolean"
+      },
+      "has_downloads": {
+        "type": "boolean"
+      },
+      "is_archived": {
+        "type": "boolean"
+      },
+      "labels": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "url": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "color": {
+              "type": "string"
+            },
+            "description": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "created_at": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "collaborators": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "user": {
+              "type": "string"
+            },
+            "permission": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "created_at": {
+        "type": "string"
+      },
+      "git_url": {
+        "type": "string"
+      },
+      "default_branch": {
+        "type": "string"
+      },
+      "webhooks": {
+        "type": "array"
+      },
+      "page": {
+        "anyOf": [
+          {
+            "type": "null"
+          },
+          {
+            "type": "object",
+            "properties": {
+              "cname": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "https_redirect": {
+                "type": "boolean"
+              },
+              "source": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "source_ref_name": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "source_subdir": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "is_public": {
+                "type": "boolean"
+              },
+              "subdomain": {
+                "type": "null"
+              },
+              "parent_domain": {
+                "type": "null"
+              },
+              "theme": {
+                "type": "null"
+              },
+              "build_type": {
+                "type": "string"
+              }
+            }
+          }
+        ]
+      },
+      "public_keys": {
+        "type": "array"
+      },
+      "repository_topics": {
+        "type": "array"
+      },
+      "security_and_analysis": {
+        "type": "object",
+        "properties": {
+          "dependency_graph": {
+            "type": "boolean"
+          },
+          "vulnerability_alerts": {
+            "type": "boolean"
+          },
+          "vulnerability_updates": {
+            "type": "boolean"
+          },
+          "advanced_security": {
+            "type": "boolean"
+          },
+          "token_scanning": {
+            "type": "boolean"
+          },
+          "token_scanning_push_protection": {
+            "type": "boolean"
+          }
+        }
+      },
+      "autolinks": {
+        "type": "array"
+      },
+      "general_settings": {
+        "type": "object",
+        "properties": {
+          "template": {
+            "type": "boolean"
+          },
+          "allow_forking": {
+            "type": "boolean"
+          },
+          "sponsorships": {
+            "type": "boolean"
+          },
+          "projects": {
+            "type": "boolean"
+          },
+          "discussions": {
+            "type": "boolean"
+          },
+          "merge_commit": {
+            "type": "boolean"
+          },
+          "squash_merge": {
+            "type": "boolean"
+          },
+          "rebase_merge": {
+            "type": "boolean"
+          },
+          "auto_merge": {
+            "type": "boolean"
+          },
+          "delete_branch_heads": {
+            "type": "boolean"
+          },
+          "update_branch": {
+            "type": "boolean"
+          },
+          "git_lfs_in_archives": {
+            "type": "boolean"
+          }
+        }
+      },
+      "actions_general_settings": {
+        "type": "object",
+        "properties": {
+          "actions_disabled": {
+            "type": "boolean"
+          },
+          "allows_all_actions": {
+            "type": "boolean"
+          },
+          "allows_local_actions_only": {
+            "type": "boolean"
+          },
+          "allows_github_owned_actions": {
+            "type": "boolean"
+          },
+          "allows_verified_actions": {
+            "type": "boolean"
+          },
+          "allows_specific_actions_patterns": {
+            "type": "boolean"
+          },
+          "patterns": {
+            "type": "array"
+          }
+        }
+      }
+    }
+  }
+}

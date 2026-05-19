@@ -1,0 +1,100 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "type": {
+        "type": "string"
+      },
+      "url": {
+        "type": "string"
+      },
+      "user": {
+        "type": "string"
+      },
+      "repository": {
+        "type": "string"
+      },
+      "title": {
+        "type": "string"
+      },
+      "body": {
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      "base": {
+        "type": "object",
+        "properties": {
+          "ref": {
+            "type": "string"
+          },
+          "sha": {
+            "type": "string"
+          },
+          "user": {
+            "type": "string"
+          },
+          "repo": {
+            "type": "string"
+          }
+        }
+      },
+      "head": {
+        "type": "object",
+        "properties": {
+          "ref": {
+            "type": "string"
+          },
+          "sha": {
+            "type": "string"
+          },
+          "user": {
+            "type": "string"
+          },
+          "repo": {
+            "type": "string"
+          }
+        }
+      },
+      "assignee": {
+        "type": "null"
+      },
+      "assignees": {
+        "type": "array"
+      },
+      "milestone": {
+        "type": "null"
+      },
+      "labels": {
+        "type": "array"
+      },
+      "reactions": {
+        "type": "array"
+      },
+      "review_requests": {
+        "type": "array"
+      },
+      "close_issue_references": {
+        "type": "array"
+      },
+      "work_in_progress": {
+        "type": "boolean"
+      },
+      "merged_at": {
+        "type": "string"
+      },
+      "closed_at": {
+        "type": "string"
+      },
+      "created_at": {
+        "type": "string"
+      },
+      "merge_commit_sha": {
+        "type": "string"
+      }
+    }
+  }
+}

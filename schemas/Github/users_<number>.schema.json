@@ -1,0 +1,96 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "type": {
+        "type": "string"
+      },
+      "url": {
+        "type": "string"
+      },
+      "avatar_url": {
+        "type": "string"
+      },
+      "login": {
+        "type": "string"
+      },
+      "name": {
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      "bio": {
+        "type": [
+          "integer",
+          "null",
+          "string"
+        ]
+      },
+      "company": {
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      "website": {
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      "location": {
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      "emails": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "address": {
+              "type": "string"
+            },
+            "primary": {
+              "type": "boolean"
+            },
+            "verified": {
+              "type": "boolean"
+            }
+          }
+        }
+      },
+      "social_accounts": {
+        "type": "array"
+      },
+      "billing_plan": {
+        "anyOf": [
+          {
+            "type": "null"
+          },
+          {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "space": {
+                "type": "integer"
+              },
+              "private_repos": {
+                "type": "integer"
+              }
+            }
+          }
+        ]
+      },
+      "created_at": {
+        "type": "string"
+      }
+    }
+  }
+}
