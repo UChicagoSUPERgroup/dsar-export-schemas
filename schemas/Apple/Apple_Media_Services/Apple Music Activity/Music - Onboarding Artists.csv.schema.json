@@ -7,15 +7,6 @@
         "integer",
         "string"
       ]
-    },
-    "": {
-      "type": "array",
-      "items": {
-        "type": [
-          "integer",
-          "string"
-        ]
-      }
     }
   }
 }
